@@ -1,0 +1,1013 @@
+fileFormatVersion: 2
+guid: 3ec1aec5364af8047989176f0359d748
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bleachBackgroundcut_0
+    21300002: bleachBackgroundcut_1
+    21300004: bleachBackgroundcut_2
+    21300006: bleachBackgroundcut_3
+    21300008: bleachBackgroundcut_4
+    21300010: bleachBackgroundcut_5
+    21300012: bleachBackgroundcut_6
+    21300014: bleachBackgroundcut_7
+    21300016: bleachBackgroundcut_8
+    21300018: bleachBackgroundcut_9
+    21300020: bleachBackgroundcut_10
+    21300022: bleachBackgroundcut_11
+    21300024: bleachBackgroundcut_12
+    21300026: bleachBackgroundcut_13
+    21300028: bleachBackgroundcut_14
+    21300030: bleachBackgroundcut_15
+    21300032: bleachBackgroundcut_16
+    21300034: bleachBackgroundcut_17
+    21300036: bleachBackgroundcut_18
+    21300038: bleachBackgroundcut_19
+    21300040: bleachBackgroundcut_20
+    21300042: bleachBackgroundcut_21
+    21300044: bleachBackgroundcut_22
+    21300046: bleachBackgroundcut_23
+    21300048: bleachBackgroundcut_24
+    21300050: bleachBackgroundcut_25
+    21300052: bleachBackgroundcut_26
+    21300054: bleachBackgroundcut_27
+    21300056: bleachBackgroundcut_28
+    21300058: bleachBackgroundcut opt3
+    21300060: bleachBackgroundcut THIS ONE
+    21300062: bleachBackgroundcut_31
+    21300064: bleachBackgroundcut opt 2
+    21300066: bleachBackgroundcut_33
+    21300068: bleachBackgroundcut_34
+    21300070: bleachBackgroundcut_35
+    21300072: bleachBackgroundcut_36
+    21300074: bleachBackgroundcut_37
+    21300076: bleachBackgroundcut_38
+    21300078: bleachBackgroundcut_39
+    21300080: bleachBackgroundcut_40
+    21300082: bleachBackgroundcut_41
+    21300084: bleachBackgroundcut_42
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bleachBackgroundcut_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 994
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c98febd50efa0488af22d8657ff2a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 993
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330850cb5685bb64bacd9bfb7bed01e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 994
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95f8ce0878c014b88ac1c46a892fde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 994
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e93ba22f7b764343aa21f54e8f92d02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_4
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 994
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db78dae73eefcf4ba46745e73372877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_5
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 994
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddab43667aed5f4b8df02b1276b008d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 994
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3ee089abc9cb346ae75a24220e145a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 993
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7729163aa877c024f85086125bd7eb55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 994
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bebb0c1d5518d429640a47e157a34d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 994
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1a00a5218305c4482fb395e9464a6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 994
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21256b1e6bd644442976af9ae39b8909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 994
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3344b39acc6414ea43e3fbbc4a9118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_12
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 993
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46bc3a6d2a85154fba379bcfed462bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_13
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 994
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87e6271a1feb6f419fafd573b28c139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 994
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f179d3c501050934e955e9e0540a266c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 993
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a283cbb749eb445ad015d7184af18f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 984
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72b5fc215146d148abd6311004242bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 994
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a5429e4e41b214d80d946c74c71906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_18
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 994
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a701af6601f581c40b2ac4906d15a5be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 994
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c9cf71f69a7d249b514d4b5cd46798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_20
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 994
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5317bbfb925f27643ae549c381f01edd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_21
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 994
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1160076493ca1449e273a798dcb522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 994
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd89b86df80f6741a172708568b5402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 824
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b9ac9c3dd5227428cbe6ac99f9e1ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 814
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e45e99e49082a46ad2b8d49dcbda78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 819
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab87ad793b1cb564fb7091f0610edbdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 670
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edd84b9d554347468aa0b7015d372ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 669
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07764d9e15a12344bbd5fc1c50f9336f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 668
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b37c4e6a034da4bb9fc25d523aa575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut opt3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 535
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc5c4ff28280ca40975837b78581444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut THIS ONE
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 533
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afcab3f7340afc4c93acfdde98fd79a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_31
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 533
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a6693d27e002645af500016636c77d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut opt 2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 403
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5913d8dd5d8e81419ba1c652cdd3f2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_33
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 403
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db20f9c141f9b2b459b94768c198d29a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_34
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 401
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7cc0a3e68622f40a47c439b72b0d04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 291
+        width: 256
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87558ab85d67af4398a8e156033b820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 279
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c833ed4dffd15b4991b231dacfd98e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_37
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 278
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b53b16de14a664b9483507e4068c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 280
+        width: 256
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20674e71b5223324d9bde3ea4657a2fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_39
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 149
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8173e329ca9f44eb63168992f3ad2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_40
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 147
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2a5cd628ca6374f812e6ec064c882f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_41
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 148
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c463d8a0b9674295186ca3e2880ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bleachBackgroundcut_42
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 10
+        width: 301
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e214cf25e9b714aa53fe044a2198c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5ba948f4c7ebe58499e98e8c276bff7b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

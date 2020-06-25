@@ -1,0 +1,2189 @@
+fileFormatVersion: 2
+guid: fa72ba76678dbfd4a979003d53987e9d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ZabuzaSpritesMain_0
+    21300002: ZabuzaSpritesMain_1
+    21300004: ZabuzaSpritesMain_2
+    21300006: ZabuzaSpritesMain_3
+    21300008: ZabuzaSpritesMain_4
+    21300010: ZabuzaSpritesMain_5
+    21300012: ZabuzaSpritesMain_6
+    21300014: ZabuzaSpritesMain_7
+    21300016: ZabuzaSpritesMain_8
+    21300018: ZabuzaSpritesMain_9
+    21300020: ZabuzaSpritesMain_10
+    21300022: ZabuzaSpritesMain_11
+    21300024: ZabuzaSpritesMain_12
+    21300026: ZabuzaSpritesMain_13
+    21300028: ZabuzaSpritesMain_14
+    21300030: ZabuzaSpritesMain_15
+    21300032: ZabuzaSpritesMain_16
+    21300034: ZabuzaSpritesMain_17
+    21300036: ZabuzaSpritesMain_18
+    21300038: ZabuzaSpritesMain_19
+    21300040: ZabuzaSpritesMain_20
+    21300042: ZabuzaSpritesMain_21
+    21300044: ZabuzaSpritesMain_22
+    21300046: ZabuzaSpritesMain_23
+    21300048: ZabuzaSpritesMain_24
+    21300050: ZabuzaSpritesMain_25
+    21300052: ZabuzaSpritesMain_26
+    21300054: ZabuzaSpritesMain_27
+    21300056: ZabuzaSpritesMain_28
+    21300058: ZabuzaSpritesMain_29
+    21300060: ZabuzaSpritesMain_30
+    21300062: ZabuzaSpritesMain_31
+    21300064: ZabuzaSpritesMain_32
+    21300066: ZabuzaSpritesMain_33
+    21300068: ZabuzaSpritesMain_34
+    21300070: ZabuzaSpritesMain_35
+    21300072: ZabuzaSpritesMain_36
+    21300074: ZabuzaSpritesMain_37
+    21300076: ZabuzaSpritesMain_38
+    21300078: ZabuzaSpritesMain_39
+    21300080: ZabuzaSpritesMain_40
+    21300082: ZabuzaSpritesMain_41
+    21300084: ZabuzaSpritesMain_42
+    21300086: ZabuzaSpritesMain_43
+    21300088: ZabuzaSpritesMain_44
+    21300090: ZabuzaSpritesMain_45
+    21300092: ZabuzaSpritesMain_46
+    21300094: ZabuzaSpritesMain_47
+    21300096: ZabuzaSpritesMain_48
+    21300098: ZabuzaSpritesMain_49
+    21300100: ZabuzaSpritesMain_50
+    21300102: ZabuzaSpritesMain_51
+    21300104: ZabuzaSpritesMain_52
+    21300106: ZabuzaSpritesMain_53
+    21300108: ZabuzaSpritesMain_54
+    21300110: ZabuzaSpritesMain_55
+    21300112: ZabuzaSpritesMain_56
+    21300114: ZabuzaSpritesMain_57
+    21300116: ZabuzaSpritesMain_58
+    21300118: ZabuzaSpritesMain_59
+    21300120: ZabuzaSpritesMain_60
+    21300122: ZabuzaSpritesMain_61
+    21300124: ZabuzaSpritesMain_62
+    21300126: ZabuzaSpritesMain_63
+    21300128: ZabuzaSpritesMain_64
+    21300130: ZabuzaSpritesMain_65
+    21300132: ZabuzaSpritesMain_66
+    21300134: ZabuzaSpritesMain_67
+    21300136: ZabuzaSpritesMain_68
+    21300138: ZabuzaSpritesMain_69
+    21300140: ZabuzaSpritesMain_70
+    21300142: ZabuzaSpritesMain_71
+    21300144: ZabuzaSpritesMain_72
+    21300146: ZabuzaSpritesMain_73
+    21300148: ZabuzaSpritesMain_74
+    21300150: ZabuzaSpritesMain_75
+    21300152: ZabuzaSpritesMain_76
+    21300154: ZabuzaSpritesMain_77
+    21300156: ZabuzaSpritesMain_78
+    21300158: ZabuzaSpritesMain_79
+    21300160: ZabuzaSpritesMain_80
+    21300162: ZabuzaSpritesMain_81
+    21300164: ZabuzaSpritesMain_82
+    21300166: ZabuzaSpritesMain_83
+    21300168: ZabuzaSpritesMain_84
+    21300170: ZabuzaSpritesMain_85
+    21300172: ZabuzaSpritesMain_86
+    21300174: ZabuzaSpritesMain_87
+    21300176: ZabuzaSpritesMain_88
+    21300178: ZabuzaSpritesMain_89
+    21300180: ZabuzaSpritesMain_90
+    21300182: ZabuzaSpritesMain_91
+    21300184: ZabuzaSpritesMain_92
+    21300186: ZabuzaSpritesMain_93
+    21300188: ZabuzaSpritesMain_94
+    21300190: ZabuzaSpritesMain_95
+    21300192: ZabuzaSpritesMain_96
+    21300194: ZabuzaSpritesMain_97
+    21300196: ZabuzaSpritesMain_98
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1085
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8376b7849e52ec408f3869db6e81959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_1
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1047
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20998683783989d49a1ae3fa3f2368ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1023
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786b286766732a24db633a2a2b974fe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1023
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628c4db39a1aa47408e0fccccc90fca5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1023
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2989a28670104488231e913bf6ba80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1023
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8744db8e62fad0444b1d832944e84486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_6
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1037
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea1984b84ab0b944b89ef68bab8173a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1020
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c3d6fc2b5ad6344be18e8f717a81ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1018
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adb6225c7514944fb0dfb00923ed64f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_9
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1018
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374038425b9b6ed40846b4423ee97db7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 963
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1ead3a857ba5d4d94be5fec368b4b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1011
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aca256457f581468ffea6ec8eed866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 961
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a8a1041df217c4494adb59bbd4297b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 962
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49193cdc89467b41832dfa794b026fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 962
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cf457ea1e1fc549878f0836bfbabb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 962
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276c4cc835164a74aadef28b6180e1bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_16
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 962
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eedafdff53b074bb69b7cd127072ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_17
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 962
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfb690bd976d1e439689760a90d6ef3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 962
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852c906b006312143909d8cf61116a97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_19
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 963
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24f154067b5f3b40b48efabdf422e78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72dbb60195ebf4c9be388d57d310d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_21
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 963
+        width: 68
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e411c3d06977244b34bd3e4b490fdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_22
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 943
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc6f7c13c025494ca1c57811e910196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 942
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c64978dd12b6644a86caf2dc8f5911a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_24
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 946
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8027c581f94b68b45a29fe349f1b1730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_25
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 874
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ba6e6016d2b9f44a66bbf9e1af4e6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_26
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 878
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f844fe27ab9a654fac57fc44d3c783a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_27
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 881
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23741e5e68344da448868d1da639dc48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 871
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac061468e449efb42af296c809b5d2df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 864
+        width: 142
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c929b6fd8fe2f41b70400bdf94db8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 870
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69e8912f09065e4fba11b8e4e2fe643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_31
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 861
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c845740ad2bb0ea438904fd8d768baa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_32
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 796
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3aad9d63872214e8ca0f358b66cc1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 796
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b271989a1cc9d0d488ca745297d8e68d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_34
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 796
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caac8af25b0d54f42bdcbb4211c0a583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_35
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 796
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4826d32d25e5084d9b2cef2c6e807ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 796
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9867546f5a8bbdf41874b6a2f7485599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_37
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 796
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6d68746c3615545a08931f23055f6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_38
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 795
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046320d8ccd50d5458227f4bd8cece23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_39
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 795
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665f9b24c28449144ad6efff1fcbab9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_40
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 795
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649baafeedae39940b89526463feb61f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_41
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 795
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29121c29261b92848a367c75d9bb9ff4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_42
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 795
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaabf952c4fc7f458dcbea529ef466d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 734
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb6cca2a18bc6e489f3dbc3b9fe6360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 734
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c356741437267de4abaada915e797217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_45
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 734
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c66d0e42e8d24b45878842aae1c1b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_46
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 734
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68f3e5e8d22b924fb2e2c437517c3b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_47
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 783
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db90320b4f3b9564481c2f37c502b68e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 783
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de940ed4aceb8448a5d91595b91ea4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_49
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 669
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd63f2d5bd2aed4d940a520761b30cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_50
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 669
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ef18c9e4cda0a448d501e028e53ec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_51
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 722
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4876e27dc706994e85508a4cc3575ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_52
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 722
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee98bb8441c6a34c8e9b86e01bdac2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_53
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 722
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4f17137307afe40aae9f66ee586d29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_54
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 669
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e3779f87aa2e642b8debe8e8f4686b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_55
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 669
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a6a87a75fd0fc45a371d00f3cabe99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_56
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 647
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc251f2625138ec408c8e501246848ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_57
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 649
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22761aa92d882f848b050e054b29814b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_58
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 649
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba39c299d5dff4a913b16e54e5a20a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_59
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 649
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4cd06a4d757224a8e90a175431d2d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 584
+        width: 63
+        height: 60
+      alignment: 9
+      pivot: {x: 0.3, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2619d8d556bbd64e980d2149f74d264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 584
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343783c2703225346928685fbf349fdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_62
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 584
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ae5df09820fe847b2a6d87ddcc9319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_63
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 584
+        width: 96
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de000066d87d3aa418fdf593dcbb31a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_64
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 584
+        width: 87
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70142a79b647744dbc56b008fc87b17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_65
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 580
+        width: 84
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a02c9c0b30370e41a68702ada5f3e62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 474
+        width: 43
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f17067440ea4484080138e7895a7d35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_67
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 474
+        width: 50
+        height: 104
+      alignment: 9
+      pivot: {x: 0.55, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aae01ee4e25f746a2ec6d64f5c20da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_68
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 474
+        width: 41
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95915b80e37b644cb819fa95b1fc62b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_69
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 474
+        width: 80
+        height: 104
+      alignment: 9
+      pivot: {x: 0.3, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec614533710eb1f4385f1878e83c07b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_70
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 474
+        width: 91
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e549460d3c541a4bb6acb09e36ea17e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_71
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 474
+        width: 78
+        height: 104
+      alignment: 9
+      pivot: {x: 0.8, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2757dc1d9e85f34289ba5e403841b9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_72
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 474
+        width: 80
+        height: 104
+      alignment: 9
+      pivot: {x: 0.8, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2bec760617dda48ae8e13415b6c0e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_73
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 474
+        width: 51
+        height: 104
+      alignment: 9
+      pivot: {x: 0.6, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccd69f80b1969848a549e7788ec9b6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_74
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 474
+        width: 63
+        height: 104
+      alignment: 9
+      pivot: {x: 0.45, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b5f52342f761b47b1be12724891027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_75
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 373
+        width: 55
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ca30f16b6062a43a2a6c1bab22bf62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_76
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 373
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb672820b8639d4e9a262cf5f9ed90e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_77
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 428
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d93ae7a1a026241be62ce65a128db3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_78
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 373
+        width: 98
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d64510922d373b4f82b5c2da6237bfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_79
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 373
+        width: 98
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af90874ac979f9498c67e086b2edfba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_80
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 373
+        width: 98
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21515a42a32883544ae4402e03db428c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_81
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 306
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9659b66ca08ce1d4ba785c23defd4858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 306
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b510a894026934991b5f5eede8c6c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 299
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554deddac1a6e0749b5493762956a355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_84
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 300
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4847706f30edd4ab15bf43576a91b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_85
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 309
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08ca166110247e4288434d63c6c5b1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_86
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 312
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c7b904b052d2f44b5505e62aa37486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_87
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 309
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c55d8f71021ae4bb5cc89d5a46a2bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_88
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 309
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec490383c4dc2864698c1eba5a08a68a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_89
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 206
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2895985b214db2b41988d0186ef2e0b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_90
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 206
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc2483117745cb459a2df957af12d0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_91
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 206
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1d94d3d2a17a546af10e7f7e4e5188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_92
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 206
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bf6bbb9ec42b749be23dcb3d417bae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_93
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 205
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0e55af83b43a0439bac0f8d361f79f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_94
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 201
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42492e99833603543aaa24078b4050df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_95
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 201
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458b30267ad30a448a24e55343bd237a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_96
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 180
+        width: 324
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be0b9c0dc7cb9a4bb01afad1bcb58b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 110
+        width: 235
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2525c630ae80048409982c96e5f50b99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZabuzaSpritesMain_98
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 378
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642e180d28c32d74dbfe341146689a29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2915c7ca41027754f8391599507c4464
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

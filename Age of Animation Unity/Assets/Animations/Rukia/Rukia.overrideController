@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Rukia
+  m_Controller: {fileID: 9100000, guid: 825331575e959e447a99ac4e2a2a12bb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 539be3ffe151ae84a998a7fb50817919, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3f2004273ac622c40ae887e6c8546ff6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 680ddceb86f52e64a871a436885a3808, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1f5deb9c20cba0544a6acbbc84f4597a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f4f3c3afafecf474a828821551c064b5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1412d8733905cfb4e97c149199862abc, type: 2}

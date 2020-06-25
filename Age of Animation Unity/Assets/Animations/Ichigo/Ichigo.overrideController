@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ichigo
+  m_Controller: {fileID: 9100000, guid: bf2d294d876979d4ab957def99cf326b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b4b7f040d74392e48a11e398ae509cb4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6e07ad11157e08e46a316962ac368abd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f71ca66d66eb7624b9742e752627e424, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e4b3d206497e4a84aaa47ef9dd9188a7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d0e767bc34cb48d4aa2f2b21a91e60b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6c2336363ef9bd644a39be871ce64607, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8e6974d2b8743004fa41da146206f22f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3af46ab8efd69ba449b5f95a59368c5d, type: 2}

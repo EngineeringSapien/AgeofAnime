@@ -1,0 +1,2609 @@
+fileFormatVersion: 2
+guid: 62e5be52f2c52a44b82a1d802c9427e9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ColonelMustang_Idle1
+    21300002: ColonelMustang_Idle2
+    21300004: ColonelMustang_Idle3
+    21300006: ColonelMustang_walk1
+    21300008: ColonelMustang_walk2
+    21300010: ColonelMustang_walk3
+    21300012: ColonelMustang_walk4
+    21300014: ColonelMustang_walk5
+    21300016: ColonelMustang_walk6
+    21300018: ColonelMustang_9
+    21300020: ColonelMustang_10
+    21300022: ColonelMustang_11
+    21300024: ColonelMustang_12
+    21300026: ColonelMustang_13
+    21300028: ColonelMustang_14
+    21300030: ColonelMustang_15
+    21300032: ColonelMustang_16
+    21300034: ColonelMustang_17
+    21300036: ColonelMustang_18
+    21300038: ColonelMustang_19
+    21300040: ColonelMustang_20
+    21300042: ColonelMustang_21
+    21300044: ColonelMustang_22
+    21300046: ColonelMustang_23
+    21300048: ColonelMustang_24
+    21300050: ColonelMustang_25
+    21300052: ColonelMustang_26
+    21300054: ColonelMustang_27
+    21300056: ColonelMustang_28
+    21300058: ColonelMustang_29
+    21300060: ColonelMustang_30
+    21300062: ColonelMustang_31
+    21300064: ColonelMustang_32
+    21300066: ColonelMustang_33
+    21300068: ColonelMustang_34
+    21300070: ColonelMustang_35
+    21300072: ColonelMustang_36
+    21300074: ColonelMustang_37
+    21300076: ColonelMustang_38
+    21300078: ColonelMustang_39
+    21300080: ColonelMustang_40
+    21300082: ColonelMustang_41
+    21300084: ColonelMustang_42
+    21300086: ColonelMustang_43
+    21300088: ColonelMustang_44
+    21300090: ColonelMustang_45
+    21300092: ColonelMustang_46
+    21300094: ColonelMustang_47
+    21300096: ColonelMustang_48
+    21300098: ColonelMustang_Attack9
+    21300100: ColonelMustang_R9_Hitbox & A9_Hitbox
+    21300102: ColonelMustang_Attack1
+    21300104: ColonelMustang_Attack2
+    21300106: ColonelMustang_Attack3
+    21300108: ColonelMustang_A4
+    21300110: ColonelMustang_A5
+    21300112: ColonelMustang_A6
+    21300114: ColonelMustang_60
+    21300116: ColonelMustang_A7
+    21300118: ColonelMustang_Attack8
+    21300120: ColonelMustang_63
+    21300122: ColonelMustang_A10
+    21300124: ColonelMustang_A11
+    21300126: ColonelMustang_66
+    21300128: ColonelMustang_A8_hitbox
+    21300130: ColonelMustang_A12
+    21300132: ColonelMustang_RangeAttack1
+    21300134: ColonelMustang_R2
+    21300136: ColonelMustang_R3
+    21300138: ColonelMustang_R4
+    21300140: ColonelMustang_R5
+    21300142: ColonelMustang_R6
+    21300144: ColonelMustang_R7
+    21300146: ColonelMustang_Range8
+    21300148: ColonelMustang_Range9
+    21300150: ColonelMustang_Range10
+    21300152: ColonelMustang_81
+    21300154: ColonelMustang_82
+    21300156: ColonelMustang_Range11
+    21300158: ColonelMustang_84
+    21300160: ColonelMustang_85
+    21300162: ColonelMustang_86
+    21300164: ColonelMustang_87
+    21300166: ColonelMustang_88
+    21300168: ColonelMustang_89
+    21300170: ColonelMustang_90
+    21300172: ColonelMustang_91
+    21300174: ColonelMustang_92
+    21300176: ColonelMustang_93
+    21300178: ColonelMustang_94
+    21300180: ColonelMustang_95
+    21300182: ColonelMustang_96
+    21300184: ColonelMustang_97
+    21300186: ColonelMustang_98
+    21300188: ColonelMustang_99
+    21300190: ColonelMustang_100
+    21300192: ColonelMustang_101
+    21300194: ColonelMustang_102
+    21300196: ColonelMustang_103
+    21300198: ColonelMustang_104
+    21300200: ColonelMustang_105
+    21300202: ColonelMustang_106
+    21300204: ColonelMustang_107
+    21300206: ColonelMustang_108
+    21300208: ColonelMustang_109
+    21300210: ColonelMustang_110
+    21300212: ColonelMustang_111
+    21300214: ColonelMustang_112
+    21300216: ColonelMustang_113
+    21300218: ColonelMustang_114
+    21300220: ColonelMustang_115
+    21300222: ColonelMustang_116
+    21300224: ColonelMustang_117
+    21300226: ColonelMustang_118
+    21300228: ColonelMustang_119
+    21300230: ColonelMustang_Hurt
+    21300232: ColonelMustang_121
+    21300234: ColonelMustang_R10&A10_hitbox
+    21300236: ColonelMustang_A11_Hitbox
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ColonelMustang_Idle1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 696
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c782875634b28f24485e0f09c40a1f3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Idle2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 696
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e16582159d82b42b80dae8d2b50cf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Idle3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 696
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4d48d273397f549bb841a1d60fc1c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_walk1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 696
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5db3e39f3f33e04893c2fbcb8e8d187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_walk2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 696
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe04c42186fe7d242879994f0a6be95a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_walk3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 696
+        width: 29
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f06699531654f46b82b2b44f0173f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_walk4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 696
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c2c7cbbf85dd64da1c2a6754002d66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_walk5
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 696
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decc255b70d43b34cb42272a3ed70bdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_walk6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 696
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb5f9cf7bdbd9d48985a94a57570e60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_9
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 741
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaa75a007bf7084a934ddc7528eefb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_10
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 749
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d19a3c9af28594684f8279899e003b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_11
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 718
+        width: 256
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f993b3303b99c44a48d48b2f18ffca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 699
+        width: 171
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253ae414850b68e409d9a09349c08bfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_13
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 660
+        width: 256
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42befcb9021d15489c9aa3de190ff3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 626
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f688f81a4bd76e54eaccfc007633fae4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 626
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d28d0f1dcb0564cb30f04a3f601d48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 626
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b5a5bdabfe472429cb05db72d7a82e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 626
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc97fb103df901b4dbfab730ef5ff440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_18
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 626
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c1b53ec482db647a9aee5411e2210b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_19
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 626
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea598255ca3d014581c6ed6d770d36a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_20
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 602
+        width: 256
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025ef12fcfc9fc0419e04913c5c22ead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 547
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbca82ff49a5b664eba662140388fb42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 547
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e947666d32f93b244ba753e0ba1d6df6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_23
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 547
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caf1f245af76a740a0a78273d5dc4c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 547
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfdb250e433ced4b8e1036565544971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_25
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c83784d24da9c84c85e02ce628e21e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_26
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 547
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e932a466dca7d4eacba8afb88fe2d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_27
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 594
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e951a9cc68c2041aa986c9ba48bf02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_28
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 547
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9751b1fbe1ab76944a927499474495d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_29
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 536
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc9d9d7daa5da04295de0a908ca1907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 459
+        width: 50
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc4c980a47b43c42a82bf3dd153f011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_31
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 459
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686a0f8cd30a00745bf52ab8b7857b47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 532
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95f72c9bf5749d45ac167d287c78d95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_33
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 531
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542cfce4dd32fab468d3491007b8a0d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_34
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 459
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b1b7427fb8a2e479fcbc6cf7ae89b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_35
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 459
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdae7f63758f7a54a9502c5600846eac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_36
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 534
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f561d2cc3bb7f4080279f81fb35367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_37
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 459
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85a4f4e267a8d242be056976a360581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_38
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 459
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d90d0e8e576db4e81f30c35c8b0914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 459
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a12e3adec86dd4f806204bf048b438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 459
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be11412a59d02324c9694bf07aef452d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 459
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f767fd499e03e54a932c28420708fb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_42
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 459
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c223c70b24b33d5478d842730ab536a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_43
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 459
+        width: 47
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc7d7697f39cbd41bb752c98ef3864a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_44
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 459
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08890e59657b29e458dc19a354cef4ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_45
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 459
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6540ed6104aeff4459245ecbdf9b292f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_46
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 459
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41daec00cad8bc849952458f5e977001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_47
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 419
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba83741d382f2494091bbc5fe90b1e55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_48
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 428
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5905c0b6719d18a468d333f0f61cbbde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Attack9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 354
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d8aae5c63aef04a85f6b582b0e20b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_R9_Hitbox & A9_Hitbox
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 349
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77e3db85a6febe4fb0ee9c8c60e0a8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Attack1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 350
+        width: 65
+        height: 76
+      alignment: 9
+      pivot: {x: 0.47, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8495361c3449ebe45a953a90003a7910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Attack2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 350
+        width: 58
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2bf7377e633584da02719286e7a781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Attack3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 349
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba82da9a6ee6cab4fb4a6bc57f293c8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 349
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592bd43fd2eb0f64293703e9e68fe820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 349
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a755f0626596c9498d7861b9ff61e62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 349
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb60ef3bc4caf849813dcb2c38cadb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_60
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 416
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa8875647e5da34392639ab1e197a1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 349
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8a3e7c750cfde4e8fc3121c5f4be93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Attack8
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 353
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccf62b3fa63f7c45ba38b6f93f85c94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 414
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8911e6c35844f8d48ade3a13b1e78eeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A10
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 354
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bec3566214854409457751f751d02f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A11
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 354
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0055debeb7088a41abccfaffe769df7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_66
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 409
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c9595835fcbb04ebb9b4bc341059e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A8_hitbox
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 349
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b53a8a61281faf4497252893a41f438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A12
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 354
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab4b2cbef0cc3541adb71e00236d096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_RangeAttack1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 265
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885e09ad06e8a994b840bd03c6f61d3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_R2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 265
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a433398d789dec42b9f05be0dd1654f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_R3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 265
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1618cf21851cb145b455cc63aef02c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_R4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 265
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca176a72f86c1149adbedfaed64151c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_R5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 265
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a20960fd5cfce4aa944b00a26c9268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_R6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 265
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3adb801fdd27b549a4b2b1be21068ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_R7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 265
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287da60f2cdaae449b9e66133a7f1d99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Range8
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 265
+        width: 90
+        height: 75
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c10ed9ab9113a4a942ef7e3fd973bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Range9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 265
+        width: 97
+        height: 75
+      alignment: 9
+      pivot: {x: 0.33, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad43f20015b6bd9419d8ece5a8f40546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Range10
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 265
+        width: 97
+        height: 75
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e99cc3657b56a541b5df7a4a1ec7e24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_81
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 321
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f19c8b5df2548419b97c7cc5d53068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_82
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 323
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ce2d40b7babfa4a8a7581540ecb970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Range11
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 265
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3b9ea3431f7f84eba27f6b9e5a5c6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_84
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 308
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b64ef7c402130f459941b26928302ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_85
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 312
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e130b76c369a55c498bcf7044da4cb2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_86
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 305
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770dca9196596b040ba4fcfdf5aabd68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_87
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 294
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be1ce051fd8a314ea1425b006c1640f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_88
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 168
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcd0e414a07a0b4e98c658fc8d367ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_89
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 173
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf04e494e2902644a2ac6b15bca12f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_90
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 179
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ddedfc7012cfb4492931bc5c55a0a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_91
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 186
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8fd6e05f7485b47bebddef4acbb5f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_92
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 186
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5df20048137ea429ed3c74c951f7a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_93
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 168
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb44d5590207aef48a44bff0a9eb7afa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_94
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 168
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817e743ad8681164c9268f8716013f4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_95
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 168
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa738672dc6c7e4aa2a8d3f81f253a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_96
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 174
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3a2bcd6e1cbda4c938f8934b6f3deb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_97
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 177
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e10b7508297880448d992cc79e4f01e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_98
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 177
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1dcb3dfa4baa54892b011d4dcfe8d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_99
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 174
+        width: 86
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fdadff2aaaf834e99f3acfeec44b11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_100
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 175
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3db300a9b96d3046a7dbfe2e76d8a14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_101
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 174
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8b81fcdc28a3a47ab74f1a961945e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_102
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 177
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc184681a9e8c3d4dad65522aee955b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_103
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 177
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b27a49f1e8b614685e85ecac63d209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_104
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 86
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faaf83dc82e9b445a026a968d4b5c46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 86
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b590a7e06e352434bb4c9332e8e2cdc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_106
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 86
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c7fdc3596eac47b1cdaf08d4e4caf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_107
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 86
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc04b3c1ca7d5d04a98165ad6c4cf1df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_108
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 86
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab77ee1c5c9eced4d99b8232f7feeeb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_109
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 86
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415c80670d7af5146853f5f5f252a696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_110
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 86
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaa3105cc7c36c4badc7b5c16700e36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_111
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 86
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba434edcf406de24ba7e67de3201b279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_112
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 86
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788a2188514026247b204c9c9900595f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_113
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 86
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f023ecff21b034899345a254a974a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_114
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b89ec5a6f5acc541a0bdcbf8966c2d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_115
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 6
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf543579889a84fb4edf92d163d1a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_116
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 6
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e472a3c4a810a4689680ab699f2ca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_117
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 12
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e19e90bc78036c499219b985c8c2965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_118
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 12
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8839890a11412be47a58ea3f987777f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_119
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 6
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549855775074a5b41b82c54f5909aacc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_Hurt
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 6
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0248d6cb5fb5194ca252d4ddd7deb42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_121
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 6
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6f03758c5cf414aa2b7b0a531edf96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_R10&A10_hitbox
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 348
+        width: 49
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69843d208a25c01478011c9845f279e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColonelMustang_A11_Hitbox
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 349
+        width: 49
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebe24aa293788b42a60ee82a7f9b75f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 12d1c1972bce6ab4fbd1cd9668b65263
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

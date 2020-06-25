@@ -1,0 +1,1979 @@
+fileFormatVersion: 2
+guid: 21505b67fe86aab42afcda64d4d59aff
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fuhrer Bradley Sprites I1
+    21300002: Fuhrer Bradley Sprites I2
+    21300004: Fuhrer Bradley Sprites I3
+    21300006: Fuhrer Bradley Sprites I4
+    21300008: Fuhrer Bradley Sprites W1
+    21300010: Fuhrer Bradley Sprites W2
+    21300012: Fuhrer Bradley Sprites W3
+    21300014: Fuhrer Bradley Sprites W4
+    21300016: Fuhrer Bradley Sprites W5
+    21300018: Fuhrer Bradley Sprites W6
+    21300020: Fuhrer Bradley Sprites_10
+    21300022: Fuhrer Bradley Sprites_11
+    21300024: Fuhrer Bradley Sprites_12
+    21300026: Fuhrer Bradley Sprites A1
+    21300028: Fuhrer Bradley Sprites A2
+    21300030: Fuhrer Bradley Sprites A3
+    21300032: Fuhrer Bradley Sprites A4
+    21300034: Fuhrer Bradley Sprites A5
+    21300036: Fuhrer Bradley Sprites A6
+    21300038: Fuhrer Bradley Sprites A7
+    21300040: Fuhrer Bradley Sprites_20
+    21300042: Fuhrer Bradley Sprites_21
+    21300044: Fuhrer Bradley Sprites_22
+    21300046: Fuhrer Bradley Sprites_23
+    21300048: Fuhrer Bradley Sprites_24
+    21300050: Fuhrer Bradley Sprites_25
+    21300052: Fuhrer Bradley Sprites A8
+    21300054: Fuhrer Bradley Sprites A9
+    21300056: Fuhrer Bradley Sprites A10
+    21300058: Fuhrer Bradley Sprites_29
+    21300060: Fuhrer Bradley Sprites_30
+    21300062: Fuhrer Bradley Sprites_31
+    21300064: Fuhrer Bradley Sprites_32
+    21300066: Fuhrer Bradley Sprites_33
+    21300068: Fuhrer Bradley Sprites_34
+    21300070: Fuhrer Bradley Sprites_35
+    21300072: Fuhrer Bradley Sprites_36
+    21300074: Fuhrer Bradley Sprites_37
+    21300076: Fuhrer Bradley Sprites_38
+    21300078: Fuhrer Bradley Sprites_39
+    21300080: Fuhrer Bradley Sprites_40
+    21300082: Fuhrer Bradley Sprites_41
+    21300084: Fuhrer Bradley Sprites_42
+    21300086: Fuhrer Bradley Sprites_43
+    21300088: Fuhrer Bradley Sprites_44
+    21300090: Fuhrer Bradley Sprites_45
+    21300092: Fuhrer Bradley Sprites_46
+    21300094: Fuhrer Bradley Sprites R1_48_59
+    21300096: Fuhrer Bradley Sprites_48
+    21300098: Fuhrer Bradley Sprites_49
+    21300100: Fuhrer Bradley Sprites_50
+    21300102: Fuhrer Bradley Sprites_51
+    21300104: Fuhrer Bradley Sprites_52
+    21300106: Fuhrer Bradley Sprites_53
+    21300108: Fuhrer Bradley Sprites_54
+    21300110: Fuhrer Bradley Sprites_55
+    21300112: Fuhrer Bradley Sprites_56
+    21300114: Fuhrer Bradley Sprites_58
+    21300116: Fuhrer Bradley Sprites_59
+    21300118: Fuhrer Bradley Sprites_60
+    21300120: Fuhrer Bradley Sprites_61
+    21300122: Fuhrer Bradley Sprites_62
+    21300124: Fuhrer Bradley Sprites_63
+    21300126: Fuhrer Bradley Sprites_64
+    21300128: Fuhrer Bradley Sprites_65
+    21300130: Fuhrer Bradley Sprites_66
+    21300132: Fuhrer Bradley Sprites_69
+    21300134: Fuhrer Bradley Sprites_70
+    21300136: Fuhrer Bradley Sprites_71
+    21300138: Fuhrer Bradley Sprites 58
+    21300140: Fuhrer Bradley Sprites 59
+    21300142: Fuhrer Bradley Sprites_74
+    21300144: Fuhrer Bradley Sprites_75
+    21300146: Fuhrer Bradley Sprites_77
+    21300148: Fuhrer Bradley Sprites_78
+    21300150: Fuhrer Bradley Sprites_79
+    21300152: Fuhrer Bradley Sprites_80
+    21300154: Fuhrer Bradley Sprites_81
+    21300156: Fuhrer Bradley Sprites_82
+    21300158: Fuhrer Bradley Sprites_83
+    21300160: Fuhrer Bradley Sprites_84
+    21300162: Fuhrer Bradley Sprites_85
+    21300164: Fuhrer Bradley Sprites_86
+    21300166: Fuhrer Bradley Sprites_87
+    21300168: Fuhrer Bradley Sprites_88
+    21300170: Fuhrer Bradley Sprites_89
+    21300172: Fuhrer Bradley Sprites Death
+    21300174: Fuhrer Bradley Sprites 56
+    21300176: Fuhrer Bradley Sprites 57
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites I1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 719
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecc177f40ae4cb468f901d2e927de16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites I2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 719
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a6f0673c7c7bf42ac353e09b403249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites I3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 719
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c86c6f7ab801f843ab8a3890797b575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites I4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 719
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1ff5df33fc622449191f2515b9d5ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites W1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 719
+        width: 76
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336921d8f8717b847ab85e900ab187b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites W2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 719
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14498e631011713458afd419f013b5ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites W3
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 719
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6538a0a3b6f5a484babc679f8f2266ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites W4
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 719
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2de7b93d2bbef74b94aff1ae477994c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites W5
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 719
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85961038bffa52458bcac015f843b61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites W6
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 719
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89cfbe801503a645a9de2787d58d414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 736
+        width: 166
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66a0644fdc72e2468eb296fee9235f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 707
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d31ef2e594e126449ae062b4629336e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 703
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059af7a939580e645980e686e9ff6ae7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 612
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead196eb518f9a0498966d0cb46cae4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 612
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5f824aaf877f24980efd9dc96cc909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 612
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60f61d87f5db814691a6d991552e24d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 612
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d9350502c539b49ae82076ce8453e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 612
+        width: 101
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4e9e529a9ed5f4580d5e6bc2ad7fc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A6
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 611
+        width: 118
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0a1e36439a23145a9326fa5a80c779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 611
+        width: 115
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5157854f134772469cff6e2ec154b91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 497
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c9cc4eb1482124bbe3071224502244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 497
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b951d1e8ae2181047a266aadb3039c7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 497
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d633f9b21ac7d44985f1de22a1048c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 493
+        width: 122
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f534ba7132cac0749a449ea5b8f8f936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 497
+        width: 122
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411b888e9101d2d4f8d7859170b98427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 497
+        width: 118
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eefea37873dfb7458f4017c48e253aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 497
+        width: 114
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c701f9406fb7447ab961c5ddc379e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A9
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 497
+        width: 114
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69b8502da0c5fc43a5b804b677df5ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites A10
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 497
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88139ccdf4b705e41b4ec6278737e4fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 377
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6833d2bacee918d48815100688cb821a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 377
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142ff70fe54aa54ebdcd39f0c1cbe9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 377
+        width: 101
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a028e1ae8a04f04d813dbf5876b3298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 377
+        width: 122
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c291c7525e579d14ab0794924161d32b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 377
+        width: 118
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bf2c9dba4f97d419ee735845009b68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 377
+        width: 115
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e38ccc1424dc4429540a63c9adbed0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 255
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35acf1fc5cfe613489e83fc8f7027087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de3d955cab6633408ae34566413b834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 255
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a32b2d9f27d304498673ddc777342d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 255
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faebab541ed214e4099d4992d2aa15eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 255
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996997e1e783b91449363d94969fd378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 255
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aac9ec485e8014699e29d924ce00e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 255
+        width: 111
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3337e41de69e69c458f6fbe32095f056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 255
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2d9bbca28660342b1298b8db184ccf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 255
+        width: 69
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32c378595b75444cb6cc13d6c380e19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 259
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed1e952ee92efe4482b8dfab45255a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 259
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423457139b8b05548833573e069f4b93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 259
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eee2fc9bfe5300469e8c90ee74b2004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites R1_48_59
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 117
+        width: 64
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f417ec81d5ffe9747a46a7df70ccb6bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 116
+        width: 64
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e471fb1b06244b4ab2a559de62ca8e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 116
+        width: 66
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61049c351b339c64091e7b293c18439c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 116
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8269e7abb0c3eaa45be2b71bb559e76d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 116
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4851e55ad9a951a4795f8e1d990039a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 117
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6df44f993976a48897d3effc9deb27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 125
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77707a086156ab459cca0713e1202a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 116
+        width: 63
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca169dd3cf315634d9a06547c1dd8b97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 116
+        width: 64
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f019ce70aa1a2564aa7078f5d889bf60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 146
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef681c5cea487e4ba3dd7bc181ce206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 193
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850e0c597edfeb14c817a7975205aa74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 194
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8343e9e320f9342b611478a33b1cbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 212
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c29db2b1a3485646a3870cc7041de30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 180
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58b1a35cc449ec49a01608623a3c538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 206
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26535b304435338478f1576964710d0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 211
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626468f44f1c891468f896f11a43fe2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 180
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054bf2116660f5f4b9ec0dc59b4f1475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 213
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afa79590ab114947a1f9b5806ab4483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 195
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bce2a30214fdf45bcdfb67b641e86d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 179
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dbe3e8de431aa4e87c2222138be1f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 168
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4b2ed361884ba4a81ec2ec30e4c089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 144
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df17d1a429bada478df63f06217425a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites 58
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 121
+        width: 47
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52e9bb8008ab4d4cacb544c6c3c2c55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites 59
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 123
+        width: 50
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213b571d05a4eec42b940cc0106a465c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 117
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4d800c8da8c7b45b2ce8436e15f273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 117
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fff72ab12a4b54487a450aac9e2f16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 129
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081e545c548e0834b8c4627e23f2db22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6
+        width: 51
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3ec24bdf0231944ae896d8975eccd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 51
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ff98090c2341b48b79a2e7f2180b15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc80da26c42a18419e3bc6f6c23b85d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 42
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc38dcbc9bfddc34abd4103fd2077241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 6
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cca89c69d71d0d4697c13a4701cfa76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 9
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149b6646806403e438b10818148a3085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 35
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e37605b096d8e34c99ae5ee58b8a692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 8
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bb2d0fa7784f14795b0081ae47b2a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 8
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819b7b8f42a0ec442bd459bf82bae65d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 10
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99670424491e3e34ab0d5b709b0450a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 10
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6b2a79a95e8a344aa912889c2c96f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 10
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5777a2b6d37ac43a8ff53ea97057c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites Death
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 10
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08762680dbc015428efbb27bfea7d6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites 56
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 116
+        width: 105
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbff629a6ed026d4cb0ff11b18c9ee20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuhrer Bradley Sprites 57
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 112
+        width: 93
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47093f496a2b54346a91708e74424851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a3156ac63e060b541a14c213bf45d1d2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

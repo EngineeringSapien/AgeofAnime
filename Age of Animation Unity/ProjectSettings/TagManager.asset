@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - enemy
+  - friendly
+  - Player1
+  - Player2
+  - P1Base
+  - P2Base
+  - sky
+  - base
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - ground
+  - P1GUI
+  - P2GUI
+  - Player1
+  - Player2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 3069084081
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ground
+    uniqueID: 2854657491
+    locked: 0
+  - name: player
+    uniqueID: 1361992371
+    locked: 0

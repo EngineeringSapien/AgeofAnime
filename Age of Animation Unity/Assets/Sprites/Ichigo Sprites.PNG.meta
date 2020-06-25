@@ -1,0 +1,7670 @@
+fileFormatVersion: 2
+guid: 184afe81a4180154a99ee7b908aec85d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ichigo Sprites_0
+    21300002: Ichigo Sprites_1
+    21300004: Ichigo Sprites_3
+    21300006: Ichigo Sprites_10
+    21300008: Ichigo Sprites_11
+    21300010: Ichigo Sprites_12
+    21300012: Ichigo Sprites_13
+    21300014: Ichigo Sprites_16
+    21300016: Ichigo Sprites_31
+    21300018: Ichigo Sprites_34
+    21300020: Ichigo Sprites_38
+    21300022: Ichigo Sprites_45
+    21300024: Ichigo Sprites_46
+    21300026: Ichigo Sprites_47
+    21300028: Ichigo Sprites_48
+    21300030: Ichigo Sprites_49
+    21300032: Ichigo Sprites_50
+    21300034: Ichigo Sprites_51
+    21300036: Ichigo Sprites_52
+    21300038: Ichigo Sprites_53
+    21300040: Ichigo Sprites_54
+    21300042: Ichigo Sprites_55
+    21300044: Ichigo Sprites_56
+    21300046: Ichigo Sprites_57
+    21300048: Ichigo Sprites_58
+    21300050: Ichigo Sprites_59
+    21300052: Ichigo Sprites_60
+    21300054: Ichigo Sprites_61
+    21300056: Ichigo Sprites I1
+    21300058: Ichigo Sprites_63
+    21300060: Ichigo Sprites_64
+    21300062: Ichigo Sprites_65
+    21300064: Ichigo Sprites I2
+    21300066: Ichigo Sprites I3
+    21300068: Ichigo Sprites I4
+    21300070: Ichigo Sprites I5
+    21300072: Ichigo Sprites I6
+    21300074: Ichigo Sprites I7
+    21300076: Ichigo Sprites_72
+    21300078: Ichigo Sprites_73
+    21300080: Ichigo Sprites W1
+    21300082: Ichigo Sprites W2
+    21300084: Ichigo Sprites W3
+    21300086: Ichigo Sprites W4
+    21300088: Ichigo Sprites W5
+    21300090: Ichigo Sprites W6
+    21300092: Ichigo Sprites_80
+    21300094: Ichigo Sprites_81
+    21300096: Ichigo Sprites_82
+    21300098: Ichigo Sprites_83
+    21300100: Ichigo Sprites_84
+    21300102: Ichigo Sprites_85
+    21300104: Ichigo Sprites_86
+    21300106: Ichigo Sprites_87
+    21300108: Ichigo Sprites_88
+    21300110: Ichigo Sprites_89
+    21300112: Ichigo Sprites_90
+    21300114: Ichigo Sprites_91
+    21300116: Ichigo Sprites_92
+    21300118: Ichigo Sprites_93
+    21300120: Ichigo Sprites_94
+    21300122: Ichigo Sprites_95
+    21300124: Ichigo Sprites_96
+    21300126: Ichigo Sprites_97
+    21300128: Ichigo Sprites_98
+    21300130: Ichigo Sprites_99
+    21300132: Ichigo Sprites_100
+    21300134: Ichigo Sprites_101
+    21300136: Ichigo Sprites_102
+    21300138: Ichigo Sprites_103
+    21300140: Ichigo Sprites_104
+    21300142: Ichigo Sprites_105
+    21300144: Ichigo Sprites_106
+    21300146: Ichigo Sprites_107
+    21300148: Ichigo Sprites_108
+    21300150: Ichigo Sprites_109
+    21300152: Ichigo Sprites_110
+    21300154: Ichigo Sprites_111
+    21300156: Ichigo Sprites_112
+    21300158: Ichigo Sprites_113
+    21300160: Ichigo Sprites_114
+    21300162: Ichigo Sprites_115
+    21300164: Ichigo Sprites_116
+    21300166: Ichigo Sprites_117
+    21300168: Ichigo Sprites_118
+    21300170: Ichigo Sprites_119
+    21300172: Ichigo Sprites_120
+    21300174: Ichigo Sprites_121
+    21300176: Ichigo Sprites_122
+    21300178: Ichigo Sprites_123
+    21300180: Ichigo Sprites_124
+    21300182: Ichigo Sprites_125
+    21300184: Ichigo Sprites_126
+    21300186: Ichigo Sprites_127
+    21300188: Ichigo Sprites_128
+    21300190: Ichigo Sprites_129
+    21300192: Ichigo Sprites_130
+    21300194: Ichigo Sprites_131
+    21300196: Ichigo Sprites_132
+    21300198: Ichigo Sprites_133
+    21300200: Ichigo Sprites_134
+    21300202: Ichigo Sprites_135
+    21300204: Ichigo Sprites_136
+    21300206: Ichigo Sprites_137
+    21300208: Ichigo Sprites_138
+    21300210: Ichigo Sprites Death
+    21300212: Ichigo Sprites_140
+    21300214: Ichigo Sprites_141
+    21300216: Ichigo Sprites_142
+    21300218: Ichigo Sprites_143
+    21300220: Ichigo Sprites_144
+    21300222: Ichigo Sprites_145
+    21300224: Ichigo Sprites_146
+    21300226: Ichigo Sprites_147
+    21300228: Ichigo Sprites A1
+    21300230: Ichigo Sprites A2
+    21300232: Ichigo Sprites A3
+    21300234: Ichigo Sprites A4
+    21300236: Ichigo Sprites A5
+    21300238: Ichigo Sprites HB1
+    21300240: Ichigo Sprites HB2
+    21300242: Ichigo Sprites HB3
+    21300244: Ichigo Sprites HB4
+    21300246: Ichigo Sprites A6
+    21300248: Ichigo Sprites A7
+    21300250: Ichigo Sprites A8
+    21300252: Ichigo Sprites A9
+    21300254: Ichigo Sprites HB5
+    21300256: Ichigo Sprites HB6
+    21300258: Ichigo Sprites HB7
+    21300260: Ichigo Sprites HB8
+    21300262: Ichigo Sprites_165
+    21300264: Ichigo Sprites_166
+    21300266: Ichigo Sprites_167
+    21300268: Ichigo Sprites_168
+    21300270: Ichigo Sprites_169
+    21300272: Ichigo Sprites_170
+    21300274: Ichigo Sprites_171
+    21300276: Ichigo Sprites_172
+    21300278: Ichigo Sprites_173
+    21300280: Ichigo Sprites_174
+    21300282: Ichigo Sprites_175
+    21300284: Ichigo Sprites_176
+    21300286: Ichigo Sprites_177
+    21300288: Ichigo Sprites_178
+    21300290: Ichigo Sprites_179
+    21300292: Ichigo Sprites_180
+    21300294: Ichigo Sprites_181
+    21300296: Ichigo Sprites_182
+    21300298: Ichigo Sprites_183
+    21300300: Ichigo Sprites_184
+    21300302: Ichigo Sprites_185
+    21300304: Ichigo Sprites_186
+    21300306: Ichigo Sprites_187
+    21300308: Ichigo Sprites_188
+    21300310: Ichigo Sprites_189
+    21300312: Ichigo Sprites_190
+    21300314: Ichigo Sprites_191
+    21300316: Ichigo Sprites_192
+    21300318: Ichigo Sprites_193
+    21300320: Ichigo Sprites_194
+    21300322: Ichigo Sprites_195
+    21300324: Ichigo Sprites_196
+    21300326: Ichigo Sprites_197
+    21300328: Ichigo Sprites_198
+    21300330: Ichigo Sprites_199
+    21300332: Ichigo Sprites_200
+    21300334: Ichigo Sprites_201
+    21300336: Ichigo Sprites_202
+    21300338: Ichigo Sprites_203
+    21300340: Ichigo Sprites_204
+    21300342: Ichigo Sprites_205
+    21300344: Ichigo Sprites_206
+    21300346: Ichigo Sprites_207
+    21300348: Ichigo Sprites_208
+    21300350: Ichigo Sprites_209
+    21300352: Ichigo Sprites_210
+    21300354: Ichigo Sprites_211
+    21300356: Ichigo Sprites_212
+    21300358: Ichigo Sprites_213
+    21300360: Ichigo Sprites_214
+    21300362: Ichigo Sprites_215
+    21300364: Ichigo Sprites_216
+    21300366: Ichigo Sprites_217
+    21300368: Ichigo Sprites_218
+    21300370: Ichigo Sprites_219
+    21300372: Ichigo Sprites_220
+    21300374: Ichigo Sprites_221
+    21300376: Ichigo Sprites_222
+    21300378: Ichigo Sprites_223
+    21300380: Ichigo Sprites_224
+    21300382: Ichigo Sprites_225
+    21300384: Ichigo Sprites_226
+    21300386: Ichigo Sprites_227
+    21300388: Ichigo Sprites_228
+    21300390: Ichigo Sprites_229
+    21300392: Ichigo Sprites_230
+    21300394: Ichigo Sprites_231
+    21300396: Ichigo Sprites_232
+    21300398: Ichigo Sprites_233
+    21300400: Ichigo Sprites_234
+    21300402: Ichigo Sprites_235
+    21300404: Ichigo Sprites_236
+    21300406: Ichigo Sprites_237
+    21300408: Ichigo Sprites_238
+    21300410: Ichigo Sprites_239
+    21300412: Ichigo Sprites_240
+    21300414: Ichigo Sprites_241
+    21300416: Ichigo Sprites_242
+    21300418: Ichigo Sprites_243
+    21300420: Ichigo Sprites_244
+    21300422: Ichigo Sprites_245
+    21300424: Ichigo Sprites_246
+    21300426: Ichigo Sprites_247
+    21300428: Ichigo Sprites_248
+    21300430: Ichigo Sprites_249
+    21300432: Ichigo Sprites_250
+    21300434: Ichigo Sprites_251
+    21300436: Ichigo Sprites_252
+    21300438: Ichigo Sprites_253
+    21300440: Ichigo Sprites_254
+    21300442: Ichigo Sprites_255
+    21300444: Ichigo Sprites_256
+    21300446: Ichigo Sprites_257
+    21300448: Ichigo Sprites_258
+    21300450: Ichigo Sprites_259
+    21300452: Ichigo Sprites_260
+    21300454: Ichigo Sprites_261
+    21300456: Ichigo Sprites_262
+    21300458: Ichigo Sprites_263
+    21300460: Ichigo Sprites_264
+    21300462: Ichigo Sprites_265
+    21300464: Ichigo Sprites_266
+    21300466: Ichigo Sprites_267
+    21300468: Ichigo Sprites_268
+    21300470: Ichigo Sprites_269
+    21300472: Ichigo Sprites_270
+    21300474: Ichigo Sprites_271
+    21300476: Ichigo Sprites_272
+    21300478: Ichigo Sprites_273
+    21300480: Ichigo Sprites_274
+    21300482: Ichigo Sprites_275
+    21300484: Ichigo Sprites R1
+    21300486: Ichigo Sprites R2
+    21300488: Ichigo Sprites R3
+    21300490: Ichigo Sprites R4
+    21300492: Ichigo Sprites R5
+    21300494: Ichigo Sprites R7
+    21300496: Ichigo Sprites R HB 1
+    21300498: Ichigo Sprites R HB 2
+    21300500: Ichigo Sprites R HB 3
+    21300502: Ichigo Sprites R HB 4
+    21300504: Ichigo Sprites_R HB 4
+    21300506: Ichigo Sprites R HB 5
+    21300508: Ichigo Sprites R HB 6
+    21300510: Ichigo Sprites R HB 7
+    21300512: Ichigo Sprites_290
+    21300514: Ichigo Sprites_291
+    21300516: Ichigo Sprites_292
+    21300518: Ichigo Sprites_293
+    21300520: Ichigo Sprites_294
+    21300522: Ichigo Sprites_295
+    21300524: Ichigo Sprites_296
+    21300526: Ichigo Sprites_297
+    21300528: Ichigo Sprites_298
+    21300530: Ichigo Sprites_299
+    21300532: Ichigo Sprites_306
+    21300534: Ichigo Sprites_309
+    21300536: Ichigo Sprites_316
+    21300538: Ichigo Sprites_318
+    21300540: Ichigo Sprites_325
+    21300542: Ichigo Sprites_326
+    21300544: Ichigo Sprites_329
+    21300546: Ichigo Sprites_331
+    21300548: Ichigo Sprites_332
+    21300550: Ichigo Sprites_333
+    21300552: Ichigo Sprites_334
+    21300554: Ichigo Sprites_337
+    21300556: Ichigo Sprites_339
+    21300558: Ichigo Sprites_340
+    21300560: Ichigo Sprites_342
+    21300562: Ichigo Sprites_345
+    21300564: Ichigo Sprites_346
+    21300566: Ichigo Sprites_347
+    21300568: Ichigo Sprites_351
+    21300570: Ichigo Sprites_352
+    21300572: Ichigo Sprites_354
+    21300574: Ichigo Sprites_357
+    21300576: Ichigo Sprites_358
+    21300578: Ichigo Sprites_359
+    21300580: Ichigo Sprites_360
+    21300582: Ichigo Sprites_361
+    21300584: Ichigo Sprites_367
+    21300586: Ichigo Sprites_368
+    21300588: Ichigo Sprites_369
+    21300590: Ichigo Sprites_381
+    21300592: Ichigo Sprites_382
+    21300594: Ichigo Sprites_383
+    21300596: Ichigo Sprites_384
+    21300598: Ichigo Sprites_385
+    21300600: Ichigo Sprites_390
+    21300602: Ichigo Sprites_391
+    21300604: Ichigo Sprites_392
+    21300606: Ichigo Sprites_393
+    21300608: Ichigo Sprites_394
+    21300610: Ichigo Sprites_400
+    21300612: Ichigo Sprites_401
+    21300614: Ichigo Sprites_402
+    21300616: Ichigo Sprites_403
+    21300618: Ichigo Sprites_404
+    21300620: Ichigo Sprites_405
+    21300622: Ichigo Sprites_406
+    21300624: Ichigo Sprites_407
+    21300626: Ichigo Sprites_408
+    21300628: Ichigo Sprites_409
+    21300630: Ichigo Sprites_414
+    21300632: Ichigo Sprites_415
+    21300634: Ichigo Sprites_416
+    21300636: Ichigo Sprites_417
+    21300638: Ichigo Sprites_418
+    21300640: Ichigo Sprites_419
+    21300642: Ichigo Sprites_420
+    21300644: Ichigo Sprites_421
+    21300646: Ichigo Sprites_422
+    21300648: Ichigo Sprites_423
+    21300650: Ichigo Sprites_424
+    21300652: Ichigo Sprites_425
+    21300654: Ichigo Sprites_426
+    21300656: Ichigo Sprites_443
+    21300658: Ichigo Sprites_445
+    21300660: Ichigo Sprites_446
+    21300662: Ichigo Sprites_447
+    21300664: Ichigo Sprites_450
+    21300666: Ichigo Sprites_455
+    21300668: Ichigo Sprites_457
+    21300670: Ichigo Sprites_470
+    21300672: Ichigo Sprites_484
+    21300674: Ichigo Sprites_488
+    21300676: Ichigo Sprites_489
+    21300678: Ichigo Sprites_490
+    21300680: Ichigo Sprites_491
+    21300682: Ichigo Sprites_492
+    21300684: Ichigo Sprites_493
+    21300686: Ichigo Sprites_495
+    21300688: Ichigo Sprites_496
+    21300690: Ichigo Sprites_497
+    21300692: Ichigo Sprites_498
+    21300694: Ichigo Sprites_499
+    21300696: Ichigo Sprites_500
+    21300698: Ichigo Sprites_501
+    21300700: Ichigo Sprites_503
+    21300702: Ichigo Sprites_504
+    21300704: Ichigo Sprites_509
+    21300706: Ichigo Sprites_510
+    21300708: Ichigo Sprites_511
+    21300710: Ichigo Sprites_513
+    21300712: Ichigo Sprites_515
+    21300714: Ichigo Sprites_516
+    21300716: Ichigo Sprites_517
+    21300718: Ichigo Sprites_2
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ichigo Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 10147
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d1e30d0870f6f48aaf5788325a25c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 10147
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa00ecc772254ff4abe843d61d8e5f06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9938
+        width: 236
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7c27e1651595f48b756d77f62a4d07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9704
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c535a3f8e311ad04e8a1cf850f54a6ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 9704
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4487db91471ac5c4a8d402d9624cb42a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 9704
+        width: 188
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec98052c53ef6714a8266cb2b20e4425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9504
+        width: 189
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591b5b880217bc44499d326350de2c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9301
+        width: 189
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6536d26bf15d196408afd1d64b31b2a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 8498
+        width: 7
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78eac2e898f6164cbcf6cab5e5c1b87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 8382
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4234d3289abb74f97c860ac2031121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 8341
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5535225c0d13846bd6035b3f74a5b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7428
+        width: 75
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535a6d72bceb88945be341fe9486e80b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7404
+        width: 497
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9e9343994741045847ad84aa9e378a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 7302
+        width: 76
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae55ea9df6123c40964a9c710c2c6fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 7302
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb6bf8cb9d63fe498750ccc09d829cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7302
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238eb686999eb6d45932f3405a9ae6cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 7302
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8cd2f17fb7cc34b95dd65c018aae23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 7302
+        width: 80
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346fdd298379c194681943450f9260f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 7302
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35ede1b22d48334cb094b31a4b85167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 7302
+        width: 78
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807e647b28795c549b53cf79236bebd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 7302
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b6e3f38ffad0a4eb732d841fed7658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 7302
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d984faf0222d54cbf96ae7467bd49d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7143
+        width: 81
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f5bd8777215d04f869889c64765bf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 7143
+        width: 89
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ccc6b162d832847a86c64cdeb0ba9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 7143
+        width: 87
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7770c7be35b994180325c71c0cca98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 7143
+        width: 94
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8b19745d689af4082845094b3811b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 7143
+        width: 114
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ce5dd98a9d2b04fb0538640444070f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 7143
+        width: 115
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e487a6b45c94534a893eb936ee478a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites I1
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 7143
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbf36a148fcf3b4db5f3444e088dc94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7126
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa435b855eea05c4fbcf64b630a96487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7126
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c573436b10914a48b3fc54e125b72e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 7126
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc3d49999ee4b142b2015d4770c8d44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites I2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6997
+        width: 96
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bf2163358636b4888598746ce466b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites I3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 6997
+        width: 99
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50df828abc24a849b69e9ac8d5a5c54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites I4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 6997
+        width: 96
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17c6f52efdcdd448bc538b1cf4d998f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites I5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 6997
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a1bf7b7bba5424ea2db4c774669d4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites I6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 6997
+        width: 90
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e22d859083377b48a690ce6889e7360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites I7
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 6997
+        width: 92
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b7b9335d1cddc4b98aeb4397709def
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 6997
+        width: 63
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5703968455c56a744b61be57d79ea47d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6982
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6854e4a8e386941a71c7e34e94cb85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites W1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6887
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da00009a13b328499759bde38cfdf97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites W2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 6884
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5977f160d4b3d4440b085f776a05669f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites W3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 6884
+        width: 82
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a62d6ce64b5a2241a1f384043d7ab59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites W4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 6885
+        width: 86
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151bfe59f75955341a2599e3113835d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites W5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 6883
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26957c2c6b15dbd45a8cf8d972c3be63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites W6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 6881
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586c66c4a3e5dc845bcc99036ce74ac0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6869
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e488f43c453cec44ac605f160c3dfec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 6860
+        width: 205
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e508867491492045b611a854aa81117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6837
+        width: 172
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b68801bb9f6c8144a4afb34ad717196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 6750
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddd59a294d59e349a70c6f942188796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 6750
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654bef8cb646d084e8289ebd0c7e9dca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6741
+        width: 84
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8194e23526843647a2051c880841100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 6741
+        width: 84
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52035bc91649d4282fba71de38aa49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 6763
+        width: 114
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b4133d3ffbb54d8a0855c512f5a33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6741
+        width: 114
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d82d01cacb409d4db968888d71cb0f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6724
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa6cbc26f0df7b45894ffacb886797c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6724
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ce519702c9ccc40bc07e80028b5ae3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6631
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0686d3af034d55a419cdd1671a880264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 6631
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35a83503cf8b9547908e9ca61d6b18f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 6692
+        width: 85
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648ee60d689f95545b4cc3d1c3f7ec10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 6695
+        width: 229
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7fd062bcc275941b4e5e1da82d87cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 6631
+        width: 103
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee481ec36350cec408130f05a165811b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 6656
+        width: 103
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e236a6fbbc79aa459c20113efa30df1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 6654
+        width: 122
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e63084325b8f34fbcb25c889e91130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6615
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a709d9f3da6bb54aaea5b1a08532ea1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6615
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7914a37733a384c8204870f63a2314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6496
+        width: 96
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228ad54b325ed134aafb32507197bcbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 6493
+        width: 96
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01436fa80caddee41b756198eaf9afe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 6569
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dd3c76f09896140a46f7b843e98f03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 6601
+        width: 80
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1ef9377193e3e4f8a04699f34e36d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 6493
+        width: 68
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ec79689d86d2a479c1c844dc92836a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 6547
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6e553031fd07247b275b2bab563f90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 6550
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53514a74dde5f7d45b7a4ab7ae490998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 6494
+        width: 36
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c8b0690abc8954483d52111ee57dd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 6477
+        width: 40
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dbbf05b6a43e148b532b2f0aa531fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 6493
+        width: 42
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b294d08a699b1540b6cb8ae992bf36f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 6499
+        width: 83
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85080c46adebbad459677fb4b55cb9e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 6501
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d10a0b77559ae24ba784b9d4a4690aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 6499
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1612e086cc282574ba837c77d1558fa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6463
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8379f15841b7ae24aa2f3dc46da13ec3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6463
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6640fa02f57d5324389000c88c739875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 6325
+        width: 39
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a30248f9848e64498625a83b8f3a711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 6451
+        width: 80
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16c5c40aef0fb64dbd93dde57d546b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6334
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aca7562e17d2cf419f2776158e92ed4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 6333
+        width: 102
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af46ef7f4a7db54294a75dbb19e5d11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 6359
+        width: 21
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a184e6299865e65438b66574f0016f13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 6330
+        width: 36
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58daf470b2042f14aa0a4244ba6cf1a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 6327
+        width: 39
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beacd9476e661ca469b470dd8aa72c4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 6330
+        width: 69
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e21dfc576ad7ab42970546658d6b5e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 6387
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e374947b86deeb54bad628ff347e8a7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 6406
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f5f131fd4f6be4abfad0c8c862f891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 6330
+        width: 96
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4339efabd86c9d4aa441fa9c707d461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 6333
+        width: 95
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672061bfa074a443b073ae56f6ee2db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 6343
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e6e20391c6b3040b3669c75ffdf3ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 6388
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dcf2cef3551264bb89e71f51470ea5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 6384
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b90abe95e07cf498a6e864034bbd38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6307
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf07928c96b9b24d8548262fc81b28e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 6307
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73ef62ff32883c4eb74411e454ac993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6307
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dc54bfca4d7ae4fac3327c2e662b45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 6305
+        width: 53
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ef6e9cfe6d4634a900e88e59c0cf56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 6305
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1336ea6d99883984989ea25a6e29798b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 6307
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64c5bc08ad8a234dbfeff5490391445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 6307
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b971f433fc00acf42a7c3fa5847d86f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6186
+        width: 67
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18203cf162eef641a1887efa3f8df57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 6191
+        width: 65
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7780f90226d384d4b97ba977e15b6fa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites Death
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 6186
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90da47770ade5c4bb578cd666a6ea08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 6186
+        width: 91
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e65bbe7bf2d61742bd456048c004192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 6186
+        width: 84
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f64988ba4365845a1d42da599a89bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 6184
+        width: 95
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e713c860b1e080a4c9663bc11a3b0c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 6186
+        width: 98
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13527f9daf794144990bac36a57cdb0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6167
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e071a061efb4a34a96ea62c916105a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6167
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5dd53d945254a4b8804933e6df1987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 6167
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb47bf98db0462439e02658b1f7a6bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 6165
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb28966e3211ad48a948b39ebbe9d46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6010
+        width: 88
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ba31f85927cb642bc9bd71dab35be0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 6010
+        width: 87
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8713c5e0bfe2654d988d8eea2498b9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 6010
+        width: 95
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef026ce3003a73a45ac97b82c6facd4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 6010
+        width: 115
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dbd9e5a87be0d4bb770c0856c2b729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 6010
+        width: 114
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79dbe0db7e579f459de6090e24666ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites HB1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5860
+        width: 122
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60c8dc9549747a4792caf7c5138bc0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites HB2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5860
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0633c219947cb241b15cdab1573ff90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites HB3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 5860
+        width: 86
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b38d84b561f8146a027f8a0340ebfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites HB4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 5860
+        width: 78
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587982fc83571e54680edc672ea5d6ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5747
+        width: 75
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d390abe9379fa47bf30f80909527e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 5747
+        width: 141
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8c0d49c499f434bb0c57cfb888b15e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A8
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5747
+        width: 86
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0d24910f568944fa526e900cd3d8b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites A9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 5747
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d6db462c2669345a41c4017abc0526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites HB5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5684
+        width: 147
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b826ff89b82d983498be22b339014015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites HB6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 5684
+        width: 147
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a5d2bd278c05b4a87f3ac1e8d758d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites HB7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 5684
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e133a0fec4fa7a4489198e179e27d03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites HB8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 5716
+        width: 84
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e0dd29e80184942ac5541f0423c2a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_165
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5548
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864653384beae974d8b13d3207e6f176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_166
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 5548
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c24223a8bf56de41b59132da3f7c221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_167
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 5548
+        width: 120
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb77bdd153b9b47a3d8d78c1be661d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_168
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 5548
+        width: 72
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04c95fd0960f65488c7db51ed38c718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_169
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 5548
+        width: 72
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acd1ce554ccb2141b605cb9b6bbfbde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_170
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 5408
+        width: 148
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cb0427da4f1104caa29ff833b081fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_171
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 5408
+        width: 149
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f418715639dd194c82d99086cb1dcdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_172
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 5434
+        width: 113
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30c97f0e8aee5c4696a92c84f6d0d11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_173
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 5488
+        width: 102
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66af8dea408cf445904244e2e15a797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_174
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5408
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a9cc44a38c7b1419a8d20e925dbad5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_175
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5390
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2438505b0b56db42a40fdbf760d200d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_176
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 5390
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e94814900823624599cb723aee017e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_177
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5390
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238cb7ca964fa3d47ae1fdaafe0324bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_178
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5387
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288c4ff8c23e5034b86ac588da4aa444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_179
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5250
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3435b339f510374bb5bf30900734acb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_180
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 5250
+        width: 92
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66b28cef9fc54544aa496ad6daad3cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_181
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 5250
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e850f6707ddd1498fc7a7e45d0dc56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_182
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 5250
+        width: 71
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fad2cade209324187bed06869a72a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_183
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 5250
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c52fd9116e13147b88ba67777f9602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_184
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 5250
+        width: 72
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e295ed4e7ba0b745b46e6f61f28f372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_185
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 5250
+        width: 72
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651af77c71f8c5c4e938e79657f6e893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_186
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5071
+        width: 192
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f201b668cde6eb43b31b8a9cdf2a4db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_187
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 5105
+        width: 146
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a340be0e7421d458ed4f96c845e4e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_188
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 5176
+        width: 132
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517ab1f48e453934e887e6549f983b0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_189
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5071
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135e7e98eec9c4b4c952e72ad65e8de9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_190
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5052
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4ce72252a70854ca7388a871d29d30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_191
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 5052
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f116728abc3d74a9c96e9835c347bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_192
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5052
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bc45e24a6aa55438943cdc97420a64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_193
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5050
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114add0577ec7b844a1dcbee212c6b0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_194
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4896
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64e4dbc8fcb9ab4fa7e1436a2eed046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_195
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 4896
+        width: 87
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4188a9c2fe4bd98419414d138fb369d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_196
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 4896
+        width: 95
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906cce51eade5cf41887ef86f3f05e48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_197
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 4896
+        width: 115
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a43c00d9d998a4eb9c610c802f4151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_198
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 4896
+        width: 114
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5da161f53490748bc7c817dfe2b25c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_199
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4786
+        width: 160
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46fab32ea347b8468d24c077c8fb27c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_200
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 4699
+        width: 201
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3f0b097953fd349a1b29c2b56f0129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_201
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 4699
+        width: 109
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0838319508c98554a94aa5e9912d49c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_202
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 4699
+        width: 102
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00361fd3b5a22e43a58b82ab315fc1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_203
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4679
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9074b1a87a8b204bae300abe7669d5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_204
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4679
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c290ae87b3a538c4f87e7c086b46c7cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_205
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 4679
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40c19c5a613dc44c9412931c839b4d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_206
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 4679
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc9e009ec04320499a2ead63dac90e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_207
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 4677
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcfe6614826ea34eb46f10c9ae65c75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_208
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4578
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca78577be111c6745abb6354151c7db6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_209
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 4579
+        width: 133
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfd9163c86e9d941b27c982277df44b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_210
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 4573
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a494526c2b834a84a929771c68972a74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_211
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 4573
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc04f7b1793c6a248a1441ae33b71cf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_212
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4512
+        width: 147
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b137ca925af8354d968a11b78afeea9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_213
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4512
+        width: 147
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff943e5035fef349845b9acdcde88f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_214
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 4512
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a83202f92abaa748bb70b96c8c7d8fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_215
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 4544
+        width: 84
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aedcbfbcb112e5459de487121006067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_216
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4491
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe58bbb2d85f1ee44bdf35be91057354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_217
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4491
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b06bfb4bf60faf4099ca42c5b75c009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_218
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 4491
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd090e22ee537f24daf9d8cd3735839c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_219
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 4491
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09691a1459e6cb4a8846932551f016d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_220
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 4490
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee95d1facca506841924642e0f6087f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_221
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4371
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d47275ea44edfc4d8f569f6b6b24fd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_222
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 4371
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c893e6970a698544593e4905d5cffb2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_223
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 4371
+        width: 113
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6f202061d710946a135d8ad4edb8f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_224
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4371
+        width: 103
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482694d14c1da27409e30ecd70908115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_225
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4266
+        width: 160
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eaf194de0201544a851c0575e12dbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_226
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 4197
+        width: 173
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28153ce37a95b340a45e07a21bc3de8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_227
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 4197
+        width: 121
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9236f84e5501a7b4697ca0ace9d3273c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_228
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 4197
+        width: 90
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f0c98e49bb3a54ab29174665d1df93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_229
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 4197
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09d32507024160498a211f48e3f66af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_230
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4176
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b048edf04fd96244ac51a24fb2ffbd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_231
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4176
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5ade052a1dec842ab3eeaa8f851b41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_232
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4176
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a175e30252c8b47b21319246fe62fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_233
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4176
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0b537449b03a84390da053c0f1d038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_234
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4175
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5065e5b2ca65d4c9a53233f6b13308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_235
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4149
+        width: 132
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f9ece4363fd034c88176565e598c67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_236
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 4097
+        width: 152
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbb874ffe625094fadbc03ca7a84fc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_237
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 4097
+        width: 154
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d3151158c363043b4eb77d23e40d23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_238
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4097
+        width: 150
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29f61aeed1a0ee4d93dd90ee0570577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_239
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4115
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fa10ab3c32b634c8fe5b233f8f475f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_240
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4097
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8461ff11576bc914d8d039c17d33a952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_241
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 4101
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d742f26b58dcc47b073e594c147552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_242
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4080
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2331778b6fc6e8a46bee29d52523af08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_243
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4080
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aac7e044514774eaa67a790b5e3e68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_244
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4080
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f55c104e375234f90ae4eec2b8cb1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_245
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4080
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a811f76c67dcb4aad5da1e95cc7849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_246
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4078
+        width: 54
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a8480ff8c4ffe4d968d3c7711e5bc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_247
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3889
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ca5c718536413469127011693fc134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_248
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3889
+        width: 66
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f930a29946299140848c7fea2e4a4c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_249
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3888
+        width: 67
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c3f4c2ec914eb468351710896e1bb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_250
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3889
+        width: 113
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5c8a82c1bd04640aa208bdc0f6b5f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_251
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3873
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10acfe8442e0b914aa251a49d4d3b7a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_252
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3873
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d2e6262603ce040806544f1737cfe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_253
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3873
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c036e80d8085245972f9b019804c79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_254
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3873
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58e2ffbdf9a38446b1ecb5c5c73744a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_255
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3871
+        width: 74
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ed2b775ef5dbc46aef3ce8a2a1dcad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_256
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3736
+        width: 98
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2010044d235f04082e90814d2a80f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_257
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 3736
+        width: 94
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae97a446391bf4e49bc02badf5b9b5b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_258
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 3736
+        width: 82
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc84d21bc1e51347af9903a2c957576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_259
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 3721
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523c7f8203b67ff47ada90d2817b3433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_260
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 3725
+        width: 71
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cb04cd9e8e4e746a7009bb158ccf58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_261
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3699
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcd8cc3bfc32714c949ec080896cc3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_262
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 3699
+        width: 39
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc4d3d0dc4506541b5728d34554424c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_263
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3567
+        width: 96
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3d3e24257ea624f81400ec8d4ca4a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_264
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 3567
+        width: 73
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d235319e8d0ac7343aa9b2578ba85625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_265
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 3567
+        width: 93
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0058ce27326b6bf4ea32b3e196019d51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_266
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 3567
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826e10dd5261328449d0c4b815fbcbfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_267
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 3567
+        width: 123
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50aef29d87da9df4daccbf0267d7412f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_268
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 3567
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6982e885624d5f642a0de78d21be231b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_269
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3542
+        width: 56
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af495cf3325481246be9dff96757eccf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_270
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3542
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ec6c3acd49a1d488010864957eca43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_271
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 3542
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2c850bbac562d4cbffba8b8489a0a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_272
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3539
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22acd20c09c3d1f4bb45ee52131f84b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_273
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 3542
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b58c95a75a2df0439b135152fa57d4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_274
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3542
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dd17c9faa04e84c8aece5552caf582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_275
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 3539
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2274412efa7ed1b40ad3467780595f51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3355
+        width: 63
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ce6cb2647df1d4aa77aa37d2e13257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3355
+        width: 65
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637dea959743abf4fb53692c2fdb574e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 3355
+        width: 122
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93903df49f060304b89241cdede6ba94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 3355
+        width: 140
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c794701ccdbcf49980c6d0e34c31f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R5
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 3355
+        width: 137
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2460d7128435a4c86ce39858d9bd85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R7
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 3354
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df640067e4f83f942a2c77c12a436db6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R HB 1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3086
+        width: 146
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373186ea1896bb94e8a3c7d723725fe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R HB 2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 3086
+        width: 81
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de4797f027a3c44fb6ef81e77362388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R HB 3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 3086
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bde3530655cf84cb403f364384386e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R HB 4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3086
+        width: 78
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252f284a7b3c86b46afd73ec7d86b3c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_R HB 4
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 3126
+        width: 65
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bc7b07b8955b749ab993a37470f4d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R HB 5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 3126
+        width: 62
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8aeaa3765fea24bad00508d9c75303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R HB 6
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3110
+        width: 62
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d0f0336b5e5624290ea516ace50f63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites R HB 7
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 3110
+        width: 57
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76d919e8c3fc78448debd0dddaad438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_290
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3059
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715d20ef7d146de4a8cee1d7748bfcde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_291
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3059
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9901dc8dc74e95b458b162ae495df975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_292
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3059
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7102e7a5f41f2b47b4be5044b1de356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_293
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3056
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05067a2a6840d741a234aa659ea7f16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_294
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3059
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed872dc2246204b48b15e5467fe4fe2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_295
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3059
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c78f2db874d884a8b377598caec8e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_296
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 3059
+        width: 60
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bad21c44b98804aa17275edd0e4bf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_297
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 3056
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b856a7841be0c4aa4b9c8ccfb4ef29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_298
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3040
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f10a82d2acf064ca635106d91d20b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_299
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3040
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06277d35beb3c5248b70be2f7da58df1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_306
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2917
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3883848ae49d04099a989c1b610b50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_309
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2792
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086363af1b429bf46895e4346060df77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_316
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2689
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0bdec64c5415c49829ac0cbeb30c9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_318
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2645
+        width: 210
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1992b84a3d7414997b8d6e141e82f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_325
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2529
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f7b61cced258e43bb3ff98690d64f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_326
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2529
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccf0fe1129faee469ff95708a41808b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_329
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2483
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead31c4e3969869488084c6f3ce9afcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_331
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2446
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eecf5fd1a6ff8b45a928ca815a09c91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_332
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2451
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f6d26745f2c64429407b9d4cdd4950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_333
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2428
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e03e35a9c728724fa3112f813a4dfa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_334
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2428
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f05aad9175211245ac91ab1fb38ce94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_337
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2326
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfbb0678d93c0240a776dd9c112f88e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_339
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2316
+        width: 32
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbed151ce6420c47afac51e8e5fdb5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_340
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2331
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b580ee9abc54b4b4e8fc2cdc0e9d66b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_342
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2340
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e389e5d6e14e0fe428724faf63516b33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_345
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2332
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c4d3a1cb7d56b4e8ea40de1a938178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_346
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2297
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8152def8fbeef479124a7f06c7bf07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_347
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2297
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a739f20697b2cb74db1042c5c4be0750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_351
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2186
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1111228d818b94d4c821155720b7d9d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_352
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2182
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8fb376519de04489a4c749b719432b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_354
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2187
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981d873decf8b514ca8572f612afda68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_357
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2150
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89af37c638f5952409b3fd37c51bcbb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_358
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2150
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9746ee4b84712a48808580444402641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_359
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2150
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68515e0543021c438d10ba21abba0f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_360
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2150
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ec4810c672f26438c7732b39a2b9a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_361
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2150
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6ea0c5e8fbaa8489be9df836b44cc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_367
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2006
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0237e5011f7e74c4a8176ee7d689a6f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_368
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2006
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d34aee4aca61441b87efb9b19e10dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_369
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2006
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24568a9f3dfe4c1418528e0931179223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_381
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1727
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedcf98ceadd40f4fae73c54eac4dcbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_382
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1727
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd3128b09f82644eac8117043138918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_383
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1727
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e56cdede5e6e8a4ab73d0a0845e48dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_384
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1727
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3795e99c6dcb0854fb4e874176bb7d2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_385
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1725
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fbc07bcac1578449000370eec40b8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_390
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1563
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca43cf1de91661444be745faca0e860e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_391
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1565
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b307b1104aa4364419fa1b026a4a985c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_392
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1565
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917cbb2dca6c4e84f966054f02341be1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_393
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1563
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4befea88dab70c47b601bdfaf27f7f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_394
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1562
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7219bd39cdfa1fb43a975292a8e373e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_400
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1439
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01aeec410a6751f419d6a99135a2f473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_401
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1439
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5244a3ae8fb71d4ca4b0db34c1eb820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_402
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1439
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bda33fcc1a8f949b99683d6fe7dc98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_403
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1439
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd366febe5d5bc4581f613e5491a662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_404
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1438
+        width: 54
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1e50eb79054084d880bff395481df8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_405
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1439
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a506b0e9e914b499d5a55b4162abb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_406
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1441
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd35bcc0dd25f46a9414befb6bad6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_407
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1441
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be7d740607663e42b0f35afcc94bb96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_408
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1439
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f5037aad9cb0840b5dc71ae0c0c2ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_409
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1438
+        width: 73
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f160f88f76178894db0a3df48b78043a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_414
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1240
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39417084212ebf74fa0c7edf5eac0674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_415
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1240
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cae19ce6945aa41afdbc3a106649a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_416
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1240
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20386aa8cf143684ca33e4c80749f2d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_417
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1237
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d56dfaadb5b0574ba6bfeae8ab3b4c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_418
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1240
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba004adef40701b4eae5e9004eccf0a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_419
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1240
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e70f0bd1e6eed438db64d305480491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_420
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1240
+        width: 60
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3e35b0cfea7fe49b77ea44e639c4a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_421
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1240
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffd2b2cfea4e4343ab88f5724550229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_422
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1240
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a1144792bd004cb8908f3d1f3c5d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_423
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1240
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbc2fe761e73994c8fd9396277d1e60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_424
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1240
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fb4f4a02d393040b5dc638f8e8db7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_425
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1240
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022b8a518a294614593935a519a669e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_426
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1237
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29962c6a538d62241969f590c81f244d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_443
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 777
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5f62dd3a2983843af4380b3af483b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_445
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 781
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc39a0d57a2c6047b1bfb0c627f95bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_446
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 777
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb91cc2387058b4b8c6c82e62ad6584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_447
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 777
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8527fb4f6ddc4f540bbb11800fea9d20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_450
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 780
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a80888d1737d74b81c26ef20db0131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_455
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 777
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77c4847a2c8c2d48bca54a4cea5c372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_457
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 758
+        width: 413
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355f1712421462d48a1ac8e46db223ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_470
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 479
+        width: 216
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500d80f504d5b584b87bb77d3ea92381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_484
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 387
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495281795e95b6040a8adef4319b2abb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_488
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6768cc17b9a2a4e9a15937a2c5e5f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_489
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 160
+        width: 68
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11bef5413dce76499854a3356625904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_490
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 160
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138510759e13c2a4aa2cb306031ad699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_491
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 160
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4c343df889b644cb2022375b4f3958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_492
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 160
+        width: 39
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a87c60683a4efe45a2ec5e6957b7d2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_493
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 159
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0089085afa3204946a795d6a8aee9477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_495
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 138
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a865f47ef982f143ab7c9b6c3ac3104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_496
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 141
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594d25c36c4c69c48bed4adbffea5b3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_497
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 138
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81532eb82301cf948ab7d672fbb441a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_498
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 138
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d51c2d1c5776a448c3359656e4c755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_499
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 138
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37412c6d385fe34ea3ba0fea49af0e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_500
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 123
+        width: 104
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafab62c104edff43ae1d41a5686f941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_501
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 138
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ce962c6c0e81e43bd95347df272895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_503
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 133
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f040e4b0a8bb87d42be5b7b8f8ad5588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_504
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 133
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7183e94a0aede4d9e79af4ba5af832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_509
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 125
+        width: 100
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c4f3a8e4314e644bbb1978657c6134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_510
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 122
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d87c957d41d95c4ba1de985569a979d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_511
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 122
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257e5910baa60ca48bfb71cf04a3381d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_513
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 113
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6716d25b91ba64db41f61e5de7edee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_515
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 113
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d167443435af9f04f98bad03e011932c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_516
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 103
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be37e642e3441448a19b92233ef4ca5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_517
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 103
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1976ea3d3cd70df4aad55635c0e9c4ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ichigo Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 8905
+        width: 63
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b664fd679c4b6e40b991cdb2e915e2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aa8693dde8418cd468d74a23935b39c6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

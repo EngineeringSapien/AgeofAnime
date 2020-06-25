@@ -1,0 +1,2357 @@
+fileFormatVersion: 2
+guid: b1f29ad9018ee8348a780fe9f5b9ee37
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Eren_Jaeger Sprites_0
+    21300002: Eren_Jaeger Sprites_1
+    21300004: Eren_Jaeger Sprites_2
+    21300006: Eren_Jaeger Sprites_3
+    21300008: Eren_Jaeger Sprites_4
+    21300010: Eren_Jaeger Sprites_5
+    21300012: Eren_Jaeger Sprites_6
+    21300014: Eren_Jaeger Sprites_7
+    21300016: Eren_Jaeger Sprites_8
+    21300018: Eren_Jaeger Sprites_9
+    21300020: Eren_Jaeger Sprites_10
+    21300022: Eren_Jaeger Sprites_11
+    21300024: Eren_Jaeger Sprites_12
+    21300026: Eren_Jaeger Sprites_13
+    21300028: Eren_Jaeger Sprites_14
+    21300030: Eren_Jaeger Sprites_15
+    21300032: Eren_Jaeger Sprites_16
+    21300034: Eren_Jaeger Sprites_17
+    21300036: Eren_Jaeger Sprites_18
+    21300038: Eren_Jaeger Sprites_19
+    21300040: Eren_Jaeger Sprites_20
+    21300042: Eren_Jaeger Sprites_21
+    21300044: Eren_Jaeger Sprites_22
+    21300046: Eren_Jaeger Sprites_23
+    21300048: Eren_Jaeger Sprites_24
+    21300050: Eren_Jaeger Sprites_25
+    21300052: Eren_Jaeger Sprites_26
+    21300054: Eren_Jaeger Sprites_27
+    21300056: Eren_Jaeger Sprites_28
+    21300058: Eren_Jaeger Sprites_29
+    21300060: Eren_Jaeger Sprites_30
+    21300062: Eren_Jaeger Sprites_31
+    21300064: Eren_Jaeger Sprites_32
+    21300066: Eren_Jaeger Sprites_33
+    21300068: Eren_Jaeger Sprites_34
+    21300070: Eren_Jaeger Sprites_35
+    21300072: Eren_Jaeger Sprites_36
+    21300074: Eren_Jaeger Sprites_37
+    21300076: Eren_Jaeger Sprites_38
+    21300078: Eren_Jaeger Sprites_39
+    21300080: Eren_Jaeger Sprites_40
+    21300082: Eren_Jaeger Sprites_41
+    21300084: Eren_Jaeger Sprites_42
+    21300086: Eren_Jaeger Sprites_43
+    21300088: Eren_Jaeger Sprites_44
+    21300090: Eren_Jaeger Sprites_45
+    21300092: Eren_Jaeger Sprites_46
+    21300094: Eren_Jaeger Sprites_47
+    21300096: Eren_Jaeger Sprites_48
+    21300098: Eren_Jaeger Sprites_49
+    21300100: Eren_Jaeger Sprites_50
+    21300102: Eren_Jaeger Sprites_51
+    21300104: Eren_Jaeger Sprites_52
+    21300106: Eren_Jaeger Sprites_53
+    21300108: Eren_Jaeger Sprites_54
+    21300110: Eren_Jaeger Sprites_55
+    21300112: Eren_Jaeger Sprites_56
+    21300114: Eren_Jaeger Sprites_57
+    21300116: Eren_Jaeger Sprites_58
+    21300118: Eren_Jaeger Sprites_59
+    21300120: Eren_Jaeger Sprites_60
+    21300122: Eren_Jaeger Sprites_61
+    21300124: Eren_Jaeger Sprites_62
+    21300126: Eren_Jaeger Sprites_63
+    21300128: Eren_Jaeger Sprites_64
+    21300130: Eren_Jaeger Sprites_65
+    21300132: Eren_Jaeger Sprites_66
+    21300134: Eren_Jaeger Sprites_67
+    21300136: Eren_Jaeger Sprites_68
+    21300138: Eren_Jaeger Sprites_69
+    21300140: Eren_Jaeger Sprites_70
+    21300142: Eren_Jaeger Sprites_71
+    21300144: Eren_Jaeger Sprites_72
+    21300146: Eren_Jaeger Sprites_73
+    21300148: Eren_Jaeger Sprites_74
+    21300150: Eren_Jaeger Sprites_75
+    21300152: Eren_Jaeger Sprites_76
+    21300154: Eren_Jaeger Sprites_77
+    21300156: Eren_Jaeger Sprites_78
+    21300158: Eren_Jaeger Sprites_79
+    21300160: Eren_Jaeger Sprites_80
+    21300162: Eren_Jaeger Sprites_81
+    21300164: Eren_Jaeger Sprites_82
+    21300166: Eren_Jaeger Sprites_83
+    21300168: Eren_Jaeger Sprites_84
+    21300170: Eren_Jaeger Sprites_85
+    21300172: Eren_Jaeger Sprites_86
+    21300174: Eren_Jaeger Sprites_87
+    21300176: Eren_Jaeger Sprites_88
+    21300178: Eren_Jaeger Sprites_89
+    21300180: Eren_Jaeger Sprites_90
+    21300182: Eren_Jaeger Sprites_91
+    21300184: Eren_Jaeger Sprites_92
+    21300186: Eren_Jaeger Sprites_93
+    21300188: Eren_Jaeger Sprites_94
+    21300190: Eren_Jaeger Sprites_95
+    21300192: Eren_Jaeger Sprites_96
+    21300194: Eren_Jaeger Sprites_97
+    21300196: Eren_Jaeger Sprites_98
+    21300198: Eren_Jaeger Sprites_99
+    21300200: Eren_Jaeger Sprites_100
+    21300202: Eren_Jaeger Sprites_101
+    21300204: Eren_Jaeger Sprites_102
+    21300206: Eren_Jaeger Sprites_103
+    21300208: Eren_Jaeger Sprites_104
+    21300210: Eren_Jaeger Sprites_105
+    21300212: Eren_Jaeger Sprites_106
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 704
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff114bd8b1b00594299797fae54b5aba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 704
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7ddfeaef13e5345bdf6fba30dcb659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 704
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d5518224c366f46913eafcab924cae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 703
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3ac26c10ac06147b78028ec51c1087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 703
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c5881d00f24cf4db2201f06e98b9db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 703
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7eb7a533b7f344fb782b5ce1f4e866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 706
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daef4ddcaf2b5094b91768c4a1c2d1d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 706
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc961146ad1a09499642d87ede4f6c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 706
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88e606d37af1fd488d46e221f7c0375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 705
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0c2e074ac8f644a8127b5612be937e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 704
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f2dd001e3fd3e4981175e9b90c4d62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af569b11a542f8c42b36f22d21ac4639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 396
+        width: 233
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dfcb943e89f0640b1a27014b2b1a11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e4972a014bbe4ea4cfc6c32e666af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 661
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6996596d9365ab47846acf9df641ee4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 661
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5ed6f2c0ce4df4da046ee9f74e267e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 659
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09de4d460b953b14c8435bd9efb981f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 690
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e1443d72772c044a951e8945d7b415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 690
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7e2f0957210c74f8678dd50ceaddca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 690
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fd5bc3cae8a3d4d901441fe93a42b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 690
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d768bba4f08b74047a45600ab103cd52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 689
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b0781abfc94294da97016f42518f08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 685
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4067d13453ebd439cb4404a85d6784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 691
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24de8d87c137c23468431f37e72da388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 681
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0a8ce941e5b194eb39c9e1a5d730bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 683
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b57f12ac77b7854c9ce3d4f6eed4edf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 659
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebad47be06ed2174abe5c73f5fc6e134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 646
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc35f9ef76057b2459417425600adf22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 586
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0e3d3178ed1e84a8cc781ca37359eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 586
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836837aa5fb32594b9bfd0611d361c1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 586
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f2de494eea2a543a45f49cd347332f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 586
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e35acfa85dc4943a97e10ab3c4c011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 586
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae58b42d5905be42b0f050d6c2007b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 586
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9380839a92e20c459031091ab6831cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 586
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c73d014ff6c5b46a093ce9ef3548ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 586
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d025037e6b9c5429fc63729b570bab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 585
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4717180d78af442b3dad8476925207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 584
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265b5e6acdfa61a438edc49096ff6222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 584
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbf8a3b3d9c23c458acb626f841c55e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 584
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c050e5757a9c5114e8ec5f5126b8c0a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 608
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e84121cdcdb7c4f8e5608939d07e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 607
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4bd2a025c656346b41563ed42c198a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 519
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf28e0a623ecac4ebcd7f07c1778891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 519
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf759a53b67850a41a1e1cf1fef64612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 520
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6676ea3307c4d7c499071e1da69ef3e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 521
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22153058b80cc14db5239b09d5607d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 521
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc2b6e514e99148af5a01b3b96a5cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 519
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82448e6f4c135bd4f8b3e2e2922a3aa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 519
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b17185b1081a97498d83dacfc1e2b7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 517
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91843d48dc1c0794898807741ee3dc6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 518
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5660016749814a4b8de2e73935cb3e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 519
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765fbc88cbfe0b249828e5322e65343d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 518
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd169004c3f7034bb5f268787f17ff0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 515
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaf18c5961a3bb45bbe0943a8c51146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 516
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823e461ba107c6941a14a4c157b47f85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 516
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe5311fd54430842a95507d8ee33a12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 454
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0edcd2a19045d4e983375fa50de567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 455
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa88527519a2df43bc3887545b8a6d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 454
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbabe3cfaba56554a8afc840196a79f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 454
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb6d67c378c47344adbf93de06f19c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 452
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f68434b5b5e7b43a17d71e5fb8e2fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 452
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65498e04d909fca49b2b6956677cb09a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 451
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec51fea283c2ad4399ffc2bd073cd62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 374
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ffec10ff6db54886040e57b742b5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 376
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fbcf809563ab348b805f6295113a98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 383
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f86a20832de6048b43869a71b03a9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 379
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323c51cd43575e24aa4ab02d02ab4a87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 373
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb175644629d39e43a50b21d6dd67274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 372
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf9109e8d5fbd942b2408a6f5edd6fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 379
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337495841a87df8489011594bcefbf2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 380
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a461f8bcf23de458ec8ce9982eca5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 381
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c1716d3096c1c40ace83ccb739c92d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 283
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f038ca02979b814382138d43c76212f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 283
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbf2458882bd6a48a0343d5b6d1ae4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 283
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2a1db43ee48a34d88cc115be5b7934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 282
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5c0ee226163a24a99197a40337891f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 283
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07826f4d89f88eb458f8e6d0546d4fbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 282
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a048470f06ea042b2903f7f4759219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 283
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb546768d5dc5994db89b87e1b5a8094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 283
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5d9744ca778c646bfe11ceac4f2779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 283
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad2cdc005c5e2245bed130b3c4c4dc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 284
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10b463c214d8f648b81d7975eee3601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 284
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ef64addbb89c3448669bf11bf05bef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 284
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a26870d5a512f439c35540f11c36f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 282
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1cdb682efe2254f839105f184f50fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 282
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545eefc04a1fef5409269d8b5baf3daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 169
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a460d8af8a237ee41b24a73216655558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 170
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469badb9d6e92644f81b4b83b4f9f978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 169
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550c7058365450f45bec89bfe0ff34c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 170
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a141c222ee116e4c8efb83177adffb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 170
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53faa858ca87c174ab3016297f518865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 170
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fc5252fff777047b9baf280e8ac6ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 170
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73c612445b6df242b84ffde1e7fdb0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 31
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413090b66ed631e4fb8942820a85a3e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a66976b2b5e5d0458a8c1e520fae43c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 26
+        width: 76
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d339d99d129e8ab43b1ae52034f31b97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 23
+        width: 67
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7d1a63f9eb1324c878e7db18498d91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 23
+        width: 65
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27d066ca118fc947b28a2878f19639b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 22
+        width: 64
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae63d91349c3d145a9c8fd48045ea36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 20
+        width: 61
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11a766b5fff339449f0318e2a7f5c0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 22
+        width: 76
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b6d6d106f246e499610678e2ac1bb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 22
+        width: 69
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4697c7481c5365440a9cfafc16f70b57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 10
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ed87266773924cbeee68fd24a9fcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 18
+        width: 69
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c56198295ee3b4790aad4dbc03f5d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 17
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f94c05ad68fe22489179b5689f32efc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 17
+        width: 86
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e23ab0afb2220b4ba43843b516694f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eren_Jaeger Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 169
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a852652d1ea01c40a6d7ebd12abb805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ead50bd5f5c9e5948aefa1c89799c457
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

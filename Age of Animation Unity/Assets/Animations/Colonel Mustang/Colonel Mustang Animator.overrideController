@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Colonel Mustang Animator
+  m_Controller: {fileID: 9100000, guid: bf2d294d876979d4ab957def99cf326b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b4b7f040d74392e48a11e398ae509cb4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 72db9abfacba78148a4904afaafb4556, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d0e767bc34cb48d4aa2f2b21a91e60b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 86247a1e8802c8648bee9e3ef9c8c44e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8e6974d2b8743004fa41da146206f22f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0cb55e22de963564f9358eb0c4693b5f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f71ca66d66eb7624b9742e752627e424, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4405bf54e1126634faf92130d7ac26cd, type: 2}

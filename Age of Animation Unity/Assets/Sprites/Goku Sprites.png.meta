@@ -1,0 +1,4961 @@
+fileFormatVersion: 2
+guid: 241a72a9bbf10fb4cbeac5c82216d3e6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Goku Sprites Stand
+    21300002: Goku Sprites_1
+    21300004: Goku Sprites_2
+    21300006: Goku Sprites Idle 1
+    21300008: Goku Sprites Idle 2
+    21300010: Goku Sprites Idle 3
+    21300012: Goku Sprites_6
+    21300014: Goku Sprites_7
+    21300016: Goku Sprites_8
+    21300018: Goku Sprites_9
+    21300020: Goku Sprites_10
+    21300022: Goku Sprites_11
+    21300024: Goku Sprites Idle 1 opt
+    21300026: Goku Sprites_13
+    21300028: Goku Sprites_14
+    21300030: Goku Sprites_15
+    21300032: Goku Sprites_16
+    21300034: Goku Sprites Idle 2 opt
+    21300036: Goku Sprites_18
+    21300038: Goku Sprites_19
+    21300040: Goku Sprites_20
+    21300042: Goku Sprites_21
+    21300044: Goku Sprites_22
+    21300046: Goku Sprites_23
+    21300048: Goku Sprites_24
+    21300050: Goku Sprites_25
+    21300052: Goku Sprites_26
+    21300054: Goku Sprites_27
+    21300056: Goku Sprites_28
+    21300058: Goku Sprites_29
+    21300060: Goku Sprites_30
+    21300062: Goku Sprites_31
+    21300064: Goku Sprites_32
+    21300066: Goku Sprites_33
+    21300068: Goku Sprites_34
+    21300070: Goku Sprites_35
+    21300072: Goku Sprites_36
+    21300074: Goku Sprites_37
+    21300076: Goku Sprites_38
+    21300078: Goku Sprites_39
+    21300080: Goku Sprites Walk 0 (opt)
+    21300082: Goku Sprites Walk 1
+    21300084: Goku Sprites_42
+    21300086: Goku Sprites_43
+    21300088: Goku Sprites_44
+    21300090: Goku Sprites_45
+    21300092: Goku Sprites_46
+    21300094: Goku Sprites_47
+    21300096: Goku Sprites_48
+    21300098: Goku Sprites_49
+    21300100: Goku Sprites_50
+    21300102: Goku Sprites_51
+    21300104: Goku Sprites_52
+    21300106: Goku Sprites_53
+    21300108: Goku Sprites_54
+    21300110: Goku Sprites_55
+    21300112: Goku Sprites_56
+    21300114: Goku Sprites_57
+    21300116: Goku Sprites_58
+    21300118: Goku Sprites_59
+    21300120: Goku Sprites_60
+    21300122: Goku Sprites_61
+    21300124: Goku Sprites_62
+    21300126: Goku Sprites_63
+    21300128: Goku Sprites_64
+    21300130: Goku Sprites_65
+    21300132: Goku Sprites_66
+    21300134: Goku Sprites_67
+    21300136: Goku Sprites_68
+    21300138: Goku Sprites_69
+    21300140: Goku Sprites_70
+    21300142: Goku Sprites_71
+    21300144: Goku Sprites_72
+    21300146: Goku Sprites_73
+    21300148: Goku Sprites_74
+    21300150: Goku Sprites_75
+    21300152: Goku Sprites_76
+    21300154: Goku Sprites_77
+    21300156: Goku Sprites_78
+    21300158: Goku Sprites_79
+    21300160: Goku Sprites_80
+    21300162: Goku Sprites_81
+    21300164: Goku Sprites_82
+    21300166: Goku Sprites_83
+    21300168: Goku Sprites_84
+    21300170: Goku Sprites_85
+    21300172: Goku Sprites_86
+    21300174: Goku Sprites_87
+    21300176: Goku Sprites_88
+    21300178: Goku Sprites_89
+    21300180: Goku Sprites_90
+    21300182: Goku Sprites_91
+    21300184: Goku Sprites_92
+    21300186: Goku Sprites_93
+    21300188: Goku Sprites_94
+    21300190: Goku Sprites_95
+    21300192: Goku Sprites_96
+    21300194: Goku Sprites_97
+    21300196: Goku Sprites_98
+    21300198: Goku Sprites_99
+    21300200: Goku Sprites_100
+    21300202: Goku Sprites_101
+    21300204: Goku Sprites_102
+    21300206: Goku Sprites_103
+    21300208: Goku Sprites_104
+    21300210: Goku Sprites_105
+    21300212: Goku Sprites_106
+    21300214: Goku Sprites_107
+    21300216: Goku Sprites_108
+    21300218: Goku Sprites_109
+    21300220: Goku Sprites_110
+    21300222: Goku Sprites_111
+    21300224: Goku Sprites_112
+    21300226: Goku Sprites_113
+    21300228: Goku Sprites_114
+    21300230: Goku Sprites_115
+    21300232: Goku Sprites Attack 1
+    21300234: Goku Sprites Attack 2
+    21300236: Goku Sprites Attack 4
+    21300238: Goku Sprites_119
+    21300240: Goku Sprites_120
+    21300242: Goku Sprites_121
+    21300244: Goku Sprites_122
+    21300246: Goku Sprites_123
+    21300248: Goku Sprites_124
+    21300250: Goku Sprites_125
+    21300252: Goku Sprites_126
+    21300254: Goku Sprites_127
+    21300256: Goku Sprites Attack 3
+    21300258: Goku Sprites_129
+    21300260: Goku Sprites_130
+    21300262: Goku Sprites_131
+    21300264: Goku Sprites_132
+    21300266: Goku Sprites_133
+    21300268: Goku Sprites_134
+    21300270: Goku Sprites_135
+    21300272: Goku Sprites_136
+    21300274: Goku Sprites_137
+    21300276: Goku Sprites_138
+    21300278: Goku Sprites_139
+    21300280: Goku Sprites_140
+    21300282: Goku Sprites_141
+    21300284: Goku Sprites_142
+    21300286: Goku Sprites_143
+    21300288: Goku Sprites_144
+    21300290: Goku Sprites_145
+    21300292: Goku Sprites_146
+    21300294: Goku Sprites_147
+    21300296: Goku Sprites_148
+    21300298: Goku Sprites_149
+    21300300: Goku Sprites_150
+    21300302: Goku Sprites_151
+    21300304: Goku Sprites_152
+    21300306: Goku Sprites_153
+    21300308: Goku Sprites_154
+    21300310: Goku Sprites_155
+    21300312: Goku Sprites_156
+    21300314: Goku Sprites_157
+    21300316: Goku Sprites_158
+    21300318: Goku Sprites_159
+    21300320: Goku Sprites_160
+    21300322: Goku Sprites_161
+    21300324: Goku Sprites_162
+    21300326: Goku Sprites_163
+    21300328: Goku Sprites_164
+    21300330: Goku Sprites_165
+    21300332: Goku Sprites_166
+    21300334: Goku Sprites_167
+    21300336: Goku Sprites_168
+    21300338: Goku Sprites Range 1
+    21300340: Goku Sprites Range 2
+    21300342: Goku Sprites Range 3
+    21300344: Goku Sprites Range 4
+    21300346: Goku Sprites_173
+    21300348: Goku Sprites_174
+    21300350: Goku Sprites_175
+    21300352: Goku Sprites_176
+    21300354: Goku Sprites_177
+    21300356: Goku Sprites_178
+    21300358: Goku Sprites_179
+    21300360: Goku Sprites_180
+    21300362: Goku Sprites_185
+    21300364: Goku Sprites_186
+    21300366: Goku Sprites_187
+    21300368: Goku Sprites_188
+    21300370: Goku Sprites_189
+    21300372: Goku Sprites_193
+    21300374: Goku Sprites SSJ3 1
+    21300376: Goku Sprites SSJ3 2
+    21300378: Goku Sprites SSJ3 3
+    21300380: Goku Sprites SSJ3 4
+    21300382: Goku Sprites SSJ3 5
+    21300384: Goku Sprites SSJ3 6
+    21300386: Goku Sprites Blast1
+    21300388: Goku Sprites Blast 1
+    21300390: Goku Sprites Blast 2
+    21300392: Goku Sprites Blast2
+    21300394: Goku Sprites_Blast 3
+    21300396: Goku Sprites_Blast3
+    21300398: Goku Sprites_211
+    21300400: Goku Sprites_225
+    21300402: Goku Sprites_226
+    21300404: Goku Sprites_227
+    21300406: Goku Sprites_228
+    21300408: Goku Sprites_229
+    21300410: Goku Sprites_230
+    21300412: Goku Sprites_243
+    21300414: Goku Sprites_244
+    21300416: Goku Sprites_245
+    21300418: Goku Sprites_254
+    21300420: Goku Sprites_255
+    21300422: Goku Sprites_258
+    21300424: Goku Sprites_259
+    21300426: Goku Sprites_260
+    21300428: Goku Sprites_292
+    21300430: Goku Sprites_293
+    21300432: Goku Sprites_296
+    21300434: Goku Sprites_303
+    21300436: Goku Sprites_304
+    21300438: Goku Sprites Death
+    21300440: Goku Sprites_306
+    21300442: Goku Sprites_307
+    21300444: Goku Sprites_308
+    21300446: Goku Sprites_309
+    21300448: Goku Sprites_310
+    21300450: Goku Sprites_311
+    21300452: Goku Sprites_312
+    21300454: Goku Sprites_313
+    21300456: Goku Sprites_314
+    21300458: Goku Sprites_315
+    21300460: Goku Sprites Blast 0
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goku Sprites Stand
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2512
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e13a48d1311d2448d99ed1374c8416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2512
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc702aebe4cc624683b9f00e79f95c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2512
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394f1d21e99b9a04a84b4324fd788efd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Idle 1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2512
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59a3673b9dc3e64f856ff8a68fec1b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Idle 2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2512
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cced182fbd63f249b46510120fa98b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Idle 3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2512
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e74b1db52fdaa4aa79e1438cbf1bac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2512
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdbc5b0ab930c0428911ecf587a1b0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 2512
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c48db65560fbd841bb553987268f941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2512
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d200307e834fd4440af47dc227b72ff7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2512
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b38866f85f4a444ba1bdb2a533978e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 2512
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad4e17963e490d4bbb928dd41afe47b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2512
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28605f75f0142f24d8595dcac7cb9a91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Idle 1 opt
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2407
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a175ba49dc154734dbae17341044f6b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2411
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db06b11398272e4ab75306d41662f74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2410
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01b6efd341022541b6c278d25940fa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2410
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05d26ba3636cfa43a0d91b79c813d9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2406
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450664ec68f3bb648ade0f42e3b3eb60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Idle 2 opt
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2408
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85405256ce7344047b1ff9b826308b82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2412
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b378ffdb0021439459902a1156c94f98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 2410
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0a1af14fdba8b4b9e7bcee41a442fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 2416
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe17402bd40c54340aa755edc510e2bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 2410
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed83a016562f196498549c256937feeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2322
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed22c638630ec01448ef2285acbf4635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2324
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebf5932bdbe8cc47a449d3b49a5d8cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2335
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8354e75aee13cd4a90ea9d39a8254d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2321
+        width: 26
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c669b6d696337ba4587b705bcf748372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2322
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd720f7474035247a30097ec2a6682a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 2325
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78484ee911802f3489d1c28762a7b56e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2325
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22cda07140d4f14eb2ac5c9104319c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 2327
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e59aa1f8737ab14c90ebe3973f6263e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2332
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84907b114f8eca489242663eba35fcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2321
+        width: 26
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83298a5845aaff14eb59d959abd027d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2235
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7940dffe787b368448245bcd86a3fb0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2235
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797b18d3b3eecb14b8b436fd07aa483e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2235
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f99e9ec5ed222f478823a2f64d852f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2223
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b172152115a98d4092edd0c2925873f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 2234
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f231cfadb45d8f469f9934d6b2fa1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2219
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a80339329e8c84caf5d8f2d185dbb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 2225
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9b51af7f01b124581575b3b9584704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2225
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caabec08e9443c499de535a97835c58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Walk 0 (opt)
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2235
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe51f8de6950e14f82001804276ea85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Walk 1
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 2236
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fee7369c67bed47a1ece68572275f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2176
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a7af1bfa5758d4fa528cb7153ac463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 2208
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60efbe5218c47e46a2fe71682efff2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 2200
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a5e0a2b408f284b98f121801ef803b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 2197
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e457031a8558b4da1cc99249d2cd87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2162
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dd0bee5672c9b46965a6b66632ba63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2162
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb89b7cd0d4ecd4a9cbad5424b290a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2162
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2658bef1d9223542a891e2b979af5ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2155
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da07e84e40290f748ad1fae4294ab3ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 2161
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b0313f3f9f1704a9e237145f3cf6e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2162
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f1491e116519f4aa02fb31064f7d70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2157
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1af21392473820429989b9434a0b921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2161
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb4b02ab0e514149bed5c000458a2ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2157
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850f3dfa34937db4e84d52aa0776d794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2147
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59491b5bcb083641ac11ed2d6080dc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2182
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d1d9b46ce5f74496a268ca116fa0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 2182
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49823c1cc7268e34cb8b526ebfa80257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2184
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00514fd17913deb408e868aa9e50cf9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2044
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f71bc8c33eab24fa362c201f1c7f0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2044
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec3bfc17a0beea4eac58edd214d55c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2044
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788e89325a1db4a4d9a0e578204e5ae6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2050
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a73712068ff6d43ac076dedb2a5d91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2044
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50ad93523b7cad4b87fa16da24ad4c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2051
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32689fe1461d6ac4280c1ff52cebe4a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2043
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8911554f732cca4c9ac8fd213cc7d50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2053
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a19fbc302d13c4ebab12ba156391b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2055
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccd00bc593ddc9498d2b62ad6a49124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2051
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d5c5584dfcf00469981c9db33a530d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1971
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df9b09fb8035564fb1ed594c8dabd35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1977
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d91f95780bdf0c4283979f55c8904cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1972
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23e00259eb048b45a5bbda8c25b95fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1972
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e0cbee866d5d44c88a50e2374fbc3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1980
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9ba6080e9ea5b46b853f2719327826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1966
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a47e44b0cc6ae44ca7bebc2ecb95612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1979
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5442afd187af37439e749cee670a3a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1969
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f4d40f89ff9fe44befbbeb339ce242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1890
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124c6f233d0c821459036f92942510af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1890
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4252e20d69c5e441a0126df59605a51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1890
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3191c1440cd76f42b622ff0cc16f14a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1892
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ca1fbb5f48ff54e80b9ef502854476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1903
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c43aece9b141ee408a1dc05ec2997bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1905
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc153a2e99fa3b742aadbd3075745d87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1903
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9739bbd866b003a41a5530f9bc2a914c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1906
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc5a62cc7b001d44ad6915ddf7905de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1900
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aa930d7b7619743b7e53c7b6121cd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1906
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acb2ec8369313d49b26e95d85c5b721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1812
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ccc0158e657344f85677e74f2d4399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1811
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcd7d3050941cb4c81a8470fa696628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1816
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cd98c03c877fb41bc647c3c866649b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1811
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fbed69b3cc415428ed2ec6788770b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1816
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d4b487bc1edd1408244f4bb55e14f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1813
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bfca3ddf85ce048af041a544388406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1817
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ff3dc6281af024193ae18d6988ba26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1814
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2016400785a15419354f337b1a6f7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1816
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6387165339286774e805fc717df3c98a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1715
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c1e7fac51616a42811887c3e8a7339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1724
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d1ebd2a45617e40aeaea04ec8ef67b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1724
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865f23d178d04c246b17499fe2fda3b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1719
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f507586d5c875842845101829d124e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1726
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5223b373ef89a85478625e389c90fbab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1732
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4309237e7ff8644909e900c7e852ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1713
+        width: 36
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf06c87f5ed0814eab6e28ce2b48024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1713
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cc2b5fee3cb1f47acd1c9177ad4175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1707
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c24d56959468c42a520e9768dd3d34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1722
+        width: 77
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68fc02bf77f7444c9d75f918d3dd014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1722
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4b422ae0af38342b374568368c2def
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1713
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b41f518024cdfa45bc806a455164648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1715
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743ceb8bf4365dd4184ca0c89c9b4cde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1702
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e324bc113e8874ba0b3c01a181b1bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1714
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ea97fbac6188d49a8d117f73f2b1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1707
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ab242636151ae4b98ed300d078909e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1474
+        width: 69
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbff94f35980c6149839c52bd858926c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1614
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bde16e83353c54aa058f7871710920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1614
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84179083b8f2f8e4c96664fb42a9a34a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1606
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8b07fa1fee9cf448c6f45f4a2a34e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Attack 1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1609
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e81430e1695f1145af437a775ae717a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Attack 2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1605
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994e02275e092cf4f9c1c8d10530c006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Attack 4
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1606
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b96b295faf78942931d913e93e3935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1623
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c7f1e12e27947439f3b1b401a4f770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1617
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4c22fabfff41d4aa0c04a62fe1874e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1659
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34266805164799a449733914149a52e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1602
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb690f8c4fbec5b45a806c586dc1a8da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1612
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1444b98cfb415418e543b4f5e2feed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1614
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1575ef9f94df902489e563600a0a7149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1621
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1774c12cdc6c6b14097a7284736ec856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1622
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcc837e59bd364428f11eddc801c7ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1602
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab89f5c9f33dfbb479ef860a4ac10e4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Attack 3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1605
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca0bcdec64c5ce4da239811aa7311d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1617
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b693a36b9d6867489d6a126a4663daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1489
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a4b5c680600fa43ba021cfda2720cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1493
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abd4d6fd2dd2054793bf2dfb8ca6176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1493
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fae28ba552465648ba7e4b678d62ee2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1483
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bacdf478945bb746836b4284ee963b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1493
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1e58c6909f95b45af88f795b158636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1493
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fb3b31df9602747ad1d0ac98cc3b5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1495
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5bf844a43101a45a83649e0e517698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1495
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34117f5c7e4f3564f98b545b62ceb5cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1493
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f036ef6c22bf74ea1276b718bd66cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1493
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e11d1de7b47a4ab5e93876b7ed977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1483
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6da675612a052a4ca4fba411ca9f7ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1489
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264e278e9ad6d8d43b0d68add34fb13f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1366
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b19f6fc6891d62448e1dcf5c91346a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1362
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d81637c3ea03144aa507c2cde35d4d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1361
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301a572f50a89fb4e8b2ba333b8547f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1362
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5348ce5920f93641b904c69ed754adb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1364
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5768ae21e1d75b548a5c1ebebb74adda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1365
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0807a9897f7a4514390084e8c2439648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1367
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf469647ae0d8549ac7b95d07311d17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1367
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab850b2fad9263458e5ec58bcbd7886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1367
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a63ab0c2ed2ab4e8c0bdbad0a06a9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1372
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edee7655b2eb0e34ea725655b0c55586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1371
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14df6af973d09ea4fae41eb2a0b02a32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1372
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82fbcd6cd7c62d4287564acc358ec32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1386
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee1898bd8938bd44910bacefc6c573c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9262e02ce8c239e459a3a124e631ed8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1384
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b85935bedd06e44e8d0f405b21611c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_157
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1384
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd8a80f5326cbf4b891c517e27e389c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_158
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1400
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d93a85abaae9b45bc2d767e515be98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_159
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1411
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e430da42793bb2439fd107eceef8d62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_160
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1384
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e5a6d5fb61cf94da66a5a5423712f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_161
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1384
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570293867057fdf428076c1c7ea07873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_162
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0fa7a1fe9f13e4ca3b0626c1002b28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_163
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1388
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109e248402b0e484f919aee4287d3371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_164
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1391
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fc05d90254f8f42b784422fd4bed17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_165
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1392
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f4e7dfcbad935458917ef1878961ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_166
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1399
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600debd6b702ca9439ab890dffef2013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_167
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1402
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3904f86c1a22d489ca66cbe888f954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_168
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1389
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc94aa558a32dc49bf9d7a16ab944ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Range 1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1266
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a2096038afc8f4e84133551bdbbed0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Range 2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1267
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5645ce276f1fee45963ccdec9940607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Range 3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1269
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e5a0938f16fcc4781d957c1836059e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Range 4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1273
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b21af26a131fa4a8199c199c387d69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_173
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1277
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd534722b91d1ae40a612c5c544ecf8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_174
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1274
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e70fde4360b1140a29f1de9178e3bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_175
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1300
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d39cc2f620c70b4c80d86be055b00c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_176
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1307
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e35f68af2ca4f04183474d4ab14ae8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_177
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1306
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1370d9030417f1548b45b421492a252e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_178
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1269
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680ebb86c3c9e5b4bb0f2011d6e997e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_179
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1284
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269a07aa416f72341a013ddf6f71a566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_180
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1269
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dade305a73f24084296a87e9d3a587b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_185
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1263
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046af2938a8fec247b4cab6cafb90c33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_186
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1261
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921905c0491ba75438f497f93b438cc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_187
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1268
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba710ecdc8092384081e33adb7f0f710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_188
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1288
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759b793ef87b340459926f014ce0c8a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_189
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1276
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25990575fbe70b43b214d8b42e4d1c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_193
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1208
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e74f451ba6c45749b01df865a23f685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites SSJ3 1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1065
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8d7fad463e2cc4681f31c985908000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites SSJ3 2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1066
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c8e7a55fe59d947957bdd08e262bb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites SSJ3 3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1066
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177b064b9d007df46a526eefa4161d98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites SSJ3 4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1070
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2299d2d0cc38b64fa54a16aa4da739a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites SSJ3 5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1077
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027c26bf0fcce154ba448e4e0c06e341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites SSJ3 6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1077
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1575930da9f994aa203a51f3ab6f4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Blast1
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1041
+        width: 126
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786c033e37854d345bb9cd0231f529a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Blast 1
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1041
+        width: 126
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d672d751c0ca39d45b04c149a19c1cf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Blast 2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1081
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cb3e275eefab744a1434405bad6cab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Blast2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1077
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2542597f49246a42881827d379b9298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_Blast 3
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1045
+        width: 126
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40312baaee5bb74ab6393b8360f3e0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_Blast3
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1041
+        width: 126
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f0860b7d0d63f4ba6b7fdfee08a2ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_211
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1081
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89149e15dd35207478762e0d7ed0d149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_225
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 847
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccdc9082691c48438f112b1fac80b74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_226
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 847
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016a3fec3e2f0174c8534bdea22efc6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_227
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 847
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38034846acdc1d84384ecc1a14a7bf8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_228
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 847
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4543a98e9683e614597602911f5f2f3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_229
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 847
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cf8e338790f8047b4f5dd105b8c77d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_230
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 838
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1739f9c5779fc944ad2dda9436e1ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_243
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 687
+        width: 109
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42769ff232b43404d8ad5453eaf1787b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_244
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 687
+        width: 123
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e167caa341feb4e4db8405c99c48a67f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_245
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 688
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb659066d9885341b75571787d46c9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_254
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 601
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf45dbc642561614a9feb91c76dc86fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_255
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 646
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273bfd28b4fdcc849abdeba5c00650a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_258
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 634
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc34b6f2c1516b41acf43cdf7c0efef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_259
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 624
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b020da867aa5293419d36766f4a7b94c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_260
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 610
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0114c090e4ff28408fca8ccadf7382b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_292
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 320
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2bc7f601daf3743a433322f581a151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_293
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 295
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb915b2af739f0147b9cdc00c037144b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_296
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 216
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4547a601ff4605478c339ee6f26cab4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_303
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 213
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701f4ca1186b39f44b1175f3df516258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_304
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 213
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05c04abdb1b5c44784deeee9e0416dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Death
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 213
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4c8f788d38c104c8c8681041c93d8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_306
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 213
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ec165d80bd64540b8cd712d8dfcdb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_307
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 142
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e80dbfe14e35c84485b57eae36c23f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_308
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 142
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2b5857f61b79a42968d67ce433b94b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_309
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 156
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2112d474ac289cc48b683e63e51b224f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_310
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 12
+        width: 256
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3305713402adbe4aa24420e4e6c95f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_311
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 80
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bbb76a935db3c4db03ff88fe6f6b56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_312
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 56
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d07245fa031139469e5f0a1c621befd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_313
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 12
+        width: 381
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e759cccde6fa5c498dcd1e267a1d632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_314
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 12
+        width: 200
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0263bae047da640a77c74be0d2c3b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites_315
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 12
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99e65c7ac4fc0a43b038c027ec48ab6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goku Sprites Blast 0
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1041
+        width: 39
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c055d40a89bcb714393973ede56c3c55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0ad18b96f8a1ad64ca5d0c07050698cd
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
