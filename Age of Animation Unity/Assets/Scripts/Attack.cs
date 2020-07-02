@@ -9,15 +9,11 @@ public class Attack : MonoBehaviour {
  
     public Animator animator;
     public PlayerMovement thisCharactersMovementLogic;
-    private Units units;
-    private Age age;
 
     int enemyLayer;
     public int myAge;
 
     public int currentMeleeDamage;
-
-
     public int currentRangeDamage;
 
     string parentTag;
@@ -27,7 +23,6 @@ public class Attack : MonoBehaviour {
     private void Awake()
     {
         parentTag = this.transform.parent.tag;
-        units = GameObject.Find("UnitManager").GetComponent<Units>();
         
         #region Assigning Layers For Hit Box
         if (parentTag == "Player1")
