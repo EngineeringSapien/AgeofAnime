@@ -15,7 +15,6 @@ public class Age : MonoBehaviour {
     public score Score;
 
 
-    // Use this for initialization
     private void Awake()
     {
         P1Age = 0;
@@ -23,12 +22,8 @@ public class Age : MonoBehaviour {
         globalAge = 0;
     }
 	
-	// Update is called once per frame
 	void Update () {
 
-//        Debug.Log("Player 1 age: " + P1Age);
-  //      Debug.Log("Player 2 age: " + P2Age);
-    //    Debug.Log("global age: " + globalAge);
         if (P1Age > P2Age)
         {
             globalAge = P1Age;
@@ -47,7 +42,6 @@ public class Age : MonoBehaviour {
 
     public void ChangeAge(string player)
     {
-        //Debug.Log("Age before change " + globalAge);
         if (player == "P1")
         {
             P1Age++;

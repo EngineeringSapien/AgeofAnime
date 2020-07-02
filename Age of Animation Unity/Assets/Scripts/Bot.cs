@@ -94,10 +94,6 @@ public class Bot : MonoBehaviour {
         button2Prob = 100;
         button3Prob = 100;
 
-        Debug.Log("1 Count: " + u1Count);
-        Debug.Log("2 Count: " + u2Count);
-        Debug.Log("3 Count: " + u3Count);
-
         //Adjust based on # of units on field
         button1Prob -= (u1Count * 10);
         button2Prob -= (u2Count * 10);
@@ -122,14 +118,6 @@ public class Bot : MonoBehaviour {
         { button2Prob = 0; }
         if (click1._button.interactable == false)
         { button1Prob = 0; }
-
-        Debug.Log("Unit1 Prob: " + button1Prob);
-        Debug.Log("Unit2 Prob: " + button2Prob);
-        Debug.Log("Unit3 Prob: " + button3Prob);
-
-        Debug.Log("click1: " + click1._button.interactable);
-        Debug.Log("click2: " + click2._button.interactable);
-        Debug.Log("click3: " + click3._button.interactable);
 
         SelectUnit(button1Prob, button2Prob, button3Prob);
 

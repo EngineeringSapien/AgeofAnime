@@ -199,7 +199,7 @@ public class score : MonoBehaviour
     #region Changing Experience Reqs
     public void ChangeExperienceReqs(string player, int age)
     {
-        Debug.Log("age: " + age);
+
         if (player == "P1")
         {
             P1EvolveReq = evolveReqs[age];

@@ -40,7 +40,6 @@ public class Sound : MonoBehaviour {
         else if (_age > age.globalAge)
         {
             BMG.Stop();
-            Debug.Log("P1 Age right before music is to play" + _age + Music[_age]);
             BMG.clip = Music[_age];
             BMG.Play();
         }

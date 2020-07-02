@@ -28,7 +28,6 @@ public class baseHealth : MonoBehaviour {
 
     public void ResetHealth(int player)
     {
-        Debug.Log("Current Health: " + currentHealth);
         currentHealth = Mathf.RoundToInt((float)currentHealth * 1.5f);
 
         if (player == 1)
