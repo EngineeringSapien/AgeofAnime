@@ -41,17 +41,17 @@ public class Attack : MonoBehaviour {
     {
         if (thisUnitsMovementLogic.canAttack == true)
         {
-            playerAttack();
+            MeleeAttack();
         }
 
         else if (thisUnitsMovementLogic.canFire == true)
         {
             
-            FireAttack();
+            RangeAttack();
         }
     }
 
-    void playerAttack()
+    void MeleeAttack()
     {
         thisUnitsAnimator.SetBool("isFiring", false);
         thisUnitsAnimator.SetBool("isAttacking", true);
@@ -59,7 +59,7 @@ public class Attack : MonoBehaviour {
     }
 
 
-    void FireAttack()
+    void RangeAttack()
     {
         thisUnitsAnimator.SetBool("isAttacking", false);
         thisUnitsAnimator.SetBool("isFiring", true);
