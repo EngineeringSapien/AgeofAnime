@@ -9,19 +9,19 @@ public class baseHealth : MonoBehaviour {
 
     public Age age;
 
-    private List<int> baseHealthList = new List<int>();
+    private List<int> baseHealthByAge = new List<int>();
 
 
 
     private void Awake()
     {
-        baseHealthList.AddRange(new int[] { 500, 750, 1125, 1688, 2531, 3797 });
+        baseHealthByAge.AddRange(new int[] { 500, 750, 1125, 1688, 2531, 3797 });
     }
 
 
     private void Start()
     {
-        maxHealth = baseHealthList[0];
+        maxHealth = baseHealthByAge[0];
         currentHealth = maxHealth;
     }
 
@@ -32,16 +32,16 @@ public class baseHealth : MonoBehaviour {
 
         if (player == 1)
         {
-            maxHealth = baseHealthList[age.P1Age];
+            maxHealth = baseHealthByAge[age.P1Age];
         }
         else
         {
-            maxHealth = baseHealthList[age.P2Age];
+            maxHealth = baseHealthByAge[age.P2Age];
         }
     }
 
 
-    public void BaseDamage(int damage)
+    public void TakeBaseDamage(int damage)
     {
         currentHealth -= damage;
     }

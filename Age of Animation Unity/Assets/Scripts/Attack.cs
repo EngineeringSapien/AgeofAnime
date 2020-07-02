@@ -101,7 +101,7 @@ public class Attack : MonoBehaviour {
             baseHealth basehealth = hitInfo.GetComponent<baseHealth>();
             if (basehealth != null)
             {
-                basehealth.BaseDamage(currentMeleeDamage);
+                basehealth.TakeBaseDamage(currentMeleeDamage);
             }
         }
     }
