@@ -10,8 +10,10 @@ public class CameraMove : MonoBehaviour {
     public KeyCode right_key;
 
     public float speed = 5f;
+    private float screenEdgeOffset = 30f;
 
-    public int bound;
+    [FormerlySerializedAs("bound")]
+    public int boundOffset;
 
     public GameObject LeftBound;
     public GameObject RightBound;
@@ -25,10 +27,9 @@ public class CameraMove : MonoBehaviour {
 
     void Update()
     {
-        float edgeSize = 30f;
 
         //Right bound
-        if (gameObject.transform.position.x < RightBound.transform.position.x + bound) 
+        if (gameObject.transform.position.x < RightBound.transform.position.x + boundOffset) 
         {
             if (Input.GetKey(right_key))
             {
@@ -36,21 +37,21 @@ public class CameraMove : MonoBehaviour {
             }
 
 
-            if (Input.mousePosition.x > Screen.width - edgeSize)
+            if (Input.mousePosition.x > Screen.width - screenEdgeOffset)
             {
                 transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
             }
         }
 
         //Left bound
-        if (gameObject.transform.position.x > LeftBound.transform.position.x - bound)
+        if (gameObject.transform.position.x > LeftBound.transform.position.x - boundOffset)
         {
             if (Input.GetKey(left_key))
             {
                 transform.Translate(new Vector3(-speed * Time.deltaTime, 0, 0));
             }
             
-            if (Input.mousePosition.x < edgeSize)
+            if (Input.mousePosition.x < screenEdgeOffset)
             {
                 transform.Translate(new Vector3(-speed * Time.deltaTime, 0, 0));
             }
