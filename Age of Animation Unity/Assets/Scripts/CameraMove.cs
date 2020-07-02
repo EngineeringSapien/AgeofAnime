@@ -11,8 +11,6 @@ public class CameraMove : MonoBehaviour {
 
     public float speed = 5f;
     private float screenEdgeOffset = 30f;
-
-    [FormerlySerializedAs("bound")]
     public int boundOffset;
 
     public GameObject LeftBound;
