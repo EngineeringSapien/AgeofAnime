@@ -62,6 +62,41 @@ public class PlayerMovement : MonoBehaviour {
 
     }
 
+    public void WalkTrue()
+    {
+        canWalk = true;
+        canIdle = false;
+        canAttack = false;
+        canFire = false;
+    }
+
+    public void IdleTrue()
+    {
+        canWalk = false;
+        canIdle = true;
+        canAttack = false;
+        canFire = false;
+    }
+
+    public void AttackTrue()
+    {
+        canWalk = false;
+        canIdle = false;
+        canAttack = true;
+        canFire = false;
+    }
+
+    public void FireTrue()
+    {
+        canWalk = false;
+        canIdle = false;
+        canAttack = false;
+        canFire = true;
+    }
+
+
+
+
 
     /*void OnTriggerStay2D(Collider2D collision)
     {

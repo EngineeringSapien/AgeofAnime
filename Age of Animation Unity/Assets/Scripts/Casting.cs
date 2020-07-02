@@ -79,9 +79,7 @@ public class Casting : MonoBehaviour {
 
             if (hitEnemy)
             {
-                movement.canWalk = false;
-                movement.canIdle = false;
-                movement.canAttack = true;
+                movement.AttackTrue();
             }
 
             else if (hitFriendly)
@@ -89,68 +87,21 @@ public class Casting : MonoBehaviour {
                 // if the friendly is the base, ignore it and walk
                 if (hitFriendly.transform.tag == "base")
                 {
-                    movement.canAttack = false;
-                    movement.canIdle = false;
-                    movement.canWalk = true;
+                    movement.WalkTrue();
                 }
                 // else if the friendly is a unit, just idle behind them
                 else
                 {
-                    movement.canWalk = false;
-                    movement.canAttack = false;
-                    movement.canIdle = true;
+                    movement.IdleTrue();
                 }
 
             }
             //Just in case, to ensure no one gets stuck not moving
             else
             {
-                movement.canAttack = false;
-                movement.canIdle = false;
-                movement.canWalk = true;
+                movement.WalkTrue();
             }
         }
-
-
-
-        #region Logic General Logic for Ranged Units:
-        /*
-         * check for enemy or friend to be close
-         *      if enemy found, attack.
-         * if friendly, check for enemy far away
-         *      if found, fire attack
-         *      if not, just idle
-         *      if firendly is base, ignore it and walk
-         * if nothing is found, just walk
-         * 
-         * shoot ray for both friendly close and enemy close
-         * 
-         * if (hitcloseEnemy)
-         * {
-         *      attack melee;
-         * }
-         *     
-         * else if (hitcloseFriendly)
-         *{
-         *      shoot another ray far away on enemy layer
-         *      if (hitfarEnemy)
-         *      {
-         *           attack range;
-         *      }
-         *              
-         *      else (no enemiesFar)
-         *      {
-         *          Idle
-         *      }
-         *}
-         * 
-         *else (nothing close was hit)
-         *{
-         *    walk
-         *}
-         * */
-        #endregion
-
 
 
         else if (unit.unitType == "ranged")
@@ -161,10 +112,7 @@ public class Casting : MonoBehaviour {
 
             if (hitEnemyClose)
             {
-                movement.canWalk = false;
-                movement.canIdle = false;
-                movement.canFire = false;
-                movement.canAttack = true;
+                movement.AttackTrue();
             }
 
             else if (hitFriendly)
@@ -173,35 +121,23 @@ public class Casting : MonoBehaviour {
 
                 if (hitEnemyFar)
                 {
-                    movement.canWalk = false;
-                    movement.canIdle = false;
-                    movement.canAttack = false;
-                    movement.canFire = true;
+                    movement.FireTrue();
                 }
 
                 else
                 {
-                    movement.canWalk = false;
-                    movement.canAttack = false;
-                    movement.canFire = false;
-                    movement.canIdle = true;
+                    movement.IdleTrue();
                 }
                 
                 if (hitFriendly.transform.tag == "base")
                 {
-                    movement.canAttack = false;
-                    movement.canFire = false;
-                    movement.canIdle = false;
-                    movement.canWalk = true;
+                    movement.WalkTrue();
                 }
             }
  
             else
             {
-                movement.canAttack = false;
-                movement.canFire = false;
-                movement.canIdle = false;
-                movement.canWalk = true;
+                movement.WalkTrue();
             }
         }
 
@@ -214,10 +150,7 @@ public class Casting : MonoBehaviour {
 
             if (hitEnemyClose)
             {
-                movement.canWalk = false;
-                movement.canIdle = false;
-                movement.canFire = false;
-                movement.canAttack = true;
+                movement.AttackTrue();
             }
 
             else if (hitFriendly)
@@ -226,35 +159,23 @@ public class Casting : MonoBehaviour {
 
                 if (hitEnemyFar)
                 {
-                    movement.canWalk = false;
-                    movement.canIdle = false;
-                    movement.canAttack = false;
-                    movement.canFire = true;
+                    movement.FireTrue();
                 }
 
                 else
                 {
-                    movement.canWalk = false;
-                    movement.canAttack = false;
-                    movement.canFire = false;
-                    movement.canIdle = true;
+                    movement.IdleTrue();
                 }
 
                 if (hitFriendly.transform.tag == "base")
                 {
-                    movement.canAttack = false;
-                    movement.canFire = false;
-                    movement.canIdle = false;
-                    movement.canWalk = true;
+                    movement.WalkTrue();
                 }
             }
 
             else
             {
-                movement.canAttack = false;
-                movement.canFire = false;
-                movement.canIdle = false;
-                movement.canWalk = true;
+                movement.WalkTrue();
             }
         }     
     }

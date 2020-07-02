@@ -931,9 +931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfbea362cab1bf499d8299dcf8c0205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_key: 50
   key_pressed: 0
-  click: 0
   _button: {fileID: 0}
 --- !u!95 &164196354
 Animator:
@@ -2180,9 +2178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfbea362cab1bf499d8299dcf8c0205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_key: 51
   key_pressed: 0
-  click: 0
   _button: {fileID: 0}
 --- !u!95 &382162078
 Animator:
@@ -2889,9 +2885,9 @@ MonoBehaviour:
   left_key: 97
   right_key: 100
   speed: 3
-  bound: 2
-  L: {fileID: 749681189}
-  R: {fileID: 416562398}
+  boundOffset: 2
+  LeftBound: {fileID: 749681189}
+  RightBound: {fileID: 416562398}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3277,9 +3273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfbea362cab1bf499d8299dcf8c0205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_key: 9
   key_pressed: 0
-  click: 0
   _button: {fileID: 0}
 --- !u!1 &586400139
 GameObject:
@@ -4501,9 +4495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfbea362cab1bf499d8299dcf8c0205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_key: 56
   key_pressed: 0
-  click: 0
   _button: {fileID: 0}
 --- !u!95 &715728486
 Animator:
@@ -5159,9 +5151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfbea362cab1bf499d8299dcf8c0205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_key: 57
   key_pressed: 0
-  click: 0
   _button: {fileID: 0}
 --- !u!95 &788280889
 Animator:
@@ -7037,9 +7027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfbea362cab1bf499d8299dcf8c0205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_key: 49
   key_pressed: 0
-  click: 0
   _button: {fileID: 0}
 --- !u!95 &1217882036
 Animator:
@@ -8099,9 +8087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfbea362cab1bf499d8299dcf8c0205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_key: 48
   key_pressed: 0
-  click: 0
   _button: {fileID: 0}
 --- !u!95 &1468546459
 Animator:
@@ -9058,9 +9044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfbea362cab1bf499d8299dcf8c0205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button_key: 13
   key_pressed: 0
-  click: 0
   _button: {fileID: 0}
 --- !u!1 &1757409667
 GameObject:
@@ -9722,9 +9706,9 @@ MonoBehaviour:
   left_key: 276
   right_key: 275
   speed: 3
-  bound: 1
-  L: {fileID: 749681189}
-  R: {fileID: 416562398}
+  boundOffset: 1
+  LeftBound: {fileID: 749681189}
+  RightBound: {fileID: 416562398}
 --- !u!81 &1987314157
 AudioListener:
   m_ObjectHideFlags: 0
