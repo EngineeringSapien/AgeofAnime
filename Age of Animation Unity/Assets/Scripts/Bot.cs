@@ -74,7 +74,7 @@ public class Bot : MonoBehaviour {
 
         if (click4._button.interactable == true)
         {
-            click4.Click();
+            click4.BotClick();
         }
 
     }
@@ -133,11 +133,11 @@ public class Bot : MonoBehaviour {
         int selection = Mathf.RoundToInt(Random.Range(0, sum-1));
 
         if (selection > 0 && selection < a)
-        { click1.Click(); }
+        { click1.BotClick(); }
         else if (selection >= a && selection < (a + b))
-        { click2.Click(); }
+        { click2.BotClick(); }
         else if (selection >= b && selection < (a + b + c))
-        { click3.Click(); }
+        { click3.BotClick(); }
         else
         {
             //Debug.Log("ERROR: Out of Range");

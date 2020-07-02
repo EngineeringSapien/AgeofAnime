@@ -29,7 +29,7 @@ public class buttonClick : MonoBehaviour {
     }
 
 
-    public void Click()
+    public void BotClick()
     {
         key_pressed = true;
         _button.onClick.Invoke();
