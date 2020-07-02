@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
+
 
 public class CameraMove : MonoBehaviour {
 
@@ -11,11 +13,10 @@ public class CameraMove : MonoBehaviour {
 
     public int bound;
 
-    public GameObject L;
-    public GameObject R;
+    public GameObject LeftBound;
+    public GameObject RightBound;
 
 
-    // Use this for initialization
     void Awake ()
     {
         transform.position = new Vector3(0, -2.4f, -5);
@@ -25,8 +26,9 @@ public class CameraMove : MonoBehaviour {
     void Update()
     {
         float edgeSize = 30f;
+
         //Right bound
-        if (gameObject.transform.position.x < R.transform.position.x + bound) 
+        if (gameObject.transform.position.x < RightBound.transform.position.x + bound) 
         {
             if (Input.GetKey(right_key))
             {
@@ -41,7 +43,7 @@ public class CameraMove : MonoBehaviour {
         }
 
         //Left bound
-        if (gameObject.transform.position.x > L.transform.position.x - bound)
+        if (gameObject.transform.position.x > LeftBound.transform.position.x - bound)
         {
             if (Input.GetKey(left_key))
             {
