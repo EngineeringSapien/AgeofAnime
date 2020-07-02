@@ -332,8 +332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52884f23390430a43979061790d4617e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 95746338982120012}
-  thisCharactersMovementLogic: {fileID: 114938045508131468}
+  thisUnitsAnimator: {fileID: 95746338982120012}
+  thisUnitsMovementLogic: {fileID: 114938045508131468}
   myAge: 0
   currentMeleeDamage: 50
   currentRangeDamage: 0
