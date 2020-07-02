@@ -6,9 +6,9 @@ using UnityEngine.Serialization;
 
 public class Attack : MonoBehaviour {
 
- 
-    public Animator animator;
-    public PlayerMovement thisCharactersMovementLogic;
+
+    public Animator thisUnitsAnimator;
+    public PlayerMovement thisUnitsMovementLogic;
 
     int enemyLayer;
     public int myAge;
@@ -39,12 +39,12 @@ public class Attack : MonoBehaviour {
 
     private void Update()
     {
-        if (thisCharactersMovementLogic.canAttack == true)
+        if (thisUnitsMovementLogic.canAttack == true)
         {
             playerAttack();
         }
 
-        else if (thisCharactersMovementLogic.canFire == true)
+        else if (thisUnitsMovementLogic.canFire == true)
         {
             
             FireAttack();
@@ -53,16 +53,16 @@ public class Attack : MonoBehaviour {
 
     void playerAttack()
     {
-        animator.SetBool("isFiring", false);
-        animator.SetBool("isAttacking", true);
+        thisUnitsAnimator.SetBool("isFiring", false);
+        thisUnitsAnimator.SetBool("isAttacking", true);
 
     }
 
 
     void FireAttack()
     {
-        animator.SetBool("isAttacking", false);
-        animator.SetBool("isFiring", true);
+        thisUnitsAnimator.SetBool("isAttacking", false);
+        thisUnitsAnimator.SetBool("isFiring", true);
 
     }
 
@@ -71,7 +71,7 @@ public class Attack : MonoBehaviour {
     {
         if (hitInfo.gameObject.layer == enemyLayer)
         {
-            if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("ItachiFire"))
+            if (this.thisUnitsAnimator.GetCurrentAnimatorStateInfo(0).IsName("ItachiFire"))
             {
 
                 health Health = hitInfo.GetComponent<health>();
@@ -80,7 +80,7 @@ public class Attack : MonoBehaviour {
                     Health.TakeDamage(currentRangeDamage);
                 }
             }
-            else if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("ItachiAttack"))
+            else if (this.thisUnitsAnimator.GetCurrentAnimatorStateInfo(0).IsName("ItachiAttack"))
             {
                 health Health = hitInfo.GetComponent<health>();
                 if (Health != null)

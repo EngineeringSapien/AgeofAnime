@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class colliderTriggers : MonoBehaviour {
 
-   /* public PlayerMovement thisCharactersMovementLogic;
+   /* public PlayerMovement thisUnitsMovementLogic;
     Collider2D collision;
 
     public bool triggered = false;
@@ -29,14 +29,14 @@ public class colliderTriggers : MonoBehaviour {
                 if (collision.gameObject.tag == "Player2")
                 {
                     Debug.Log("Attack 4");
-                    thisCharactersMovementLogic.canWalk = false;
-                    thisCharactersMovementLogic.canAttack = true;
+                    thisUnitsMovementLogic.canWalk = false;
+                    thisUnitsMovementLogic.canAttack = true;
                 }
 
                 if (collision.gameObject.tag == "P2Base")
                 {
-                    thisCharactersMovementLogic.canWalk = false;
-                    thisCharactersMovementLogic.canAttack = true;
+                    thisUnitsMovementLogic.canWalk = false;
+                    thisUnitsMovementLogic.canAttack = true;
                 }
             }
 
@@ -44,14 +44,14 @@ public class colliderTriggers : MonoBehaviour {
             {
                 if (collision.gameObject.tag == "Player1")
                 {
-                    thisCharactersMovementLogic.canWalk = false;
-                    thisCharactersMovementLogic.canAttack = true;
+                    thisUnitsMovementLogic.canWalk = false;
+                    thisUnitsMovementLogic.canAttack = true;
                 }
 
                 if (collision.gameObject.tag == "P1Base")
                 {
-                    thisCharactersMovementLogic.canWalk = false;
-                    thisCharactersMovementLogic.canAttack = true;
+                    thisUnitsMovementLogic.canWalk = false;
+                    thisUnitsMovementLogic.canAttack = true;
                 }
             }
         }
@@ -68,8 +68,8 @@ public class colliderTriggers : MonoBehaviour {
             {
                 if (collision.gameObject.tag == "Player1")
                 {
-                    thisCharactersMovementLogic.canWalk = false;
-                    thisCharactersMovementLogic.canIdle = true;
+                    thisUnitsMovementLogic.canWalk = false;
+                    thisUnitsMovementLogic.canIdle = true;
                 }
             }
 
@@ -77,8 +77,8 @@ public class colliderTriggers : MonoBehaviour {
             {
                 if (collision.gameObject.tag == "Player2")
                 {
-                    thisCharactersMovementLogic.canWalk = false;
-                    thisCharactersMovementLogic.canIdle = true;
+                    thisUnitsMovementLogic.canWalk = false;
+                    thisUnitsMovementLogic.canIdle = true;
                 }
             }
         }
@@ -96,16 +96,16 @@ public class colliderTriggers : MonoBehaviour {
             {
                 if (other.gameObject.tag == "Player2")
                 {
-                    thisCharactersMovementLogic.canWalk = true;
-                    thisCharactersMovementLogic.canAttack = false;
+                    thisUnitsMovementLogic.canWalk = true;
+                    thisUnitsMovementLogic.canAttack = false;
                 }
             }
             if (gameObject.gameObject.tag == "Player2")
             {
                 if (other.gameObject.tag == "Player1")
                 {
-                    thisCharactersMovementLogic.canWalk = true;
-                    thisCharactersMovementLogic.canAttack = false;
+                    thisUnitsMovementLogic.canWalk = true;
+                    thisUnitsMovementLogic.canAttack = false;
                 }
             }
         }
@@ -119,16 +119,16 @@ public class colliderTriggers : MonoBehaviour {
             {
                 if (other.gameObject.tag == "Player1")
                 {
-                    thisCharactersMovementLogic.canWalk = true;
-                    thisCharactersMovementLogic.canIdle = false;
+                    thisUnitsMovementLogic.canWalk = true;
+                    thisUnitsMovementLogic.canIdle = false;
                 }
             }
             if (this.gameObject.tag == "Player2")
             {
                 if (other.gameObject.tag == "Player2")
                 {
-                    thisCharactersMovementLogic.canWalk = true;
-                    thisCharactersMovementLogic.canIdle = false;
+                    thisUnitsMovementLogic.canWalk = true;
+                    thisUnitsMovementLogic.canIdle = false;
                 }
             }
         }
