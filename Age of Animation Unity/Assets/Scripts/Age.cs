@@ -22,7 +22,7 @@ public class Age : MonoBehaviour {
         globalAge = 0;
     }
 	
-	void Update () {
+	void ChangeGlobalAge () {
 
         if (P1Age > P2Age)
         {
@@ -45,7 +45,7 @@ public class Age : MonoBehaviour {
         if (player == "P1")
         {
             P1Age++;
-            Update();
+            ChangeGlobalAge();
             env.ChangeBackground(globalAge);
             env.ChangeBases("P1", P1Age);
             units.ChangeUnits("P1", P1Age);
@@ -57,7 +57,7 @@ public class Age : MonoBehaviour {
         if (player == "P2")
         {
             P2Age++;
-            Update();
+            ChangeGlobalAge();
             env.ChangeBackground(globalAge);
             env.ChangeBases("P2", P2Age);
             units.ChangeUnits("P2", P2Age);
