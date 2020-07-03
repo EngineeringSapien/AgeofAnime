@@ -48,20 +48,11 @@ public class UnitConstructor : MonoBehaviour {
         }
 
 
-        if (this.gameObject.name == "Character1")
-        {
-            SetupUnit1();
-        }
+        if (this.gameObject.name == "Character1") { SetupUnit1(); }
 
-        else if (this.gameObject.name == "Character2")
-        {
-            SetupUnit2();
-        }
+        else if (this.gameObject.name == "Character2") { SetupUnit2(); }
 
-        else if (this.gameObject.name == "Character3")
-        {
-            SetupUnit3();
-        }
+        else if (this.gameObject.name == "Character3") { SetupUnit3(); }
     }
 
 
