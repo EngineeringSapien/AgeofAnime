@@ -117,7 +117,7 @@ public class PlayerMovement : MonoBehaviour {
                 canIdle = true;
             }
 
-            if (collision.gameObject.tag == "P2Base")
+            if (collision.gameObject.tag == "TheP2Base")
             {
                 canWalk = false;
                 canAttack = true;
@@ -137,7 +137,7 @@ public class PlayerMovement : MonoBehaviour {
                 canIdle = true;
             }
 
-            if (collision.gameObject.tag == "P1Base")
+            if (collision.gameObject.tag == "TheP1Base")
             {
                 canWalk = false;
                 canAttack = true;
@@ -175,7 +175,7 @@ public class PlayerMovement : MonoBehaviour {
                 canIdle = true;
             }
 
-            if (collision.gameObject.tag == "P2Base")
+            if (collision.gameObject.tag == "TheP2Base")
             {
                 canWalk = false;
                 canAttack = true;
@@ -195,7 +195,7 @@ public class PlayerMovement : MonoBehaviour {
                 canIdle = true;
             }
 
-            if (collision.gameObject.tag == "P1Base")
+            if (collision.gameObject.tag == "TheP1Base")
             {
                 canWalk = false;
                 canAttack = true;

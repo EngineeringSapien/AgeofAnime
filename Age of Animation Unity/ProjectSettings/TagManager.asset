@@ -10,8 +10,9 @@ TagManager:
   - Player2
   - P1Base
   - P2Base
-  - sky
   - base
+  - Background
+  - sky
   layers:
   - Default
   - TransparentFX

@@ -3351,7 +3351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 610118559}
   m_Layer: 0
-  m_Name: Background
+  m_Name: Background Location
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4338,10 +4338,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthText: {fileID: 176155990}
-  Health: {fileID: 1644269872}
   goldText: {fileID: 1836020282}
   expText: {fileID: 676427872}
   Score: {fileID: 447694635}
+  Health: {fileID: 1644269872}
 --- !u!4 &692862006
 Transform:
   m_ObjectHideFlags: 0
@@ -4709,10 +4709,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthText: {fileID: 1720292392}
-  Health: {fileID: 878566178}
   goldText: {fileID: 860184689}
   expText: {fileID: 1569963126}
   Score: {fileID: 447694635}
+  Health: {fileID: 878566178}
 --- !u!1 &749681189
 GameObject:
   m_ObjectHideFlags: 0
@@ -7307,9 +7307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   p1BaseLocation: {fileID: 1644269869}
   p2BaseLocation: {fileID: 878566175}
+  backgroundLocation: {fileID: 610118558}
   age: {fileID: 1645545677}
-  background: {fileID: 610118558}
-  sky: {fileID: 0}
 --- !u!4 &1256890837
 Transform:
   m_ObjectHideFlags: 0

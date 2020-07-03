@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212847093388811886}
   m_Layer: 0
   m_Name: narutoBackground
-  m_TagString: sky
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

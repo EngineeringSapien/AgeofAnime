@@ -41,7 +41,7 @@ public class characterSpawner : MonoBehaviour {
 
     private void Update()
     {
-        if (this.gameObject.tag == "P2Base")
+        if (this.gameObject.tag == "TheP2Base")
         {
             unit1BotsCount = inGameUnit1Bots.Count;
             unit2BotsCount = inGameUnit2Bots.Count;
