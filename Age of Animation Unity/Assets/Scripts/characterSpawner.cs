@@ -50,8 +50,19 @@ public class characterSpawner : MonoBehaviour {
     }
 
 
-    //Function that spawns characters and defines delays
-    public void spawnCharacter(GameObject character, string player, int age)
+    public void QueueUnitSpawn(GameObject character, string player, int age)
+    {
+        AssignTags(player);
+
+        if (canSpawn == true)
+        {
+            GetSpawntime(character, age);
+            StartCoroutine(SpawnUnit(spawnTime, character));
+        }
+    }
+
+
+    private void AssignTags(string player)
     {
         if (player == "P1")
         {
@@ -63,42 +74,38 @@ public class characterSpawner : MonoBehaviour {
             myTag = "Player2";
             myLayer = 13;
         }
+    }
 
 
-        if (canSpawn == true)
+    private void GetSpawntime(GameObject character, int age)
+    {
+        for (int i = 0; i < units.unit1List.Count; i++)
         {
-            // Check which list the unit being spawned comes from (unit1, unit2, or unit3)
-            // Then matches the spawn time from the corresponding unit spawn time list by using the current age of player (unit 1 age 1 = kakashi)
-            for (int i = 0; i < units.unit1List.Count; i++)
+            if (units.unit1List.Contains(character.name))
             {
-                if (units.unit1List.Contains(character.name))
-                {
-                    spawnTime = units.unit1SpawntimeList[age];
-                }
+                spawnTime = units.unit1SpawntimeList[age];
             }
+        }
 
-            for (int i = 0; i < units.unit2List.Count; i++)
+        for (int i = 0; i < units.unit2List.Count; i++)
+        {
+            if (units.unit2List.Contains(character.name))
             {
-                if (units.unit2List.Contains(character.name))
-                {
-                    spawnTime = units.unit2SpawntimeList[age];
-                }
+                spawnTime = units.unit2SpawntimeList[age];
             }
+        }
 
-            for (int i = 0; i < units.unit3List.Count; i++)
+        for (int i = 0; i < units.unit3List.Count; i++)
+        {
+            if (units.unit3List.Contains(character.name))
             {
-                if (units.unit3List.Contains(character.name))
-                {
-                    spawnTime = units.unit3SpawntimeList[age];
-                }
+                spawnTime = units.unit3SpawntimeList[age];
             }
-
-            StartCoroutine(SpawnDelay(spawnTime, character));
         }
     }
 
 
-    IEnumerator SpawnDelay(float delay, GameObject charactertobeSpawn)
+    IEnumerator SpawnUnit(float delay, GameObject charactertobeSpawn)
     {
         canSpawn = false;
         var offset = new Vector3(0, 2f, 0);

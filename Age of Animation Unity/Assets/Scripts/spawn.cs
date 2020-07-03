@@ -155,13 +155,13 @@ public class spawn : MonoBehaviour {
         {
             units.P1character1.gameObject.tag = "Player1";
             units.P1character1.gameObject.layer = P1Layer;
-            spawner1.spawnCharacter(units.P1character1, "P1", ageManager.P1Age);
+            spawner1.QueueUnitSpawn(units.P1character1, "P1", ageManager.P1Age);
             Score.ChangeTreasury("decrease", "Character1", "Player1");
         }if (P1key2.key_pressed == true)
         {
             units.P1character2.gameObject.tag = "Player1";
             units.P1character2.gameObject.layer = P1Layer;
-            spawner1.spawnCharacter(units.P1character2, "P1", ageManager.P1Age);
+            spawner1.QueueUnitSpawn(units.P1character2, "P1", ageManager.P1Age);
             Score.ChangeTreasury("decrease", "Character2", "Player1");
         }
         if (P1key3.key_pressed == true)
@@ -169,7 +169,7 @@ public class spawn : MonoBehaviour {
             Debug.Log("Key 3");
             units.P1character3.gameObject.tag = "Player1";
             units.P1character3.gameObject.layer = P1Layer;
-            spawner1.spawnCharacter(units.P1character3, "P1", ageManager.P1Age);
+            spawner1.QueueUnitSpawn(units.P1character3, "P1", ageManager.P1Age);
             Score.ChangeTreasury("decrease", "Character3", "Player1");
         }
 
@@ -177,21 +177,21 @@ public class spawn : MonoBehaviour {
         {
             units.P2character1.gameObject.tag = "Player2";
             units.P2character1.gameObject.layer = P2Layer;
-            spawner2.spawnCharacter(units.P2character1, "P2", ageManager.P2Age);
+            spawner2.QueueUnitSpawn(units.P2character1, "P2", ageManager.P2Age);
             Score.ChangeTreasury("decrease", "Character1", "Player2");
         }
         if (P2key2.key_pressed == true)
         {
             units.P2character2.gameObject.tag = "Player2";
             units.P2character2.gameObject.layer = P2Layer;
-            spawner2.spawnCharacter(units.P2character2, "P2", ageManager.P2Age);
+            spawner2.QueueUnitSpawn(units.P2character2, "P2", ageManager.P2Age);
             Score.ChangeTreasury("decrease", "Character2", "Player2");
         }
         if (P2key3.key_pressed == true)
         {
             units.P2character3.gameObject.tag = "Player2";
             units.P2character3.gameObject.layer = P2Layer;
-            spawner2.spawnCharacter(units.P2character3, "P2", ageManager.P2Age);
+            spawner2.QueueUnitSpawn(units.P2character3, "P2", ageManager.P2Age);
             Score.ChangeTreasury("decrease", "Character3", "Player2");
         }
             #endregion
