@@ -6,8 +6,9 @@ public class environment : MonoBehaviour {
 
     public GameObject p1BaseLocation;
     public GameObject p2BaseLocation;
-    Vector2 baseOffset = new Vector2(-5, 0);
     public GameObject backgroundLocation;
+
+    Vector2 baseOffset = new Vector2(-5, 0);
 
     public Age age;
 
@@ -25,6 +26,7 @@ public class environment : MonoBehaviour {
         allBaseSprites.AddRange(new string[] { "base0", "base1", "base0", "base1", "base0", "base1" } );
     }
 
+
     void Start () {
         TheP1Base = Instantiate (Resources.Load(allBaseSprites[0]) as GameObject, p1BaseLocation.transform.position, Quaternion.identity);
         TheP2Base = Instantiate (Resources.Load(allBaseSprites[0]) as GameObject, p2BaseLocation.transform.position, Quaternion.identity);
@@ -33,13 +35,11 @@ public class environment : MonoBehaviour {
         TheP2Base.gameObject.layer = 13;
 
         ChangeBackground(age.globalAge);    
-
     }
 
 
     public void ChangeBases(string player, int age)
     {
-
         if (player == "P1")
         {
             Object.Destroy(this.TheP1Base);
@@ -60,4 +60,5 @@ public class environment : MonoBehaviour {
         Destroy(GameObject.FindWithTag("Background"));
         GameObject background = Instantiate(Resources.Load(allBackgroundSprites[age]) as GameObject, backgroundLocation.transform.position, Quaternion.identity);
     }
+
 }
