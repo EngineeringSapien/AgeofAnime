@@ -26,13 +26,11 @@ public class spawn : MonoBehaviour {
     public Button p1button1;
     public Button p1button2;
     public Button p1button3;
-    public Button p1button4;
     public Button p1buttonEvolve;
 
     public Button p2button1;
     public Button p2button2;
     public Button p2button3;
-    public Button p2button4;
     public Button p2buttonEvolve;
 
     public Sprite KakashiImage;
@@ -69,80 +67,58 @@ public class spawn : MonoBehaviour {
 
     private void Update()
     {
+        CheckP1XP();
 
-        #region Player 1 Gold Button
+        CheckP2XP();
 
-        if (spawner1.canSpawn == true)
-        {
-            if (Score.P1Gold < Score.p1Unit1cost)
-            {
-                p1button1.interactable = false;
-            }
-            else if (Score.P1Gold >= Score.p1Unit1cost) { p1button1.interactable = true; }
+        if (spawner1.canSpawn == true) { CheckP1Gold(); }
 
-            if (Score.P1Gold < Score.p1Unit2cost)
-            {
-                p1button2.interactable = false;
-            }
-            else if (Score.P1Gold >= Score.p1Unit2cost) { p1button2.interactable = true; }
+        else { p1button1.interactable = p1button2.interactable = p1button3.interactable = false; }
 
-            if (Score.P1Gold < Score.p1Unit3cost)
-            {
-                p1button3.interactable = false;
-            }
-            else if (Score.P1Gold >= Score.p1Unit3cost) { p1button3.interactable = true; }
+        if (spawner2.canSpawn == true) { CheckP2Gold(); }
 
-        }
-        else if (spawner1.canSpawn == false) { p1button1.interactable = p1button2.interactable =
-             p1button3.interactable = p1button4.interactable = false; }
-        #endregion
-
-
-        #region Player 2 Gold Button
-        if (spawner2.canSpawn == true)
-        {
-            if (Score.P2Gold < Score.p2Unit1cost)
-            {
-                p2button1.interactable = false;
-            } else if (Score.P2Gold >= Score.p2Unit1cost) { p2button1.interactable = true; }
-
-            if (Score.P2Gold < Score.p2Unit2cost)
-            {
-                p2button2.interactable = false;
-            } else if (Score.P2Gold >= Score.p2Unit2cost) { p2button2.interactable = true; }
-
-            if (Score.P2Gold < Score.p2Unit3cost)
-            {
-                p2button3.interactable = false;
-            } else if (Score.P2Gold >= Score.p2Unit3cost) { p2button3.interactable = true; }
-        }
-        else if (spawner2.canSpawn == false) { p2button1.interactable = p2button2.interactable =
-             p2button3.interactable = p2button4.interactable = false; }
-
-        #endregion
-
-
-        #region Player 1 Experience Button
-
-        if (Score.P1Exp < Score.P1EvolveReq)
-        {
-            p1buttonEvolve.interactable = false;
-        } else if (Score.P1Exp >= Score.P1EvolveReq) { p1buttonEvolve.interactable = true; }
-        #endregion
-
-        
-        #region Player 2 Experience Button
-
-        if (Score.P2Exp < Score.P2EvolveReq)
-        {
-            p2buttonEvolve.interactable = false;
-        } else if (Score.P2Exp >= Score.P2EvolveReq) { p2buttonEvolve.interactable = true; }
-        #endregion
-
+        else { p2button1.interactable = p2button2.interactable = p2button3.interactable = false; }
     }
 
 
+    private void CheckP1Gold()
+    {
+        CompareGoldtoUnitCost(Score.P1Gold, Score.p1Unit1cost, p1button1);
+        CompareGoldtoUnitCost(Score.P1Gold, Score.p1Unit2cost, p1button2);
+        CompareGoldtoUnitCost(Score.P1Gold, Score.p1Unit3cost, p1button3);
+    }
 
+
+    private void CheckP2Gold()
+    {
+        CompareGoldtoUnitCost(Score.P2Gold, Score.p2Unit1cost, p2button1);
+        CompareGoldtoUnitCost(Score.P2Gold, Score.p2Unit2cost, p2button2);
+        CompareGoldtoUnitCost(Score.P2Gold, Score.p2Unit3cost, p2button3);
+    }
+
+
+    private void CompareGoldtoUnitCost(float playersGold, float unitCost, Button button)
+    {
+        if (playersGold < unitCost) { button.interactable = false; }
+
+        else if (playersGold >= unitCost) { button.interactable = true; }
+    }
+
+
+    private void CheckP1XP()
+    {
+        if (Score.P1Exp < Score.P1EvolveReq) { p1buttonEvolve.interactable = false; }
+
+        else { p1buttonEvolve.interactable = true; }
+    }
+
+
+    private void CheckP2XP()
+    {
+        if (Score.P2Exp < Score.P2EvolveReq) { p2buttonEvolve.interactable = false; }
+
+        else { p2buttonEvolve.interactable = true; }
+    }
 
 
     public void CheckButtonName()
@@ -224,23 +200,6 @@ public class spawn : MonoBehaviour {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-
-
     void changeButtons(string player)
     {
         if (player == "P1")
@@ -256,7 +215,6 @@ public class spawn : MonoBehaviour {
             GameObject.Find("P2Button2").GetComponent<Button>().image.overrideSprite = button2SpriteList[ageManager.P2Age];
             GameObject.Find("P2Button3").GetComponent<Button>().image.overrideSprite = button3SpriteList[ageManager.P2Age];
         } 
-
     }
 
 }
