@@ -18,11 +18,11 @@ public class Casting : MonoBehaviour {
     private int offSetDirection;
 
     PlayerMovement movement;
-    UnitType unit;
+    UnitConstructor unit;
 
     private void Awake()
     {
-        unit = gameObject.GetComponent<UnitType>();
+        unit = gameObject.GetComponent<UnitConstructor>();
 
         #region Assigning Layers
         if (this.gameObject.tag == "Player1")

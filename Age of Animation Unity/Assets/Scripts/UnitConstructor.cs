@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class UnitType : MonoBehaviour {
+public class UnitConstructor : MonoBehaviour {
 
 
     private Age age;
