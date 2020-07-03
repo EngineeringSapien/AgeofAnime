@@ -22,6 +22,13 @@ public class UnitType : MonoBehaviour {
 
     private void Awake()
     {
+
+    }
+
+
+
+    void Start ()
+    {
         age = GameObject.Find("AgeManager").GetComponent<Age>();
         attack = gameObject.GetComponentInChildren<Attack>();
         Health = gameObject.GetComponent<health>();
@@ -30,22 +37,10 @@ public class UnitType : MonoBehaviour {
         units = GameObject.Find("UnitManager").GetComponent<Units>();
 
 
-        #region Assigning Age For Unit
-        if (this.gameObject.tag == "Player1")
-        {
-            myAge = age.P1Age;
-        }
-        if (this.gameObject.tag == "Player2")
-        {
-            myAge = age.P2Age;
-        }
-        #endregion
-    }
+        if (this.gameObject.tag == "Player1") { myAge = age.P1Age; }
+        
+        if (this.gameObject.tag == "Player2") { myAge = age.P2Age; }
 
-
-
-    void Start ()
-    {
 
         if (this.gameObject.name == "Character1")
         {
