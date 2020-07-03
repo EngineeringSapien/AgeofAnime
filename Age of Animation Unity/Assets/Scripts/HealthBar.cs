@@ -7,13 +7,17 @@ public class HealthBar : MonoBehaviour {
     Transform Bar;
 
     private float teamHP;
-    private float maxHP;
+    private float maxTeamHP;
     private float unitHP;
-    private float maxunitHP;
+    private float maxUnitHP;
        
     baseHealth basehealth;
     health Health;
+
+    Color p1Color = Color.cyan;
+    Color p2Color = Color.magenta;
     
+
 	void Start ()
     {
         Bar = transform.Find("Bar");
@@ -36,63 +40,51 @@ public class HealthBar : MonoBehaviour {
     {
         if (transform.parent != null && transform.parent.tag == "base")
         {
-            TeamHealthBar();
+            ConstructTeamHealthBar();
         }
         else if (transform.parent != null && transform.parent.tag == "Player1" || 
             transform.parent != null && transform.parent.tag == "Player2")
         {
-            UnitHealthBar();
+            ConstructUnitsHealthBar();
         }
     }
 
 
-    void TeamHealthBar()
+    void ConstructTeamHealthBar()
     {
         teamHP = basehealth.currentHealth;
-        maxHP = basehealth.maxHealth;
+        maxTeamHP = basehealth.maxHealth;
 
-        if (teamHP > 0 && teamHP < maxHP)
+        if (teamHP > 0 && teamHP < maxTeamHP)
         {
-            Bar.localScale = new Vector3(teamHP / maxHP, 1f);
-        }
-        else
-        {
-            //Game Over
+            Bar.localScale = new Vector3(teamHP / maxTeamHP, 1f);
         }
     }
 
 
-    void UnitHealthBar()
+    void ConstructUnitsHealthBar()
     {
         unitHP = Health.unitsCurrentHealth;
-        maxunitHP = Health.unitsStartingHealth;
+        maxUnitHP = Health.unitsStartingHealth;
         ChangeBarColor(transform.parent.tag);
 
-        if (unitHP > 0 && unitHP < maxunitHP)
+        if (unitHP > 0 && unitHP < maxUnitHP)
         {
-            Bar.localScale = new Vector3(unitHP / maxunitHP, 1f);
-        }
-        else
-        {
-            //Unit dead
+            Bar.localScale = new Vector3(unitHP / maxUnitHP, 1f);
         }
     }
+
 
     void ChangeBarColor(string player)
     {
         if (player == "Player1")
         {
-            Bar.Find("BarSprite").GetComponent<SpriteRenderer>().color = Color.cyan;
-            //barColor = Color.blue;
+            Bar.Find("BarSprite").GetComponent<SpriteRenderer>().color = p1Color;
         }
         else if (player == "Player2")
         {
-            Bar.Find("BarSprite").GetComponent<SpriteRenderer>().color = Color.magenta;
-            //barColor = Color.white;
+            Bar.Find("BarSprite").GetComponent<SpriteRenderer>().color = p2Color;
         }
     }
-
-
-
 
 }
