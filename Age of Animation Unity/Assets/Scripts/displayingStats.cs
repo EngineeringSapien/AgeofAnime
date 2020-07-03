@@ -6,24 +6,18 @@ using UnityEngine.UI;
 public class displayingStats : MonoBehaviour {
 
     public Text healthText;
-    public baseHealth Health;
-
     public Text goldText;
     public Text expText;
+
     public score Score;
-    
-    
-	void Start ()
-    {
-        // I could probably get rid of the public references by just finding the objects in the children
-    }
+    public baseHealth Health;
 
 
     void Update ()
     {
-        healthText.text = "Health: " + Health.currentHealth;                   //If statement to check player not needed b/c we make the reference directly in the editor
+        healthText.text = "Health: " + Health.currentHealth;
 
-        if (this.gameObject.name == "P1 Health, Experience, Gold Parent")   //*We DO need if statements for the gold and experience values because the gold/score for both players sit on the same gameObject/script
+        if (this.gameObject.name == "P1 Health, Experience, Gold Parent")
         {
             goldText.text = "P1 Gold: " + Score.P1Gold;
         }
@@ -33,7 +27,7 @@ public class displayingStats : MonoBehaviour {
         }
 
 
-        if (this.gameObject.name == "P1 Health, Experience, Gold Parent")   //*See above
+        if (this.gameObject.name == "P1 Health, Experience, Gold Parent")
         {
             expText.text = "P1 Exp: " + Score.P1Exp;
         }
