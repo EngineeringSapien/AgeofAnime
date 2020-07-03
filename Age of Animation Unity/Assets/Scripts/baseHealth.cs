@@ -8,7 +8,7 @@ public class baseHealth : MonoBehaviour {
     public int maxHealth;
 
     public Age age;
-    //HealthBar HpBar;
+    HealthBar TeamHealthBar;
 
     private List<int> baseHealthByAge = new List<int>();
 
@@ -22,6 +22,8 @@ public class baseHealth : MonoBehaviour {
 
     private void Start()
     {
+        TeamHealthBar = gameObject.GetComponentInChildren<HealthBar>();
+
         maxHealth = baseHealthByAge[0];
         currentHealth = maxHealth;
     }
@@ -46,7 +48,7 @@ public class baseHealth : MonoBehaviour {
     {
         currentHealth -= damage;
 
-
+        TeamHealthBar.UpdateTeamHealthBar();
     }
 
 

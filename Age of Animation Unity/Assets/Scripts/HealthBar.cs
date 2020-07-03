@@ -36,18 +36,9 @@ public class HealthBar : MonoBehaviour {
         UpdateUnitsHealthBar();
 
     }
-	
-
-	void Update ()
-    {
-        if (transform.parent != null && transform.parent.tag == "base")
-        {
-            ConstructTeamHealthBar();
-        }
-    }
 
 
-    void ConstructTeamHealthBar()
+    public void UpdateTeamHealthBar()
     {
         teamHP = basehealth.currentHealth;
         maxTeamHP = basehealth.maxHealth;
