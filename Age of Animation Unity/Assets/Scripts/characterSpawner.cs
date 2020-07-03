@@ -41,20 +41,13 @@ public class characterSpawner : MonoBehaviour {
 
     private void Update()
     {
-
-
         if (this.gameObject.tag == "P2Base")
         {
             unit1Count = unit1ActiveList.Count;
             unit2Count = unit2ActiveList.Count;
             unit3Count = unit3ActiveList.Count;
-            
         }
-
-
-
     }
-
 
 
     //Function that spawns characters and defines delays
@@ -100,38 +93,9 @@ public class characterSpawner : MonoBehaviour {
                 }
             }
 
-            /*How I did it before
-            if (character.name == "Kakashi")
-            {
-                delayTime = units.unit1SpawntimeList[0];
-            }
-            if (character.name == "Itachi")
-            {
-                delayTime = units.unit2SpawntimeList[0];
-            }
-            if (character.name == "Zabuza")
-            {
-                delayTime = units.unit3SpawntimeList[0];
-            }
-            if (character.name == "4th Hokage")
-            {
-                delayTime = units.unit1SpawntimeList[1];
-            }
-            if (character.name == "Pain")
-            {
-                delayTime = units.unit2SpawntimeList[1];
-            }
-            if (character.name == "Eric FullMetal")
-            {
-                delayTime = units.unit3SpawntimeList[1];
-            }*/
-
             StartCoroutine(SpawnDelay(delayTime, character));
         }
-
     }
-
-
 
 
     IEnumerator SpawnDelay(float delay, GameObject charactertobeSpawn)
