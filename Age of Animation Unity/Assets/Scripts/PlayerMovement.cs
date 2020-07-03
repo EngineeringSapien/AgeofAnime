@@ -35,6 +35,8 @@ public class PlayerMovement : MonoBehaviour {
         if (canIdle == true) { MakePlayerIdle(); }
 
         else { animator.SetBool("isIdle", false); }
+
+        Debug.Log("Tag: " + gameObject.gameObject.tag);
     }
 
 
