@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class characterSpawner : MonoBehaviour {
 
     public bool canSpawn;
-
-    public float delayTime;
+    public float spawnTime;
 
     string myTag;
     int myLayer;
@@ -15,20 +15,20 @@ public class characterSpawner : MonoBehaviour {
     public GameObject SpawnBar;
     Age age;
 
+    public List<string> inGameUnit1Bots = new List<string>();
+    public List<string> inGameUnit2Bots = new List<string>();
+    public List<string> inGameUnit3Bots = new List<string>();
+
+    public int unit1BotsCount;
+    public int unit2BotsCount;
+    public int unit3BotsCount;
+
     string nameEdit1 = "(Clone)";
     string nameEdit2 = " (UnityEngine.GameObject)";
 
     string Character1 = "Character1";
     string Character2 = "Character2";
     string Character3 = "Character3";
-
-    public List<string> unit1ActiveList = new List<string>();
-    public List<string> unit2ActiveList = new List<string>();
-    public List<string> unit3ActiveList = new List<string>();
-
-    public int unit1Count;
-    public int unit2Count;
-    public int unit3Count;
 
 
 
@@ -43,9 +43,9 @@ public class characterSpawner : MonoBehaviour {
     {
         if (this.gameObject.tag == "P2Base")
         {
-            unit1Count = unit1ActiveList.Count;
-            unit2Count = unit2ActiveList.Count;
-            unit3Count = unit3ActiveList.Count;
+            unit1BotsCount = inGameUnit1Bots.Count;
+            unit2BotsCount = inGameUnit2Bots.Count;
+            unit3BotsCount = inGameUnit3Bots.Count;
         }
     }
 
@@ -73,7 +73,7 @@ public class characterSpawner : MonoBehaviour {
             {
                 if (units.unit1List.Contains(character.name))
                 {
-                    delayTime = units.unit1SpawntimeList[age];
+                    spawnTime = units.unit1SpawntimeList[age];
                 }
             }
 
@@ -81,7 +81,7 @@ public class characterSpawner : MonoBehaviour {
             {
                 if (units.unit2List.Contains(character.name))
                 {
-                    delayTime = units.unit2SpawntimeList[age];
+                    spawnTime = units.unit2SpawntimeList[age];
                 }
             }
 
@@ -89,11 +89,11 @@ public class characterSpawner : MonoBehaviour {
             {
                 if (units.unit3List.Contains(character.name))
                 {
-                    delayTime = units.unit3SpawntimeList[age];
+                    spawnTime = units.unit3SpawntimeList[age];
                 }
             }
 
-            StartCoroutine(SpawnDelay(delayTime, character));
+            StartCoroutine(SpawnDelay(spawnTime, character));
         }
     }
 
@@ -104,24 +104,23 @@ public class characterSpawner : MonoBehaviour {
         var offset = new Vector3(0, 2f, 0);
 
         GameObject cloneBar = Instantiate(SpawnBar, transform.position + offset, Quaternion.identity);
-        cloneBar.GetComponent<spawnBar>().spawnTime = delayTime;
+        cloneBar.GetComponent<spawnBar>().spawnTime = spawnTime;
 
         yield return new WaitForSeconds(delay);
 
         canSpawn = true;
-
         charactertobeSpawn.transform.tag = myTag;
         charactertobeSpawn.gameObject.layer = myLayer;
 
         var clone = Instantiate(charactertobeSpawn, transform.position, Quaternion.identity);
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character1.ToString())
-        { clone.name = Character1; unit1ActiveList.Add(clone.name); }
+        { clone.name = Character1; inGameUnit1Bots.Add(clone.name); }
 
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character2.ToString())
-        { clone.name = Character2; unit2ActiveList.Add(clone.name); }
+        { clone.name = Character2; inGameUnit2Bots.Add(clone.name); }
 
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character3.ToString())
-        { clone.name = Character3; unit3ActiveList.Add(clone.name); }
+        { clone.name = Character3; inGameUnit3Bots.Add(clone.name); }
        
     }
 

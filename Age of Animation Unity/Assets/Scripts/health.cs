@@ -95,9 +95,9 @@ public class health : MonoBehaviour {
         Destroy(gameObject);
         Destroy(clone, deathwait);
 
-        if (clone.name == "Character1") { Spawner.unit1ActiveList.Remove(this.gameObject.name); }
-        else if (clone.name == "Character2") { Spawner.unit2ActiveList.Remove(this.gameObject.name); }
-        else if (clone.name == "Character3") { Spawner.unit3ActiveList.Remove(this.gameObject.name); }
+        if (clone.name == "Character1") { Spawner.inGameUnit1Bots.Remove(this.gameObject.name); }
+        else if (clone.name == "Character2") { Spawner.inGameUnit2Bots.Remove(this.gameObject.name); }
+        else if (clone.name == "Character3") { Spawner.inGameUnit3Bots.Remove(this.gameObject.name); }
 
     }
     

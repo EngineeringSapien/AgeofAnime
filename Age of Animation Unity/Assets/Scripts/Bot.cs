@@ -47,9 +47,9 @@ public class Bot : MonoBehaviour {
     private void Update()
     {
 
-        u1Count = p2Base.GetComponentInChildren<characterSpawner>().unit1Count;
-        u2Count = p2Base.GetComponentInChildren<characterSpawner>().unit2Count;
-        u3Count = p2Base.GetComponentInChildren<characterSpawner>().unit3Count;
+        u1Count = p2Base.GetComponentInChildren<characterSpawner>().unit1BotsCount;
+        u2Count = p2Base.GetComponentInChildren<characterSpawner>().unit2BotsCount;
+        u3Count = p2Base.GetComponentInChildren<characterSpawner>().unit3BotsCount;
 
         botGold = Score.P2Gold;
         unit1Cost = Score.p2Unit1cost;
