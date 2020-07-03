@@ -13,7 +13,7 @@ public class Casting : MonoBehaviour {
     int enemyMask;
     int friendlyMask;
 
-    Vector2 forward;
+    Vector2 unitForwardDirection;
     private float rayOffset = .30f;
     private int offSetDirection;
 
@@ -51,12 +51,12 @@ public class Casting : MonoBehaviour {
         #region Determing Ray Direction
         if (this.gameObject.tag == "Player1")
         {
-            forward = Vector2.right;
+            unitForwardDirection = Vector2.right;
             offSetDirection = 1;
         }
         else if (this.gameObject.tag == "Player2")
         {
-            forward = Vector2.left;
+            unitForwardDirection = Vector2.left;
             offSetDirection = -1;
         }
         #endregion
@@ -67,15 +67,13 @@ public class Casting : MonoBehaviour {
     void Update ()
     {
         Vector2 startingposition = new Vector2((rayOffset * offSetDirection) + transform.position.x, transform.position.y);
-        Debug.DrawRay(startingposition, forward, Color.red);
+        Debug.DrawRay(startingposition, unitForwardDirection, Color.red);
 
 
-        // Melee Units
         if (unit.unitType == "melee")
         {
-            //raycast for melee
-            RaycastHit2D hitEnemy = Physics2D.Raycast(startingposition, forward, unitRange / 2, enemyMask);
-            RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, forward, friendlyRange / 20, friendlyMask);
+            RaycastHit2D hitEnemy = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 2, enemyMask);
+            RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, unitForwardDirection, friendlyRange / 20, friendlyMask);
 
             if (hitEnemy)
             {
@@ -84,18 +82,12 @@ public class Casting : MonoBehaviour {
 
             else if (hitFriendly)
             {
-                // if the friendly is the base, ignore it and walk
-                if (hitFriendly.transform.tag == "base")
-                {
-                    movement.WalkTrue();
-                }
+                if (hitFriendly.transform.tag == "base") { movement.WalkTrue(); }
+                
                 // else if the friendly is a unit, just idle behind them
-                else
-                {
-                    movement.IdleTrue();
-                }
-
+                else { movement.IdleTrue(); }
             }
+
             //Just in case, to ensure no one gets stuck not moving
             else
             {
@@ -106,9 +98,8 @@ public class Casting : MonoBehaviour {
 
         else if (unit.unitType == "ranged")
         {
-            //raycast for ranged unit
-            RaycastHit2D hitEnemyClose = Physics2D.Raycast(startingposition, forward, unitRange / 50, enemyMask);
-            RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, forward, friendlyRange / 20, friendlyMask);
+            RaycastHit2D hitEnemyClose = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 50, enemyMask);
+            RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, unitForwardDirection, friendlyRange / 20, friendlyMask);
 
             if (hitEnemyClose)
             {
@@ -117,22 +108,13 @@ public class Casting : MonoBehaviour {
 
             else if (hitFriendly)
             {
-                RaycastHit2D hitEnemyFar = Physics2D.Raycast(startingposition, forward, unitRange / 10, enemyMask);
+                RaycastHit2D hitEnemyFar = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 10, enemyMask);
 
-                if (hitEnemyFar)
-                {
-                    movement.FireTrue();
-                }
+                if (hitEnemyFar) { movement.FireTrue(); }
 
-                else
-                {
-                    movement.IdleTrue();
-                }
+                else { movement.IdleTrue(); }
                 
-                if (hitFriendly.transform.tag == "base")
-                {
-                    movement.WalkTrue();
-                }
+                if (hitFriendly.transform.tag == "base") { movement.WalkTrue(); }
             }
  
             else
@@ -144,9 +126,8 @@ public class Casting : MonoBehaviour {
 
         else if (unit.unitType == "power")
         {
-            //raycast for power unit
-            RaycastHit2D hitEnemyClose = Physics2D.Raycast(startingposition, forward, unitRange / 50, enemyMask);
-            RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, forward, friendlyRange / 20, friendlyMask);
+            RaycastHit2D hitEnemyClose = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 50, enemyMask);
+            RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, unitForwardDirection, friendlyRange / 20, friendlyMask);
 
             if (hitEnemyClose)
             {
@@ -155,29 +136,21 @@ public class Casting : MonoBehaviour {
 
             else if (hitFriendly)
             {
-                RaycastHit2D hitEnemyFar = Physics2D.Raycast(startingposition, forward, unitRange / 10, enemyMask);
+                RaycastHit2D hitEnemyFar = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 10, enemyMask);
 
-                if (hitEnemyFar)
-                {
-                    movement.FireTrue();
-                }
+                if (hitEnemyFar) { movement.FireTrue(); }
 
-                else
-                {
-                    movement.IdleTrue();
-                }
+                else { movement.IdleTrue(); }
 
-                if (hitFriendly.transform.tag == "base")
-                {
-                    movement.WalkTrue();
-                }
+                if (hitFriendly.transform.tag == "base") { movement.WalkTrue(); }
             }
 
             else
             {
                 movement.WalkTrue();
             }
-        }     
+        }
+        
     }
 	
 }
