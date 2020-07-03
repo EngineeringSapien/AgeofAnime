@@ -10,14 +10,9 @@ public class SplitScreen : MonoBehaviour {
     public bool Horizontal = false;
 
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            ChangeSplitScreen();
-        }
-
+        if (Input.GetKeyDown("space")) { ChangeSplitScreen(); }
     }
 
 
@@ -35,6 +30,6 @@ public class SplitScreen : MonoBehaviour {
             cam1.rect = new Rect(0, 0, 1f, 1f);
             cam2.enabled = false;
         }
-
     }
+
 }
