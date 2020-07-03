@@ -35,10 +35,7 @@ public class health : MonoBehaviour {
     {        
         unitsCurrentHealth -= damage;
 
-        if (unitsCurrentHealth <= 0)
-        {
-            Die();
-        }
+        if (unitsCurrentHealth <= 0) { Die(); }
 
         else { HpBar.UpdateUnitsHealthBar(); }
     }
@@ -50,7 +47,6 @@ public class health : MonoBehaviour {
         Score.ChangeExperience("increase", this.gameObject.name, this.gameObject.tag);
 
         var clone = Instantiate(thisUnitsDeathSprite, transform.position, Quaternion.identity);
-
         Destroy(gameObject);
         Destroy(clone, deathwait);
 
