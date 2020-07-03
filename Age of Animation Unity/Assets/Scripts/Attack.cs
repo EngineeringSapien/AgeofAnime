@@ -39,12 +39,12 @@ public class Attack : MonoBehaviour {
 
     private void Update()
     {
-        if (thisUnitsMovementLogic.canAttack == true)
+        if (thisUnitsMovementLogic.canMeleeAttack == true)
         {
             MeleeAttack();
         }
 
-        else if (thisUnitsMovementLogic.canFire == true)
+        else if (thisUnitsMovementLogic.canRangeAttack == true)
         {
             
             RangeAttack();

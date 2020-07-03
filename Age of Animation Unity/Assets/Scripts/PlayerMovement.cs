@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour {
 
@@ -8,15 +9,10 @@ public class PlayerMovement : MonoBehaviour {
 
     public float speed = .5f;
 
-    public bool canWalk;
-    public bool canAttack;
-    public bool canIdle;
-    public bool canFire;
-    bool triggered = false;
-
-
-    Collider2D collision;
-
+    private bool canWalk;
+    private bool canIdle;
+    public bool canMeleeAttack;
+    public bool canRangeAttack;
 
 
     void Start ()
@@ -66,32 +62,32 @@ public class PlayerMovement : MonoBehaviour {
     {
         canWalk = true;
         canIdle = false;
-        canAttack = false;
-        canFire = false;
+        canMeleeAttack = false;
+        canRangeAttack = false;
     }
 
     public void IdleTrue()
     {
         canWalk = false;
         canIdle = true;
-        canAttack = false;
-        canFire = false;
+        canMeleeAttack = false;
+        canRangeAttack = false;
     }
 
     public void AttackTrue()
     {
         canWalk = false;
         canIdle = false;
-        canAttack = true;
-        canFire = false;
+        canMeleeAttack = true;
+        canRangeAttack = false;
     }
 
     public void FireTrue()
     {
         canWalk = false;
         canIdle = false;
-        canAttack = false;
-        canFire = true;
+        canMeleeAttack = false;
+        canRangeAttack = true;
     }
 
 }
