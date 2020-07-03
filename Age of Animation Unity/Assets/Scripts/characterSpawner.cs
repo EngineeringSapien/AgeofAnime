@@ -79,27 +79,27 @@ public class characterSpawner : MonoBehaviour {
 
     private void GetSpawntime(GameObject character, int age)
     {
-        for (int i = 0; i < units.unit1List.Count; i++)
+        for (int i = 0; i < units.unit1Characters.Count; i++)
         {
-            if (units.unit1List.Contains(character.name))
+            if (units.unit1Characters.Contains(character.name))
             {
-                spawnTime = units.unit1SpawntimeList[age];
+                spawnTime = units.eachUnit1Spawntime[age];
             }
         }
 
-        for (int i = 0; i < units.unit2List.Count; i++)
+        for (int i = 0; i < units.unit2Characters.Count; i++)
         {
-            if (units.unit2List.Contains(character.name))
+            if (units.unit2Characters.Contains(character.name))
             {
-                spawnTime = units.unit2SpawntimeList[age];
+                spawnTime = units.eachUnit2Spawntime[age];
             }
         }
 
-        for (int i = 0; i < units.unit3List.Count; i++)
+        for (int i = 0; i < units.unit3Characters.Count; i++)
         {
-            if (units.unit3List.Contains(character.name))
+            if (units.unit3Characters.Contains(character.name))
             {
-                spawnTime = units.unit3SpawntimeList[age];
+                spawnTime = units.eachUnit3Spawntime[age];
             }
         }
     }

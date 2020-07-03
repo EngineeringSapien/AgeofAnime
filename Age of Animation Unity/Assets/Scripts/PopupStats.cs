@@ -53,29 +53,29 @@ public class PopupStats : MonoBehaviour {
         //Player 1
         if (button == "P1Button1")
         {
-            UnitDamage.text = "Damage: " + units.unit1DamageList[age1] + " hp";
+            UnitDamage.text = "Damage: " + units.eachUnit1Damage[age1] + " hp";
         }
         else if (button == "P1Button2")
         {
-            UnitDamage.text = "Damage: " + units.unit2DamageList[age1] + " hp";
+            UnitDamage.text = "Damage: " + units.eachUnit2Damage[age1] + " hp";
         }
         else if (button == "P1Button3")
         {
-            UnitDamage.text = "Damage: " + units.unit3DamageList[age1] + " hp";
+            UnitDamage.text = "Damage: " + units.eachUnit3Damage[age1] + " hp";
         }
 
         //P2
         if (button == "P2Button1")
         {
-            UnitDamage.text = "Damage: " + units.unit1DamageList[age2] + " hp";
+            UnitDamage.text = "Damage: " + units.eachUnit1Damage[age2] + " hp";
         }
         else if (button == "P2Button2")
         {
-            UnitDamage.text = "Damage: " + units.unit2DamageList[age2] + " hp";
+            UnitDamage.text = "Damage: " + units.eachUnit2Damage[age2] + " hp";
         }
         else if (button == "P2Button3")
         {
-            UnitDamage.text = "Damage: " + units.unit3DamageList[age2] + " hp";
+            UnitDamage.text = "Damage: " + units.eachUnit3Damage[age2] + " hp";
         }
 
     }
@@ -87,30 +87,30 @@ public class PopupStats : MonoBehaviour {
         //P 1
         if (button == "P1Button1")
         {
-            UnitSpawn.text = "Spawn Time: " + units.unit1SpawntimeList[age1] + " s";
+            UnitSpawn.text = "Spawn Time: " + units.eachUnit1Spawntime[age1] + " s";
         }
         else if (button == "P1Button2")
         {
-            UnitSpawn.text = "Spawn Time: " + units.unit2SpawntimeList[age1] + " s";
+            UnitSpawn.text = "Spawn Time: " + units.eachUnit2Spawntime[age1] + " s";
         }
         else if (button == "P1Button3")
         {
-            UnitSpawn.text = "Spawn Time: " + units.unit3SpawntimeList[age1] + " s";
+            UnitSpawn.text = "Spawn Time: " + units.eachUnit3Spawntime[age1] + " s";
         }
 
 
         //P 2
         if (button == "P2Button1")
         {
-            UnitSpawn.text = "Spawn Time: " + units.unit1SpawntimeList[age2] + " s";
+            UnitSpawn.text = "Spawn Time: " + units.eachUnit1Spawntime[age2] + " s";
         }
         else if (button == "P2Button2")
         {
-            UnitSpawn.text = "Spawn Time: " + units.unit2SpawntimeList[age2] + " s";
+            UnitSpawn.text = "Spawn Time: " + units.eachUnit2Spawntime[age2] + " s";
         }
         else if (button == "P2Button3")
         {
-            UnitSpawn.text = "Spawn Time: " + units.unit3SpawntimeList[age2] + " s";
+            UnitSpawn.text = "Spawn Time: " + units.eachUnit3Spawntime[age2] + " s";
         }
 
     }
@@ -122,29 +122,29 @@ public class PopupStats : MonoBehaviour {
         //P 1
         if (button == "P1Button1")
         {
-            UnitHealth.text = "Health: " + units.unit1HealthList[age1] + " hp";
+            UnitHealth.text = "Health: " + units.eachUnit1Health[age1] + " hp";
         }
         else if (button == "P1Button2")
         {
-            UnitHealth.text = "Health: " + units.unit2HealthList[age1] + " hp";
+            UnitHealth.text = "Health: " + units.eachUnit2Health[age1] + " hp";
         }
         else if (button == "P1Button3")
         {
-            UnitHealth.text = "Health: " + units.unit3HealthList[age1] + " hp";
+            UnitHealth.text = "Health: " + units.eachUnit3Health[age1] + " hp";
         }
 
         //P 2
         if (button == "P2Button1")
         {
-            UnitHealth.text = "Health: " + units.unit1HealthList[age2] + " hp";
+            UnitHealth.text = "Health: " + units.eachUnit1Health[age2] + " hp";
         }
         else if (button == "P2Button2")
         {
-            UnitHealth.text = "Health: " + units.unit2HealthList[age2] + " hp";
+            UnitHealth.text = "Health: " + units.eachUnit2Health[age2] + " hp";
         }
         else if (button == "P2Button3")
         {
-            UnitHealth.text = "Health: " + units.unit3HealthList[age2] + " hp";
+            UnitHealth.text = "Health: " + units.eachUnit3Health[age2] + " hp";
         }
 
     }
