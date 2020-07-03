@@ -3302,33 +3302,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1468c4c2e297ed4bb2eadfc1c13dac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
   P1character1: {fileID: 0}
   P1character2: {fileID: 0}
   P1character3: {fileID: 0}
   P2character1: {fileID: 0}
   P2character2: {fileID: 0}
   P2character3: {fileID: 0}
-  unit1List: []
-  unit2List: []
-  unit3List: []
-  unit1DamageList: 
-  unit2DamageList: 
-  unit3DamageList: 
-  unit2RangeDamageList: 
-  unit3RangeDamageList: 
-  unit1SpawntimeList: []
-  unit2SpawntimeList: []
-  unit3SpawntimeList: []
-  unit1HealthList: []
-  unit2HealthList: []
-  unit3HealthList: []
-  unit1SpeedList: []
-  unit2SpeedList: []
-  unit3SpeedList: []
-  unit1RangeList: []
-  unit2RangeList: []
-  unit3RangeList: []
+  unit1Characters: []
+  unit2Characters: []
+  unit3Characters: []
+  eachUnit1Damage: 
+  eachUnit2Damage: 
+  eachUnit3Damage: 
+  eachUnit2RangeDamage: 
+  eachUnit3RangeDamage: 
+  eachUnit1Spawntime: []
+  eachUnit2Spawntime: []
+  eachUnit3Spawntime: []
+  eachUnit1Health: []
+  eachUnit2Health: []
+  eachUnit3Health: []
+  eachUnit1Speed: []
+  eachUnit2Speed: []
+  eachUnit3Speed: []
+  eachUnit1Range: []
+  eachUnit2Range: []
+  eachUnit3Range: []
 --- !u!4 &586400141
 Transform:
   m_ObjectHideFlags: 0

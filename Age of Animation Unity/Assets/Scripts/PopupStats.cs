@@ -5,211 +5,125 @@ using UnityEngine.UI;
 
 public class PopupStats : MonoBehaviour {
 
-    // since these are children of the object this script sits on, I don't think I need a public reference
-    // I think this method will make it so I can just copy the script to other buttons without any trouble
+    // since these are children of the object this script sits on, we could try using GetComponentinChild
+    // However, there are multiple Text Components making it difficult to decipher
     public Text UnitName;
     public Text UnitCost;
     public Text UnitDamage;
     public Text UnitSpawn;
     public Text UnitHealth;
 
-    public Units units; //to get the unitName, damage, spawntime, and health
-    public score Score; //to get the UnitCost
-
+    public Units units;
+    public score Score;
     public Age age;
 
-    string buttonName;
+    string thisButtonName;
+
 
     private void Start()
     {
-        buttonName = transform.parent.gameObject.name;
-  
+        thisButtonName = transform.parent.gameObject.name;
     }
 
 
     void Update ()
     {
-        // Name //
-        TextName();
-
-        //  Cost  //
-        TextCost();
-
-        // Damage //
-        TextDamage(buttonName, age.P1Age, age.P2Age);
-
-        // SpawnTime //
-        TextSpawnTime(buttonName, age.P1Age, age.P2Age);
-
-        // Health //
-        TextHealth(buttonName, age.P1Age, age.P2Age);
-
+        if (thisButtonName == "P1Button1") { SetP1Button1Text(); }
+        else if (thisButtonName == "P1Button2") { SetP1Button2Text(); }
+        else if (thisButtonName == "P1Button3") { SetP1Button3Text(); }
+        else if (thisButtonName == "P2Button1") { SetP2Button1Text(); }
+        else if (thisButtonName == "P2Button2") { SetP2Button2Text(); }
+        else if (thisButtonName == "P2Button3") { SetP2Button3Text(); }
     }
 
 
-    private void TextDamage(string button, int age1, int age2)
+    private void SetP1Button1Text()
     {
-        //Debug.Log(button);
-        //Player 1
-        if (button == "P1Button1")
-        {
-            UnitDamage.text = "Damage: " + units.eachUnit1Damage[age1] + " hp";
-        }
-        else if (button == "P1Button2")
-        {
-            UnitDamage.text = "Damage: " + units.eachUnit2Damage[age1] + " hp";
-        }
-        else if (button == "P1Button3")
-        {
-            UnitDamage.text = "Damage: " + units.eachUnit3Damage[age1] + " hp";
-        }
-
-        //P2
-        if (button == "P2Button1")
-        {
-            UnitDamage.text = "Damage: " + units.eachUnit1Damage[age2] + " hp";
-        }
-        else if (button == "P2Button2")
-        {
-            UnitDamage.text = "Damage: " + units.eachUnit2Damage[age2] + " hp";
-        }
-        else if (button == "P2Button3")
-        {
-            UnitDamage.text = "Damage: " + units.eachUnit3Damage[age2] + " hp";
-        }
-
+        SetCostText(Score.p1Unit1cost);
+        SetDamageText(units.eachUnit1Damage[age.P1Age]);
+        SetHealthText(units.eachUnit1Health[age.P1Age]);
+        SetNameText(units.P1character1.gameObject.name);
+        SetSpawnTimeText(units.eachUnit1Spawntime[age.P1Age]);
     }
 
 
-
-    private void TextSpawnTime(string button, int age1, int age2)
+    private void SetP1Button2Text()
     {
-        //P 1
-        if (button == "P1Button1")
-        {
-            UnitSpawn.text = "Spawn Time: " + units.eachUnit1Spawntime[age1] + " s";
-        }
-        else if (button == "P1Button2")
-        {
-            UnitSpawn.text = "Spawn Time: " + units.eachUnit2Spawntime[age1] + " s";
-        }
-        else if (button == "P1Button3")
-        {
-            UnitSpawn.text = "Spawn Time: " + units.eachUnit3Spawntime[age1] + " s";
-        }
-
-
-        //P 2
-        if (button == "P2Button1")
-        {
-            UnitSpawn.text = "Spawn Time: " + units.eachUnit1Spawntime[age2] + " s";
-        }
-        else if (button == "P2Button2")
-        {
-            UnitSpawn.text = "Spawn Time: " + units.eachUnit2Spawntime[age2] + " s";
-        }
-        else if (button == "P2Button3")
-        {
-            UnitSpawn.text = "Spawn Time: " + units.eachUnit3Spawntime[age2] + " s";
-        }
-
+        SetCostText(Score.p1Unit2cost);
+        SetDamageText(units.eachUnit2Damage[age.P1Age]);
+        SetHealthText(units.eachUnit2Health[age.P1Age]);
+        SetNameText(units.P1character2.gameObject.name);
+        SetSpawnTimeText(units.eachUnit2Spawntime[age.P1Age]);
     }
 
 
-
-    private void TextHealth(string button, int age1, int age2)
+    private void SetP1Button3Text()
     {
-        //P 1
-        if (button == "P1Button1")
-        {
-            UnitHealth.text = "Health: " + units.eachUnit1Health[age1] + " hp";
-        }
-        else if (button == "P1Button2")
-        {
-            UnitHealth.text = "Health: " + units.eachUnit2Health[age1] + " hp";
-        }
-        else if (button == "P1Button3")
-        {
-            UnitHealth.text = "Health: " + units.eachUnit3Health[age1] + " hp";
-        }
-
-        //P 2
-        if (button == "P2Button1")
-        {
-            UnitHealth.text = "Health: " + units.eachUnit1Health[age2] + " hp";
-        }
-        else if (button == "P2Button2")
-        {
-            UnitHealth.text = "Health: " + units.eachUnit2Health[age2] + " hp";
-        }
-        else if (button == "P2Button3")
-        {
-            UnitHealth.text = "Health: " + units.eachUnit3Health[age2] + " hp";
-        }
-
+        SetCostText(Score.p1Unit3cost);
+        SetDamageText(units.eachUnit3Damage[age.P1Age]);
+        SetHealthText(units.eachUnit3Health[age.P1Age]);
+        SetNameText(units.P1character3.gameObject.name);
+        SetSpawnTimeText(units.eachUnit3Spawntime[age.P1Age]);
     }
 
 
-    private void TextName()
+    private void SetP2Button1Text()
     {
-        //P1
-        if (transform.parent.gameObject.name == "P1Button1")
-        {
-            UnitName.text = "Unit: " + units.P1character1.gameObject.name;		
-        }
-        else if (transform.parent.gameObject.name == "P1Button2")
-        {
-            UnitName.text = "Unit: " + units.P1character2.gameObject.name;		
-        }
-        else if (transform.parent.gameObject.name == "P1Button3")
-        {
-            UnitName.text = "Unit: " + units.P1character3.gameObject.name;		
-        }
-
-        //P2
-        else if (transform.parent.gameObject.name == "P2Button1")
-        {
-            UnitName.text = "Unit: " + units.P2character1.gameObject.name;		
-        }
-        else if (transform.parent.gameObject.name == "P2Button2")
-        {
-            UnitName.text = "Unit: " + units.P2character2.gameObject.name;		
-        }
-        else if (transform.parent.gameObject.name == "P2Button3")
-        {
-            UnitName.text = "Unit: " + units.P2character3.gameObject.name;		
-        }
+        SetCostText(Score.p2Unit1cost);
+        SetDamageText(units.eachUnit1Damage[age.P2Age]);
+        SetHealthText(units.eachUnit1Health[age.P2Age]);
+        SetNameText(units.P2character1.gameObject.name);
+        SetSpawnTimeText(units.eachUnit1Spawntime[age.P2Age]);
     }
 
 
-    private void TextCost()
+    private void SetP2Button2Text()
     {
-        //P1
-        if (transform.parent.gameObject.name == "P1Button1")
-        {
-            UnitCost.text = "Cost: " + Score.p1Unit1cost + " gold";
-        }
-        else if (transform.parent.gameObject.name == "P1Button2")
-        {
-            UnitCost.text = "Cost: " + Score.p1Unit2cost + " gold";
-        }
-        else if (transform.parent.gameObject.name == "P1Button3")
-        {
-            UnitCost.text = "Cost: " + Score.p1Unit3cost + " gold";
-        }
-
-        //P2
-        else if (transform.parent.gameObject.name == "P2Button1")
-        {
-            UnitCost.text = "Cost: " + Score.p2Unit1cost + " gold";
-        }
-        else if (transform.parent.gameObject.name == "P2Button2")
-        {
-            UnitCost.text = "Cost: " + Score.p2Unit2cost + " gold";
-        }
-        else if (transform.parent.gameObject.name == "P2Button3")
-        {
-            UnitCost.text = "Cost: " + Score.p2Unit3cost + " gold";
-        }
+        SetCostText(Score.p2Unit2cost);
+        SetDamageText(units.eachUnit2Damage[age.P2Age]);
+        SetHealthText(units.eachUnit2Health[age.P2Age]);
+        SetNameText(units.P2character2.gameObject.name);
+        SetSpawnTimeText(units.eachUnit2Spawntime[age.P2Age]);
     }
+
+
+    private void SetP2Button3Text()
+    {
+        SetCostText(Score.p2Unit3cost);
+        SetDamageText(units.eachUnit3Damage[age.P2Age]);
+        SetHealthText(units.eachUnit3Health[age.P2Age]);
+        SetNameText(units.P2character3.gameObject.name);
+        SetSpawnTimeText(units.eachUnit3Spawntime[age.P2Age]);
+    }
+
+
+    private void SetCostText(float unitCost)
+    {
+        UnitCost.text = "Cost: " + unitCost + " gold";
+    }
+
+
+    private void SetDamageText(int unitDamage)
+    {
+        UnitDamage.text = "Damage: " + unitDamage + " HP";
+    }
+  
+
+    private void SetHealthText(float unitHealth)
+    {
+        UnitHealth.text = "Health: " + unitHealth + " HP";
+    }
+
+
+    private void SetNameText(string unitName)
+    {
+        UnitName.text = "Unit: " + UnitName;
+    }
+
+
+    private void SetSpawnTimeText(float unitSpawnTime)
+    {
+        UnitSpawn.text = "Spawn Time: " + unitSpawnTime + " s";
+    }
+
 }

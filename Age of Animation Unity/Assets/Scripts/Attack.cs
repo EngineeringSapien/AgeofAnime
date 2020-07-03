@@ -46,7 +46,6 @@ public class Attack : MonoBehaviour {
 
         else if (thisUnitsMovementLogic.canRangeAttack == true)
         {
-            
             RangeAttack();
         }
     }
@@ -56,7 +55,6 @@ public class Attack : MonoBehaviour {
     {
         thisUnitsAnimator.SetBool("isFiring", false);
         thisUnitsAnimator.SetBool("isAttacking", true);
-
     }
 
 
@@ -64,7 +62,6 @@ public class Attack : MonoBehaviour {
     {
         thisUnitsAnimator.SetBool("isAttacking", false);
         thisUnitsAnimator.SetBool("isFiring", true);
-
     }
 
 
