@@ -8,6 +8,7 @@ public class baseHealth : MonoBehaviour {
     public int maxHealth;
 
     public Age age;
+    //HealthBar HpBar;
 
     private List<int> baseHealthByAge = new List<int>();
 
@@ -44,6 +45,8 @@ public class baseHealth : MonoBehaviour {
     public void TakeBaseDamage(int damage)
     {
         currentHealth -= damage;
+
+
     }
 
 

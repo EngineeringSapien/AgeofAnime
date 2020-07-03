@@ -33,6 +33,8 @@ public class HealthBar : MonoBehaviour {
             Health = transform.parent.GetComponent<health>();
         }
 
+        UpdateUnitsHealthBar();
+
     }
 	
 
@@ -41,11 +43,6 @@ public class HealthBar : MonoBehaviour {
         if (transform.parent != null && transform.parent.tag == "base")
         {
             ConstructTeamHealthBar();
-        }
-        else if (transform.parent != null && transform.parent.tag == "Player1" || 
-            transform.parent != null && transform.parent.tag == "Player2")
-        {
-            ConstructUnitsHealthBar();
         }
     }
 
@@ -62,7 +59,7 @@ public class HealthBar : MonoBehaviour {
     }
 
 
-    void ConstructUnitsHealthBar()
+    public void UpdateUnitsHealthBar()
     {
         unitHP = Health.unitsCurrentHealth;
         maxUnitHP = Health.unitsStartingHealth;

@@ -17,6 +17,7 @@ public class health : MonoBehaviour {
     spawn Spawn;
     Units units;
     characterSpawner Spawner;
+    HealthBar HpBar;
 
     string nameEdit1 = "(Clone)";
     string nameEdit2 = " (UnityEngine.GameObject)";
@@ -29,17 +30,18 @@ public class health : MonoBehaviour {
 
     private void Awake()
     {
-        Score = FindObjectOfType<score>();
-        attack = gameObject.GetComponentInChildren<Attack>();
-        Spawn = FindObjectOfType<spawn>();        
-        units = FindObjectOfType<Units>();
-        Spawner = FindObjectOfType<characterSpawner>();
+
     }
 
 
     void Start()
     {
-
+        HpBar = gameObject.GetComponentInChildren<HealthBar>();
+        Score = FindObjectOfType<score>();
+        attack = gameObject.GetComponentInChildren<Attack>();
+        Spawn = FindObjectOfType<spawn>();
+        units = FindObjectOfType<Units>();
+        Spawner = FindObjectOfType<characterSpawner>();
 
         if (this.gameObject.tag == "Player1")
         {
@@ -77,11 +79,14 @@ public class health : MonoBehaviour {
     public void TakeDamage(int damage)
     {        
         unitsCurrentHealth -= damage;
-	
-	    if (unitsCurrentHealth <= 0)
+
+        if (unitsCurrentHealth <= 0)
         {
             Die();
         }
+
+        else { HpBar.UpdateUnitsHealthBar(); }
+
     }
 
 
