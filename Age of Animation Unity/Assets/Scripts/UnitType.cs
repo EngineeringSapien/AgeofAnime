@@ -11,20 +11,11 @@ public class UnitType : MonoBehaviour {
     private int myAge;
     public string unitType;
 
-
     private Attack attack;
     private health Health;
     private PlayerMovement pm;
     private Casting cast;
     private Units units;
-
-
-
-    private void Awake()
-    {
-
-    }
-
 
 
     void Start ()
@@ -44,36 +35,52 @@ public class UnitType : MonoBehaviour {
 
         if (this.gameObject.name == "Character1")
         {
-            unitType = "melee";
-            attack.currentMeleeDamage = units.eachUnit1Damage[myAge];
-            Health.unitsCurrentHealth = units.eachUnit1Health[myAge];
-            Health.unitsStartingHealth = units.eachUnit1Health[myAge];
-            pm.speed = units.eachUnit1Speed[myAge];
-            cast.unitRange = units.eachUnit1Range[myAge];
-            
+            SetupUnit1();
         }
 
         if (this.gameObject.name == "Character2")
         {
-            unitType = "ranged";
-            attack.currentMeleeDamage = units.eachUnit2Damage[myAge];
-            attack.currentRangeDamage = units.eachUnit2RangeDamage[myAge];
-            Health.unitsCurrentHealth = units.eachUnit2Health[myAge];
-            Health.unitsStartingHealth = units.eachUnit2Health[myAge];
-            pm.speed = units.eachUnit2Speed[myAge];
-            cast.unitRange = units.eachUnit2Range[myAge];
+            SetupUnit2();
         }
 
         if (this.gameObject.name == "Character3")
         {
-            unitType = "power";
-            attack.currentMeleeDamage = units.eachUnit3Damage[myAge];
-            attack.currentRangeDamage = units.eachUnit3RangeDamage[myAge];
-            Health.unitsCurrentHealth = units.eachUnit3Health[myAge];
-            Health.unitsStartingHealth = units.eachUnit3Health[myAge];
-            pm.speed = units.eachUnit3Speed[myAge];
-            cast.unitRange = units.eachUnit3Range[myAge];
+            SetupUnit3();
         }
     }
 
+
+    private void SetupUnit1()
+    {
+        unitType = "melee";
+        attack.currentMeleeDamage = units.eachUnit1Damage[myAge];
+        Health.unitsCurrentHealth = units.eachUnit1Health[myAge];
+        Health.unitsStartingHealth = units.eachUnit1Health[myAge];
+        pm.speed = units.eachUnit1Speed[myAge];
+        cast.unitRange = units.eachUnit1Range[myAge];
+    }
+
+
+    private void SetupUnit2()
+    {
+        unitType = "ranged";
+        attack.currentMeleeDamage = units.eachUnit2Damage[myAge];
+        attack.currentRangeDamage = units.eachUnit2RangeDamage[myAge];
+        Health.unitsCurrentHealth = units.eachUnit2Health[myAge];
+        Health.unitsStartingHealth = units.eachUnit2Health[myAge];
+        pm.speed = units.eachUnit2Speed[myAge];
+        cast.unitRange = units.eachUnit2Range[myAge];
+    }
+
+
+    private void SetupUnit3()
+    {
+        unitType = "power";
+        attack.currentMeleeDamage = units.eachUnit3Damage[myAge];
+        attack.currentRangeDamage = units.eachUnit3RangeDamage[myAge];
+        Health.unitsCurrentHealth = units.eachUnit3Health[myAge];
+        Health.unitsStartingHealth = units.eachUnit3Health[myAge];
+        pm.speed = units.eachUnit3Speed[myAge];
+        cast.unitRange = units.eachUnit3Range[myAge];
+    }
 }
