@@ -142,68 +142,103 @@ public class spawn : MonoBehaviour {
     }
 
 
+
+
+
     public void CheckButtonName()
     {
 
-        #region Spawn Character Buttons
+        if (P1key1.key_pressed == true) { TriggerP1Button1(); }
 
-        if (P1key1.key_pressed == true)
-        {
-            spawner1.QueueUnitSpawn(units.P1character1, "P1", ageManager.P1Age);
-            Score.ChangeTreasury("decrease", "Character1", "Player1");
-        }if (P1key2.key_pressed == true)
-        {
-            spawner1.QueueUnitSpawn(units.P1character2, "P1", ageManager.P1Age);
-            Score.ChangeTreasury("decrease", "Character2", "Player1");
-        }
-        if (P1key3.key_pressed == true)
-        {
-            Debug.Log("Key 3");
-            spawner1.QueueUnitSpawn(units.P1character3, "P1", ageManager.P1Age);
-            Score.ChangeTreasury("decrease", "Character3", "Player1");
-        }
+        if (P1key2.key_pressed == true) { TriggerP1Button2(); }
 
-        if (P2key1.key_pressed == true)
-        {
-            spawner2.QueueUnitSpawn(units.P2character1, "P2", ageManager.P2Age);
-            Score.ChangeTreasury("decrease", "Character1", "Player2");
-        }
-        if (P2key2.key_pressed == true)
-        {
-            spawner2.QueueUnitSpawn(units.P2character2, "P2", ageManager.P2Age);
-            Score.ChangeTreasury("decrease", "Character2", "Player2");
-        }
-        if (P2key3.key_pressed == true)
-        {
-            spawner2.QueueUnitSpawn(units.P2character3, "P2", ageManager.P2Age);
-            Score.ChangeTreasury("decrease", "Character3", "Player2");
-        }
-            #endregion
-      
+        if (P1key3.key_pressed == true) { TriggerP1Button3(); }
 
-        #region Evolve1 Buttons
+        if (P2key1.key_pressed == true) { TriggerP2Button1(); }
 
-        if (P1keyEvolve.key_pressed == true)
-        {
-            music.ChangeMusic(ageManager.P1Age + 1);
-            ageManager.ChangeAge("P1");
-            changeButtons("P1");
-            
-        }
-        #endregion        
-        
+        if (P2key2.key_pressed == true) { TriggerP2Button2(); }
 
-        #region Evolve2 Buttons
+        if (P2key3.key_pressed == true) { TriggerP2Button3(); }
 
-        if (P2keyEvolve.key_pressed == true)
-        {
-            music.ChangeMusic(ageManager.P2Age + 1);
-            ageManager.ChangeAge("P2");
-            changeButtons("P2");
-           
-        }
-        #endregion
+        if (P1keyEvolve.key_pressed == true) { TriggerP1Evolve(); }
+
+        if (P2keyEvolve.key_pressed == true) { TriggerP2Evolve(); }
     }
+
+
+    private void TriggerP1Button1()
+    {
+        spawner1.QueueUnitSpawn(units.P1character1, "P1", ageManager.P1Age);
+        Score.ChangeTreasury("decrease", "Character1", "Player1");
+    }
+
+
+    private void TriggerP1Button2()
+    {
+        spawner1.QueueUnitSpawn(units.P1character2, "P1", ageManager.P1Age);
+        Score.ChangeTreasury("decrease", "Character2", "Player1");
+    }
+
+
+    private void TriggerP1Button3()
+    {
+        spawner1.QueueUnitSpawn(units.P1character3, "P1", ageManager.P1Age);
+        Score.ChangeTreasury("decrease", "Character3", "Player1");
+    }
+
+
+    private void TriggerP2Button1()
+    {
+        spawner2.QueueUnitSpawn(units.P2character1, "P2", ageManager.P2Age);
+        Score.ChangeTreasury("decrease", "Character1", "Player2");
+    }
+
+
+    private void TriggerP2Button2()
+    {
+        spawner2.QueueUnitSpawn(units.P2character2, "P2", ageManager.P2Age);
+        Score.ChangeTreasury("decrease", "Character2", "Player2");
+    }
+
+
+    private void TriggerP2Button3()
+    {
+        spawner2.QueueUnitSpawn(units.P2character3, "P2", ageManager.P2Age);
+        Score.ChangeTreasury("decrease", "Character3", "Player2");
+    }
+
+
+    private void TriggerP1Evolve()
+    {
+        music.ChangeMusic(ageManager.P1Age + 1);
+        ageManager.ChangeAge("P1");
+        changeButtons("P1");
+    }
+
+
+    private void TriggerP2Evolve()
+    {
+        music.ChangeMusic(ageManager.P2Age + 1);
+        ageManager.ChangeAge("P2");
+        changeButtons("P2");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
 
 
     void changeButtons(string player)
