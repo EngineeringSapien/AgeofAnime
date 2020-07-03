@@ -19,10 +19,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         canWalk = true;
 
-        if (gameObject.gameObject.tag == "Player2")
-        {
-            transform.Rotate(0f, 180f, 0f);
-        }
+        if (gameObject.gameObject.tag == "Player2") { FlipUnit(); }
     }
 
 
@@ -31,32 +28,34 @@ public class PlayerMovement : MonoBehaviour {
         animator.SetBool("isAttacking", false);
         animator.SetBool("isFiring", false);
 
-        if (canWalk == true)
-        {
-            playerWalk();
-        }
-        else
-        {
-            animator.SetBool("isWalking", false);
-        }
+        if (canWalk == true) { MakePlayerWalk(); }
 
-        if (canIdle == true)
-        {
-            animator.SetBool("isIdle", true);
-        }
-        else
-        {
-            animator.SetBool("isIdle", false);
-        }
+        else { animator.SetBool("isWalking", false); }
+
+        if (canIdle == true) { MakePlayerIdle(); }
+
+        else { animator.SetBool("isIdle", false); }
     }
 
 
-    void playerWalk()
+    void FlipUnit()
+    {
+        transform.Rotate(0f, 180f, 0f);
+    }
+
+
+    void MakePlayerWalk()
     {
         animator.SetBool("isWalking", true);
         transform.Translate(Vector2.right * speed * Time.deltaTime);
-
     }
+
+
+    void MakePlayerIdle()
+    {
+        animator.SetBool("isIdle", true);
+    }
+
 
     public void WalkTrue()
     {
@@ -66,6 +65,7 @@ public class PlayerMovement : MonoBehaviour {
         canRangeAttack = false;
     }
 
+
     public void IdleTrue()
     {
         canWalk = false;
@@ -74,6 +74,7 @@ public class PlayerMovement : MonoBehaviour {
         canRangeAttack = false;
     }
 
+
     public void AttackTrue()
     {
         canWalk = false;
@@ -81,6 +82,7 @@ public class PlayerMovement : MonoBehaviour {
         canMeleeAttack = true;
         canRangeAttack = false;
     }
+
 
     public void FireTrue()
     {

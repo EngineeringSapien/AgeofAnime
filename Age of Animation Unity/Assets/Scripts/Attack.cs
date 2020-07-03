@@ -51,6 +51,7 @@ public class Attack : MonoBehaviour {
         }
     }
 
+
     void MeleeAttack()
     {
         thisUnitsAnimator.SetBool("isFiring", false);

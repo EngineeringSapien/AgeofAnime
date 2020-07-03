@@ -335,10 +335,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 95890829865991234}
   speed: 2
-  canWalk: 0
-  canAttack: 0
-  canIdle: 0
-  canFire: 0
+  canMeleeAttack: 0
+  canRangeAttack: 0
 --- !u!114 &114481477021290448
 MonoBehaviour:
   m_ObjectHideFlags: 1
