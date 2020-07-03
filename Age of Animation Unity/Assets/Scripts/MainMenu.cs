@@ -7,8 +7,6 @@ public class MainMenu : MonoBehaviour {
 
     void menu()
     {
-        Debug.Log("Main Menu");
-        SceneManager.LoadScene(0);
-
+        SceneManager.LoadScene(0);  
     }
 }

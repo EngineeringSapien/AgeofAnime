@@ -111,7 +111,7 @@ public class characterSpawner : MonoBehaviour {
         var offset = new Vector3(0, 2f, 0);
 
         GameObject cloneBar = Instantiate(SpawnBar, transform.position + offset, Quaternion.identity);
-        cloneBar.GetComponent<spawnBar>().spawnTime = spawnTime;
+        cloneBar.GetComponent<spawnBar>().unitsSpawnTime = spawnTime;
 
         yield return new WaitForSeconds(delay);
 

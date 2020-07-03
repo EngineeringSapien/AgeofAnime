@@ -1,39 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class spawnBar : MonoBehaviour {
 
-    public float spawnTime;
-    private float startingTime;
-    private float remainingTime;
+    public float unitsSpawnTime;
+    private float startingSpawnTime;
+    private float remainingSpawnTime;
 
     private Transform Bar;
 
 
-
     void Start ()
     {
-        startingTime = Time.time;           //0 seconds
+        startingSpawnTime = Time.time;
 
         Bar = transform.Find("Bar");
     }
 
+
     void Update ()
     {
-        remainingTime = Time.time - startingTime;    // time since startingTime (e.g. 1s ; 2s; 3s; 4s;)
+        remainingSpawnTime = Time.time - startingSpawnTime;
 
-        //Debug.Log("Starting Time " + startingTime);
-        //Debug.Log("Remaining Time " + remainingTime);
+        if (remainingSpawnTime <= unitsSpawnTime) { Bar.localScale = new Vector3(remainingSpawnTime / unitsSpawnTime, 1f); }
 
-        if (remainingTime <= spawnTime)
-        {
-            Bar.localScale = new Vector3(remainingTime / spawnTime, 1f);        // (1/5 ; 2/5 ; 3/5 ; etc)
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
+        else { Destroy(gameObject); }
     }
+
 }
