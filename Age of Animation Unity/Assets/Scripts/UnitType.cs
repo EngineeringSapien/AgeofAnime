@@ -51,8 +51,8 @@ public class UnitType : MonoBehaviour {
         {
             unitType = "melee";
             attack.currentMeleeDamage = units.unit1DamageList[myAge];
-            Health.currentHealth = units.unit1HealthList[myAge];
-            Health.healthpoints = units.unit1HealthList[myAge];
+            Health.unitsCurrentHealth = units.unit1HealthList[myAge];
+            Health.unitsStartingHealth = units.unit1HealthList[myAge];
             pm.speed = units.unit1SpeedList[myAge];
             cast.unitRange = units.unit1RangeList[myAge];
             
@@ -63,8 +63,8 @@ public class UnitType : MonoBehaviour {
             unitType = "ranged";
             attack.currentMeleeDamage = units.unit2DamageList[myAge];
             attack.currentRangeDamage = units.unit2RangeDamageList[myAge];
-            Health.currentHealth = units.unit2HealthList[myAge];
-            Health.healthpoints = units.unit2HealthList[myAge];
+            Health.unitsCurrentHealth = units.unit2HealthList[myAge];
+            Health.unitsStartingHealth = units.unit2HealthList[myAge];
             pm.speed = units.unit2SpeedList[myAge];
             cast.unitRange = units.unit2RangeList[myAge];
         }
@@ -74,8 +74,8 @@ public class UnitType : MonoBehaviour {
             unitType = "power";
             attack.currentMeleeDamage = units.unit3DamageList[myAge];
             attack.currentRangeDamage = units.unit3RangeDamageList[myAge];
-            Health.currentHealth = units.unit3HealthList[myAge];
-            Health.healthpoints = units.unit3HealthList[myAge];
+            Health.unitsCurrentHealth = units.unit3HealthList[myAge];
+            Health.unitsStartingHealth = units.unit3HealthList[myAge];
             pm.speed = units.unit3SpeedList[myAge];
             cast.unitRange = units.unit3RangeList[myAge];
         }

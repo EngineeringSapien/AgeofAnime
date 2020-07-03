@@ -1,17 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class health : MonoBehaviour {
 
-    //I HAVE THE SAME PROBLEM HERE AS I DO IN THE ATTACK SCRIPT. I HAVE A LIST OF HEALTH VARIABLES FOR EACH UNIT IN UNIT MANAGER
-    //BUT THE ACTUAL HEALTH VALUES USED ARE FOUND HERE WHICH ARE PUBLIC FLOATS ON THE UNIT PREFABS. NEED TO LINK THEM.
+    
+    public float unitsStartingHealth;
+    public float unitsCurrentHealth;
 
-    public float healthpoints;
-    public float currentHealth;
     public float deathwait = .25f;
-
-    public GameObject deathEffect;
+    public GameObject thisUnitsDeathSprite;
 
     score Score;
     Attack attack;
@@ -36,6 +35,7 @@ public class health : MonoBehaviour {
         units = FindObjectOfType<Units>();
         Spawner = FindObjectOfType<characterSpawner>();
     }
+
 
     void Start()
     {
@@ -64,34 +64,34 @@ public class health : MonoBehaviour {
             if (this.gameObject.name.Replace(nameEdit1, nameEdit2) == units.P2character3.ToString())
             { this.gameObject.name = Character3; }
         }
-
-
     }
+
 
     void StartHealth()
     {
-        currentHealth = healthpoints;
+        unitsCurrentHealth = unitsStartingHealth;
 
     }
 
 
     public void TakeDamage(int damage)
     {        
-        currentHealth -= damage;
+        unitsCurrentHealth -= damage;
 	
-	    if (currentHealth <= 0)
+	    if (unitsCurrentHealth <= 0)
         {
             Die();
         }
     }
 
 
-
     void Die()
     {
         Score.ChangeTreasury("increase", this.gameObject.name, this.gameObject.tag);
         Score.ChangeExperience("increase", this.gameObject.name, this.gameObject.tag);
-        var clone = Instantiate(deathEffect, transform.position, Quaternion.identity);
+
+        var clone = Instantiate(thisUnitsDeathSprite, transform.position, Quaternion.identity);
+
         Destroy(gameObject);
         Destroy(clone, deathwait);
 

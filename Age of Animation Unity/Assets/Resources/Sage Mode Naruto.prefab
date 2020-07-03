@@ -402,10 +402,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85c006a121bce374498704d1bff60583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthpoints: 0
-  currentHealth: 0
+  unitsStartingHealth: 0
+  unitsCurrentHealth: 0
   deathwait: 0.25
-  deathEffect: {fileID: 1851392008359230, guid: 11ea2d798a0e5784ca45b41dad0abcc5,
+  thisUnitsDeathSprite: {fileID: 1851392008359230, guid: 0d7c4614119c61b4d9498b86f0471d6c,
     type: 2}
 --- !u!212 &212088740778596908
 SpriteRenderer:

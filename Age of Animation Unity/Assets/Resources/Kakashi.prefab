@@ -77,9 +77,9 @@ GameObject:
   - component: {fileID: 114930466002259110}
   - component: {fileID: 61951314741067558}
   - component: {fileID: 114265165716017652}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Kakashi
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -390,10 +390,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85c006a121bce374498704d1bff60583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthpoints: 0
-  currentHealth: 0
+  unitsStartingHealth: 0
+  unitsCurrentHealth: 0
   deathwait: 0.25
-  deathEffect: {fileID: 1851392008359230, guid: 8ccf696c34b265a49a4b2b92f3780657,
+  thisUnitsDeathSprite: {fileID: 1851392008359230, guid: 8ccf696c34b265a49a4b2b92f3780657,
     type: 2}
 --- !u!114 &114966855108999080
 MonoBehaviour:

@@ -64,8 +64,8 @@ public class HealthBar : MonoBehaviour {
 
     void UnitHealthBar()
     {
-        unitHP = Health.currentHealth;
-        maxunitHP = Health.healthpoints;
+        unitHP = Health.unitsCurrentHealth;
+        maxunitHP = Health.unitsStartingHealth;
         ChangeBarColor(transform.parent.tag);
 
         if (unitHP > 0 && unitHP < maxunitHP)
