@@ -120,6 +120,7 @@ public class characterSpawner : MonoBehaviour {
         charactertobeSpawn.gameObject.layer = myLayer;
 
         var clone = Instantiate(charactertobeSpawn, transform.position, Quaternion.identity);
+
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character1.ToString())
         { clone.name = Character1; inGameUnit1Bots.Add(clone.name); }
 

@@ -33,7 +33,7 @@ public class HealthBar : MonoBehaviour {
             Health = transform.parent.GetComponent<health>();
         }
 
-        UpdateUnitsHealthBar();
+        //UpdateUnitsHealthBar();
 
     }
 
