@@ -28,7 +28,7 @@ public class score : MonoBehaviour
     public float goldDeathReward = .20f; 
 
     public Age age;
-    public spawn Spawn;
+    public ButtonSpriteManager Spawn;
 
     private string Char1 = "Character1";
     private string Char2 = "Character2";

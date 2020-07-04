@@ -75,9 +75,9 @@ GameObject:
   - component: {fileID: 61392556486374398}
   - component: {fileID: 95890829865991234}
   - component: {fileID: 114554977084975210}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Sage Mode Naruto
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

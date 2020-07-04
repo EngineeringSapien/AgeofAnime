@@ -15,7 +15,7 @@ public class ButtonManager : MonoBehaviour {
     public score Score;
     public Units units;
     public Sound music;
-    public spawn buttonSpriteManager;
+    public ButtonSpriteManager buttonSpriteManager;
        
     public buttonClick P1key1;
     public buttonClick P1key2;

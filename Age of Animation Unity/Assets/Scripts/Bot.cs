@@ -151,7 +151,7 @@ public class Bot : MonoBehaviour {
     {
         //determine which units are spawnable
             //check which buttons are enabled
-                //reference buttons[n].interactable from spawn.cs
+                //reference buttons[n].interactable from ButtonSpriteManager.cs
 
 
         //adjust unit probabilities based on conditional statements of game events
