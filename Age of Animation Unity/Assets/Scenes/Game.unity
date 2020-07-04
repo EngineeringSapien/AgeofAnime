@@ -8105,6 +8105,69 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1481717130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481717132}
+  - component: {fileID: 1481717131}
+  m_Layer: 0
+  m_Name: ButtonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1481717131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1481717130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67fb1add7bf46e549bf92a4ca7f7f615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner1: {fileID: 1465397764}
+  spawner2: {fileID: 953348247}
+  ageManager: {fileID: 1645545677}
+  Score: {fileID: 447694635}
+  units: {fileID: 586400140}
+  music: {fileID: 402394932}
+  buttonSpriteManager: {fileID: 2017119508}
+  P1key1: {fileID: 1217882035}
+  P1key2: {fileID: 164196353}
+  P1key3: {fileID: 382162077}
+  P1keyEvolve: {fileID: 541940566}
+  P2key1: {fileID: 715728485}
+  P2key2: {fileID: 788280888}
+  P2key3: {fileID: 1468546458}
+  P2keyEvolve: {fileID: 1755055243}
+  p1button1: {fileID: 1217882032}
+  p1button2: {fileID: 164196350}
+  p1button3: {fileID: 382162074}
+  p1buttonEvolve: {fileID: 541940563}
+  p2button1: {fileID: 715728482}
+  p2button2: {fileID: 788280885}
+  p2button3: {fileID: 1468546455}
+  p2buttonEvolve: {fileID: 1755055240}
+--- !u!4 &1481717132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1481717130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 279.26294, y: 460.1547, z: 0.8038925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1528577529
 GameObject:
   m_ObjectHideFlags: 0
@@ -9852,7 +9915,7 @@ GameObject:
   - component: {fileID: 2017119509}
   - component: {fileID: 2017119508}
   m_Layer: 0
-  m_Name: ButtonManager
+  m_Name: SpriteManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9869,30 +9932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d0846e3034943844b5097a174533de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawner1: {fileID: 1465397764}
-  spawner2: {fileID: 953348247}
   ageManager: {fileID: 1645545677}
-  Score: {fileID: 447694635}
-  units: {fileID: 586400140}
-  music: {fileID: 402394932}
-  P1key1: {fileID: 1217882035}
-  P1key2: {fileID: 164196353}
-  P1key3: {fileID: 382162077}
-  P1keyEvolve: {fileID: 541940566}
-  P2key1: {fileID: 715728485}
-  P2key2: {fileID: 788280888}
-  P2key3: {fileID: 1468546458}
-  P2keyEvolve: {fileID: 1755055243}
-  p1button1: {fileID: 1217882032}
-  p1button2: {fileID: 164196350}
-  p1button3: {fileID: 382162074}
-  p1button4: {fileID: 952521231}
-  p1buttonEvolve: {fileID: 541940563}
-  p2button1: {fileID: 715728482}
-  p2button2: {fileID: 788280885}
-  p2button3: {fileID: 1468546455}
-  p2button4: {fileID: 769681243}
-  p2buttonEvolve: {fileID: 1755055240}
   KakashiImage: {fileID: 21300018, guid: a5d680616d637b74798afbfd66ecc262, type: 3}
   Itachimage: {fileID: 21300002, guid: 19f1947f82f013c43827475f58bdf9e4, type: 3}
   ZabuzaImage: {fileID: 21300002, guid: fa72ba76678dbfd4a979003d53987e9d, type: 3}
