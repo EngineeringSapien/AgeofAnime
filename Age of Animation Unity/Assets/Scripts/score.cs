@@ -35,13 +35,8 @@ public class score : MonoBehaviour
         P1Gold = 80;
         P2Gold = 150;
 
-        p1Unit1cost = unitManager.eachUnit1Cost[0];
-        p1Unit2cost = unitManager.eachUnit2Cost[0];
-        p1Unit3cost = unitManager.eachUnit3Cost[0];
-
-        p2Unit1cost = unitManager.eachUnit1Cost[0];
-        p2Unit2cost = unitManager.eachUnit2Cost[0];
-        p2Unit3cost = unitManager.eachUnit3Cost[0];
+        ChangeGoldReqs("P1", 0);
+        ChangeGoldReqs("P2", 0);
 
         P1Exp = 0;
         P2Exp = 0;
