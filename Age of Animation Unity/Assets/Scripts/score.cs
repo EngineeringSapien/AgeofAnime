@@ -22,14 +22,14 @@ public class score : MonoBehaviour
     public float P1EvolveXPCost;
     public float P2EvolveXPCost;
 
-    public float expFactor = 2.5f;
-    public float goldReward = 1.25f; 
-    public float goldDeathReward = .20f; 
+    private float unitKilledXPReward = 2.5f;
+    private float unitDeathXPReward = 0.8f;
+    private float unitKilledGoldReward = 1.25f;
+    private float unitDeathGoldReward = 0.1f; 
 
     private string Char1 = "Character1";
     private string Char2 = "Character2";
     private string Char3 = "Character3";
-    private string Char4 = "Character4";
 
     private List<float> unit1CostList = new List<float>();
     private List<float> unit2CostList = new List<float>();
@@ -106,20 +106,20 @@ public class score : MonoBehaviour
             {
                 if (name == Char1)
                 {
-                    P1Gold = P1Gold + (p1Unit1cost * goldReward);
-                    P2Gold = P2Gold + (p2Unit1cost * goldDeathReward);
+                    P1Gold = P1Gold + (p1Unit1cost * unitKilledGoldReward);
+                    P2Gold = P2Gold + (p2Unit1cost * unitDeathGoldReward);
                 }
 
                 if (name == Char2)
                 {
-                    P1Gold = P1Gold + (p1Unit2cost * goldReward);
-                    P2Gold = P2Gold + (p2Unit2cost * goldDeathReward);
+                    P1Gold = P1Gold + (p1Unit2cost * unitKilledGoldReward);
+                    P2Gold = P2Gold + (p2Unit2cost * unitDeathGoldReward);
                 }
 
                 if (name == Char3)
                 {
-                    P1Gold = P1Gold + (p1Unit3cost * goldReward);
-                    P2Gold = P2Gold + (p2Unit3cost * goldDeathReward);
+                    P1Gold = P1Gold + (p1Unit3cost * unitKilledGoldReward);
+                    P2Gold = P2Gold + (p2Unit3cost * unitDeathGoldReward);
                 }
             }
 
@@ -127,20 +127,20 @@ public class score : MonoBehaviour
             {
                 if (name == Char1)
                 {
-                    P2Gold = P2Gold + (p2Unit1cost * goldReward * 2);
-                    P1Gold = P1Gold + (p1Unit1cost * goldDeathReward);
+                    P2Gold = P2Gold + (p2Unit1cost * unitKilledGoldReward * 2);
+                    P1Gold = P1Gold + (p1Unit1cost * unitDeathGoldReward);
                 }
 
                 if (name == Char2)
                 {
-                    P2Gold = P2Gold + (p2Unit2cost * goldReward * 2);
-                    P1Gold = P1Gold + (p1Unit2cost * goldDeathReward);
+                    P2Gold = P2Gold + (p2Unit2cost * unitKilledGoldReward * 2);
+                    P1Gold = P1Gold + (p1Unit2cost * unitDeathGoldReward);
                 }
 
                 if (name == Char3)
                 {
-                    P2Gold = P2Gold + (p2Unit3cost * goldReward * 2);
-                    P1Gold = P1Gold + (p1Unit3cost * goldDeathReward);
+                    P2Gold = P2Gold + (p2Unit3cost * unitKilledGoldReward * 2);
+                    P1Gold = P1Gold + (p1Unit3cost * unitDeathGoldReward);
                 }
             }
         }
@@ -218,20 +218,20 @@ public class score : MonoBehaviour
             {
                 if (name == Char1)
                 {
-                    P1Exp = P1Exp + (p1Unit1cost * expFactor);
-                    P2Exp = P2Exp + (p2Unit1cost * expFactor / 3);
+                    P1Exp = P1Exp + (p1Unit1cost * unitKilledXPReward);
+                    P2Exp = P2Exp + (p2Unit1cost * unitKilledXPReward / 3);
                 }
 
                 if (name == Char2)
                 {
-                    P1Exp = P1Exp + (p1Unit2cost * expFactor);
-                    P2Exp = P2Exp + (p2Unit2cost * expFactor / 3);
+                    P1Exp = P1Exp + (p1Unit2cost * unitKilledXPReward);
+                    P2Exp = P2Exp + (p2Unit2cost * unitKilledXPReward / 3);
                 }
 
                 if (name == Char3)
                 {
-                    P1Exp = P1Exp + (p1Unit3cost * expFactor);
-                    P2Exp = P2Exp + (p2Unit3cost * expFactor / 3);
+                    P1Exp = P1Exp + (p1Unit3cost * unitKilledXPReward);
+                    P2Exp = P2Exp + (p2Unit3cost * unitKilledXPReward / 3);
                 }
 
                 else
@@ -243,20 +243,20 @@ public class score : MonoBehaviour
             {
                 if (name == Char1)
                 {
-                    P2Exp = P2Exp + (p2Unit1cost * expFactor);
-                    P1Exp = P1Exp + (p1Unit1cost * expFactor / 3);
+                    P2Exp = P2Exp + (p2Unit1cost * unitKilledXPReward);
+                    P1Exp = P1Exp + (p1Unit1cost * unitKilledXPReward / 3);
                 }
 
                 if (name == Char2)
                 {
-                    P2Exp = P2Exp + (p2Unit2cost * expFactor);
-                    P1Exp = P1Exp + (p1Unit2cost * expFactor / 3);
+                    P2Exp = P2Exp + (p2Unit2cost * unitKilledXPReward);
+                    P1Exp = P1Exp + (p1Unit2cost * unitKilledXPReward / 3);
                 }
 
                 if (name == Char3)
                 {
-                    P2Exp = P2Exp + (p2Unit3cost * expFactor);
-                    P1Exp = P1Exp + (p1Unit3cost * expFactor / 3);
+                    P2Exp = P2Exp + (p2Unit3cost * unitKilledXPReward);
+                    P1Exp = P1Exp + (p1Unit3cost * unitKilledXPReward / 3);
                 }
             }
         }
