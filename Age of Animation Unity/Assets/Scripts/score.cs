@@ -27,25 +27,7 @@ public class score : MonoBehaviour
     private float unitKilledGoldReward = 1.25f;
     private float unitDeathGoldReward = 0.1f; 
 
-    private string unit1Name = "Character1";
-    private string unit2Name = "Character2";
-    private string unit3Name = "Character3";
-
-    private List<float> eachUnit1Cost = new List<float>();
-    private List<float> eachUnit2Cost = new List<float>();
-    private List<float> eachUnit3Cost = new List<float>();
-
-    private List<float> eachAgeEvolveXPCost = new List<float>();
-
-
-    private void Awake()
-    {
-        eachUnit1Cost.AddRange(new float[] { 15, 120, 9000, 90000, 500000 });         // these numbers are the age of war 1 numbers
-        eachUnit2Cost.AddRange(new float[] { 30, 240, 20000, 200000, 750000 });
-        eachUnit3Cost.AddRange(new float[] { 100, 800, 70000, 700000, 1000000 });
-
-        eachAgeEvolveXPCost.AddRange(new float[] { 1200, 20000, 300000, 2000000, 1000000000 });
-    }
+    public Units unitManager;
 
 
     void Start()
@@ -53,18 +35,18 @@ public class score : MonoBehaviour
         P1Gold = 80;
         P2Gold = 150;
 
-        p1Unit1cost = eachUnit1Cost[0];
-        p1Unit2cost = eachUnit2Cost[0];
-        p1Unit3cost = eachUnit3Cost[0];
+        p1Unit1cost = unitManager.eachUnit1Cost[0];
+        p1Unit2cost = unitManager.eachUnit2Cost[0];
+        p1Unit3cost = unitManager.eachUnit3Cost[0];
 
-        p2Unit1cost = eachUnit1Cost[0];
-        p2Unit2cost = eachUnit2Cost[0];
-        p2Unit3cost = eachUnit3Cost[0];
+        p2Unit1cost = unitManager.eachUnit1Cost[0];
+        p2Unit2cost = unitManager.eachUnit2Cost[0];
+        p2Unit3cost = unitManager.eachUnit3Cost[0];
 
         P1Exp = 0;
         P2Exp = 0;
 
-        P1EvolveXPCost = P2EvolveXPCost = eachAgeEvolveXPCost[0];
+        P1EvolveXPCost = P2EvolveXPCost = unitManager.eachAgeEvolveXPCost[0];
     }
 
 
@@ -72,16 +54,16 @@ public class score : MonoBehaviour
     {
         if (player == "P1")
         {
-            p1Unit1cost = eachUnit1Cost[age];
-            p1Unit2cost = eachUnit2Cost[age];
-            p1Unit3cost = eachUnit3Cost[age];
+            p1Unit1cost = unitManager.eachUnit1Cost[age];
+            p1Unit2cost = unitManager.eachUnit2Cost[age];
+            p1Unit3cost = unitManager.eachUnit3Cost[age];
         }
 
         if (player == "P2")
         {
-            p2Unit1cost = eachUnit1Cost[age];
-            p2Unit2cost = eachUnit2Cost[age];
-            p2Unit3cost = eachUnit3Cost[age];
+            p2Unit1cost = unitManager.eachUnit1Cost[age];
+            p2Unit2cost = unitManager.eachUnit2Cost[age];
+            p2Unit3cost = unitManager.eachUnit3Cost[age];
         }
     }
 
@@ -92,19 +74,19 @@ public class score : MonoBehaviour
         {
             if (player == "Player2")
             {
-                if (unitName == unit1Name)
+                if (unitName == unitManager.unit1SpawnName)
                 {
                     P1Gold = P1Gold + (p1Unit1cost * unitKilledGoldReward);
                     P2Gold = P2Gold + (p2Unit1cost * unitDeathGoldReward);
                 }
 
-                if (unitName == unit2Name)
+                if (unitName == unitManager.unit2SpawnName)
                 {
                     P1Gold = P1Gold + (p1Unit2cost * unitKilledGoldReward);
                     P2Gold = P2Gold + (p2Unit2cost * unitDeathGoldReward);
                 }
 
-                if (unitName == unit3Name)
+                if (unitName == unitManager.unit3SpawnName)
                 {
                     P1Gold = P1Gold + (p1Unit3cost * unitKilledGoldReward);
                     P2Gold = P2Gold + (p2Unit3cost * unitDeathGoldReward);
@@ -113,19 +95,19 @@ public class score : MonoBehaviour
 
             if (player == "Player1")
             {
-                if (unitName == unit1Name)
+                if (unitName == unitManager.unit1SpawnName)
                 {
                     P2Gold = P2Gold + (p2Unit1cost * unitKilledGoldReward * 2);
                     P1Gold = P1Gold + (p1Unit1cost * unitDeathGoldReward);
                 }
 
-                if (unitName == unit2Name)
+                if (unitName == unitManager.unit2SpawnName)
                 {
                     P2Gold = P2Gold + (p2Unit2cost * unitKilledGoldReward * 2);
                     P1Gold = P1Gold + (p1Unit2cost * unitDeathGoldReward);
                 }
 
-                if (unitName == unit3Name)
+                if (unitName == unitManager.unit3SpawnName)
                 {
                     P2Gold = P2Gold + (p2Unit3cost * unitKilledGoldReward * 2);
                     P1Gold = P1Gold + (p1Unit3cost * unitDeathGoldReward);
@@ -137,17 +119,17 @@ public class score : MonoBehaviour
         {
             if (player == "Player1")
             {
-                if (unitName == unit1Name) 
+                if (unitName == unitManager.unit1SpawnName) 
                 {
                     P1Gold = P1Gold - p1Unit1cost;
                 }
 
-                if (unitName == unit2Name)
+                if (unitName == unitManager.unit2SpawnName)
                 {
                     P1Gold = P1Gold - (p1Unit2cost);
                 }
 
-                if (unitName == unit3Name)
+                if (unitName == unitManager.unit3SpawnName)
                 {
                     P1Gold = P1Gold - (p1Unit3cost);
                 }
@@ -155,17 +137,17 @@ public class score : MonoBehaviour
 
             if (player == "Player2")
             {
-                if (unitName == unit1Name)
+                if (unitName == unitManager.unit1SpawnName)
                 {
                     P2Gold = P2Gold - (p2Unit1cost);
                 }
 
-                if (unitName == unit2Name)
+                if (unitName == unitManager.unit2SpawnName)
                 {
                     P2Gold = P2Gold - (p2Unit2cost);
                 }
 
-                if (unitName == unit3Name)
+                if (unitName == unitManager.unit3SpawnName)
                 {
                     P2Gold = P2Gold - (p2Unit3cost);
                 }
@@ -178,12 +160,12 @@ public class score : MonoBehaviour
     {
         if (player == "P1")
         {
-            P1EvolveXPCost = eachAgeEvolveXPCost[age];
+            P1EvolveXPCost = unitManager.eachAgeEvolveXPCost[age];
         }
 
         if (player == "P2")
         {
-            P2EvolveXPCost = eachAgeEvolveXPCost[age];
+            P2EvolveXPCost = unitManager.eachAgeEvolveXPCost[age];
         }
     }
 
@@ -194,19 +176,19 @@ public class score : MonoBehaviour
         {
             if (player == "Player2")
             {
-                if (unitName == unit1Name)
+                if (unitName == unitManager.unit1SpawnName)
                 {
                     P1Exp = P1Exp + (p1Unit1cost * unitKilledXPReward);
                     P2Exp = P2Exp + (p2Unit1cost * unitDeathXPReward);
                 }
 
-                if (unitName == unit2Name)
+                if (unitName == unitManager.unit2SpawnName)
                 {
                     P1Exp = P1Exp + (p1Unit2cost * unitKilledXPReward);
                     P2Exp = P2Exp + (p2Unit2cost * unitDeathXPReward);
                 }
 
-                if (unitName == unit3Name)
+                if (unitName == unitManager.unit3SpawnName)
                 {
                     P1Exp = P1Exp + (p1Unit3cost * unitKilledXPReward);
                     P2Exp = P2Exp + (p2Unit3cost * unitDeathXPReward);
@@ -215,19 +197,19 @@ public class score : MonoBehaviour
 
             if (player == "Player1")
             {
-                if (unitName == unit1Name)
+                if (unitName == unitManager.unit1SpawnName)
                 {
                     P2Exp = P2Exp + (p2Unit1cost * unitKilledXPReward);
                     P1Exp = P1Exp + (p1Unit1cost * unitDeathXPReward);
                 }
 
-                if (unitName == unit2Name)
+                if (unitName == unitManager.unit2SpawnName)
                 {
                     P2Exp = P2Exp + (p2Unit2cost * unitKilledXPReward);
                     P1Exp = P1Exp + (p1Unit2cost * unitDeathXPReward);
                 }
 
-                if (unitName == unit3Name)
+                if (unitName == unitManager.unit3SpawnName)
                 {
                     P2Exp = P2Exp + (p2Unit3cost * unitKilledXPReward);
                     P1Exp = P1Exp + (p1Unit3cost * unitDeathXPReward);

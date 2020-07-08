@@ -16,6 +16,10 @@ public class Units : MonoBehaviour {
     public List<string> unit2Characters = new List<string>();
     public List<string> unit3Characters = new List<string>();
 
+    public string unit1SpawnName = "Character1";
+    public string unit2SpawnName = "Character2";
+    public string unit3SpawnName = "Character3";
+
     public List<int> eachUnit1Damage = new List<int>();
     public List<int> eachUnit2Damage = new List<int>();
     public List<int> eachUnit3Damage = new List<int>();
@@ -38,6 +42,12 @@ public class Units : MonoBehaviour {
     public List<float> eachUnit1Range = new List<float>();
     public List<float> eachUnit2Range = new List<float>();
     public List<float> eachUnit3Range = new List<float>();
+
+    public List<float> eachUnit1Cost = new List<float>();
+    public List<float> eachUnit2Cost = new List<float>();
+    public List<float> eachUnit3Cost = new List<float>();
+    
+    public List<float> eachAgeEvolveXPCost = new List<float>();
 
 
 
@@ -69,6 +79,12 @@ public class Units : MonoBehaviour {
         eachUnit1Range.AddRange(new float[] { 1, 1, 1, 1, 1 });
         eachUnit2Range.AddRange(new float[] { 17, 18, 20, 20, 20 });
         eachUnit3Range.AddRange(new float[] { 17, 18, 20, 20, 20 });
+
+        eachUnit1Cost.AddRange(new float[] { 15, 120, 9000, 90000, 500000 });         // these numbers are the age of war 1 numbers
+        eachUnit2Cost.AddRange(new float[] { 30, 240, 20000, 200000, 750000 });
+        eachUnit3Cost.AddRange(new float[] { 100, 800, 70000, 700000, 1000000 });
+
+        eachAgeEvolveXPCost.AddRange(new float[] { 1200, 20000, 300000, 2000000, 1000000000 });
 
         P1character1 = (Resources.Load(unit1Characters[0]) as GameObject);
         P1character2 = (Resources.Load(unit2Characters[0]) as GameObject);
