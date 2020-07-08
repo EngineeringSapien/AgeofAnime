@@ -23,12 +23,8 @@ public class score : MonoBehaviour
     public float P2EvolveReq;
 
     public float expFactor = 2.5f;
-    //public float expgoldReward = .8f;     // I don't think I am using this
     public float goldReward = 1.25f; 
     public float goldDeathReward = .20f; 
-
-    public Age age;
-    public ButtonSpriteManager Spawn;
 
     private string Char1 = "Character1";
     private string Char2 = "Character2";
@@ -77,13 +73,12 @@ public class score : MonoBehaviour
 
     private void Update()
     {
-//        P1Exp = 10000000;
 
     }
 
 
     #region Changing Gold Reqs
-    public void ChangeGoldReqs(string player, int age)   //for when players upgrade ages
+    public void ChangeGoldReqs(string player, int age)
     {
         if (player == "P1")
         {
@@ -105,23 +100,23 @@ public class score : MonoBehaviour
     #region Changing Gold Treasury
     public void ChangeTreasury(string function, string name, string tag)
     {
-        if (function == "increase")     //Increasing the gold after a unit is destroyed
+        if (function == "increase")
         {
             if (tag == "Player2")
             {
-                if (name == Char1) // if it is character 1
+                if (name == Char1)
                 {
                     P1Gold = P1Gold + (p1Unit1cost * goldReward);
                     P2Gold = P2Gold + (p2Unit1cost * goldDeathReward);
                 }
 
-                if (name == Char2) // if it is character 2
+                if (name == Char2)
                 {
                     P1Gold = P1Gold + (p1Unit2cost * goldReward);
                     P2Gold = P2Gold + (p2Unit2cost * goldDeathReward);
                 }
 
-                if (name == Char3) // if it is character 3
+                if (name == Char3)
                 {
                     P1Gold = P1Gold + (p1Unit3cost * goldReward);
                     P2Gold = P2Gold + (p2Unit3cost * goldDeathReward);
@@ -130,19 +125,19 @@ public class score : MonoBehaviour
 
             if (tag == "Player1")
             {
-                if (name == Char1) // if it is character 1
+                if (name == Char1)
                 {
                     P2Gold = P2Gold + (p2Unit1cost * goldReward * 2);
                     P1Gold = P1Gold + (p1Unit1cost * goldDeathReward);
                 }
 
-                if (name == Char2) // if it is character 2
+                if (name == Char2)
                 {
                     P2Gold = P2Gold + (p2Unit2cost * goldReward * 2);
                     P1Gold = P1Gold + (p1Unit2cost * goldDeathReward);
                 }
 
-                if (name == Char3) // if it is character 3
+                if (name == Char3)
                 {
                     P2Gold = P2Gold + (p2Unit3cost * goldReward * 2);
                     P1Gold = P1Gold + (p1Unit3cost * goldDeathReward);
@@ -150,21 +145,21 @@ public class score : MonoBehaviour
             }
         }
         
-        if (function == "decrease")     //decreasing the gold if a unit is purchased
+        if (function == "decrease")
         {
             if (tag == "Player1")
             {
-                if (name == Char1) // if it is character 1
+                if (name == Char1) 
                 {
                     P1Gold = P1Gold - p1Unit1cost;
                 }
 
-                if (name == Char2) // if it is character 2
+                if (name == Char2)
                 {
                     P1Gold = P1Gold - (p1Unit2cost);
                 }
 
-                if (name == Char3) // if it is character 3
+                if (name == Char3)
                 {
                     P1Gold = P1Gold - (p1Unit3cost);
                 }
@@ -172,17 +167,17 @@ public class score : MonoBehaviour
 
             if (tag == "Player2")
             {
-                if (name == Char1) // if it is character 1
+                if (name == Char1)
                 {
                     P2Gold = P2Gold - (p2Unit1cost);
                 }
 
-                if (name == Char2) // if it is character 2
+                if (name == Char2)
                 {
                     P2Gold = P2Gold - (p2Unit2cost);
                 }
 
-                if (name == Char3) // if it is character 3
+                if (name == Char3)
                 {
                     P2Gold = P2Gold - (p2Unit3cost);
                 }
@@ -221,19 +216,19 @@ public class score : MonoBehaviour
         {
             if (tag == "Player2")
             {
-                if (name == Char1) // if it is character 1
+                if (name == Char1)
                 {
                     P1Exp = P1Exp + (p1Unit1cost * expFactor);
                     P2Exp = P2Exp + (p2Unit1cost * expFactor / 3);
                 }
 
-                if (name == Char2) // if it is character 2
+                if (name == Char2)
                 {
                     P1Exp = P1Exp + (p1Unit2cost * expFactor);
                     P2Exp = P2Exp + (p2Unit2cost * expFactor / 3);
                 }
 
-                if (name == Char3) // if it is character 3
+                if (name == Char3)
                 {
                     P1Exp = P1Exp + (p1Unit3cost * expFactor);
                     P2Exp = P2Exp + (p2Unit3cost * expFactor / 3);
@@ -246,19 +241,19 @@ public class score : MonoBehaviour
 
             if (tag == "Player1")
             {
-                if (name == Char1) // if it is character 1
+                if (name == Char1)
                 {
                     P2Exp = P2Exp + (p2Unit1cost * expFactor);
                     P1Exp = P1Exp + (p1Unit1cost * expFactor / 3);
                 }
 
-                if (name == Char2) // if it is character 2
+                if (name == Char2)
                 {
                     P2Exp = P2Exp + (p2Unit2cost * expFactor);
                     P1Exp = P1Exp + (p1Unit2cost * expFactor / 3);
                 }
 
-                if (name == Char3) // if it is character 3
+                if (name == Char3)
                 {
                     P2Exp = P2Exp + (p2Unit3cost * expFactor);
                     P1Exp = P1Exp + (p1Unit3cost * expFactor / 3);
