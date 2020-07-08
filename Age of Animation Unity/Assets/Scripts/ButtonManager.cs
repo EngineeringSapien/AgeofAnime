@@ -85,7 +85,7 @@ public class ButtonManager : MonoBehaviour {
 
     private void CheckP1XP()
     {
-        if (Score.P1Exp < Score.P1EvolveReq) { p1buttonEvolve.interactable = false; }
+        if (Score.P1Exp < Score.P1EvolveXPCost) { p1buttonEvolve.interactable = false; }
 
         else { p1buttonEvolve.interactable = true; }
     }
@@ -93,7 +93,7 @@ public class ButtonManager : MonoBehaviour {
 
     private void CheckP2XP()
     {
-        if (Score.P2Exp < Score.P2EvolveReq) { p2buttonEvolve.interactable = false; }
+        if (Score.P2Exp < Score.P2EvolveXPCost) { p2buttonEvolve.interactable = false; }
 
         else { p2buttonEvolve.interactable = true; }
     }

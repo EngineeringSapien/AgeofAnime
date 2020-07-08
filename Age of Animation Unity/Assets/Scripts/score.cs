@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class score : MonoBehaviour
 {
@@ -18,9 +19,8 @@ public class score : MonoBehaviour
     public float p2Unit2cost;
     public float p2Unit3cost;
 
-
-    public float P1EvolveReq;
-    public float P2EvolveReq;
+    public float P1EvolveXPCost;
+    public float P2EvolveXPCost;
 
     public float expFactor = 2.5f;
     public float goldReward = 1.25f; 
@@ -65,7 +65,7 @@ public class score : MonoBehaviour
         P1Exp = 0;
         P2Exp = 0;
 
-        P1EvolveReq = P2EvolveReq = evolveReqs[0];
+        P1EvolveXPCost = P2EvolveXPCost = evolveReqs[0];
 
     }
     #endregion
@@ -197,12 +197,12 @@ public class score : MonoBehaviour
 
         if (player == "P1")
         {
-            P1EvolveReq = evolveReqs[age];
+            P1EvolveXPCost = evolveReqs[age];
         }
 
         if (player == "P2")
         {
-            P2EvolveReq = evolveReqs[age];
+            P2EvolveXPCost = evolveReqs[age];
         }
     }
     #endregion
