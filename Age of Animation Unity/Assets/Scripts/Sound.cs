@@ -16,12 +16,12 @@ public class Sound : MonoBehaviour {
 
     public Age age;
 
-    private AudioSource[] allAudioSources;
 
     private void Awake()
     {
         Music.AddRange(new AudioClip[] { narutoMusic, narutoShippuddenMusic, DBZMusic, BleachMusic, FullMetalMusic });
     }
+
 
     private void Start()
     {
@@ -31,19 +31,12 @@ public class Sound : MonoBehaviour {
 
     public void ChangeMusic(int _age)
     {
-        
-
-            if (_age <= age.globalAge)
-        {
-            Debug.Log("Do Nothing");
-        }
-        else if (_age > age.globalAge)
+        if (_age > age.globalAge)
         {
             BMG.Stop();
             BMG.clip = Music[_age];
             BMG.Play();
         }
     }
-
 
 }
