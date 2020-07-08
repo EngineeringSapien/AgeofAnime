@@ -27,117 +27,105 @@ public class score : MonoBehaviour
     private float unitKilledGoldReward = 1.25f;
     private float unitDeathGoldReward = 0.1f; 
 
-    private string Char1 = "Character1";
-    private string Char2 = "Character2";
-    private string Char3 = "Character3";
+    private string unit1Name = "Character1";
+    private string unit2Name = "Character2";
+    private string unit3Name = "Character3";
 
-    private List<float> unit1CostList = new List<float>();
-    private List<float> unit2CostList = new List<float>();
-    private List<float> unit3CostList = new List<float>();
+    private List<float> eachUnit1Cost = new List<float>();
+    private List<float> eachUnit2Cost = new List<float>();
+    private List<float> eachUnit3Cost = new List<float>();
 
-    private List<float> evolveReqs = new List<float>();
+    private List<float> eachAgeEvolveXPCost = new List<float>();
 
 
-
-    #region Call Backs
     private void Awake()
     {
-        unit1CostList.AddRange(new float[] { 15, 120, 9000, 90000, 500000 });         // these numbers are the age of war 1 numbers
-        unit2CostList.AddRange(new float[] { 30, 240, 20000, 200000, 750000 });
-        unit3CostList.AddRange(new float[] { 100, 800, 70000, 700000, 1000000 });
+        eachUnit1Cost.AddRange(new float[] { 15, 120, 9000, 90000, 500000 });         // these numbers are the age of war 1 numbers
+        eachUnit2Cost.AddRange(new float[] { 30, 240, 20000, 200000, 750000 });
+        eachUnit3Cost.AddRange(new float[] { 100, 800, 70000, 700000, 1000000 });
 
-        evolveReqs.AddRange(new float[] { 1200, 20000, 300000, 2000000, 1000000000 });
+        eachAgeEvolveXPCost.AddRange(new float[] { 1200, 20000, 300000, 2000000, 1000000000 });
     }
+
 
     void Start()
     {
         P1Gold = 80;
         P2Gold = 150;
 
-        p1Unit1cost = unit1CostList[0];
-        p1Unit2cost = unit2CostList[0];
-        p1Unit3cost = unit3CostList[0];
+        p1Unit1cost = eachUnit1Cost[0];
+        p1Unit2cost = eachUnit2Cost[0];
+        p1Unit3cost = eachUnit3Cost[0];
 
-        p2Unit1cost = unit1CostList[0];
-        p2Unit2cost = unit2CostList[0];
-        p2Unit3cost = unit3CostList[0];
+        p2Unit1cost = eachUnit1Cost[0];
+        p2Unit2cost = eachUnit2Cost[0];
+        p2Unit3cost = eachUnit3Cost[0];
 
         P1Exp = 0;
         P2Exp = 0;
 
-        P1EvolveXPCost = P2EvolveXPCost = evolveReqs[0];
-
-    }
-    #endregion
-
-
-    private void Update()
-    {
-
+        P1EvolveXPCost = P2EvolveXPCost = eachAgeEvolveXPCost[0];
     }
 
 
-    #region Changing Gold Reqs
     public void ChangeGoldReqs(string player, int age)
     {
         if (player == "P1")
         {
-            p1Unit1cost = unit1CostList[age];
-            p1Unit2cost = unit2CostList[age];
-            p1Unit3cost = unit3CostList[age];
+            p1Unit1cost = eachUnit1Cost[age];
+            p1Unit2cost = eachUnit2Cost[age];
+            p1Unit3cost = eachUnit3Cost[age];
         }
 
         if (player == "P2")
         {
-            p2Unit1cost = unit1CostList[age];
-            p2Unit2cost = unit2CostList[age];
-            p2Unit3cost = unit3CostList[age];
+            p2Unit1cost = eachUnit1Cost[age];
+            p2Unit2cost = eachUnit2Cost[age];
+            p2Unit3cost = eachUnit3Cost[age];
         }
     }
-    #endregion
 
 
-    #region Changing Gold Treasury
-    public void ChangeTreasury(string function, string name, string tag)
+    public void ChangeTreasury(string change, string unitName, string player)
     {
-        if (function == "increase")
+        if (change == "increase")
         {
-            if (tag == "Player2")
+            if (player == "Player2")
             {
-                if (name == Char1)
+                if (unitName == unit1Name)
                 {
                     P1Gold = P1Gold + (p1Unit1cost * unitKilledGoldReward);
                     P2Gold = P2Gold + (p2Unit1cost * unitDeathGoldReward);
                 }
 
-                if (name == Char2)
+                if (unitName == unit2Name)
                 {
                     P1Gold = P1Gold + (p1Unit2cost * unitKilledGoldReward);
                     P2Gold = P2Gold + (p2Unit2cost * unitDeathGoldReward);
                 }
 
-                if (name == Char3)
+                if (unitName == unit3Name)
                 {
                     P1Gold = P1Gold + (p1Unit3cost * unitKilledGoldReward);
                     P2Gold = P2Gold + (p2Unit3cost * unitDeathGoldReward);
                 }
             }
 
-            if (tag == "Player1")
+            if (player == "Player1")
             {
-                if (name == Char1)
+                if (unitName == unit1Name)
                 {
                     P2Gold = P2Gold + (p2Unit1cost * unitKilledGoldReward * 2);
                     P1Gold = P1Gold + (p1Unit1cost * unitDeathGoldReward);
                 }
 
-                if (name == Char2)
+                if (unitName == unit2Name)
                 {
                     P2Gold = P2Gold + (p2Unit2cost * unitKilledGoldReward * 2);
                     P1Gold = P1Gold + (p1Unit2cost * unitDeathGoldReward);
                 }
 
-                if (name == Char3)
+                if (unitName == unit3Name)
                 {
                     P2Gold = P2Gold + (p2Unit3cost * unitKilledGoldReward * 2);
                     P1Gold = P1Gold + (p1Unit3cost * unitDeathGoldReward);
@@ -145,135 +133,120 @@ public class score : MonoBehaviour
             }
         }
         
-        if (function == "decrease")
+        if (change == "decrease")
         {
-            if (tag == "Player1")
+            if (player == "Player1")
             {
-                if (name == Char1) 
+                if (unitName == unit1Name) 
                 {
                     P1Gold = P1Gold - p1Unit1cost;
                 }
 
-                if (name == Char2)
+                if (unitName == unit2Name)
                 {
                     P1Gold = P1Gold - (p1Unit2cost);
                 }
 
-                if (name == Char3)
+                if (unitName == unit3Name)
                 {
                     P1Gold = P1Gold - (p1Unit3cost);
                 }
             }
 
-            if (tag == "Player2")
+            if (player == "Player2")
             {
-                if (name == Char1)
+                if (unitName == unit1Name)
                 {
                     P2Gold = P2Gold - (p2Unit1cost);
                 }
 
-                if (name == Char2)
+                if (unitName == unit2Name)
                 {
                     P2Gold = P2Gold - (p2Unit2cost);
                 }
 
-                if (name == Char3)
+                if (unitName == unit3Name)
                 {
                     P2Gold = P2Gold - (p2Unit3cost);
                 }
             }
-
-
-
-
         }
     }
-    #endregion
 
 
-    #region Changing Experience Reqs
     public void ChangeExperienceReqs(string player, int age)
     {
-
         if (player == "P1")
         {
-            P1EvolveXPCost = evolveReqs[age];
+            P1EvolveXPCost = eachAgeEvolveXPCost[age];
         }
 
         if (player == "P2")
         {
-            P2EvolveXPCost = evolveReqs[age];
+            P2EvolveXPCost = eachAgeEvolveXPCost[age];
         }
     }
-    #endregion
 
 
-    #region Changing Experience
-    public void ChangeExperience(string function, string name, string tag)
+    public void ChangeExperience(string change, string unitName, string player)
     {
-
-        if (function == "increase")
+        if (change == "increase")
         {
-            if (tag == "Player2")
+            if (player == "Player2")
             {
-                if (name == Char1)
+                if (unitName == unit1Name)
                 {
                     P1Exp = P1Exp + (p1Unit1cost * unitKilledXPReward);
-                    P2Exp = P2Exp + (p2Unit1cost * unitKilledXPReward / 3);
+                    P2Exp = P2Exp + (p2Unit1cost * unitDeathXPReward);
                 }
 
-                if (name == Char2)
+                if (unitName == unit2Name)
                 {
                     P1Exp = P1Exp + (p1Unit2cost * unitKilledXPReward);
-                    P2Exp = P2Exp + (p2Unit2cost * unitKilledXPReward / 3);
+                    P2Exp = P2Exp + (p2Unit2cost * unitDeathXPReward);
                 }
 
-                if (name == Char3)
+                if (unitName == unit3Name)
                 {
                     P1Exp = P1Exp + (p1Unit3cost * unitKilledXPReward);
-                    P2Exp = P2Exp + (p2Unit3cost * unitKilledXPReward / 3);
-                }
-
-                else
-                {
+                    P2Exp = P2Exp + (p2Unit3cost * unitDeathXPReward);
                 }
             }
 
-            if (tag == "Player1")
+            if (player == "Player1")
             {
-                if (name == Char1)
+                if (unitName == unit1Name)
                 {
                     P2Exp = P2Exp + (p2Unit1cost * unitKilledXPReward);
-                    P1Exp = P1Exp + (p1Unit1cost * unitKilledXPReward / 3);
+                    P1Exp = P1Exp + (p1Unit1cost * unitDeathXPReward);
                 }
 
-                if (name == Char2)
+                if (unitName == unit2Name)
                 {
                     P2Exp = P2Exp + (p2Unit2cost * unitKilledXPReward);
-                    P1Exp = P1Exp + (p1Unit2cost * unitKilledXPReward / 3);
+                    P1Exp = P1Exp + (p1Unit2cost * unitDeathXPReward);
                 }
 
-                if (name == Char3)
+                if (unitName == unit3Name)
                 {
                     P2Exp = P2Exp + (p2Unit3cost * unitKilledXPReward);
-                    P1Exp = P1Exp + (p1Unit3cost * unitKilledXPReward / 3);
+                    P1Exp = P1Exp + (p1Unit3cost * unitDeathXPReward);
                 }
             }
         }
 
-
-        if (function == "decrease")
+        if (change == "decrease")
         {
-            if (tag == "P1")
+            if (player == "P1")
             {
                 P1Exp = 0;
             }
 
-            if (tag == "P2")
+            if (player == "P2")
             {
                 P2Exp = 0;
             }
         }
     }
-    #endregion
+
 }
