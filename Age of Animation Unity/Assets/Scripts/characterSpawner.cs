@@ -11,9 +11,9 @@ public class characterSpawner : MonoBehaviour {
     string myTag;
     int myLayer;
 
+    Age age;
     public Units units;
     public GameObject SpawnBar;
-    Age age;
 
     public List<string> inGameUnit1Bots = new List<string>();
     public List<string> inGameUnit2Bots = new List<string>();

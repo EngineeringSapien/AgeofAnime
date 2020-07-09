@@ -1,11 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Bot : MonoBehaviour {
 
-
     public GameObject p2Base;
+
+    public score Score;
+    public Age age;
+
+    public buttonClick unit1Button;
+    public buttonClick unit2Button;
+    public buttonClick unit3Button;
+    public buttonClick evolveButton;
 
     private int u1Count;
     private int u2Count;
@@ -15,18 +23,7 @@ public class Bot : MonoBehaviour {
     private int button2Prob;
     private int button3Prob;
 
-    public GameObject button1;
-    public GameObject button2;
-    public GameObject button3;
-    public GameObject button4;
 
-    buttonClick click1;
-    buttonClick click2;
-    buttonClick click3;
-    buttonClick click4;
-
-    public score Score;
-    public Age age;
     private float botGold;
     private float unit1Cost;
     private float unit2Cost;
@@ -34,15 +31,6 @@ public class Bot : MonoBehaviour {
 
     private bool canDecide = true;
 
-
-
-    private void Awake()
-    {
-        click1 = button1.GetComponent<buttonClick>();
-        click2 = button2.GetComponent<buttonClick>();
-        click3 = button3.GetComponent<buttonClick>();
-        click4 = button4.GetComponent<buttonClick>();
-    }
 
     private void Update()
     {
@@ -56,7 +44,7 @@ public class Bot : MonoBehaviour {
         unit2Cost = Score.p2Unit2cost;
         unit3Cost = Score.p2Unit3cost;
 
-        if ((click1._button.interactable == true || click2._button.interactable == true || click3._button.interactable == true) && canDecide == true)
+        if ((unit1Button._button.interactable == true || unit2Button._button.interactable == true || unit3Button._button.interactable == true) && canDecide == true)
         {
             if (age.P2Age == 2)
             {
@@ -72,9 +60,9 @@ public class Bot : MonoBehaviour {
             }
         }
 
-        if (click4._button.interactable == true)
+        if (evolveButton._button.interactable == true)
         {
-            click4.BotClick();
+            evolveButton.BotClick();
         }
 
     }
@@ -94,34 +82,29 @@ public class Bot : MonoBehaviour {
         button2Prob = 100;
         button3Prob = 100;
 
-        //Adjust based on # of units on field
         button1Prob -= (u1Count * 10);
         button2Prob -= (u2Count * 10);
         button3Prob -= (u3Count * 10);
 
-        //Adjust based on strength of each unit
         button1Prob += 10;
         button2Prob += 20;
         button3Prob += 30;
 
-        //Adjust based on gold cost of unit
         int adjustment = Mathf.RoundToInt(botGold / unit1Cost);
         button1Prob += adjustment;
         int adjustment2 = Mathf.RoundToInt(botGold / unit2Cost);
-        button1Prob += adjustment;   
+        button2Prob += adjustment;   
         int adjustment3 = Mathf.RoundToInt(botGold / unit3Cost);
-        button1Prob += adjustment;
+        button3Prob += adjustment;
 
-        if (click3._button.interactable == false)
-        { button3Prob = 0; }
-        if (click2._button.interactable == false)
-        { button2Prob = 0; }
-        if (click1._button.interactable == false)
+        if (unit1Button._button.interactable == false)
         { button1Prob = 0; }
+        if (unit2Button._button.interactable == false)
+        { button2Prob = 0; }
+        if (unit3Button._button.interactable == false)
+        { button3Prob = 0; }
 
         SelectUnit(button1Prob, button2Prob, button3Prob);
-
-
     }
 
 
@@ -132,63 +115,21 @@ public class Bot : MonoBehaviour {
 
         int selection = Mathf.RoundToInt(Random.Range(0, sum-1));
 
-        if (selection > 0 && selection < a)
-        { click1.BotClick(); }
+        if (selection >= 0 && selection < a)
+        { unit1Button.BotClick(); }
+
         else if (selection >= a && selection < (a + b))
-        { click2.BotClick(); }
-        else if (selection >= b && selection < (a + b + c))
-        { click3.BotClick(); }
+        { unit2Button.BotClick(); }
+
+        else if (selection >= (a + b) && selection < (a + b + c))
+        { unit3Button.BotClick(); }
+
         else
         {
-            //Debug.Log("ERROR: Out of Range");
+            Debug.Log("ERROR: Out of Range. --> " + selection);
         }
+
         canDecide = true;
     }
-
-
-// Function for deciding what to do with units: 
-    void UnitProb()
-    {
-        //determine which units are spawnable
-            //check which buttons are enabled
-                //reference buttons[n].interactable from ButtonSpriteManager.cs
-
-
-        //adjust unit probabilities based on conditional statements of game events
-            /*
-             * #Assigning zero probz to non-interactable units
-             * for i in range(3):
-             *  if (button[i].interactable = false)
-             *      unitP[i] = 0
-             *  
-             *  else
-             *      unitP[i] = 100 / numberofinteractableUnits
-             * 
-             * 
-             * #Adjusting based on units on screen
-             *for i in range(3):
-             * FindObjectofType(Unit[i])         #I have no idea how this is actually going to work
-             * if found unit[i]:                 #unit = [character1, character2, character3]
-             *  unitOnField[i] += 1              #unitOnField = unit1s, unit2s, unit3s  or  list = list1, list2, list3
-             *
-             *for i in range(unitOnField):
-             *  unitP[i] -= (unitOnField[i] * 10)            #subtracting 10 from each respective unit for each respective unit on field
-             *  
-             *  
-             *#Adjusting based on unit strength
-             * for i in range(interactableUnit):
-             *  maxUnitStrength = 0
-             *  if (interactableUnit[i].Strength > maxUnitStrength)
-             *      maxUnitStrength = interactableUnit[i].Strength
-             *      unitP[i] += 20
-             *  elif (interactableUnit[i].S < maxUnitStrength)
-             *      unitP[i] -= 20 
-             *      
-                      
-         */
-
-    }
-
-
 
 }
