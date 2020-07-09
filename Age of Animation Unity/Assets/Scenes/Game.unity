@@ -4361,7 +4361,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2017119508}
+      - m_Target: {fileID: 1481717131}
         m_MethodName: CheckButtonName
         m_Mode: 1
         m_Arguments:
@@ -5440,13 +5440,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24fd1fee2ab5696409d03a09b5eee885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p2Base: {fileID: 878566175}
-  button1: {fileID: 715728480}
-  button2: {fileID: 788280883}
-  button3: {fileID: 1468546453}
-  button4: {fileID: 1755055238}
-  Score: {fileID: 447694635}
+  p2Spawner: {fileID: 953348247}
+  scoreManager: {fileID: 447694635}
   age: {fileID: 1645545677}
+  unit1Button: {fileID: 715728485}
+  unit2Button: {fileID: 788280888}
+  unit3Button: {fileID: 1468546458}
+  evolveButton: {fileID: 1755055243}
 --- !u!1 &915442823
 GameObject:
   m_ObjectHideFlags: 0

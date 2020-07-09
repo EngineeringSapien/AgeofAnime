@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 
 public class Bot : MonoBehaviour {
 
-    public GameObject p2Base;
+    public characterSpawner p2Spawner;
 
     public score scoreManager;
     public Age age;
@@ -14,10 +14,6 @@ public class Bot : MonoBehaviour {
     public buttonClick unit2Button;
     public buttonClick unit3Button;
     public buttonClick evolveButton;
-
-    private int unit1Count;
-    private int unit2Count;
-    private int unit3Count;
 
     private int button1Prob;
     private int button2Prob;
@@ -28,11 +24,6 @@ public class Bot : MonoBehaviour {
 
     private void Update()
     {
-
-        unit1Count = p2Base.GetComponentInChildren<characterSpawner>().unit1BotsCount;
-        unit2Count = p2Base.GetComponentInChildren<characterSpawner>().unit2BotsCount;
-        unit3Count = p2Base.GetComponentInChildren<characterSpawner>().unit3BotsCount;
-
         if ((unit1Button._button.interactable == true || unit2Button._button.interactable == true || unit3Button._button.interactable == true) && canDecide == true)
         {
             if (age.P2Age == 2)
@@ -53,8 +44,8 @@ public class Bot : MonoBehaviour {
         {
             evolveButton.BotClick();
         }
-
     }
+
 
     IEnumerator Delay(float wait)
     {
@@ -64,15 +55,16 @@ public class Bot : MonoBehaviour {
         ButtonProb();
     }
 
+
     private void ButtonProb()
     {
         button1Prob = 100;
         button2Prob = 100;
         button3Prob = 100;
 
-        button1Prob -= (unit1Count * 10);
-        button2Prob -= (unit2Count * 10);
-        button3Prob -= (unit3Count * 10);
+        button1Prob -= (p2Spawner.unit1BotsCount * 10);
+        button2Prob -= (p2Spawner.unit2BotsCount * 10);
+        button3Prob -= (p2Spawner.unit3BotsCount * 10);
 
         button1Prob += 10;
         button2Prob += 20;
@@ -111,11 +103,6 @@ public class Bot : MonoBehaviour {
 
         else if (selection >= (a + b) && selection < (a + b + c))
         { unit3Button.BotClick(); }
-
-        else
-        {
-            Debug.Log("ERROR: Out of Range. --> " + selection);
-        }
 
         canDecide = true;
     }

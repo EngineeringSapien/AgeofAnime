@@ -50,9 +50,17 @@ public class health : MonoBehaviour {
         Destroy(gameObject);
         Destroy(clone, deathwait);
 
-        if (clone.name == "Character1") { Spawner.inGameUnit1Bots.Remove(this.gameObject.name); }
-        else if (clone.name == "Character2") { Spawner.inGameUnit2Bots.Remove(this.gameObject.name); }
-        else if (clone.name == "Character3") { Spawner.inGameUnit3Bots.Remove(this.gameObject.name); }
+        if (gameObject.tag == "Player2")
+        {
+            if (gameObject.name == "Character1")
+            { Spawner.inGameUnit1Bots.Remove(gameObject.name); }
+
+            else if (gameObject.name == "Character2")
+            { Spawner.inGameUnit2Bots.Remove(gameObject.name); }
+
+            else if (gameObject.name == "Character3")
+            { Spawner.inGameUnit3Bots.Remove(gameObject.name); }
+        }
     }
 
 }

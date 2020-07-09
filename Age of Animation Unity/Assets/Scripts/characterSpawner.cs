@@ -41,12 +41,9 @@ public class characterSpawner : MonoBehaviour {
 
     private void Update()
     {
-        if (this.gameObject.tag == "TheP2Base")
-        {
-            unit1BotsCount = inGameUnit1Bots.Count;
-            unit2BotsCount = inGameUnit2Bots.Count;
-            unit3BotsCount = inGameUnit3Bots.Count;
-        }
+        unit1BotsCount = inGameUnit1Bots.Count;
+        unit2BotsCount = inGameUnit2Bots.Count;
+        unit3BotsCount = inGameUnit3Bots.Count;
     }
 
 
@@ -122,14 +119,22 @@ public class characterSpawner : MonoBehaviour {
         var clone = Instantiate(charactertobeSpawn, transform.position, Quaternion.identity);
 
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character1.ToString())
-        { clone.name = Character1; inGameUnit1Bots.Add(clone.name); }
+        {
+            clone.name = Character1;
+            inGameUnit1Bots.Add(clone.name);
+        }
 
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character2.ToString())
-        { clone.name = Character2; inGameUnit2Bots.Add(clone.name); }
+        {
+            clone.name = Character2;
+            inGameUnit2Bots.Add(clone.name);
+        }
 
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character3.ToString())
-        { clone.name = Character3; inGameUnit3Bots.Add(clone.name); }
-       
+        {
+            clone.name = Character3;
+            inGameUnit3Bots.Add(clone.name);
+        }
     }
 
 
