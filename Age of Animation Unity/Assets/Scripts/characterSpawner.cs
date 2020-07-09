@@ -143,6 +143,21 @@ public class characterSpawner : MonoBehaviour {
     }
 
 
+    public void RemoveUnitNames(string unitName)
+    {
+        if (unitName == "Character1")
+        { inGameUnit1Bots.Remove(unitName); }
+
+        else if (unitName == "Character2")
+        { inGameUnit2Bots.Remove(unitName); }
+
+        else if (unitName == "Character3")
+        { inGameUnit3Bots.Remove(unitName); }
+
+        UpdateUnitCount();
+    }
+
+
     public void UpdateUnitCount()
     {
         inGameUnit1Count = inGameUnit1Bots.Count;
