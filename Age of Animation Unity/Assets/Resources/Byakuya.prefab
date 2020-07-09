@@ -140,9 +140,9 @@ GameObject:
   - component: {fileID: 114930466002259110}
   - component: {fileID: 61951314741067558}
   - component: {fileID: 114527740182859122}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Byakuya
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -187,7 +187,7 @@ Transform:
   m_GameObject: {fileID: 1651744834835188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 13.203813, y: -3.5080414, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1.5}
   m_Children:
   - {fileID: 4484412644921972}
   - {fileID: 4076135311786506}

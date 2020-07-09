@@ -78,9 +78,9 @@ GameObject:
   - component: {fileID: 114817974982069744}
   - component: {fileID: 61802127742640486}
   - component: {fileID: 114547738201631782}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Colonel Mustang
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ Transform:
   m_GameObject: {fileID: 1651744834835188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.4713478, y: -3.5919242, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 2.3, y: 2.3, z: 1.5}
   m_Children:
   - {fileID: 4484412644921972}
   - {fileID: 4762636888382124}
@@ -387,10 +387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 95746338982120012}
   speed: 1
-  canWalk: 0
-  canAttack: 0
-  canIdle: 0
-  canFire: 0
+  canMeleeAttack: 0
+  canRangeAttack: 0
 --- !u!114 &114957246738402050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -404,7 +402,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitsStartingHealth: 0
   unitsCurrentHealth: 0
-  deathwait: 0.25
   thisUnitsDeathSprite: {fileID: 1851392008359230, guid: ae508ce87255e9f4da05bf964b9238d6,
     type: 2}
 --- !u!212 &212304386674762008
