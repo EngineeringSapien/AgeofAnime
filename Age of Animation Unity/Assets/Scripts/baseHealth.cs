@@ -6,6 +6,7 @@ public class baseHealth : MonoBehaviour {
 
     public int currentHealth;
     public int maxHealth;
+    private string playerNumberText;
 
     public Age age;
     public GameManager gameManager;
@@ -26,6 +27,8 @@ public class baseHealth : MonoBehaviour {
 
         maxHealth = baseHealthByAge[0];
         currentHealth = maxHealth;
+
+        playerNumberText = gameObject.name.Substring(1, 1);
     }
 
 
@@ -50,11 +53,10 @@ public class baseHealth : MonoBehaviour {
 
         if (currentHealth <= 0)
         {
-            gameManager.GameOver();
+            gameManager.GameOver(playerNumberText);
         }
 
         TeamHealthBar.UpdateTeamHealthBar();
     }
-
 
 }

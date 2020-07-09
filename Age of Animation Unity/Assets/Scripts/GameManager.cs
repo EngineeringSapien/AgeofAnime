@@ -2,25 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
-    public baseHealth baseHealth1;
-    public baseHealth baseHealth2;
-
     public GameObject winnerUI;
+    public Text winnerText;
 
-    int PlayerOne = 1;
-    int PlayerTwo = 2;
-
-    bool gameHasEnded = false;
+    private bool gameHasEnded = false;
 
 
-    public void GameOver()
+    public void GameOver(string losingPlayer)
     {
         if (gameHasEnded == false)
         {
             gameHasEnded = true;
+            
+            if (losingPlayer == "1") { winnerText.text = "PLAYER 2"; }
+
+            else { winnerText.text = "PLAYER 1"; }
+
             winnerUI.SetActive(true);
         }
     }
