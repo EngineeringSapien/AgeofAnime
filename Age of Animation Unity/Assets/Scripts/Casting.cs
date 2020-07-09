@@ -14,7 +14,8 @@ public class Casting : MonoBehaviour {
     int friendlyMask;
 
     Vector2 unitForwardDirection;
-    private float rayOffset = .30f;
+    private float rayOffset; // = .30f;
+    private float rayOffsetFactor = 7.5f;
     private int offSetDirection;
 
     PlayerMovement movement;
@@ -47,7 +48,6 @@ public class Casting : MonoBehaviour {
         enemyMask = (1 << enemyLayer);
         friendlyMask = (1 << friendlyLayer);
 
-
         #region Determing Ray Direction
         if (this.gameObject.tag == "Player1")
         {
@@ -60,6 +60,8 @@ public class Casting : MonoBehaviour {
             offSetDirection = -1;
         }
         #endregion
+
+        rayOffset = (gameObject.transform.localScale.x * gameObject.transform.localScale.y) / rayOffsetFactor;
 
     }
 
