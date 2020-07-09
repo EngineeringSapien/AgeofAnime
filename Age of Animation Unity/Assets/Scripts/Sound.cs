@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class Sound : MonoBehaviour {
 
-    private List<AudioClip> Music = new List<AudioClip>();
-
-    public AudioSource BMG;
+    private AudioSource bgMusic;
+    private List<AudioClip> allMusic = new List<AudioClip>();
 
     public AudioClip narutoMusic;
     public AudioClip narutoShippuddenMusic;
@@ -19,13 +18,14 @@ public class Sound : MonoBehaviour {
 
     private void Awake()
     {
-        Music.AddRange(new AudioClip[] { narutoMusic, narutoShippuddenMusic, DBZMusic, BleachMusic, FullMetalMusic });
+        allMusic.AddRange(new AudioClip[] { narutoMusic, narutoShippuddenMusic, DBZMusic, BleachMusic, FullMetalMusic });
     }
 
 
     private void Start()
     {
-        BMG.Play();
+        bgMusic = gameObject.GetComponent<AudioSource>();
+        bgMusic.Play();
     }
 
 
@@ -33,9 +33,9 @@ public class Sound : MonoBehaviour {
     {
         if (_age > age.globalAge)
         {
-            BMG.Stop();
-            BMG.clip = Music[_age];
-            BMG.Play();
+            bgMusic.Stop();
+            bgMusic.clip = allMusic[_age];
+            bgMusic.Play();
         }
     }
 
