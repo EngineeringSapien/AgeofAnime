@@ -22,19 +22,6 @@ public class Age : MonoBehaviour {
         globalAge = 0;
     }
 
-	
-	void ChangeGlobalAge ()
-    {
-        if (P1Age > P2Age)
-        { globalAge = P1Age; }
-
-        if (P2Age > P1Age)
-        { globalAge = P2Age; }
-
-        else
-        { globalAge = P1Age; }	
-	}
-
 
     public void ChangeAge(string player)
     {
@@ -63,6 +50,19 @@ public class Age : MonoBehaviour {
             Score.ChangeExperienceReqs("P2", P2Age);
             Score.ChangeExperience("decrease", "n/a", "P2");
         }
+    }
+
+
+    void ChangeGlobalAge()
+    {
+        if (P1Age > P2Age)
+        { globalAge = P1Age; }
+
+        if (P2Age > P1Age)
+        { globalAge = P2Age; }
+
+        else
+        { globalAge = P1Age; }
     }
 
 }
