@@ -25,12 +25,6 @@ public class health : MonoBehaviour {
     }
 
 
-    void StartHealth()
-    {
-        unitsCurrentHealth = unitsStartingHealth;
-    }
-
-
     public void TakeDamage(int damage)
     {        
         unitsCurrentHealth -= damage;
