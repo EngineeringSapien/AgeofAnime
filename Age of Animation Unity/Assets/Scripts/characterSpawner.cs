@@ -11,7 +11,7 @@ public class characterSpawner : MonoBehaviour {
     string myTag;
     int myLayer;
 
-    Age age;
+    private Age age;
     public Units units;
     public GameObject SpawnBar;
 
@@ -23,13 +23,12 @@ public class characterSpawner : MonoBehaviour {
     public int unit2BotsCount;
     public int unit3BotsCount;
 
-    string nameEdit1 = "(Clone)";
-    string nameEdit2 = " (UnityEngine.GameObject)";
+    private string nameEdit1 = "(Clone)";
+    private string nameEdit2 = " (UnityEngine.GameObject)";
 
-    string Character1 = "Character1";
-    string Character2 = "Character2";
-    string Character3 = "Character3";
-
+    private string unit1SpawnName = "Character1";
+    private string unit2SpawnName = "Character2";
+    private string unit3SpawnName = "Character3";
 
 
     void Start()
@@ -41,9 +40,12 @@ public class characterSpawner : MonoBehaviour {
 
     private void Update()
     {
-        unit1BotsCount = inGameUnit1Bots.Count;
-        unit2BotsCount = inGameUnit2Bots.Count;
-        unit3BotsCount = inGameUnit3Bots.Count;
+        if (gameObject.name == "p2Spawner")
+        {
+            Debug.Log("Unit1 " + inGameUnit1Bots.Count);
+            Debug.Log("unit 2 " + inGameUnit2Bots.Count);
+            Debug.Log("Unit   3 " + inGameUnit3Bots.Count);
+        }
     }
 
 
@@ -120,22 +122,32 @@ public class characterSpawner : MonoBehaviour {
 
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character1.ToString())
         {
-            clone.name = Character1;
+            clone.name = unit1SpawnName;
             inGameUnit1Bots.Add(clone.name);
+            UpdateUnitCount();
         }
 
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character2.ToString())
         {
-            clone.name = Character2;
+            clone.name = unit2SpawnName;
             inGameUnit2Bots.Add(clone.name);
+            UpdateUnitCount();
         }
 
         if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character3.ToString())
         {
-            clone.name = Character3;
+            clone.name = unit3SpawnName;
             inGameUnit3Bots.Add(clone.name);
+            UpdateUnitCount();
         }
     }
 
+
+    public void UpdateUnitCount()
+    {
+        unit1BotsCount = inGameUnit1Bots.Count;
+        unit2BotsCount = inGameUnit2Bots.Count;
+        unit3BotsCount = inGameUnit3Bots.Count;
+    }
 
 }

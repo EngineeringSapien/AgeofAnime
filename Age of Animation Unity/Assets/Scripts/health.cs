@@ -60,6 +60,8 @@ public class health : MonoBehaviour {
 
             else if (gameObject.name == "Character3")
             { Spawner.inGameUnit3Bots.Remove(gameObject.name); }
+
+            Spawner.UpdateUnitCount();
         }
     }
 
