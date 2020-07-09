@@ -26,18 +26,7 @@ public class Bot : MonoBehaviour {
     {
         if ((unit1Button._button.interactable == true || unit2Button._button.interactable == true || unit3Button._button.interactable == true) && botCanSpawn == true)
         {
-            if (age.P2Age == 2)
-            {
-                StartCoroutine(Delay(Random.Range(0, 4f)));
-            }
-            else if (age.P2Age == 3)
-            {
-                StartCoroutine(Delay(Random.Range(0, 4f)));
-            }
-            else
-            {
-                StartCoroutine(Delay(Random.Range(0, 5f)));
-            }
+            StartCoroutine(Delay(Random.Range(0, 5f)));
         }
 
         if (evolveButton._button.interactable == true)
@@ -84,28 +73,25 @@ public class Bot : MonoBehaviour {
         if (unit3Button._button.interactable == false)
         { currentUnit3Attractiveness = 0; }
 
-        BotSelectUnit(currentUnit1Attractiveness, currentUnit2Attractiveness, currentUnit3Attractiveness);
+        BotSelectUnit();
     }
 
 
 
-    void BotSelectUnit(int unit1Attractiveness, int unit2Attractiveness, int unit3Attractiveness)
+    void BotSelectUnit()
     {
-        Debug.Log(unit1Attractiveness + " " + unit2Attractiveness + " " + unit3Attractiveness);
+        Debug.Log(currentUnit1Attractiveness + " " + currentUnit2Attractiveness + " " + currentUnit3Attractiveness);
 
-        int sum = unit1Attractiveness + unit2Attractiveness + unit3Attractiveness;
-
+        int sum = currentUnit1Attractiveness + currentUnit2Attractiveness + currentUnit3Attractiveness;
         int unitSelection = Mathf.RoundToInt(Random.Range(0, sum-1));
 
-        Debug.Log(unitSelection);
-
-        if (unitSelection >= 0 && unitSelection < unit1Attractiveness)
+        if (unitSelection >= 0 && unitSelection < currentUnit1Attractiveness)
         { unit1Button.BotClick(); }
 
-        else if (unitSelection >= unit1Attractiveness && unitSelection < (unit1Attractiveness + unit2Attractiveness))
+        else if (unitSelection >= currentUnit1Attractiveness && unitSelection < (currentUnit1Attractiveness + currentUnit2Attractiveness))
         { unit2Button.BotClick(); }
 
-        else if (unitSelection >= (unit1Attractiveness + unit2Attractiveness) && unitSelection < (unit1Attractiveness + unit2Attractiveness + unit3Attractiveness))
+        else if (unitSelection >= (currentUnit1Attractiveness + currentUnit2Attractiveness) && unitSelection < (currentUnit1Attractiveness + currentUnit2Attractiveness + currentUnit3Attractiveness))
         { unit3Button.BotClick(); }
 
         botCanSpawn = true;
