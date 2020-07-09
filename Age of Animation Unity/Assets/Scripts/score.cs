@@ -44,6 +44,11 @@ public class score : MonoBehaviour
         P1EvolveXPCost = P2EvolveXPCost = unitManager.eachAgeEvolveXPCost[0];
     }
 
+    private void Update()
+    {
+        P1Gold += 10;
+        P1Exp += 10;
+    }
 
     public void ChangeGoldReqs(string player, int age)
     {
