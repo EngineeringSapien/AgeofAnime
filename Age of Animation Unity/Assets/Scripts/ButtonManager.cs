@@ -122,42 +122,42 @@ public class ButtonManager : MonoBehaviour {
 
     private void TriggerP1Button1()
     {
-        spawner1.QueueUnitSpawn(units.P1character1, "P1", ageManager.P1Age);
+        spawner1.StartUnitSpawn(units.P1character1, "P1", ageManager.P1Age);
         Score.ChangeTreasury("decrease", "Character1", "Player1");
     }
 
 
     private void TriggerP1Button2()
     {
-        spawner1.QueueUnitSpawn(units.P1character2, "P1", ageManager.P1Age);
+        spawner1.StartUnitSpawn(units.P1character2, "P1", ageManager.P1Age);
         Score.ChangeTreasury("decrease", "Character2", "Player1");
     }
 
 
     private void TriggerP1Button3()
     {
-        spawner1.QueueUnitSpawn(units.P1character3, "P1", ageManager.P1Age);
+        spawner1.StartUnitSpawn(units.P1character3, "P1", ageManager.P1Age);
         Score.ChangeTreasury("decrease", "Character3", "Player1");
     }
 
 
     private void TriggerP2Button1()
     {
-        spawner2.QueueUnitSpawn(units.P2character1, "P2", ageManager.P2Age);
+        spawner2.StartUnitSpawn(units.P2character1, "P2", ageManager.P2Age);
         Score.ChangeTreasury("decrease", "Character1", "Player2");
     }
 
 
     private void TriggerP2Button2()
     {
-        spawner2.QueueUnitSpawn(units.P2character2, "P2", ageManager.P2Age);
+        spawner2.StartUnitSpawn(units.P2character2, "P2", ageManager.P2Age);
         Score.ChangeTreasury("decrease", "Character2", "Player2");
     }
 
 
     private void TriggerP2Button3()
     {
-        spawner2.QueueUnitSpawn(units.P2character3, "P2", ageManager.P2Age);
+        spawner2.StartUnitSpawn(units.P2character3, "P2", ageManager.P2Age);
         Score.ChangeTreasury("decrease", "Character3", "Player2");
     }
 

@@ -47,9 +47,9 @@ public class Bot : MonoBehaviour {
         currentUnit2Attractiveness = 110;
         currentUnit3Attractiveness = 150;
 
-        currentUnit1Attractiveness -= (p2Spawner.unit1BotsCount * 10);
-        currentUnit2Attractiveness -= (p2Spawner.unit2BotsCount * 10);
-        currentUnit3Attractiveness -= (p2Spawner.unit3BotsCount * 10);
+        currentUnit1Attractiveness -= (p2Spawner.inGameUnit1Count * 10);
+        currentUnit2Attractiveness -= (p2Spawner.inGameUnit2Count * 10);
+        currentUnit3Attractiveness -= (p2Spawner.inGameUnit3Count * 10);
 
         int adjustment1 = Mathf.RoundToInt(scoreManager.P2Gold / scoreManager.p2Unit1cost);
         currentUnit1Attractiveness += adjustment1;

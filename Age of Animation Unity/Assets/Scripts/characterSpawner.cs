@@ -19,9 +19,9 @@ public class characterSpawner : MonoBehaviour {
     public List<string> inGameUnit2Bots = new List<string>();
     public List<string> inGameUnit3Bots = new List<string>();
 
-    public int unit1BotsCount;
-    public int unit2BotsCount;
-    public int unit3BotsCount;
+    public int inGameUnit1Count;
+    public int inGameUnit2Count;
+    public int inGameUnit3Count;
 
     private string nameEdit1 = "(Clone)";
     private string nameEdit2 = " (UnityEngine.GameObject)";
@@ -49,7 +49,7 @@ public class characterSpawner : MonoBehaviour {
     }
 
 
-    public void QueueUnitSpawn(GameObject character, string player, int age)
+    public void StartUnitSpawn(GameObject character, string player, int age)
     {
         AssignTags(player);
 
@@ -81,25 +81,19 @@ public class characterSpawner : MonoBehaviour {
         for (int i = 0; i < units.unit1Characters.Count; i++)
         {
             if (units.unit1Characters.Contains(character.name))
-            {
-                spawnTime = units.eachUnit1Spawntime[age];
-            }
+            { spawnTime = units.eachUnit1Spawntime[age]; }
         }
 
         for (int i = 0; i < units.unit2Characters.Count; i++)
         {
             if (units.unit2Characters.Contains(character.name))
-            {
-                spawnTime = units.eachUnit2Spawntime[age];
-            }
+            { spawnTime = units.eachUnit2Spawntime[age]; }
         }
 
         for (int i = 0; i < units.unit3Characters.Count; i++)
         {
             if (units.unit3Characters.Contains(character.name))
-            {
-                spawnTime = units.eachUnit3Spawntime[age];
-            }
+            { spawnTime = units.eachUnit3Spawntime[age]; }
         }
     }
 
@@ -120,24 +114,30 @@ public class characterSpawner : MonoBehaviour {
 
         var clone = Instantiate(charactertobeSpawn, transform.position, Quaternion.identity);
 
-        if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character1.ToString())
+        UpdateInGameUnitList(clone.name);
+    }
+
+
+    private void UpdateInGameUnitList(string unitName)
+    {
+        if (unitName.Replace(nameEdit1, nameEdit2) == units.P2character1.ToString())
         {
-            clone.name = unit1SpawnName;
-            inGameUnit1Bots.Add(clone.name);
+            unitName = unit1SpawnName;
+            inGameUnit1Bots.Add(unitName);
             UpdateUnitCount();
         }
 
-        if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character2.ToString())
+        if (unitName.Replace(nameEdit1, nameEdit2) == units.P2character2.ToString())
         {
-            clone.name = unit2SpawnName;
-            inGameUnit2Bots.Add(clone.name);
+            unitName = unit2SpawnName;
+            inGameUnit2Bots.Add(unitName);
             UpdateUnitCount();
         }
 
-        if (clone.name.Replace(nameEdit1, nameEdit2) == units.P2character3.ToString())
+        if (unitName.Replace(nameEdit1, nameEdit2) == units.P2character3.ToString())
         {
-            clone.name = unit3SpawnName;
-            inGameUnit3Bots.Add(clone.name);
+            unitName = unit3SpawnName;
+            inGameUnit3Bots.Add(unitName);
             UpdateUnitCount();
         }
     }
@@ -145,9 +145,9 @@ public class characterSpawner : MonoBehaviour {
 
     public void UpdateUnitCount()
     {
-        unit1BotsCount = inGameUnit1Bots.Count;
-        unit2BotsCount = inGameUnit2Bots.Count;
-        unit3BotsCount = inGameUnit3Bots.Count;
+        inGameUnit1Count = inGameUnit1Bots.Count;
+        inGameUnit2Count = inGameUnit2Bots.Count;
+        inGameUnit3Count = inGameUnit3Bots.Count;
     }
 
 }
