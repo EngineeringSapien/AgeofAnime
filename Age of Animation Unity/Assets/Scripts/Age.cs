@@ -21,22 +21,18 @@ public class Age : MonoBehaviour {
         P2Age = 0;
         globalAge = 0;
     }
-	
-	void ChangeGlobalAge () {
 
+	
+	void ChangeGlobalAge ()
+    {
         if (P1Age > P2Age)
-        {
-            globalAge = P1Age;
-        }
+        { globalAge = P1Age; }
+
         if (P2Age > P1Age)
-        {
-            globalAge = P2Age;
-        }
+        { globalAge = P2Age; }
+
         else
-        {
-            globalAge = P1Age;
-        }
-		
+        { globalAge = P1Age; }	
 	}
 
 
@@ -54,6 +50,7 @@ public class Age : MonoBehaviour {
             Score.ChangeExperienceReqs("P1", P1Age);
             Score.ChangeExperience("decrease", "n/a", "P1");
         }
+
         if (player == "P2")
         {
             P2Age++;
@@ -65,10 +62,7 @@ public class Age : MonoBehaviour {
             Score.ChangeGoldReqs("P2", P2Age);
             Score.ChangeExperienceReqs("P2", P2Age);
             Score.ChangeExperience("decrease", "n/a", "P2");
-
         }
-
     }
-
 
 }
