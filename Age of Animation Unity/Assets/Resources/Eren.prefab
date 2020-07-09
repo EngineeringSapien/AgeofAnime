@@ -332,8 +332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52884f23390430a43979061790d4617e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 95746338982120012}
-  thisCharactersMovementLogic: {fileID: 114938045508131468}
+  thisUnitsAnimator: {fileID: 95746338982120012}
+  thisUnitsMovementLogic: {fileID: 114938045508131468}
   myAge: 0
   currentMeleeDamage: 50
   currentRangeDamage: 0
@@ -386,10 +386,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 95746338982120012}
   speed: 2
-  canWalk: 0
-  canAttack: 0
-  canIdle: 0
-  canFire: 0
+  canMeleeAttack: 0
+  canRangeAttack: 0
 --- !u!114 &114957246738402050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -401,11 +399,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85c006a121bce374498704d1bff60583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthpoints: 0
-  currentHealth: 0
-  deathwait: 0.25
-  deathEffect: {fileID: 1851392008359230, guid: 8ccf696c34b265a49a4b2b92f3780657,
-    type: 2}
+  unitsStartingHealth: 0
+  unitsCurrentHealth: 0
+  thisUnitsDeathSprite: {fileID: 0}
 --- !u!212 &212321818000843044
 SpriteRenderer:
   m_ObjectHideFlags: 1

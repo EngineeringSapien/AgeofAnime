@@ -476,10 +476,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 95746338982120012}
   speed: 1.5
-  canWalk: 0
-  canAttack: 0
-  canIdle: 0
-  canFire: 0
+  canMeleeAttack: 0
+  canRangeAttack: 0
 --- !u!114 &114957246738402050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -493,7 +491,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitsStartingHealth: 0
   unitsCurrentHealth: 0
-  deathwait: 0.25
   thisUnitsDeathSprite: {fileID: 1851392008359230, guid: b046de7977f90824eb360acf2309330f,
     type: 2}
 --- !u!212 &212374366529561516

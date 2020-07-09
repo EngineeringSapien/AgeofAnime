@@ -332,8 +332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52884f23390430a43979061790d4617e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisUnitsAnimator: {fileID: 0}
-  thisUnitsMovementLogic: {fileID: 0}
+  thisUnitsAnimator: {fileID: 95746338982120012}
+  thisUnitsMovementLogic: {fileID: 114938045508131468}
   myAge: 0
   currentMeleeDamage: 15
   currentRangeDamage: 0
@@ -390,7 +390,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitsStartingHealth: 0
   unitsCurrentHealth: 0
-  deathwait: 0.25
   thisUnitsDeathSprite: {fileID: 1851392008359230, guid: 276b456249646da40a34e8fb3ad69117,
     type: 2}
 --- !u!114 &114966855108999080

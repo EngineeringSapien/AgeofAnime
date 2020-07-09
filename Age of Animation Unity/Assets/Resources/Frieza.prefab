@@ -141,9 +141,9 @@ GameObject:
   - component: {fileID: 114930466002259110}
   - component: {fileID: 61951314741067558}
   - component: {fileID: 114527740182859122}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Frieza
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -423,8 +423,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52884f23390430a43979061790d4617e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisUnitsAnimator: {fileID: 0}
-  thisUnitsMovementLogic: {fileID: 0}
+  thisUnitsAnimator: {fileID: 95746338982120012}
+  thisUnitsMovementLogic: {fileID: 114938045508131468}
   myAge: 0
   currentMeleeDamage: 20
   currentRangeDamage: 0
@@ -477,10 +477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 95746338982120012}
   speed: 1.5
-  canWalk: 0
-  canAttack: 0
-  canIdle: 0
-  canFire: 0
+  canMeleeAttack: 0
+  canRangeAttack: 0
 --- !u!114 &114957246738402050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -494,7 +492,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitsStartingHealth: 0
   unitsCurrentHealth: 0
-  deathwait: 0.25
   thisUnitsDeathSprite: {fileID: 1851392008359230, guid: 3539336911191374ca3e30da0323eb5d,
     type: 2}
 --- !u!212 &212374366529561516
