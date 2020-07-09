@@ -8,10 +8,10 @@ public class baseHealth : MonoBehaviour {
     public int maxHealth;
 
     public Age age;
+    public GameManager gameManager;
     HealthBar TeamHealthBar;
 
     private List<int> baseHealthByAge = new List<int>();
-
 
 
     private void Awake()
@@ -47,6 +47,11 @@ public class baseHealth : MonoBehaviour {
     public void TakeBaseDamage(int damage)
     {
         currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            gameManager.GameOver();
+        }
 
         TeamHealthBar.UpdateTeamHealthBar();
     }

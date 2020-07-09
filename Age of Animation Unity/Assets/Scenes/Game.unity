@@ -2226,7 +2226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e962b01506362d479c7d89772220733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BMG: {fileID: 402394934}
   narutoMusic: {fileID: 8300000, guid: 05077748285e39d4c8bd594c5c9b87fe, type: 3}
   narutoShippuddenMusic: {fileID: 8300000, guid: 2caa5ab6ff581c04b9410caa4fb8e02e,
     type: 3}
@@ -2525,13 +2524,9 @@ MonoBehaviour:
   p2Unit1cost: 0
   p2Unit2cost: 0
   p2Unit3cost: 0
-  P1EvolveReq: 0
-  P2EvolveReq: 0
-  expFactor: 2
-  goldReward: 0.9
-  goldDeathReward: 0.5
-  age: {fileID: 1645545677}
-  Spawn: {fileID: 2017119508}
+  P1EvolveXPCost: 0
+  P2EvolveXPCost: 0
+  unitManager: {fileID: 586400140}
 --- !u!4 &447694636
 Transform:
   m_ObjectHideFlags: 0
@@ -3311,6 +3306,9 @@ MonoBehaviour:
   unit1Characters: []
   unit2Characters: []
   unit3Characters: []
+  unit1SpawnName: Character1
+  unit2SpawnName: Character2
+  unit3SpawnName: Character3
   eachUnit1Damage: 
   eachUnit2Damage: 
   eachUnit3Damage: 
@@ -3328,6 +3326,10 @@ MonoBehaviour:
   eachUnit1Range: []
   eachUnit2Range: []
   eachUnit3Range: []
+  eachUnit1Cost: []
+  eachUnit2Cost: []
+  eachUnit3Cost: []
+  eachAgeEvolveXPCost: []
 --- !u!4 &586400141
 Transform:
   m_ObjectHideFlags: 0
