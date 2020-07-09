@@ -77,8 +77,8 @@ public class Units : MonoBehaviour {
         eachUnit3Speed.AddRange(new float[] { 1, 1.3f, 2, 1f, 2f });
         
         eachUnit1Range.AddRange(new float[] { 1, 1, 1, 1, 1 });
-        eachUnit2Range.AddRange(new float[] { 17, 18, 20, 20, 20 });
-        eachUnit3Range.AddRange(new float[] { 17, 18, 20, 20, 20 });
+        eachUnit2Range.AddRange(new float[] { 25, 25, 25, 25, 25 });
+        eachUnit3Range.AddRange(new float[] { 25, 25, 25, 25, 25 });
 
         eachUnit1Cost.AddRange(new float[] { 15, 120, 9000, 90000, 500000 });         // these numbers are the age of war 1 numbers
         eachUnit2Cost.AddRange(new float[] { 30, 240, 20000, 200000, 750000 });

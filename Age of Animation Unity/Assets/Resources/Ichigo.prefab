@@ -78,9 +78,9 @@ GameObject:
   - component: {fileID: 114817974982069744}
   - component: {fileID: 61802127742640486}
   - component: {fileID: 114547738201631782}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Ichigo
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
