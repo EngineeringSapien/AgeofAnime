@@ -38,17 +38,6 @@ public class characterSpawner : MonoBehaviour {
     }
 
 
-    private void Update()
-    {
-        if (gameObject.name == "p2Spawner")
-        {
-            Debug.Log("Unit1 " + inGameUnit1Bots.Count);
-            Debug.Log("unit 2 " + inGameUnit2Bots.Count);
-            Debug.Log("Unit   3 " + inGameUnit3Bots.Count);
-        }
-    }
-
-
     public void StartUnitSpawn(GameObject character, string player, int age)
     {
         AssignTags(player);
