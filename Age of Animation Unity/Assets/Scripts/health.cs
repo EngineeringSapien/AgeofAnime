@@ -4,12 +4,11 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 public class health : MonoBehaviour {
-
     
     public float unitsStartingHealth;
     public float unitsCurrentHealth;
 
-    public float deathwait = .25f;
+    private float deathwait = .50f;
     public GameObject thisUnitsDeathSprite;
 
     score Score;
