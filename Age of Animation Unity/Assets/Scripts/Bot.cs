@@ -7,7 +7,7 @@ public class Bot : MonoBehaviour {
 
     public GameObject p2Base;
 
-    public score Score;
+    public score scoreManager;
     public Age age;
 
     public buttonClick unit1Button;
@@ -15,19 +15,13 @@ public class Bot : MonoBehaviour {
     public buttonClick unit3Button;
     public buttonClick evolveButton;
 
-    private int u1Count;
-    private int u2Count;
-    private int u3Count;
+    private int unit1Count;
+    private int unit2Count;
+    private int unit3Count;
 
     private int button1Prob;
     private int button2Prob;
     private int button3Prob;
-
-
-    private float botGold;
-    private float unit1Cost;
-    private float unit2Cost;
-    private float unit3Cost;
 
     private bool canDecide = true;
 
@@ -35,14 +29,9 @@ public class Bot : MonoBehaviour {
     private void Update()
     {
 
-        u1Count = p2Base.GetComponentInChildren<characterSpawner>().unit1BotsCount;
-        u2Count = p2Base.GetComponentInChildren<characterSpawner>().unit2BotsCount;
-        u3Count = p2Base.GetComponentInChildren<characterSpawner>().unit3BotsCount;
-
-        botGold = Score.P2Gold;
-        unit1Cost = Score.p2Unit1cost;
-        unit2Cost = Score.p2Unit2cost;
-        unit3Cost = Score.p2Unit3cost;
+        unit1Count = p2Base.GetComponentInChildren<characterSpawner>().unit1BotsCount;
+        unit2Count = p2Base.GetComponentInChildren<characterSpawner>().unit2BotsCount;
+        unit3Count = p2Base.GetComponentInChildren<characterSpawner>().unit3BotsCount;
 
         if ((unit1Button._button.interactable == true || unit2Button._button.interactable == true || unit3Button._button.interactable == true) && canDecide == true)
         {
@@ -77,24 +66,23 @@ public class Bot : MonoBehaviour {
 
     private void ButtonProb()
     {
-    
         button1Prob = 100;
         button2Prob = 100;
         button3Prob = 100;
 
-        button1Prob -= (u1Count * 10);
-        button2Prob -= (u2Count * 10);
-        button3Prob -= (u3Count * 10);
+        button1Prob -= (unit1Count * 10);
+        button2Prob -= (unit2Count * 10);
+        button3Prob -= (unit3Count * 10);
 
         button1Prob += 10;
         button2Prob += 20;
         button3Prob += 30;
 
-        int adjustment = Mathf.RoundToInt(botGold / unit1Cost);
+        int adjustment = Mathf.RoundToInt(scoreManager.P2Gold / scoreManager.p2Unit1cost);
         button1Prob += adjustment;
-        int adjustment2 = Mathf.RoundToInt(botGold / unit2Cost);
+        int adjustment2 = Mathf.RoundToInt(scoreManager.P2Gold / scoreManager.p2Unit2cost);
         button2Prob += adjustment;   
-        int adjustment3 = Mathf.RoundToInt(botGold / unit3Cost);
+        int adjustment3 = Mathf.RoundToInt(scoreManager.P2Gold / scoreManager.p2Unit3cost);
         button3Prob += adjustment;
 
         if (unit1Button._button.interactable == false)
