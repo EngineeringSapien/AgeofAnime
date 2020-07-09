@@ -23,7 +23,7 @@ public class environment : MonoBehaviour {
     {
         allBackgroundSprites.AddRange(new string[] { "sky0", "narutoBackground", "dbzBackground", "sky1", "sky0", "sky1", "sky0" } );
 
-        allBaseSprites.AddRange(new string[] { "base0", "base1", "base0", "base1", "base0", "base1" } );
+        allBaseSprites.AddRange(new string[] { "base0", "base0", "base0", "base0", "base0", "base0" } );
     }
 
 

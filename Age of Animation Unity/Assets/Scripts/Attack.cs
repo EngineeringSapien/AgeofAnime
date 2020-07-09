@@ -6,7 +6,6 @@ using UnityEngine.Serialization;
 
 public class Attack : MonoBehaviour {
 
-
     public Animator thisUnitsAnimator;
     public PlayerMovement thisUnitsMovementLogic;
 
@@ -40,14 +39,10 @@ public class Attack : MonoBehaviour {
     private void Update()
     {
         if (thisUnitsMovementLogic.canMeleeAttack == true)
-        {
-            MeleeAttack();
-        }
+        { MeleeAttack(); }
 
         else if (thisUnitsMovementLogic.canRangeAttack == true)
-        {
-            RangeAttack();
-        }
+        { RangeAttack(); }
     }
 
 
@@ -71,36 +66,28 @@ public class Attack : MonoBehaviour {
         {
             if (this.thisUnitsAnimator.GetCurrentAnimatorStateInfo(0).IsName("ItachiFire"))
             {
-
                 health Health = hitInfo.GetComponent<health>();
                 if (Health != null)
-                {
-                    Health.TakeDamage(currentRangeDamage);
-                }
+                { Health.TakeDamage(currentRangeDamage); }
             }
+
             else if (this.thisUnitsAnimator.GetCurrentAnimatorStateInfo(0).IsName("ItachiAttack"))
             {
                 health Health = hitInfo.GetComponent<health>();
                 if (Health != null)
-                {
-                    Health.TakeDamage(currentMeleeDamage);
-                }
+                { Health.TakeDamage(currentMeleeDamage); }
             }
+
             else
             {
                 health Health = hitInfo.GetComponent<health>();
                 if (Health != null)
-                {
-                    Health.TakeDamage(currentMeleeDamage);
-                }
+                { Health.TakeDamage(currentMeleeDamage); }
             }
-
 
             baseHealth basehealth = hitInfo.GetComponent<baseHealth>();
             if (basehealth != null)
-            {
-                basehealth.TakeBaseDamage(currentMeleeDamage);
-            }
+            { basehealth.TakeBaseDamage(currentMeleeDamage); }
         }
     }
 

@@ -390,7 +390,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitsStartingHealth: 0
   unitsCurrentHealth: 0
-  deathwait: 0.25
   thisUnitsDeathSprite: {fileID: 1851392008359230, guid: 8ccf696c34b265a49a4b2b92f3780657,
     type: 2}
 --- !u!114 &114966855108999080
