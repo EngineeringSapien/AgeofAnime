@@ -25,14 +25,10 @@ public class Bot : MonoBehaviour {
     private void Update()
     {
         if ((unit1Button._button.interactable == true || unit2Button._button.interactable == true || unit3Button._button.interactable == true) && botCanSpawn == true)
-        {
-            StartCoroutine(Delay(Random.Range(0, 5f)));
-        }
+        { StartCoroutine(Delay(Random.Range(0, 5f))); }
 
         if (evolveButton._button.interactable == true)
-        {
-            evolveButton.BotClick();
-        }
+        { evolveButton.BotClick(); }
     }
 
 
@@ -77,11 +73,8 @@ public class Bot : MonoBehaviour {
     }
 
 
-
     void BotSelectUnit()
     {
-        Debug.Log(currentUnit1Attractiveness + " " + currentUnit2Attractiveness + " " + currentUnit3Attractiveness);
-
         int sum = currentUnit1Attractiveness + currentUnit2Attractiveness + currentUnit3Attractiveness;
         int unitSelection = Mathf.RoundToInt(Random.Range(0, sum-1));
 
