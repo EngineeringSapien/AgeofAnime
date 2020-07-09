@@ -27,7 +27,8 @@ public class environment : MonoBehaviour {
     }
 
 
-    void Start () {
+    void Start ()
+    {
         TheP1Base = Instantiate (Resources.Load(allBaseSprites[0]) as GameObject, p1BaseLocation.transform.position, Quaternion.identity);
         TheP2Base = Instantiate (Resources.Load(allBaseSprites[0]) as GameObject, p2BaseLocation.transform.position, Quaternion.identity);
 
@@ -46,6 +47,7 @@ public class environment : MonoBehaviour {
             GameObject P1Base = Instantiate(Resources.Load(allBaseSprites[age]) as GameObject, p1BaseLocation.transform.position , Quaternion.identity);
             P1Base.gameObject.layer = 12;
         }
+
         if (player == "P2")
         {
             Object.Destroy(this.TheP2Base);
