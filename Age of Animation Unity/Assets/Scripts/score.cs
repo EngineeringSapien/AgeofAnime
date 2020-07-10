@@ -33,13 +33,13 @@ public class score : MonoBehaviour
     void Start()
     {
         P1Gold = 80;
-        P2Gold = 150;
+        P2Gold = 1500; //150
 
         ChangeGoldReqs("P1", 0);
         ChangeGoldReqs("P2", 0);
 
         P1Exp = 0;
-        P2Exp = 0;
+        P2Exp = 1234; //0
 
         P1EvolveXPCost = P2EvolveXPCost = unitManager.eachAgeEvolveXPCost[0];
     }
