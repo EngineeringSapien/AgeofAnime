@@ -47,7 +47,7 @@ public class score : MonoBehaviour
     private void Update()
     {
         P1Gold = 1000000;
-        P1Exp = 1000000;
+        P1Exp = 100000000;
     }
 
     public void ChangeGoldReqs(string player, int age)
