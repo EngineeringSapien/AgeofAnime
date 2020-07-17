@@ -71,7 +71,7 @@ TextureImporter:
     21300132: Byakuya Sprites W5
     21300134: Byakuya Sprites W6
     21300136: Byakuya Sprites W7
-    21300138: Byakuya Sprite W8
+    21300138: Byakuya Sprites W8
     21300140: Byakuya Sprites_100
     21300142: Byakuya Sprites_101
     21300144: Byakuya Sprites_102
@@ -1788,8 +1788,8 @@ TextureImporter:
         y: 5061
         width: 62
         height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.493, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1808,8 +1808,8 @@ TextureImporter:
         y: 5061
         width: 62
         height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.493, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1828,8 +1828,8 @@ TextureImporter:
         y: 5061
         width: 63
         height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1848,8 +1848,8 @@ TextureImporter:
         y: 5061
         width: 63
         height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1864,12 +1864,12 @@ TextureImporter:
       name: Byakuya Sprites I5
       rect:
         serializedVersion: 2
-        x: 284
+        x: 281
         y: 5061
         width: 63
         height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1888,8 +1888,8 @@ TextureImporter:
         y: 5061
         width: 63
         height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1908,8 +1908,8 @@ TextureImporter:
         y: 5061
         width: 62
         height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.493, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1928,8 +1928,8 @@ TextureImporter:
         y: 5061
         width: 62
         height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.493, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2328,8 +2328,8 @@ TextureImporter:
         y: 4933
         width: 51
         height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2348,8 +2348,8 @@ TextureImporter:
         y: 4934
         width: 49
         height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2368,8 +2368,8 @@ TextureImporter:
         y: 4934
         width: 44
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2388,8 +2388,8 @@ TextureImporter:
         y: 4934
         width: 46
         height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2408,8 +2408,8 @@ TextureImporter:
         y: 4934
         width: 53
         height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2428,8 +2428,8 @@ TextureImporter:
         y: 4934
         width: 50
         height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2448,8 +2448,8 @@ TextureImporter:
         y: 4934
         width: 43
         height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2461,15 +2461,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprite W8
+      name: Byakuya Sprites W8
       rect:
         serializedVersion: 2
         x: 386
         y: 4934
         width: 45
         height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12948,8 +12948,8 @@ TextureImporter:
         y: 2122
         width: 65
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12967,9 +12967,9 @@ TextureImporter:
         x: 219
         y: 2121
         width: 67
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12989,7 +12989,7 @@ TextureImporter:
         width: 115
         height: 112
       alignment: 9
-      pivot: {x: 0.40133747, y: 0.46899632}
+      pivot: {x: 0.40133747, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13009,7 +13009,7 @@ TextureImporter:
         width: 114
         height: 112
       alignment: 9
-      pivot: {x: 0.50398093, y: 0.49189323}
+      pivot: {x: 0.50398093, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13028,8 +13028,8 @@ TextureImporter:
         y: 1998
         width: 114
         height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13048,8 +13048,8 @@ TextureImporter:
         y: 1998
         width: 107
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13064,12 +13064,12 @@ TextureImporter:
       name: Byakuya Sprites_A15
       rect:
         serializedVersion: 2
-        x: 720
+        x: 719
         y: 1999
-        width: 93
+        width: 94
         height: 112
       alignment: 9
-      pivot: {x: 0.2315956, y: 0.459477}
+      pivot: {x: 0.24, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13089,7 +13089,7 @@ TextureImporter:
         width: 95
         height: 112
       alignment: 9
-      pivot: {x: 0.23246877, y: 0.42705864}
+      pivot: {x: 0.22, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -13106,10 +13106,10 @@ TextureImporter:
         serializedVersion: 2
         x: 925
         y: 1999
-        width: 79
+        width: 95
         height: 112
       alignment: 9
-      pivot: {x: 0.22998819, y: 0.42705646}
+      pivot: {x: 0.2, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20248,8 +20248,8 @@ TextureImporter:
         y: 2122
         width: 69
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20268,8 +20268,8 @@ TextureImporter:
         y: 2122
         width: 72
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20288,8 +20288,8 @@ TextureImporter:
         y: 2122
         width: 78
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20308,8 +20308,8 @@ TextureImporter:
         y: 2122
         width: 79
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20329,7 +20329,7 @@ TextureImporter:
         width: 80
         height: 112
       alignment: 9
-      pivot: {x: 0.34115338, y: 0.4959455}
+      pivot: {x: 0.34115338, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20349,7 +20349,7 @@ TextureImporter:
         width: 80
         height: 112
       alignment: 9
-      pivot: {x: 0.32413426, y: 0.48783875}
+      pivot: {x: 0.32413426, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20368,8 +20368,8 @@ TextureImporter:
         y: 1997
         width: 80
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
