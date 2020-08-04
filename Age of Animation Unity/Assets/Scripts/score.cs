@@ -33,13 +33,13 @@ public class score : MonoBehaviour
     void Start()
     {
         P1Gold = 80;
-        P2Gold = 1500; //150
+        P2Gold = 150;
 
         ChangeGoldReqs("P1", 0);
         ChangeGoldReqs("P2", 0);
 
         P1Exp = 0;
-        P2Exp = 1234; //0
+        P2Exp = 0;
 
         P1EvolveXPCost = P2EvolveXPCost = unitManager.eachAgeEvolveXPCost[0];
     }
@@ -48,6 +48,12 @@ public class score : MonoBehaviour
     {
         P1Gold = 1000000;
         P1Exp = 100000000;
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            P2Gold = 100000;
+            P2Exp = 100000000; 
+        }
     }
 
     public void ChangeGoldReqs(string player, int age)

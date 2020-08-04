@@ -520,39 +520,39 @@ TextureImporter:
     21301030: Byakuya Sprites_576
     21301032: Byakuya Sprites_577
     21301034: Byakuya Sprites_578
-    21301036: Byakuya Sprites R1_579
-    21301038: Byakuya Sprites_580
-    21301040: Byakuya Sprites_581
-    21301042: Byakuya Sprites_582
-    21301044: Byakuya Sprites_583
-    21301046: Byakuya Sprites_584
-    21301048: Byakuya Sprites_585
-    21301050: Byakuya Sprites_586
-    21301052: Byakuya Sprites_587
-    21301054: Byakuya Sprites_588
-    21301056: Byakuya Sprites_589
-    21301058: Byakuya Sprites_590
-    21301060: Byakuya Sprites_591
-    21301062: Byakuya Sprites_592
-    21301064: Byakuya Sprites_593
-    21301066: Byakuya Sprites_594
-    21301068: Byakuya Sprites_595
-    21301070: Byakuya Sprites_596
-    21301072: Byakuya Sprites_597
-    21301074: Byakuya Sprites_598
-    21301076: Byakuya Sprites_599
-    21301078: Byakuya Sprites_600
-    21301080: Byakuya Sprites_601
-    21301082: Byakuya Sprites_602
-    21301084: Byakuya Sprites_603
-    21301086: Byakuya Sprites_604
-    21301088: Byakuya Sprites_605
-    21301090: Byakuya Sprites_606
-    21301092: Byakuya Sprites_607
-    21301094: Byakuya Sprites_608
-    21301096: Byakuya Sprites_609
-    21301098: Byakuya Sprites_610
-    21301100: Byakuya Sprites_611
+    21301036: Byakuya Sprites R1
+    21301038: Byakuya Sprites R2
+    21301040: Byakuya Sprites R3
+    21301042: Byakuya Sprites R4
+    21301044: Byakuya Sprites R5
+    21301046: Byakuya Sprites R6
+    21301048: Byakuya Sprites R7
+    21301050: Byakuya Sprites R8
+    21301052: Byakuya Sprites R9
+    21301054: Byakuya Sprites R10
+    21301056: Byakuya Sprites R11
+    21301058: Byakuya Sprites R12
+    21301060: Byakuya Sprites R13
+    21301062: Byakuya Sprites R14
+    21301064: Byakuya Sprites R15
+    21301066: Byakuya Sprites R16
+    21301068: Byakuya Sprites R17
+    21301070: Byakuya Sprites R18
+    21301072: Byakuya Sprites R19
+    21301074: Byakuya Sprites R20
+    21301076: Byakuya Sprites R21
+    21301078: Byakuya Sprites R22
+    21301080: Byakuya Sprites R23
+    21301082: Byakuya Sprites R24
+    21301084: Byakuya Sprites R25
+    21301086: Byakuya Sprites R26
+    21301088: Byakuya Sprites R27
+    21301090: Byakuya Sprites R28
+    21301092: Byakuya Sprites R29
+    21301094: Byakuya Sprites R30
+    21301096: Byakuya Sprites R31
+    21301098: Byakuya Sprites R32
+    21301100: Byakuya Sprites R33
     21301102: Byakuya Sprites_612
     21301104: Byakuya Sprites_613
     21301106: Byakuya Sprites_614
@@ -578,12 +578,12 @@ TextureImporter:
     21301146: Byakuya Sprites_634
     21301148: Byakuya Sprites_635
     21301150: Byakuya Sprites_636
-    21301152: Byakuya Sprites_637
+    21301152: Byakuya Sprites R36
     21301154: Byakuya Sprites_638
     21301156: Byakuya Sprites_639
     21301158: Byakuya Sprites_640
-    21301160: Byakuya Sprites_641
-    21301162: Byakuya Sprites_642
+    21301160: Byakuya Sprites R34
+    21301162: Byakuya Sprites R35
     21301164: Byakuya Sprites_644
     21301166: Byakuya Sprites_645
     21301168: Byakuya Sprites_646
@@ -11441,15 +11441,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites R1_579
+      name: Byakuya Sprites R1
       rect:
         serializedVersion: 2
         x: 5
         y: 2596
         width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11461,15 +11461,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_580
+      name: Byakuya Sprites R2
       rect:
         serializedVersion: 2
         x: 78
         y: 2596
         width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11481,15 +11481,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_581
+      name: Byakuya Sprites R3
       rect:
         serializedVersion: 2
         x: 151
         y: 2596
-        width: 64
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11501,15 +11501,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_582
+      name: Byakuya Sprites R4
       rect:
         serializedVersion: 2
         x: 224
         y: 2595
         width: 66
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11521,15 +11521,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_583
+      name: Byakuya Sprites R5
       rect:
         serializedVersion: 2
         x: 297
         y: 2596
         width: 83
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11541,15 +11541,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_584
+      name: Byakuya Sprites R6
       rect:
         serializedVersion: 2
         x: 387
         y: 2596
         width: 69
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.41999963}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11561,15 +11561,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_585
+      name: Byakuya Sprites R7
       rect:
         serializedVersion: 2
         x: 463
         y: 2596
         width: 50
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11581,15 +11581,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_586
+      name: Byakuya Sprites R8
       rect:
         serializedVersion: 2
         x: 521
         y: 2596
         width: 53
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11601,15 +11601,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_587
+      name: Byakuya Sprites R9
       rect:
         serializedVersion: 2
         x: 581
         y: 2596
-        width: 62
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11621,15 +11621,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_588
+      name: Byakuya Sprites R10
       rect:
         serializedVersion: 2
         x: 649
         y: 2596
-        width: 62
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11641,15 +11641,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_589
+      name: Byakuya Sprites R11
       rect:
         serializedVersion: 2
         x: 717
         y: 2596
-        width: 62
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11661,15 +11661,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_590
+      name: Byakuya Sprites R12
       rect:
         serializedVersion: 2
         x: 785
         y: 2596
-        width: 61
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11681,15 +11681,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_591
+      name: Byakuya Sprites R13
       rect:
         serializedVersion: 2
         x: 852
         y: 2596
-        width: 61
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11701,15 +11701,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_592
+      name: Byakuya Sprites R14
       rect:
         serializedVersion: 2
-        x: 919
+        x: 918
         y: 2596
-        width: 61
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11721,15 +11721,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_593
+      name: Byakuya Sprites R15
       rect:
         serializedVersion: 2
         x: 990
         y: 2596
-        width: 63
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11741,15 +11741,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_594
+      name: Byakuya Sprites R16
       rect:
         serializedVersion: 2
         x: 1062
         y: 2596
-        width: 58
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11761,15 +11761,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_595
+      name: Byakuya Sprites R17
       rect:
         serializedVersion: 2
         x: 1127
         y: 2596
-        width: 64
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11781,15 +11781,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_596
+      name: Byakuya Sprites R18
       rect:
         serializedVersion: 2
         x: 3
         y: 2464
-        width: 62
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11801,15 +11801,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_597
+      name: Byakuya Sprites R19
       rect:
         serializedVersion: 2
         x: 75
         y: 2464
-        width: 62
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11821,15 +11821,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_598
+      name: Byakuya Sprites R20
       rect:
         serializedVersion: 2
         x: 148
         y: 2464
-        width: 62
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11841,15 +11841,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_599
+      name: Byakuya Sprites R21
       rect:
         serializedVersion: 2
         x: 219
         y: 2464
-        width: 64
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11861,15 +11861,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_600
+      name: Byakuya Sprites R22
       rect:
         serializedVersion: 2
         x: 293
         y: 2464
-        width: 64
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11881,15 +11881,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_601
+      name: Byakuya Sprites R23
       rect:
         serializedVersion: 2
         x: 365
         y: 2464
-        width: 62
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11901,15 +11901,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_602
+      name: Byakuya Sprites R24
       rect:
         serializedVersion: 2
         x: 440
         y: 2464
-        width: 63
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11921,15 +11921,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_603
+      name: Byakuya Sprites R25
       rect:
         serializedVersion: 2
         x: 511
         y: 2464
         width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11941,15 +11941,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_604
+      name: Byakuya Sprites R26
       rect:
         serializedVersion: 2
         x: 585
         y: 2464
-        width: 63
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11961,15 +11961,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_605
+      name: Byakuya Sprites R27
       rect:
         serializedVersion: 2
         x: 657
         y: 2464
         width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11981,15 +11981,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_606
+      name: Byakuya Sprites R28
       rect:
         serializedVersion: 2
         x: 731
         y: 2464
-        width: 64
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12001,15 +12001,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_607
+      name: Byakuya Sprites R29
       rect:
         serializedVersion: 2
         x: 807
         y: 2464
-        width: 62
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12021,15 +12021,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_608
+      name: Byakuya Sprites R30
       rect:
         serializedVersion: 2
         x: 877
         y: 2464
-        width: 64
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12041,15 +12041,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_609
+      name: Byakuya Sprites R31
       rect:
         serializedVersion: 2
         x: 951
         y: 2464
-        width: 61
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12061,15 +12061,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_610
+      name: Byakuya Sprites R32
       rect:
         serializedVersion: 2
         x: 1018
         y: 2464
-        width: 63
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12081,15 +12081,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_611
+      name: Byakuya Sprites R33
       rect:
         serializedVersion: 2
         x: 1088
         y: 2464
-        width: 63
+        width: 65
         height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12181,15 +12181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_637
+      name: Byakuya Sprites R36
       rect:
         serializedVersion: 2
         x: 138
         y: 2306
-        width: 64
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12261,15 +12261,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_641
+      name: Byakuya Sprites R34
       rect:
         serializedVersion: 2
         x: 4
         y: 2306
-        width: 62
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12281,15 +12281,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Byakuya Sprites_642
+      name: Byakuya Sprites R35
       rect:
         serializedVersion: 2
         x: 73
         y: 2306
-        width: 61
+        width: 65
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

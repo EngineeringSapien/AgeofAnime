@@ -599,12 +599,12 @@ Prefab:
     - target: {fileID: 61951314741067558, guid: 1ea014ca66f88014881b938ac5efac01,
         type: 2}
       propertyPath: m_SpriteTilingProperty.pivot.x
-      value: 0.493
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 61951314741067558, guid: 1ea014ca66f88014881b938ac5efac01,
         type: 2}
       propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0.56
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 61951314741067558, guid: 1ea014ca66f88014881b938ac5efac01,
         type: 2}
@@ -614,7 +614,7 @@ Prefab:
     - target: {fileID: 61951314741067558, guid: 1ea014ca66f88014881b938ac5efac01,
         type: 2}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.99
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 4484412644921972, guid: 1ea014ca66f88014881b938ac5efac01, type: 2}
       propertyPath: m_LocalPosition.x
@@ -9855,7 +9855,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4053351559394002, guid: c0f7c1667c4c541488821688033fb707, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -15.233
+      value: -15.33
       objectReference: {fileID: 0}
     - target: {fileID: 4053351559394002, guid: c0f7c1667c4c541488821688033fb707, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9880,16 +9880,6 @@ Prefab:
     - target: {fileID: 4053351559394002, guid: c0f7c1667c4c541488821688033fb707, type: 2}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 70718683283900148, guid: c0f7c1667c4c541488821688033fb707,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212679047741889020, guid: c0f7c1667c4c541488821688033fb707,
-        type: 2}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0f7c1667c4c541488821688033fb707, type: 2}
