@@ -51,36 +51,36 @@ TextureImporter:
     21300092: ColonelMustang_46
     21300094: ColonelMustang_47
     21300096: ColonelMustang_48
-    21300098: ColonelMustang_Attack9
-    21300100: ColonelMustang_R9_Hitbox & A9_Hitbox
-    21300102: ColonelMustang_Attack1
-    21300104: ColonelMustang_Attack2
-    21300106: ColonelMustang_Attack3
+    21300098: ColonelMustang_A9
+    21300100: ColonelMustang_A_R_HB9
+    21300102: ColonelMustang_A1
+    21300104: ColonelMustang_A2
+    21300106: ColonelMustang_A3
     21300108: ColonelMustang_A4
     21300110: ColonelMustang_A5
     21300112: ColonelMustang_A6
     21300114: ColonelMustang_60
     21300116: ColonelMustang_A7
-    21300118: ColonelMustang_Attack8
+    21300118: ColonelMustang_A8
     21300120: ColonelMustang_63
     21300122: ColonelMustang_A10
     21300124: ColonelMustang_A11
     21300126: ColonelMustang_66
-    21300128: ColonelMustang_A8_hitbox
+    21300128: ColonelMustang_A_HB8
     21300130: ColonelMustang_A12
-    21300132: ColonelMustang_RangeAttack1
+    21300132: ColonelMustang_R1
     21300134: ColonelMustang_R2
     21300136: ColonelMustang_R3
     21300138: ColonelMustang_R4
     21300140: ColonelMustang_R5
     21300142: ColonelMustang_R6
     21300144: ColonelMustang_R7
-    21300146: ColonelMustang_Range8
-    21300148: ColonelMustang_Range9
-    21300150: ColonelMustang_Range10
+    21300146: ColonelMustang_R8
+    21300148: ColonelMustang_R9
+    21300150: ColonelMustang_R10
     21300152: ColonelMustang_81
     21300154: ColonelMustang_82
-    21300156: ColonelMustang_Range11
+    21300156: ColonelMustang_R11
     21300158: ColonelMustang_84
     21300160: ColonelMustang_85
     21300162: ColonelMustang_86
@@ -119,8 +119,8 @@ TextureImporter:
     21300228: ColonelMustang_119
     21300230: ColonelMustang_Hurt
     21300232: ColonelMustang_121
-    21300234: ColonelMustang_R10&A10_hitbox
-    21300236: ColonelMustang_A11_Hitbox
+    21300234: ColonelMustang_A_R_HB10
+    21300236: ColonelMustang_A_HB11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -1194,15 +1194,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Attack9
+      name: ColonelMustang_A9
       rect:
         serializedVersion: 2
         x: 570
         y: 354
         width: 63
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.93, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1214,7 +1214,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_R9_Hitbox & A9_Hitbox
+      name: ColonelMustang_A_R_HB9
       rect:
         serializedVersion: 2
         x: 633
@@ -1234,7 +1234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Attack1
+      name: ColonelMustang_A1
       rect:
         serializedVersion: 2
         x: 3
@@ -1242,7 +1242,7 @@ TextureImporter:
         width: 65
         height: 76
       alignment: 9
-      pivot: {x: 0.47, y: 0.5}
+      pivot: {x: 0.42, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1254,7 +1254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Attack2
+      name: ColonelMustang_A2
       rect:
         serializedVersion: 2
         x: 69
@@ -1262,7 +1262,7 @@ TextureImporter:
         width: 58
         height: 76
       alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      pivot: {x: 0.38, y: 0.45000002}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1274,15 +1274,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Attack3
+      name: ColonelMustang_A3
       rect:
         serializedVersion: 2
         x: 130
         y: 349
         width: 44
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1301,8 +1301,8 @@ TextureImporter:
         y: 349
         width: 44
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1321,8 +1321,8 @@ TextureImporter:
         y: 349
         width: 57
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1341,8 +1341,8 @@ TextureImporter:
         y: 349
         width: 74
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.78, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1381,8 +1381,8 @@ TextureImporter:
         y: 349
         width: 66
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.93, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1394,15 +1394,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Attack8
+      name: ColonelMustang_A8
       rect:
         serializedVersion: 2
         x: 444
         y: 353
         width: 63
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.93, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1441,8 +1441,8 @@ TextureImporter:
         y: 354
         width: 63
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.93, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1461,8 +1461,8 @@ TextureImporter:
         y: 354
         width: 63
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.93, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1494,7 +1494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_A8_hitbox
+      name: ColonelMustang_A_HB8
       rect:
         serializedVersion: 2
         x: 511
@@ -1521,8 +1521,8 @@ TextureImporter:
         y: 354
         width: 50
         height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.93, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1534,15 +1534,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_RangeAttack1
+      name: ColonelMustang_R1
       rect:
         serializedVersion: 2
         x: 3
         y: 265
         width: 60
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1561,8 +1561,8 @@ TextureImporter:
         y: 265
         width: 54
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.27, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1581,8 +1581,8 @@ TextureImporter:
         y: 265
         width: 55
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.1, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1601,8 +1601,8 @@ TextureImporter:
         y: 265
         width: 67
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.13, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1619,10 +1619,10 @@ TextureImporter:
         serializedVersion: 2
         x: 249
         y: 265
-        width: 62
+        width: 67
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.13, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1639,10 +1639,10 @@ TextureImporter:
         serializedVersion: 2
         x: 328
         y: 265
-        width: 66
+        width: 67
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.13, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1659,10 +1659,10 @@ TextureImporter:
         serializedVersion: 2
         x: 404
         y: 265
-        width: 65
+        width: 73
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.1, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1674,15 +1674,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Range8
+      name: ColonelMustang_R8
       rect:
         serializedVersion: 2
         x: 486
         y: 265
-        width: 90
+        width: 97
         height: 75
       alignment: 9
-      pivot: {x: 0.35, y: 0.5}
+      pivot: {x: 0.06, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1694,7 +1694,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Range9
+      name: ColonelMustang_R9
       rect:
         serializedVersion: 2
         x: 591
@@ -1702,7 +1702,7 @@ TextureImporter:
         width: 97
         height: 75
       alignment: 9
-      pivot: {x: 0.33, y: 0.5}
+      pivot: {x: 0.06, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1714,7 +1714,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Range10
+      name: ColonelMustang_R10
       rect:
         serializedVersion: 2
         x: 697
@@ -1722,7 +1722,7 @@ TextureImporter:
         width: 97
         height: 75
       alignment: 9
-      pivot: {x: 0.35, y: 0.5}
+      pivot: {x: 0.06, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1774,15 +1774,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_Range11
+      name: ColonelMustang_R11
       rect:
         serializedVersion: 2
         x: 799
         y: 265
         width: 62
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.09, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2554,7 +2554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_R10&A10_hitbox
+      name: ColonelMustang_A_R_HB10
       rect:
         serializedVersion: 2
         x: 761
@@ -2574,7 +2574,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColonelMustang_A11_Hitbox
+      name: ColonelMustang_A_HB11
       rect:
         serializedVersion: 2
         x: 884
