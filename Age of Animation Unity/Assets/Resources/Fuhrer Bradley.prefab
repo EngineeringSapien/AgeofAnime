@@ -140,9 +140,9 @@ GameObject:
   - component: {fileID: 114930466002259110}
   - component: {fileID: 61951314741067558}
   - component: {fileID: 114527740182859122}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Fuhrer Bradley
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,7 +186,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651744834835188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.8729086, y: -3.253, z: 0}
+  m_LocalPosition: {x: -2.545, y: -15.09, z: 0}
   m_LocalScale: {x: 2.2, y: 2.2, z: 2}
   m_Children:
   - {fileID: 4484412644921972}
@@ -350,7 +350,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.26692772}
+  m_Offset: {x: 0, y: 0.16}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}

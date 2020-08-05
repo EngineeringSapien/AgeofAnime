@@ -6998,11 +6998,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4053351559394002, guid: c3ea1f0ddd5c77e41b4a5753ce1d2f1f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.346
+      value: -4.787
       objectReference: {fileID: 0}
     - target: {fileID: 4053351559394002, guid: c3ea1f0ddd5c77e41b4a5753ce1d2f1f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -15.09
+      value: -15.064
       objectReference: {fileID: 0}
     - target: {fileID: 4053351559394002, guid: c3ea1f0ddd5c77e41b4a5753ce1d2f1f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -7974,11 +7974,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4053351559394002, guid: b62641724f0e82546aa9f1f1e1e54acc, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 4.073
+      value: -2.545
       objectReference: {fileID: 0}
     - target: {fileID: 4053351559394002, guid: b62641724f0e82546aa9f1f1e1e54acc, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -15.09
+      value: -14.9
       objectReference: {fileID: 0}
     - target: {fileID: 4053351559394002, guid: b62641724f0e82546aa9f1f1e1e54acc, type: 2}
       propertyPath: m_LocalPosition.z
@@ -8003,6 +8003,37 @@ Prefab:
     - target: {fileID: 4053351559394002, guid: b62641724f0e82546aa9f1f1e1e54acc, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 212374366529561516, guid: b62641724f0e82546aa9f1f1e1e54acc,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 212374366529561516, guid: b62641724f0e82546aa9f1f1e1e54acc,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 212374366529561516, guid: b62641724f0e82546aa9f1f1e1e54acc,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212374366529561516, guid: b62641724f0e82546aa9f1f1e1e54acc,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 21505b67fe86aab42afcda64d4d59aff,
+        type: 3}
+    - target: {fileID: 61951314741067558, guid: b62641724f0e82546aa9f1f1e1e54acc,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 61951314741067558, guid: b62641724f0e82546aa9f1f1e1e54acc,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b62641724f0e82546aa9f1f1e1e54acc, type: 2}
@@ -8968,31 +8999,6 @@ Prefab:
     - target: {fileID: 4053351559394002, guid: b5713029fe9744f47a1f287b17078e79, type: 2}
       propertyPath: m_RootOrder
       value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 212863530779301782, guid: b5713029fe9744f47a1f287b17078e79,
-        type: 2}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 61802127742640486, guid: b5713029fe9744f47a1f287b17078e79,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 61802127742640486, guid: b5713029fe9744f47a1f287b17078e79,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 61802127742640486, guid: b5713029fe9744f47a1f287b17078e79,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 61802127742640486, guid: b5713029fe9744f47a1f287b17078e79,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5713029fe9744f47a1f287b17078e79, type: 2}

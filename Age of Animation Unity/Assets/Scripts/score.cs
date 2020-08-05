@@ -51,7 +51,7 @@ public class score : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            P2Gold = 100000;
+            P2Gold += 100000;
             P2Exp = 100000000; 
         }
     }
