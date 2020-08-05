@@ -253,7 +253,7 @@ TextureImporter:
     21300496: Ichigo Sprites R HB 1
     21300498: Ichigo Sprites R HB 2
     21300500: Ichigo Sprites R HB 3
-    21300502: Ichigo Sprites R HB 4
+    21300502: Ichigo Sprites z
     21300504: Ichigo Sprites_R HB 4
     21300506: Ichigo Sprites R HB 5
     21300508: Ichigo Sprites R HB 6
@@ -5475,7 +5475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ichigo Sprites R HB 4
+      name: Ichigo Sprites z
       rect:
         serializedVersion: 2
         x: 326
