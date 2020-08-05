@@ -20,6 +20,8 @@ public class HealthBar : MonoBehaviour {
 
 	void Start ()
     {
+        Debug.Log("Start");
+
         Bar = transform.Find("Bar");
 
         if (transform.parent != null && transform.parent.tag == "base")
@@ -31,6 +33,7 @@ public class HealthBar : MonoBehaviour {
             transform.parent != null && transform.parent.tag == "Player2")
         {
             Health = transform.parent.GetComponent<health>();
+            Debug.Log("End of Start - get health.");
         }
 
         UpdateUnitsHealthBar();
@@ -58,6 +61,8 @@ public class HealthBar : MonoBehaviour {
 
         if (unitHP > 0 && unitHP < maxUnitHP)
         {
+            Debug.Log("Create Bar");
+
             Bar.localScale = new Vector3(unitHP / maxUnitHP, 1f);
         }
     }
@@ -65,6 +70,8 @@ public class HealthBar : MonoBehaviour {
 
     void ChangeBarColor(string player)
     {
+        Debug.Log("Player Tag: " + player);
+
         if (player == "Player1")
         {
             Bar.Find("BarSprite").GetComponent<SpriteRenderer>().color = p1Color;
