@@ -463,7 +463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeRayDistance: 1
   meleeRayDistance: 0
-  friendlyRange: 10
+  friendlyRange: 15
 --- !u!114 &114938045508131468
 MonoBehaviour:
   m_ObjectHideFlags: 1
