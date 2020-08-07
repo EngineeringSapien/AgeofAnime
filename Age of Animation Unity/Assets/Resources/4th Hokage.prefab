@@ -94,9 +94,9 @@ GameObject:
   - component: {fileID: 114930466002259110}
   - component: {fileID: 61951314741067558}
   - component: {fileID: 114078983716506372}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: 4th Hokage
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,7 +139,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651744834835188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.9486651, y: -3.5179856, z: 0}
+  m_LocalPosition: {x: -15.22, y: -15.17, z: 0}
   m_LocalScale: {x: 2.1, y: 2.4, z: 2}
   m_Children:
   - {fileID: 4484412644921972}
@@ -261,7 +261,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.27216297}
+  m_Offset: {x: 0, y: 0.05576042}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -272,7 +272,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18946028, y: 0.96887755}
+  m_Size: {x: 0.18946028, y: 0.6}
   m_EdgeRadius: 0
 --- !u!70 &70708388168677466
 CapsuleCollider2D:
@@ -372,7 +372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b9f708e499611647a30a88cf1d15adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitRange: 1
+  rangeRayDistance: 1
+  meleeRayDistance: 0
   friendlyRange: 10
 --- !u!114 &114938045508131468
 MonoBehaviour:

@@ -372,7 +372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b9f708e499611647a30a88cf1d15adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitRange: 1
+  rangeRayDistance: 1
+  meleeRayDistance: 0
   friendlyRange: 10
 --- !u!114 &114938045508131468
 MonoBehaviour:

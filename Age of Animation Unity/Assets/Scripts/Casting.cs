@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Casting : MonoBehaviour {
 
-    public float unitRange;
+    public float rangeRayDistance;
+    public float meleeRayDistance;
     public float friendlyRange;
 
     int enemyLayer;
@@ -74,7 +76,7 @@ public class Casting : MonoBehaviour {
 
         if (unit.unitType == "melee")
         {
-            RaycastHit2D hitEnemy = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 2, enemyMask);
+            RaycastHit2D hitEnemy = Physics2D.Raycast(startingposition, unitForwardDirection, meleeRayDistance, enemyMask);
             RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, unitForwardDirection, friendlyRange / 20, friendlyMask);
 
             if (hitEnemy)
@@ -100,7 +102,7 @@ public class Casting : MonoBehaviour {
 
         else if (unit.unitType == "ranged")
         {
-            RaycastHit2D hitEnemyClose = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 50, enemyMask);
+            RaycastHit2D hitEnemyClose = Physics2D.Raycast(startingposition, unitForwardDirection, meleeRayDistance, enemyMask);
             RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, unitForwardDirection, friendlyRange / 20, friendlyMask);
 
             if (hitEnemyClose)
@@ -110,7 +112,7 @@ public class Casting : MonoBehaviour {
 
             else if (hitFriendly)
             {
-                RaycastHit2D hitEnemyFar = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 10, enemyMask);
+                RaycastHit2D hitEnemyFar = Physics2D.Raycast(startingposition, unitForwardDirection, rangeRayDistance / 10, enemyMask);
 
                 if (hitEnemyFar) { movement.FireTrue(); }
 
@@ -128,7 +130,7 @@ public class Casting : MonoBehaviour {
 
         else if (unit.unitType == "power")
         {
-            RaycastHit2D hitEnemyClose = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 50, enemyMask);
+            RaycastHit2D hitEnemyClose = Physics2D.Raycast(startingposition, unitForwardDirection, meleeRayDistance, enemyMask);
             RaycastHit2D hitFriendly = Physics2D.Raycast(startingposition, unitForwardDirection, friendlyRange / 20, friendlyMask);
 
             if (hitEnemyClose)
@@ -138,7 +140,7 @@ public class Casting : MonoBehaviour {
 
             else if (hitFriendly)
             {
-                RaycastHit2D hitEnemyFar = Physics2D.Raycast(startingposition, unitForwardDirection, unitRange / 10, enemyMask);
+                RaycastHit2D hitEnemyFar = Physics2D.Raycast(startingposition, unitForwardDirection, rangeRayDistance / 10, enemyMask);
 
                 if (hitEnemyFar) { movement.FireTrue(); }
 

@@ -88,7 +88,7 @@ public class UnitConstructor : MonoBehaviour {
         SetMeleeDamage(units.eachUnit1Damage[myAge]);
         SetUnitHealth(units.eachUnit1Health[myAge]);
         SetUnitSpeed(units.eachUnit1Speed[myAge]);
-        SetUnitRange(units.eachUnit1Range[myAge]);
+        SetUnitMeleeDistance(units.eachUnit1MeleeDistance[myAge]);
     }
 
 
@@ -99,7 +99,8 @@ public class UnitConstructor : MonoBehaviour {
         SetRangeDamage(units.eachUnit2RangeDamage[myAge]);
         SetUnitHealth(units.eachUnit2Health[myAge]);
         SetUnitSpeed(units.eachUnit2Speed[myAge]);
-        SetUnitRange(units.eachUnit2Range[myAge]);
+        SetUnitMeleeDistance(units.eachUnit2MeleeDistance[myAge]);
+        SetUnitRangeDistance(units.eachUnit2RangeDistance[myAge]);
     }
 
 
@@ -110,7 +111,8 @@ public class UnitConstructor : MonoBehaviour {
         SetRangeDamage(units.eachUnit3RangeDamage[myAge]);
         SetUnitHealth(units.eachUnit3Health[myAge]);
         SetUnitSpeed(units.eachUnit3Speed[myAge]);
-        SetUnitRange(units.eachUnit3Range[myAge]);
+        SetUnitMeleeDistance(units.eachUnit3MeleeDistance[myAge]);
+        SetUnitRangeDistance(units.eachUnit3RangeDistance[myAge]);
     }
 
 
@@ -145,9 +147,15 @@ public class UnitConstructor : MonoBehaviour {
     }
 
 
-    private void SetUnitRange(float unitRange)
+    private void SetUnitMeleeDistance(float meleeDistance)
     {
-        cast.unitRange = unitRange;
+        cast.meleeRayDistance = meleeDistance;
+    }
+
+
+    private void SetUnitRangeDistance(float rangeDistance)
+    {
+        cast.rangeRayDistance = rangeDistance;
     }
 
 }

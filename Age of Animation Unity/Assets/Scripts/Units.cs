@@ -39,9 +39,13 @@ public class Units : MonoBehaviour {
     public List<float> eachUnit2Speed = new List<float>();
     public List<float> eachUnit3Speed = new List<float>();
 
-    public List<float> eachUnit1Range = new List<float>();
-    public List<float> eachUnit2Range = new List<float>();
-    public List<float> eachUnit3Range = new List<float>();
+    public List<float> eachUnit1MeleeDistance = new List<float>();
+    public List<float> eachUnit2MeleeDistance = new List<float>();
+    public List<float> eachUnit3MeleeDistance = new List<float>();
+
+    public List<float> eachUnit1RangeDistance = new List<float>();
+    public List<float> eachUnit2RangeDistance = new List<float>();
+    public List<float> eachUnit3RangeDistance = new List<float>();
 
     public List<float> eachUnit1Cost = new List<float>();
     public List<float> eachUnit2Cost = new List<float>();
@@ -59,7 +63,7 @@ public class Units : MonoBehaviour {
 
         eachUnit1Damage.AddRange(new int[] { 15, 35, 35, 60, 90 });             
         eachUnit2Damage.AddRange(new int[] { 8, 15, 35, 40, 70 });             
-        eachUnit3Damage.AddRange(new int[] { 48, 50, 60, 110, 90 });
+        eachUnit3Damage.AddRange(new int[] { 48, 50, 30, 110, 90 });
 
         eachUnit2RangeDamage.AddRange(new int[] { 20, 30, 50, 60, 150 });             
         eachUnit3RangeDamage.AddRange(new int[] { 12, 80, 80, 120, 90 });
@@ -68,17 +72,21 @@ public class Units : MonoBehaviour {
         eachUnit2Spawntime.AddRange(new float[] { 1.2f, 1.7f, 2.3f, 2.8f, 3.2f});
         eachUnit3Spawntime.AddRange(new float[] { 3f, 3.33f, 3.66f, 4f, 5f });
 
-        eachUnit1Health.AddRange(new float[] { 100f, 80f, 115f, 180f, 240f });       
+        eachUnit1Health.AddRange(new float[] { 10000f, 80f, 115f, 180f, 240f });       
         eachUnit2Health.AddRange(new float[] { 80f, 100f, 130f, 200f, 240f });      
         eachUnit3Health.AddRange(new float[] { 100f, 150f, 180f, 350f, 700f });
 
         eachUnit1Speed.AddRange(new float[] { 1f, 3f, 2, 1f, 1f });
         eachUnit2Speed.AddRange(new float[] { 1, 1, 2, 1.5f, 1f });
         eachUnit3Speed.AddRange(new float[] { 1, 1.3f, 2, 1f, 2f });
+
+        eachUnit1MeleeDistance.AddRange(new float[] { .5f, .75f, .5f, .5f, .75f });
+        eachUnit2MeleeDistance.AddRange(new float[] { .75f, 1.5f, .1f, .75f, 1f });
+        eachUnit3MeleeDistance.AddRange(new float[] { .25f, .5f, .5f, .5f, 1.25f });
         
-        eachUnit1Range.AddRange(new float[] { 1, 1, 1, 1, 1 });
-        eachUnit2Range.AddRange(new float[] { 25, 25, 25, 25, 25 });
-        eachUnit3Range.AddRange(new float[] { 25, 25, 25, 25, 25 });
+        eachUnit1RangeDistance.AddRange(new float[] { 1, 1, 1, 1, 1 });
+        eachUnit2RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 20 });
+        eachUnit3RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 25 });
 
         eachUnit1Cost.AddRange(new float[] { 15, 120, 9000, 90000, 500000 });         // these numbers are the age of war 1 numbers
         eachUnit2Cost.AddRange(new float[] { 30, 240, 20000, 200000, 750000 });

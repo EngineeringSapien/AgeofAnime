@@ -141,9 +141,9 @@ GameObject:
   - component: {fileID: 114930466002259110}
   - component: {fileID: 61951314741067558}
   - component: {fileID: 114527740182859122}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Frieza
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -187,7 +187,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651744834835188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.7179956, y: -3.5590322, z: 0}
+  m_LocalPosition: {x: -9.162, y: -15.132, z: 0}
   m_LocalScale: {x: 2.1, y: 2.1, z: 2}
   m_Children:
   - {fileID: 4484412644921972}
@@ -376,8 +376,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 1}
+  m_Offset: {x: 0.06458484, y: 0}
+  m_Size: {x: 0.59838706, y: 1}
   m_Direction: 0
 --- !u!70 &70718683283900148
 CapsuleCollider2D:
@@ -462,7 +462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b9f708e499611647a30a88cf1d15adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitRange: 1
+  rangeRayDistance: 1
+  meleeRayDistance: 0
   friendlyRange: 10
 --- !u!114 &114938045508131468
 MonoBehaviour:
