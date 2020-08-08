@@ -12,8 +12,8 @@ public class Attack : MonoBehaviour {
     int enemyLayer;
     public int myAge;
 
-    public int currentMeleeDamage;
-    public int currentRangeDamage;
+    public float currentMeleeDamage;
+    public float currentRangeDamage;
 
     string parentTag;
     string enemyTag;

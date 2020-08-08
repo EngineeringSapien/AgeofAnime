@@ -122,13 +122,13 @@ public class UnitConstructor : MonoBehaviour {
     }
 
 
-    private void SetMeleeDamage(int meleeDamage)
+    private void SetMeleeDamage(float meleeDamage)
     {
         attack.currentMeleeDamage = meleeDamage;
     }
 
 
-    private void SetRangeDamage(int rangeDamage)
+    private void SetRangeDamage(float rangeDamage)
     {
         attack.currentRangeDamage = rangeDamage;
     }

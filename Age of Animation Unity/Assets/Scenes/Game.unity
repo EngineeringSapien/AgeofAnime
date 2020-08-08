@@ -3400,11 +3400,11 @@ MonoBehaviour:
   unit1SpawnName: Character1
   unit2SpawnName: Character2
   unit3SpawnName: Character3
-  eachUnit1Damage: 
-  eachUnit2Damage: 
-  eachUnit3Damage: 
-  eachUnit2RangeDamage: 
-  eachUnit3RangeDamage: 
+  eachUnit1Damage: []
+  eachUnit2Damage: []
+  eachUnit3Damage: []
+  eachUnit2RangeDamage: []
+  eachUnit3RangeDamage: []
   eachUnit1Spawntime: []
   eachUnit2Spawntime: []
   eachUnit3Spawntime: []
@@ -5712,7 +5712,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 895555786}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24fd1fee2ab5696409d03a09b5eee885, type: 3}
   m_Name: 

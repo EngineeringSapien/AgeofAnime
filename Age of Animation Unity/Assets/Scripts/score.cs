@@ -22,17 +22,18 @@ public class score : MonoBehaviour
     public float P1EvolveXPCost;
     public float P2EvolveXPCost;
 
-    private float unitKilledXPReward = 2.5f;
-    private float unitDeathXPReward = 0.8f;
-    private float unitKilledGoldReward = 1.25f;
-    private float unitDeathGoldReward = 0.1f; 
+    private float unitKilledGoldReward = 1.33f;
+    private float unitDeathGoldReward = 0f; 
+
+    private float unitKilledXPReward = 2.67f;
+    private float unitDeathXPReward = 0.67f;
 
     public Units unitManager;
 
 
     void Start()
     {
-        P1Gold = 80;
+        P1Gold = 150;
         P2Gold = 150;
 
         ChangeGoldReqs("P1", 0);
@@ -51,8 +52,10 @@ public class score : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+
+
             P2Gold += 100000;
-            P2Exp = 100000000; 
+            P2Exp = 100000000;
         }
     }
 

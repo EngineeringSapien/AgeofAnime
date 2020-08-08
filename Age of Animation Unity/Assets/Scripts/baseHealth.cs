@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class baseHealth : MonoBehaviour {
 
-    public int currentHealth;
-    public int maxHealth;
+    public float currentHealth;
+    public float maxHealth;
     private string playerNumberText;
 
     public Age age;
@@ -47,7 +47,7 @@ public class baseHealth : MonoBehaviour {
     }
 
 
-    public void TakeBaseDamage(int damage)
+    public void TakeBaseDamage(float damage)
     {
         currentHealth -= damage;
 

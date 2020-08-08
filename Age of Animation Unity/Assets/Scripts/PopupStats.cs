@@ -103,7 +103,7 @@ public class PopupStats : MonoBehaviour {
     }
 
 
-    private void SetDamageText(int unitDamage)
+    private void SetDamageText(float unitDamage)
     {
         UnitDamage.text = "Damage: " + unitDamage + " HP";
     }

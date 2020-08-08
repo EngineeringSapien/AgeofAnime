@@ -20,12 +20,12 @@ public class Units : MonoBehaviour {
     public string unit2SpawnName = "Character2";
     public string unit3SpawnName = "Character3";
 
-    public List<int> eachUnit1Damage = new List<int>();
-    public List<int> eachUnit2Damage = new List<int>();
-    public List<int> eachUnit3Damage = new List<int>();
+    public List<float> eachUnit1Damage = new List<float>();
+    public List<float> eachUnit2Damage = new List<float>();
+    public List<float> eachUnit3Damage = new List<float>();
 
-    public List<int> eachUnit2RangeDamage = new List<int>();
-    public List<int> eachUnit3RangeDamage = new List<int>();
+    public List<float> eachUnit2RangeDamage = new List<float>();
+    public List<float> eachUnit3RangeDamage = new List<float>();
 
     public List<float> eachUnit1Spawntime = new List<float>();
     public List<float> eachUnit2Spawntime = new List<float>();
@@ -61,20 +61,20 @@ public class Units : MonoBehaviour {
         unit2Characters.AddRange(new string[] {"Itachi", "Pain", "Goku", "Ichigo", "Colonel Mustang" });
         unit3Characters.AddRange(new string[] {"Zabuza", "Sage Mode Naruto", "Frieza", "Byakuya", "Fuhrer Bradley" });
 
-        eachUnit1Damage.AddRange(new int[] { 15, 35, 35, 60, 90 });             
-        eachUnit2Damage.AddRange(new int[] { 8, 15, 35, 40, 70 });             
-        eachUnit3Damage.AddRange(new int[] { 48, 50, 30, 110, 90 });
+        eachUnit1Damage.AddRange(new float[] { 34, 35, 35, 60, 90 });             
+        eachUnit2Damage.AddRange(new float[] { 12.5f, 15, 35, 40, 70 });             
+        eachUnit3Damage.AddRange(new float[] { 50, 50, 30, 110, 90 });
 
-        eachUnit2RangeDamage.AddRange(new int[] { 20, 30, 50, 60, 150 });             
-        eachUnit3RangeDamage.AddRange(new int[] { 12, 80, 80, 120, 90 });
+        eachUnit2RangeDamage.AddRange(new float[] { 20, 30, 50, 60, 150 });             
+        eachUnit3RangeDamage.AddRange(new float[] { 12, 80, 80, 120, 90 });
 
-        eachUnit1Spawntime.AddRange(new float[] { 1f, 1.5f, 2f, 2.5f, 3f});
-        eachUnit2Spawntime.AddRange(new float[] { 1.2f, 1.7f, 2.3f, 2.8f, 3.2f});
-        eachUnit3Spawntime.AddRange(new float[] { 3f, 3.33f, 3.66f, 4f, 5f });
+        eachUnit1Spawntime.AddRange(new float[] { 0.5f, .75f, 1f, 1.25f, 1.5f});
+        eachUnit2Spawntime.AddRange(new float[] { .6f, .9f, 1.1f, 1.4f, 1.6f});
+        eachUnit3Spawntime.AddRange(new float[] { 1.5f, 1.66f, 1.83f, 2f, 2.5f });
 
-        eachUnit1Health.AddRange(new float[] { 10000f, 80f, 115f, 180f, 240f });       
-        eachUnit2Health.AddRange(new float[] { 80f, 100f, 130f, 200f, 240f });      
-        eachUnit3Health.AddRange(new float[] { 100f, 150f, 180f, 350f, 700f });
+        eachUnit1Health.AddRange(new float[] { 100f, 80f, 115f, 180f, 240f });       
+        eachUnit2Health.AddRange(new float[] { 70, 100f, 130f, 200f, 240f });      
+        eachUnit3Health.AddRange(new float[] { 275, 150f, 180f, 350f, 700f });
 
         eachUnit1Speed.AddRange(new float[] { 1f, 3f, 2, 1f, 1f });
         eachUnit2Speed.AddRange(new float[] { 1, 1, 2, 1.5f, 1f });
@@ -88,11 +88,11 @@ public class Units : MonoBehaviour {
         eachUnit2RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 20 });
         eachUnit3RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 25 });
 
-        eachUnit1Cost.AddRange(new float[] { 15, 120, 9000, 90000, 500000 });         // these numbers are the age of war 1 numbers
-        eachUnit2Cost.AddRange(new float[] { 30, 240, 20000, 200000, 750000 });
-        eachUnit3Cost.AddRange(new float[] { 100, 800, 70000, 700000, 1000000 });
+        eachUnit1Cost.AddRange(new float[] { 15, 50, 200, 1500, 5000 });         // these numbers are the age of war 1 numbers
+        eachUnit2Cost.AddRange(new float[] { 25, 75, 400, 2000, 6000 });
+        eachUnit3Cost.AddRange(new float[] { 100, 500, 1000, 70000, 20000 });
 
-        eachAgeEvolveXPCost.AddRange(new float[] { 1200, 20000, 300000, 2000000, 1000000000 });
+        eachAgeEvolveXPCost.AddRange(new float[] { 4000, 14000, 45000, 200000, 1000000000 });
 
         P1character1 = (Resources.Load(unit1Characters[0]) as GameObject);
         P1character2 = (Resources.Load(unit2Characters[0]) as GameObject);
