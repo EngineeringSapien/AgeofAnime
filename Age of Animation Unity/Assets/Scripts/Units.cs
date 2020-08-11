@@ -68,11 +68,11 @@ public class Units : MonoBehaviour {
         eachUnit3Cost.AddRange(new float[] { 100, 500, 1000, 70000, 20000 });
 
         eachUnit1Damage.AddRange(new float[] { 30, 45, 102, 130, 234 });             
-        eachUnit2Damage.AddRange(new float[] { 12, 25, 40, 75, 150 });             
-        eachUnit3Damage.AddRange(new float[] { 50, 75, 105, 260, 150 });
+        eachUnit2Damage.AddRange(new float[] { 12, 25, 60, 75, 150 });             
+        eachUnit3Damage.AddRange(new float[] { 50, 75, 90, 260, 150 });
 
-        eachUnit2RangeDamage.AddRange(new float[] { 10, 11, 25, 100, 150 });             
-        eachUnit3RangeDamage.AddRange(new float[] { 10, 11, 25, 200, 75 });
+        eachUnit2RangeDamage.AddRange(new float[] { 10, 11, 50, 100, 150 });             
+        eachUnit3RangeDamage.AddRange(new float[] { 10, 11, 50, 200, 75 });
 
         eachUnit1Health.AddRange(new float[] { 55*1.25f, 95*1.25f, 184*1.25f, 346, 623 });       
         eachUnit2Health.AddRange(new float[] { 44*1.25f, 8*1.25f, 153*1.25f, 312, 561 });      
