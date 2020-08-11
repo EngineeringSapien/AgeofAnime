@@ -65,17 +65,17 @@ public class Units : MonoBehaviour {
 
         eachUnit1Cost.AddRange(new float[] { 15, 50, 200, 1500, 5000 });         // these numbers are the age of war 1 numbers
         eachUnit2Cost.AddRange(new float[] { 25, 75, 400, 2000, 6000 });
-        eachUnit3Cost.AddRange(new float[] { 100, 500, 1000, 70000, 20000 });
+        eachUnit3Cost.AddRange(new float[] { 100, 500, 1000, 7000, 20000 });
 
-        eachUnit1Damage.AddRange(new float[] { 30, 45, 80, 130, 234 });             
-        eachUnit2Damage.AddRange(new float[] { 12, 25, 60, 75, 150 });             
-        eachUnit3Damage.AddRange(new float[] { 50, 75, 90, 260, 150 });
+        eachUnit1Damage.AddRange(new float[] { 30, 45, 80, 150, 234 });             
+        eachUnit2Damage.AddRange(new float[] { 12, 25, 60, 100, 150 });             
+        eachUnit3Damage.AddRange(new float[] { 50, 75, 90, 240, 150 });
 
         eachUnit2RangeDamage.AddRange(new float[] { 10, 11, 50, 100, 150 });             
         eachUnit3RangeDamage.AddRange(new float[] { 10, 11, 50, 200, 75 });
 
-        eachUnit1Health.AddRange(new float[] { 55*1.25f, 95*1.25f, 184*1.25f, 346, 623 });       
-        eachUnit2Health.AddRange(new float[] { 44*1.25f, 8*1.25f, 153*1.25f, 312, 561 });      
+        eachUnit1Health.AddRange(new float[] { 55*1.25f, 95*1.25f, 184*1.25f, 346*1.25f, 623 });       
+        eachUnit2Health.AddRange(new float[] { 44*1.25f, 8*1.25f, 153*1.25f, 312*1.25f, 561 });      
         eachUnit3Health.AddRange(new float[] { 160, 261, 602, 1211, 2180});
 
         eachUnit1Spawntime.AddRange(new float[] { .6f, .80f, 1.06f, 1.41f, 1.88f});
