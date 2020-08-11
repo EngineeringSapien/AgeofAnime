@@ -10,6 +10,7 @@ public class UnitConstructor : MonoBehaviour {
     private Age age;
     private int myAge;
     public string unitType;
+    public float unitCost;
 
     private Attack attack;
     private health Health;
@@ -89,6 +90,7 @@ public class UnitConstructor : MonoBehaviour {
         SetUnitHealth(units.eachUnit1Health[myAge]);
         SetUnitSpeed(units.eachUnit1Speed[myAge]);
         SetUnitMeleeDistance(units.eachUnit1MeleeDistance[myAge]);
+        SetUnitCost(units.eachUnit1Cost[myAge]);
     }
 
 
@@ -101,6 +103,7 @@ public class UnitConstructor : MonoBehaviour {
         SetUnitSpeed(units.eachUnit2Speed[myAge]);
         SetUnitMeleeDistance(units.eachUnit2MeleeDistance[myAge]);
         SetUnitRangeDistance(units.eachUnit2RangeDistance[myAge]);
+        SetUnitCost(units.eachUnit2Cost[myAge]);
     }
 
 
@@ -113,6 +116,7 @@ public class UnitConstructor : MonoBehaviour {
         SetUnitSpeed(units.eachUnit3Speed[myAge]);
         SetUnitMeleeDistance(units.eachUnit3MeleeDistance[myAge]);
         SetUnitRangeDistance(units.eachUnit3RangeDistance[myAge]);
+        SetUnitCost(units.eachUnit3Cost[myAge]);
     }
 
 
@@ -156,6 +160,12 @@ public class UnitConstructor : MonoBehaviour {
     private void SetUnitRangeDistance(float rangeDistance)
     {
         cast.rangeRayDistance = rangeDistance;
+    }
+
+
+    private void SetUnitCost(float cost)
+    {
+        unitCost = cost;
     }
 
 }

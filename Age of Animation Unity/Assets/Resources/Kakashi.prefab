@@ -349,6 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitType: 
+  unitCost: 0
 --- !u!114 &114930466002259110
 MonoBehaviour:
   m_ObjectHideFlags: 1

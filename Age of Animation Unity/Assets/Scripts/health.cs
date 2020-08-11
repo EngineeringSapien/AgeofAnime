@@ -14,6 +14,7 @@ public class health : MonoBehaviour {
     score Score;
     characterSpawner Spawner;
     HealthBar HpBar;
+    UnitConstructor unitConstructor;
 
 
     void Start()
@@ -21,6 +22,7 @@ public class health : MonoBehaviour {
         HpBar = gameObject.GetComponentInChildren<HealthBar>();
         Score = FindObjectOfType<score>();
         Spawner = FindObjectOfType<characterSpawner>();
+        unitConstructor = FindObjectOfType<UnitConstructor>();
     }
 
 
@@ -36,8 +38,8 @@ public class health : MonoBehaviour {
 
     void Die()
     {
-        Score.ChangeTreasury("increase", this.gameObject.name, this.gameObject.tag);
-        Score.ChangeExperience("increase", this.gameObject.name, this.gameObject.tag);
+        Score.ChangeTreasury("increase", this.gameObject.name, this.gameObject.tag, unitConstructor.unitCost);
+        Score.ChangeExperience("increase", this.gameObject.name, this.gameObject.tag, unitConstructor.unitCost);
 
         var clone = Instantiate(thisUnitsDeathSprite, transform.position, Quaternion.identity);
         Destroy(gameObject);

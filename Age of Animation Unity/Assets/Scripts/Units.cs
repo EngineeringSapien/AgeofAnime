@@ -57,24 +57,30 @@ public class Units : MonoBehaviour {
 
     private void Awake()
     {
+        eachAgeEvolveXPCost.AddRange(new float[] { 4000, 14000, 45000, 200000, 1000000000 });
+
         unit1Characters.AddRange(new string[] {"Kakashi", "4th Hokage", "Vegeta", "Rukia", "Eric FullMetal" });
         unit2Characters.AddRange(new string[] {"Itachi", "Pain", "Goku", "Ichigo", "Colonel Mustang" });
         unit3Characters.AddRange(new string[] {"Zabuza", "Sage Mode Naruto", "Frieza", "Byakuya", "Fuhrer Bradley" });
 
-        eachUnit1Damage.AddRange(new float[] { 34, 35, 35, 60, 90 });             
-        eachUnit2Damage.AddRange(new float[] { 12.5f, 15, 35, 40, 70 });             
-        eachUnit3Damage.AddRange(new float[] { 50, 50, 30, 110, 90 });
+        eachUnit1Cost.AddRange(new float[] { 15, 50, 200, 1500, 5000 });         // these numbers are the age of war 1 numbers
+        eachUnit2Cost.AddRange(new float[] { 25, 75, 400, 2000, 6000 });
+        eachUnit3Cost.AddRange(new float[] { 100, 500, 1000, 70000, 20000 });
 
-        eachUnit2RangeDamage.AddRange(new float[] { 20, 30, 50, 60, 150 });             
-        eachUnit3RangeDamage.AddRange(new float[] { 12, 80, 80, 120, 90 });
+        eachUnit1Damage.AddRange(new float[] { 20, 45, 102, 130, 234 });             
+        eachUnit2Damage.AddRange(new float[] { 12, 25, 40, 75, 150 });             
+        eachUnit3Damage.AddRange(new float[] { 50, 75, 155, 260, 416 });
+
+        eachUnit2RangeDamage.AddRange(new float[] { 10, 11, 25, 100, 200 });             
+        eachUnit3RangeDamage.AddRange(new float[] { 10, 11, 25, 75, 150 });
+
+        eachUnit1Health.AddRange(new float[] { 55*1.25f, 95, 184, 346, 623 });       
+        eachUnit2Health.AddRange(new float[] { 44*1.25f, 81, 153, 312, 561 });      
+        eachUnit3Health.AddRange(new float[] { 160, 261, 602, 1211, 2180});
 
         eachUnit1Spawntime.AddRange(new float[] { 0.5f, .75f, 1f, 1.25f, 1.5f});
         eachUnit2Spawntime.AddRange(new float[] { .6f, .9f, 1.1f, 1.4f, 1.6f});
         eachUnit3Spawntime.AddRange(new float[] { 1.5f, 1.66f, 1.83f, 2f, 2.5f });
-
-        eachUnit1Health.AddRange(new float[] { 100f, 80f, 115f, 180f, 240f });       
-        eachUnit2Health.AddRange(new float[] { 70, 100f, 130f, 200f, 240f });      
-        eachUnit3Health.AddRange(new float[] { 275, 150f, 180f, 350f, 700f });
 
         eachUnit1Speed.AddRange(new float[] { 1f, 3f, 2, 1f, 1f });
         eachUnit2Speed.AddRange(new float[] { 1, 1, 2, 1.5f, 1f });
@@ -88,11 +94,6 @@ public class Units : MonoBehaviour {
         eachUnit2RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 20 });
         eachUnit3RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 25 });
 
-        eachUnit1Cost.AddRange(new float[] { 15, 50, 200, 1500, 5000 });         // these numbers are the age of war 1 numbers
-        eachUnit2Cost.AddRange(new float[] { 25, 75, 400, 2000, 6000 });
-        eachUnit3Cost.AddRange(new float[] { 100, 500, 1000, 70000, 20000 });
-
-        eachAgeEvolveXPCost.AddRange(new float[] { 4000, 14000, 45000, 200000, 1000000000 });
 
         P1character1 = (Resources.Load(unit1Characters[0]) as GameObject);
         P1character2 = (Resources.Load(unit2Characters[0]) as GameObject);
