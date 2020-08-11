@@ -69,18 +69,18 @@ public class Units : MonoBehaviour {
 
         eachUnit1Damage.AddRange(new float[] { 20, 45, 102, 130, 234 });             
         eachUnit2Damage.AddRange(new float[] { 12, 25, 40, 75, 150 });             
-        eachUnit3Damage.AddRange(new float[] { 50, 75, 155, 260, 416 });
+        eachUnit3Damage.AddRange(new float[] { 50, 75, 105, 260, 150 });
 
         eachUnit2RangeDamage.AddRange(new float[] { 10, 11, 25, 100, 200 });             
         eachUnit3RangeDamage.AddRange(new float[] { 10, 11, 25, 75, 150 });
 
-        eachUnit1Health.AddRange(new float[] { 55*1.25f, 95, 184, 346, 623 });       
-        eachUnit2Health.AddRange(new float[] { 44*1.25f, 81, 153, 312, 561 });      
+        eachUnit1Health.AddRange(new float[] { 55*1.25f, 95*1.25f, 184*1.25f, 346, 623 });       
+        eachUnit2Health.AddRange(new float[] { 44*1.25f, 8*1.25f, 153*1.25f, 312, 561 });      
         eachUnit3Health.AddRange(new float[] { 160, 261, 602, 1211, 2180});
 
-        eachUnit1Spawntime.AddRange(new float[] { 0.5f, .75f, 1f, 1.25f, 1.5f});
-        eachUnit2Spawntime.AddRange(new float[] { .6f, .9f, 1.1f, 1.4f, 1.6f});
-        eachUnit3Spawntime.AddRange(new float[] { 1.5f, 1.66f, 1.83f, 2f, 2.5f });
+        eachUnit1Spawntime.AddRange(new float[] { .6f, .80f, 1.06f, 1.41f, 1.88f});
+        eachUnit2Spawntime.AddRange(new float[] { .5f, .67f, .88f, 1.18f, 1.56f});
+        eachUnit3Spawntime.AddRange(new float[] { 1.5f, 2f, 2.66f, 3.53f, 4.69f });
 
         eachUnit1Speed.AddRange(new float[] { 1f, 3f, 2, 1f, 1f });
         eachUnit2Speed.AddRange(new float[] { 1, 1, 2, 1.5f, 1f });
