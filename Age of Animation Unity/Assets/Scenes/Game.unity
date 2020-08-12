@@ -5998,6 +5998,7 @@ GameObject:
   - component: {fileID: 878566176}
   - component: {fileID: 878566177}
   - component: {fileID: 878566178}
+  - component: {fileID: 878566179}
   m_Layer: 17
   m_Name: P2 Base
   m_TagString: base
@@ -6059,9 +6060,23 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 0
   isGuarded: 0
-  checkGuardDistance: 50
+  checkGuardDistance: 10
   age: {fileID: 1645545677}
   gameManager: {fileID: 402993285}
+--- !u!114 &878566179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878566175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9f708e499611647a30a88cf1d15adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangeRayDistance: 0
+  meleeRayDistance: 0
+  friendlyRange: 0
 --- !u!1001 &885473812
 Prefab:
   m_ObjectHideFlags: 0
@@ -6119,7 +6134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &895555787
 Transform:
   m_ObjectHideFlags: 0
