@@ -123,7 +123,7 @@ TextureImporter:
     21300236: SageNaruto_118
     21300238: SageNaruto_119
     21300240: SageNaruto_120
-    21300242: SageNaruto_121
+    21300242: SageNaruto Death
     21300244: SageNaruto_122
     21300246: SageNaruto_123
     21300248: SageNaruto_124
@@ -3295,11 +3295,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SageNaruto_121
+      name: SageNaruto Death
       rect:
         serializedVersion: 2
         x: 511
-        y: 4560
+        y: 4559
         width: 53
         height: 55
       alignment: 0
