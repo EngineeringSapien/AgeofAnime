@@ -8,9 +8,13 @@ public class baseHealth : MonoBehaviour {
     public float maxHealth;
     private string playerNumberText;
 
+    public bool isGuarded;
+    public float checkGuardDistance;
+
     public Age age;
     public GameManager gameManager;
     HealthBar TeamHealthBar;
+    private Casting baseCasting;
 
     private List<int> baseHealthByAge = new List<int>();
 
@@ -24,6 +28,7 @@ public class baseHealth : MonoBehaviour {
     private void Start()
     {
         TeamHealthBar = gameObject.GetComponentInChildren<HealthBar>();
+        baseCasting = gameObject.GetComponent<Casting>();
 
         maxHealth = baseHealthByAge[0];
         currentHealth = maxHealth;
@@ -49,14 +54,19 @@ public class baseHealth : MonoBehaviour {
 
     public void TakeBaseDamage(float damage)
     {
-        currentHealth -= damage;
+        baseCasting.CheckforGuard();
 
-        if (currentHealth <= 0)
+        if (!isGuarded)
         {
-            gameManager.GameOver(playerNumberText);
-        }
+            currentHealth -= damage;
 
-        TeamHealthBar.UpdateTeamHealthBar();
+            if (currentHealth <= 0)
+            {
+                gameManager.GameOver(playerNumberText);
+            }
+
+            TeamHealthBar.UpdateTeamHealthBar();
+        }
     }
 
 }

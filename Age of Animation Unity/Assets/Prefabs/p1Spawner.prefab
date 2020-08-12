@@ -24,7 +24,7 @@ GameObject:
   m_Layer: 0
   m_Name: p1Spawner
   m_TagString: P1Base
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -78,6 +78,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canSpawn: 0
-  delayTime: 0
+  spawnTime: 0
   units: {fileID: 0}
   SpawnBar: {fileID: 1660994644234708, guid: 58c73496c5e1e514191317924749d99a, type: 2}
+  inGameUnit1Bots: []
+  inGameUnit2Bots: []
+  inGameUnit3Bots: []
+  inGameUnit1Count: 0
+  inGameUnit2Count: 0
+  inGameUnit3Count: 0

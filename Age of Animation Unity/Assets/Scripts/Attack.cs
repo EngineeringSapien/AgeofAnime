@@ -10,6 +10,7 @@ public class Attack : MonoBehaviour {
     public PlayerMovement thisUnitsMovementLogic;
 
     int enemyLayer;
+    int enemyBaseLayer;
     public int myAge;
 
     public float currentMeleeDamage;
@@ -27,10 +28,12 @@ public class Attack : MonoBehaviour {
         if (parentTag == "Player1")
         {
             enemyLayer = 13;
+            enemyBaseLayer = 17;
         }
         if (parentTag == "Player2")
         {
             enemyLayer = 12;
+            enemyBaseLayer = 16;
         }
         #endregion
     }
@@ -84,7 +87,10 @@ public class Attack : MonoBehaviour {
                 if (Health != null)
                 { Health.TakeDamage(currentMeleeDamage); }
             }
+        }
 
+        if (hitInfo.gameObject.layer == enemyBaseLayer)
+        {       
             baseHealth basehealth = hitInfo.GetComponent<baseHealth>();
             if (basehealth != null)
             { basehealth.TakeBaseDamage(currentMeleeDamage); }
