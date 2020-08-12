@@ -79,9 +79,9 @@ GameObject:
   - component: {fileID: 114265165716017652}
   - component: {fileID: 82045066437807100}
   - component: {fileID: 114743541457085312}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Kakashi
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -461,7 +461,7 @@ MonoBehaviour:
   walkSound: {fileID: 0}
   meleeSound: {fileID: 8300000, guid: 2683448202c3a7d448f28d3bfb2a5dc6, type: 3}
   rangeSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 3188c18613e435542acdb49f05c919f0, type: 3}
 --- !u!114 &114930466002259110
 MonoBehaviour:
   m_ObjectHideFlags: 1

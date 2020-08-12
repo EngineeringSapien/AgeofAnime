@@ -25,4 +25,28 @@ public class MovementSoundFX : MonoBehaviour {
         unitSounds.Play();
     }
 
+
+    public void PlayRangeSound()
+    {
+        unitSounds.Stop();
+        unitSounds.clip = rangeSound;
+        unitSounds.Play();
+    }
+
+
+    public void PlayWalkSound()
+    {
+        unitSounds.Stop();
+        unitSounds.clip = walkSound;
+        unitSounds.Play();
+    }
+
+
+    //public void PlayDeathSound()
+    //{
+    //    unitSounds.Stop();
+    //    unitSounds.clip = deathSound;
+    //    unitSounds.Play();
+    //}
+
 }

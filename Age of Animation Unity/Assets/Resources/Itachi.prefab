@@ -80,9 +80,9 @@ GameObject:
   - component: {fileID: 114547738201631782}
   - component: {fileID: 82356373305314608}
   - component: {fileID: 114915947276571080}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Itachi
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

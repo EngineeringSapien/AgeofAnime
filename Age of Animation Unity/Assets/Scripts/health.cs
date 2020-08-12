@@ -8,13 +8,14 @@ public class health : MonoBehaviour {
     public float unitsStartingHealth;
     public float unitsCurrentHealth;
 
-    private float deathwait = .50f;
+    private float deathwait = .75f;
     public GameObject thisUnitsDeathSprite;
 
     score Score;
     characterSpawner Spawner;
     HealthBar HpBar;
     UnitConstructor unitConstructor;
+    MovementSoundFX soundFX;
 
 
     void Start()
@@ -23,6 +24,7 @@ public class health : MonoBehaviour {
         Score = FindObjectOfType<score>();
         Spawner = FindObjectOfType<characterSpawner>();
         unitConstructor = FindObjectOfType<UnitConstructor>();
+        soundFX = GetComponent<MovementSoundFX>();
     }
 
 
@@ -42,6 +44,7 @@ public class health : MonoBehaviour {
         Score.ChangeExperience("increase", this.gameObject.name, this.gameObject.tag, unitConstructor.unitCost);
 
         var clone = Instantiate(thisUnitsDeathSprite, transform.position, Quaternion.identity);
+
         Destroy(gameObject);
         Destroy(clone, deathwait);
 
