@@ -91,8 +91,8 @@ public class Units : MonoBehaviour {
         eachUnit3MeleeDistance.AddRange(new float[] { .25f, .5f, .5f, .5f, 1.25f });
         
         eachUnit1RangeDistance.AddRange(new float[] { 1, 1, 1, 1, 1 });
-        eachUnit2RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 20 });
-        eachUnit3RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 25 });
+        eachUnit2RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 35 });
+        eachUnit3RangeDistance.AddRange(new float[] { 25, 30, 25, 25, 30 });
 
 
         P1character1 = (Resources.Load(unit1Characters[0]) as GameObject);

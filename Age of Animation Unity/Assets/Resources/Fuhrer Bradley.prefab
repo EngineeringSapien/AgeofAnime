@@ -186,7 +186,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651744834835188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.545, y: -15.09, z: 0}
+  m_LocalPosition: {x: 0.327, y: -15.207, z: 0}
   m_LocalScale: {x: 2.2, y: 2.2, z: 2}
   m_Children:
   - {fileID: 4484412644921972}
@@ -270,7 +270,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1103646811517596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.883, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4911631919532480}
@@ -355,7 +355,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.54, y: 0.68}
-    newSize: {x: 0.4, y: 0.65}
+    newSize: {x: 0.93, y: 1.22}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -375,8 +375,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 1}
+  m_Offset: {x: -0.16, y: 0}
+  m_Size: {x: 0.77, y: 1.09}
   m_Direction: 0
 --- !u!70 &70718683283900148
 CapsuleCollider2D:
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeRayDistance: 1
   meleeRayDistance: 0
-  friendlyRange: 10
+  friendlyRange: 15
 --- !u!114 &114938045508131468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -535,7 +535,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.4, y: 0.65}
+  m_Size: {x: 0.93, y: 1.22}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
