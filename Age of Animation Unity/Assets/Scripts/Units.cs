@@ -75,7 +75,7 @@ public class Units : MonoBehaviour {
         eachUnit3RangeDamage.AddRange(new float[] { 10, 11, 50, 200, 75 });
 
         eachUnit1Health.AddRange(new float[] { 55*1.25f, 95*1.25f, 184*1.25f, 346*1.25f, 623*1.25f });       
-        eachUnit2Health.AddRange(new float[] { 44*1.25f, 8*1.25f, 153*1.25f, 312*1.25f, 561*1.25f });      
+        eachUnit2Health.AddRange(new float[] { 44*1.25f, 76*1.25f, 153*1.25f, 312*1.25f, 561*1.25f });      
         eachUnit3Health.AddRange(new float[] { 160, 261, 602, 1211, 2180});
 
         eachUnit1Spawntime.AddRange(new float[] { .6f, .80f, 1.06f, 1.41f, 1.88f});
