@@ -82,7 +82,7 @@ public class Units : MonoBehaviour {
         eachUnit2Spawntime.AddRange(new float[] { .5f, .67f, .88f, 1.18f, 1.56f});
         eachUnit3Spawntime.AddRange(new float[] { 1.5f, 2f, 2.66f, 3.53f, 4.69f });
 
-        eachUnit1Speed.AddRange(new float[] { 1f, 3f, 2, 1f, 1f });
+        eachUnit1Speed.AddRange(new float[] { .8f, 3f, 2, 1f, 1f });
         eachUnit2Speed.AddRange(new float[] { 1, 1, 2, 1.5f, 1f });
         eachUnit3Speed.AddRange(new float[] { 1, 1.3f, 2, 1f, 2f });
 

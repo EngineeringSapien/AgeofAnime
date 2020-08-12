@@ -47,7 +47,10 @@ public class PlayerMovement : MonoBehaviour {
     void MakePlayerWalk()
     {
         animator.SetBool("isWalking", true);
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("ItachiWalk") || animator.GetCurrentAnimatorStateInfo(0).IsName("playerWalk"))
+        {
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+        }
     }
 
 
