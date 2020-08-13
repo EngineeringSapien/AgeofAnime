@@ -77,9 +77,9 @@ GameObject:
   - component: {fileID: 114554977084975210}
   - component: {fileID: 82090378997077822}
   - component: {fileID: 114333745174321850}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Sage Mode Naruto
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -446,9 +446,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
-  meleeSound: {fileID: 0}
-  melee2Sound: {fileID: 0}
-  rangeSound: {fileID: 0}
+  meleeSound: {fileID: 8300000, guid: 804eb6c7f1a7e4a4ca63e6bf789a4cad, type: 3}
+  melee2Sound: {fileID: 8300000, guid: 9203cc4b4d7b7984aa5de8885f1fbf32, type: 3}
+  rangeSound: {fileID: 8300000, guid: 57c9b2b1d21842445be98e780ad4ddb1, type: 3}
   range2Sound: {fileID: 0}
 --- !u!114 &114481477021290448
 MonoBehaviour:
