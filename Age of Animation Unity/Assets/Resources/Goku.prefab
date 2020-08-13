@@ -541,10 +541,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
-  meleeSound: {fileID: 0}
+  meleeSound: {fileID: 8300000, guid: d35bd0b7507cc3947afe338f0e261bbf, type: 3}
   melee2Sound: {fileID: 0}
-  rangeSound: {fileID: 0}
-  range2Sound: {fileID: 0}
+  rangeSound: {fileID: 8300000, guid: 69662b23361fac64fa9e0eea5f713aec, type: 3}
+  range2Sound: {fileID: 8300000, guid: d96c23ebf333b26438f5ad79245419f1, type: 3}
 --- !u!114 &114159909156387788
 MonoBehaviour:
   m_ObjectHideFlags: 1
