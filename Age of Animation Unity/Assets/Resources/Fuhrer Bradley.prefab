@@ -142,9 +142,9 @@ GameObject:
   - component: {fileID: 114527740182859122}
   - component: {fileID: 82583300184101222}
   - component: {fileID: 114907421212361834}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Fuhrer Bradley
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -562,8 +562,8 @@ MonoBehaviour:
   walkSound: {fileID: 0}
   meleeSound: {fileID: 8300000, guid: 24b9eaeca741cc84287fbec20e7ff1b9, type: 3}
   melee2Sound: {fileID: 8300000, guid: e42e664101eb67546abd543593c73eed, type: 3}
-  rangeSound: {fileID: 8300000, guid: 0dfd7fef18d7175489572405fb82dfb8, type: 3}
-  range2Sound: {fileID: 0}
+  rangeSound: {fileID: 8300000, guid: 5885264f2b200ef469c89ab64301974c, type: 3}
+  range2Sound: {fileID: 8300000, guid: 0dfd7fef18d7175489572405fb82dfb8, type: 3}
 --- !u!114 &114930466002259110
 MonoBehaviour:
   m_ObjectHideFlags: 1
