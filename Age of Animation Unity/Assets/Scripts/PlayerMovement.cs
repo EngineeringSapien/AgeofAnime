@@ -6,6 +6,7 @@ using UnityEngine.Serialization;
 public class PlayerMovement : MonoBehaviour {
 
     public Animator animator;
+    MovementSoundFX soundFX;
 
     public float speed = .5f;
 
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour {
 
     void Start ()
     {
+        soundFX = gameObject.GetComponent<MovementSoundFX>();
+
         canWalk = true;
 
         if (gameObject.gameObject.tag == "Player2") { FlipUnit(); }
@@ -51,12 +54,15 @@ public class PlayerMovement : MonoBehaviour {
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
         }
+
+        soundFX.StopSounds();
     }
 
 
     void MakePlayerIdle()
     {
         animator.SetBool("isIdle", true);
+        soundFX.StopSounds();
     }
 
 

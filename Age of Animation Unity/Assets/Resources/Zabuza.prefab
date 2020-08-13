@@ -142,9 +142,9 @@ GameObject:
   - component: {fileID: 114527740182859122}
   - component: {fileID: 82849707270043194}
   - component: {fileID: 114696415634676544}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Zabuza
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -560,9 +560,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
-  meleeSound: {fileID: 0}
-  rangeSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  meleeSound: {fileID: 8300000, guid: 71d1b1517730a86499643f057f57fca5, type: 3}
+  rangeSound: {fileID: 8300000, guid: 7f495da11b07ad043a7b2adc3a4d797c, type: 3}
 --- !u!114 &114930466002259110
 MonoBehaviour:
   m_ObjectHideFlags: 1

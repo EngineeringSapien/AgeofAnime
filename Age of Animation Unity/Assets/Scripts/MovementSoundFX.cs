@@ -9,7 +9,6 @@ public class MovementSoundFX : MonoBehaviour {
     public AudioClip walkSound;
     public AudioClip meleeSound;
     public AudioClip rangeSound;
-    public AudioClip deathSound;
 
 
     private void Start()
@@ -42,11 +41,9 @@ public class MovementSoundFX : MonoBehaviour {
     }
 
 
-    //public void PlayDeathSound()
-    //{
-    //    unitSounds.Stop();
-    //    unitSounds.clip = deathSound;
-    //    unitSounds.Play();
-    //}
+    public void StopSounds()
+    {
+        unitSounds.Stop();
+    }
 
 }

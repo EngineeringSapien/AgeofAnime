@@ -8,7 +8,7 @@ public class health : MonoBehaviour {
     public float unitsStartingHealth;
     public float unitsCurrentHealth;
 
-    private float deathwait = .75f;
+    private float deathwait = 1.5f;
     public GameObject thisUnitsDeathSprite;
 
     score Score;

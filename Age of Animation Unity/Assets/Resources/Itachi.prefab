@@ -487,7 +487,6 @@ MonoBehaviour:
   walkSound: {fileID: 0}
   meleeSound: {fileID: 8300000, guid: c6076a915e432d74a929acd310fa10d4, type: 3}
   rangeSound: {fileID: 0}
-  deathSound: {fileID: 0}
 --- !u!114 &114938045508131468
 MonoBehaviour:
   m_ObjectHideFlags: 1
