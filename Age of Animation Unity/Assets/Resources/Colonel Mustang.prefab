@@ -80,9 +80,9 @@ GameObject:
   - component: {fileID: 114547738201631782}
   - component: {fileID: 82214557546175326}
   - component: {fileID: 114413100340897800}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Colonel Mustang
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -458,9 +458,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
-  meleeSound: {fileID: 0}
+  meleeSound: {fileID: 8300000, guid: 3313b202e7adafe458cc6cc0708e4385, type: 3}
+  melee2Sound: {fileID: 0}
   rangeSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  range2Sound: {fileID: 0}
 --- !u!114 &114547738201631782
 MonoBehaviour:
   m_ObjectHideFlags: 1

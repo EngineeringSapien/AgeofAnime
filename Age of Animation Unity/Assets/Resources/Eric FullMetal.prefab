@@ -94,9 +94,9 @@ GameObject:
   - component: {fileID: 114428383216298434}
   - component: {fileID: 82660569396699476}
   - component: {fileID: 114060811916283528}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Eric FullMetal
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -430,7 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
-  meleeSound: {fileID: 0}
+  meleeSound: {fileID: 8300000, guid: aa48deb91505d16459c24305afa530ac, type: 3}
   melee2Sound: {fileID: 0}
   rangeSound: {fileID: 0}
   range2Sound: {fileID: 0}
