@@ -7,8 +7,12 @@ public class MovementSoundFX : MonoBehaviour {
     private AudioSource unitSounds;
 
     public AudioClip walkSound;
+
     public AudioClip meleeSound;
+    public AudioClip melee2Sound;
+
     public AudioClip rangeSound;
+    public AudioClip range2Sound;
 
 
     private void Start()
@@ -29,6 +33,22 @@ public class MovementSoundFX : MonoBehaviour {
     {
         unitSounds.Stop();
         unitSounds.clip = rangeSound;
+        unitSounds.Play();
+    }
+
+
+    public void PlayRange2Sound()
+    {
+        unitSounds.Stop();
+        unitSounds.clip = range2Sound;
+        unitSounds.Play();
+    }
+
+
+    public void PlayMelee2Sound()
+    {
+        unitSounds.Stop();
+        unitSounds.clip = melee2Sound;
         unitSounds.Play();
     }
 

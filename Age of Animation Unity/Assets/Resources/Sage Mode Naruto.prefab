@@ -447,7 +447,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
   meleeSound: {fileID: 0}
+  melee2Sound: {fileID: 0}
   rangeSound: {fileID: 0}
+  range2Sound: {fileID: 0}
 --- !u!114 &114481477021290448
 MonoBehaviour:
   m_ObjectHideFlags: 1

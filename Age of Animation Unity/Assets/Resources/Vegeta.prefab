@@ -515,8 +515,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
   meleeSound: {fileID: 0}
+  melee2Sound: {fileID: 0}
   rangeSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  range2Sound: {fileID: 0}
 --- !u!212 &212082865436742292
 SpriteRenderer:
   m_ObjectHideFlags: 1

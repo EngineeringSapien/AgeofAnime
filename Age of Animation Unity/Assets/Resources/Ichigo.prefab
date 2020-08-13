@@ -80,9 +80,9 @@ GameObject:
   - component: {fileID: 114547738201631782}
   - component: {fileID: 82452718881032998}
   - component: {fileID: 114650224676861968}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Ichigo
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -471,9 +471,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
-  meleeSound: {fileID: 0}
-  rangeSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  meleeSound: {fileID: 8300000, guid: 6f9658cf8015fcb4d96e9cd23c175cb9, type: 3}
+  melee2Sound: {fileID: 8300000, guid: d5af1812780bffc4b9ef9c652d8286f0, type: 3}
+  rangeSound: {fileID: 8300000, guid: 10d0c20efeba29842964f25661605059, type: 3}
+  range2Sound: {fileID: 0}
 --- !u!114 &114817974982069744
 MonoBehaviour:
   m_ObjectHideFlags: 1
