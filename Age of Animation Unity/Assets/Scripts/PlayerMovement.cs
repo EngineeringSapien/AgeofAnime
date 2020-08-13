@@ -53,16 +53,19 @@ public class PlayerMovement : MonoBehaviour {
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("ItachiWalk") || animator.GetCurrentAnimatorStateInfo(0).IsName("playerWalk"))
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
+            soundFX.StopSounds();
         }
 
-        soundFX.StopSounds();
     }
 
 
     void MakePlayerIdle()
     {
         animator.SetBool("isIdle", true);
-        soundFX.StopSounds();
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("ItachiIdle") || animator.GetCurrentAnimatorStateInfo(0).IsName("playerIdle"))
+        {
+            soundFX.StopSounds();
+        }
     }
 
 
