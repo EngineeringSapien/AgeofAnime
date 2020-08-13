@@ -142,9 +142,9 @@ GameObject:
   - component: {fileID: 114527740182859122}
   - component: {fileID: 82348780542050876}
   - component: {fileID: 114022177598065950}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Byakuya
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -521,8 +521,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSound: {fileID: 0}
   meleeSound: {fileID: 0}
-  rangeSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  melee2Sound: {fileID: 0}
+  rangeSound: {fileID: 8300000, guid: d6c434e61cd8f85478aa396b71934779, type: 3}
+  range2Sound: {fileID: 0}
 --- !u!114 &114065300166735934
 MonoBehaviour:
   m_ObjectHideFlags: 1
