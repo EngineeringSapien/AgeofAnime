@@ -110,7 +110,7 @@ TextureImporter:
     21300210: PainSpritesMain_105
     21300212: PainSpritesMain_106
     21300214: PainSpritesMain_107
-    21300216: PainSpritesMain_108
+    21300216: PainSpritesMain Range Fade
     21300218: PainSpritesMain_109
     21300220: PainSpritesMain_110
     21300222: PainSpritesMain_111
@@ -585,14 +585,14 @@ TextureImporter:
     21301160: PainSpritesMain_580
     21301162: PainSpritesMain_581
     21301164: PainSpritesMain_582
-    21301166: PainSpritesMain_583
-    21301168: PainSpritesMain_584
-    21301170: PainSpritesMain_585
-    21301172: PainSpritesMain_586
-    21301174: PainSpritesMain_587
-    21301176: PainSpritesMain_588
-    21301178: PainSpritesMain_589
-    21301180: PainSpritesMain_590
+    21301166: PainSpritesMain Range 1
+    21301168: PainSpritesMain Range Group
+    21301170: PainSpritesMain Range 2
+    21301172: PainSpritesMain Range 3
+    21301174: PainSpritesMain Range 4
+    21301176: PainSpritesMain Range Cloud
+    21301178: PainSpritesMain Range Shadow 1
+    21301180: PainSpritesMain Range Shadow 2
     21301182: PainSpritesMain_591
     21301184: PainSpritesMain_592
     21301186: PainSpritesMain_593
@@ -2932,15 +2932,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_108
+      name: PainSpritesMain Range Fade
       rect:
         serializedVersion: 2
         x: 46
-        y: 2977
-        width: 22
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 2951
+        width: 25
+        height: 102
+      alignment: 9
+      pivot: {x: 0.18, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2967,66 +2967,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a5366342bcd017a4dbab8f453d1a4754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PainSpritesMain_110
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 2962
-        width: 21
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46646eade8632704bb759140f98926a9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PainSpritesMain_111
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 2952
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b2a3478f1b14d0408c2b8902b8917ed
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PainSpritesMain_112
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 2953
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52f7fed7d85af254d953484b0c68a905
       vertices: []
       indices: 
       edges: []
@@ -12432,7 +12372,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_583
+      name: PainSpritesMain Range 1
       rect:
         serializedVersion: 2
         x: 8
@@ -12452,7 +12392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_584
+      name: PainSpritesMain Range Group
       rect:
         serializedVersion: 2
         x: 58
@@ -12472,15 +12412,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_585
+      name: PainSpritesMain Range 2
       rect:
         serializedVersion: 2
         x: 189
         y: 448
         width: 26
-        height: 83
+        height: 102
       alignment: 9
-      pivot: {x: 0.5, y: 0.51}
+      pivot: {x: 0.17449833, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12492,15 +12432,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_586
+      name: PainSpritesMain Range 3
       rect:
         serializedVersion: 2
         x: 221
         y: 448
         width: 50
-        height: 83
+        height: 102
       alignment: 9
-      pivot: {x: 0.51, y: 0.43}
+      pivot: {x: 0.11, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12512,15 +12452,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_587
+      name: PainSpritesMain Range 4
       rect:
         serializedVersion: 2
         x: 276
         y: 448
         width: 49
-        height: 83
+        height: 102
       alignment: 9
-      pivot: {x: 0.45, y: 0.42}
+      pivot: {x: 0.11, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -12532,7 +12472,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_588
+      name: PainSpritesMain Range Cloud
       rect:
         serializedVersion: 2
         x: 386
@@ -12552,13 +12492,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_589
+      name: PainSpritesMain Range Shadow 1
       rect:
         serializedVersion: 2
         x: 448
         y: 478
         width: 101
-        height: 32
+        height: 102
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -12572,13 +12512,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PainSpritesMain_590
+      name: PainSpritesMain Range Shadow 2
       rect:
         serializedVersion: 2
         x: 560
         y: 454
         width: 69
-        height: 79
+        height: 102
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
