@@ -449,7 +449,7 @@ MonoBehaviour:
   meleeSound: {fileID: 8300000, guid: 804eb6c7f1a7e4a4ca63e6bf789a4cad, type: 3}
   melee2Sound: {fileID: 8300000, guid: 9203cc4b4d7b7984aa5de8885f1fbf32, type: 3}
   rangeSound: {fileID: 8300000, guid: 57c9b2b1d21842445be98e780ad4ddb1, type: 3}
-  range2Sound: {fileID: 0}
+  range2Sound: {fileID: 8300000, guid: 05c66fde7f957054191cb140ba3994ea, type: 3}
 --- !u!114 &114481477021290448
 MonoBehaviour:
   m_ObjectHideFlags: 1

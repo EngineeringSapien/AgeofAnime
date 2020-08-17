@@ -33,8 +33,8 @@ public class score : MonoBehaviour
 
     void Start()
     {
-        P1Gold = 1000;
-        P2Gold = 0;
+        P1Gold = 175;
+        P2Gold = 200;
 
         ChangeGoldReqs("P1", 0);
         ChangeGoldReqs("P2", 0);
