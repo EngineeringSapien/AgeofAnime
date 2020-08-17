@@ -10934,7 +10934,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4053351559394002, guid: 38c1e7b30065f784fb82397d0060f19b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -17.517
+      value: -15.32
       objectReference: {fileID: 0}
     - target: {fileID: 4053351559394002, guid: 38c1e7b30065f784fb82397d0060f19b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -10959,6 +10959,41 @@ Prefab:
     - target: {fileID: 4053351559394002, guid: 38c1e7b30065f784fb82397d0060f19b, type: 2}
       propertyPath: m_RootOrder
       value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 61951314741067558, guid: 38c1e7b30065f784fb82397d0060f19b,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 61951314741067558, guid: 38c1e7b30065f784fb82397d0060f19b,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 61951314741067558, guid: 38c1e7b30065f784fb82397d0060f19b,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 61951314741067558, guid: 38c1e7b30065f784fb82397d0060f19b,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 61951314741067558, guid: 38c1e7b30065f784fb82397d0060f19b,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 61951314741067558, guid: 38c1e7b30065f784fb82397d0060f19b,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 212076203716247994, guid: 38c1e7b30065f784fb82397d0060f19b,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38c1e7b30065f784fb82397d0060f19b, type: 2}
@@ -11569,11 +11604,6 @@ Prefab:
     - target: {fileID: 4821953103356384, guid: 0d7c4614119c61b4d9498b86f0471d6c, type: 2}
       propertyPath: m_RootOrder
       value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 82012855760534474, guid: 0d7c4614119c61b4d9498b86f0471d6c,
-        type: 2}
-      propertyPath: m_PlayOnAwake
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d7c4614119c61b4d9498b86f0471d6c, type: 2}
