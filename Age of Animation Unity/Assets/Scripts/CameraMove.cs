@@ -19,7 +19,7 @@ public class CameraMove : MonoBehaviour {
 
     void Awake ()
     {
-        transform.position = new Vector3(0, -2.4f, -5);
+        transform.position = new Vector3(0, -.58f, -5);
 		
 	}
 

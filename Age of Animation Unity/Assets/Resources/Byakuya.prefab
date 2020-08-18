@@ -142,9 +142,9 @@ GameObject:
   - component: {fileID: 114527740182859122}
   - component: {fileID: 82348780542050876}
   - component: {fileID: 114022177598065950}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Byakuya
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
