@@ -129,9 +129,9 @@ GameObject:
   - component: {fileID: 114575592188949316}
   - component: {fileID: 82510372940851416}
   - component: {fileID: 114148589519132216}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Pain
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
