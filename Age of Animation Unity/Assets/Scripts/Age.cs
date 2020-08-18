@@ -29,7 +29,6 @@ public class Age : MonoBehaviour {
         {
             P1Age++;
             ChangeGlobalAge();
-            env.ChangeBackground(globalAge);
             env.ChangeBases("P1", P1Age);
             units.ChangeUnits("P1", P1Age);
             P1baseHealth.ResetHealth(1);
@@ -42,7 +41,6 @@ public class Age : MonoBehaviour {
         {
             P2Age++;
             ChangeGlobalAge();
-            env.ChangeBackground(globalAge);
             env.ChangeBases("P2", P2Age);
             units.ChangeUnits("P2", P2Age);
             P2baseHealth.ResetHealth(2);

@@ -34,8 +34,6 @@ public class environment : MonoBehaviour {
 
         TheP1Base.gameObject.layer = 12;
         TheP2Base.gameObject.layer = 13;
-
-        ChangeBackground(age.globalAge);    
     }
 
 
