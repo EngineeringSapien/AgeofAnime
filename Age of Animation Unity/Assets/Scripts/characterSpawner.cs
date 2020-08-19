@@ -13,7 +13,8 @@ public class characterSpawner : MonoBehaviour {
 
     private Age age;
     public Units units;
-    public GameObject SpawnBar;
+    //public GameObject SpawnBar;
+    public spawnBar SpawnBar;
 
     public List<string> inGameUnit1Bots = new List<string>();
     public List<string> inGameUnit2Bots = new List<string>();
@@ -90,10 +91,8 @@ public class characterSpawner : MonoBehaviour {
     IEnumerator SpawnUnit(float delay, GameObject charactertobeSpawn)
     {
         canSpawn = false;
-        var offset = new Vector3(0, 2f, 0);
 
-        GameObject cloneBar = Instantiate(SpawnBar, transform.position + offset, Quaternion.identity);
-        cloneBar.GetComponent<spawnBar>().unitsSpawnTime = spawnTime;
+        if (gameObject.transform.tag == ("P1Base")) { SpawnBar.StartSpawnBar(spawnTime); }
 
         yield return new WaitForSeconds(delay);
 

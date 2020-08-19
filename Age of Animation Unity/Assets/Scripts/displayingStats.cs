@@ -19,21 +19,14 @@ public class displayingStats : MonoBehaviour {
 
         if (this.gameObject.name == "P1 Health, Experience, Gold Parent")
         {
-            goldText.text = "P1 Gold: " + Score.P1Gold;
+            goldText.text = "P1 Gold: " + Mathf.RoundToInt(Score.P1Gold);
+            expText.text = "P1 Exp: " + Mathf.RoundToInt(Score.P1Exp);
         }
         else if (this.gameObject.name == "P2 Health, Experience, Gold Parent")
         {
-            goldText.text = "P2 Gold: " + Score.P2Gold;
+            goldText.text = "P2 Gold: " + Mathf.RoundToInt(Score.P2Gold);
+            expText.text = "P2 Exp: " + Mathf.RoundToInt(Score.P2Exp);
         }
 
-
-        if (this.gameObject.name == "P1 Health, Experience, Gold Parent")
-        {
-            expText.text = "P1 Exp: " + Score.P1Exp;
-        }
-        else if (this.gameObject.name == "P2 Health, Experience, Gold Parent")
-        {
-            expText.text = "P2 Exp: " + Score.P2Exp;
-        }
     }
 }

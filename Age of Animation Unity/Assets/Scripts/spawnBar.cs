@@ -2,31 +2,46 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
+
 
 public class spawnBar : MonoBehaviour {
 
-    public float unitsSpawnTime;
+    private float unitsSpawnTime;
     private float startingSpawnTime;
-    private float remainingSpawnTime;
+    private float timeSinceStart;
 
-    private Transform Bar;
+    private Slider slider;
+
+    private bool spawning;
 
 
     void Start ()
     {
-        startingSpawnTime = Time.time;
-
-        Bar = transform.Find("Bar");
+        slider = gameObject.GetComponent<Slider>();
     }
 
 
     void Update ()
     {
-        remainingSpawnTime = Time.time - startingSpawnTime;
+        if (spawning)
+        {
+            timeSinceStart = Time.time - startingSpawnTime;
+            slider.value = timeSinceStart / unitsSpawnTime;
 
-        if (remainingSpawnTime <= unitsSpawnTime) { Bar.localScale = new Vector3(remainingSpawnTime / unitsSpawnTime, 1f); }
+            if (timeSinceStart >= unitsSpawnTime) { spawning = false; }
+        }
 
-        else { Destroy(gameObject); }
+        else { slider.value = 0; }
+
     }
+
+
+    public void StartSpawnBar(float spawnTime)
+    {
+        unitsSpawnTime = spawnTime;
+        startingSpawnTime = Time.time;
+        spawning = true;
+    } 
 
 }

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4715582844021530}
   - component: {fileID: 61334972602666022}
   - component: {fileID: 114614627384163510}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: p1Spawner
   m_TagString: P1Base
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1644349607449748}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.52, z: -2.3515625}
+  m_LocalPosition: {x: 0, y: -0.01, z: -2.3515625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,7 +80,7 @@ MonoBehaviour:
   canSpawn: 0
   spawnTime: 0
   units: {fileID: 0}
-  SpawnBar: {fileID: 1660994644234708, guid: 58c73496c5e1e514191317924749d99a, type: 2}
+  SpawnBar: {fileID: 0}
   inGameUnit1Bots: []
   inGameUnit2Bots: []
   inGameUnit3Bots: []

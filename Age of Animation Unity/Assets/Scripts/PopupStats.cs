@@ -99,19 +99,19 @@ public class PopupStats : MonoBehaviour {
 
     private void SetCostText(float unitCost)
     {
-        UnitCost.text = "Cost: " + unitCost + " gold";
+        UnitCost.text = "Cost: " + Mathf.RoundToInt(unitCost) + " gold";
     }
 
 
     private void SetDamageText(float unitDamage)
     {
-        UnitDamage.text = "Damage: " + unitDamage + " HP";
+        UnitDamage.text = "Damage: " + Mathf.RoundToInt(unitDamage) + " HP";
     }
   
 
     private void SetHealthText(float unitHealth)
     {
-        UnitHealth.text = "Health: " + unitHealth + " HP";
+        UnitHealth.text = "Health: " + Mathf.RoundToInt(unitHealth) + " HP";
     }
 
 
