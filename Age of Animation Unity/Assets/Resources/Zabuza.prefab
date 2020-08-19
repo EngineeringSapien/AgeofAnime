@@ -142,9 +142,9 @@ GameObject:
   - component: {fileID: 114527740182859122}
   - component: {fileID: 82849707270043194}
   - component: {fileID: 114696415634676544}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Zabuza
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

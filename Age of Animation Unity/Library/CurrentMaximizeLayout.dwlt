@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 613, y: 471}
   m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
-  controlID: 55572
+  controlID: 59492
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 471}
   m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 55573
+  controlID: 59395
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,24 +179,24 @@ MonoBehaviour:
     height: 422
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4af9ffff
-    m_LastClickedID: -1718
-    m_ExpandedIDs: fe59e8ff1605edff34f1f8ff809bfbff7ab5fcff861ffdff8c1ffdff9af1fdffe2f7ffff22f8ffff92f8ffff4ef9ffffdaf9ffffdafbffffe4fbffff0000000096530000a6530000365400001e5500000c560000
+    scrollPos: {x: 0, y: 171}
+    m_SelectedIDs: 70c5f6ff
+    m_LastClickedID: -604816
+    m_ExpandedIDs: fe59e8ff1605edffc0f7f6ff34f1f8ff809bfbff7ab5fcff861ffdff8c1ffdff9af1fdffe4fbffff0000000096530000a6530000365400001e5500008e550000d25500000c560000b0560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Kakashi
-      m_OriginalName: Kakashi
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -1154
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -306,7 +306,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 259}
-    m_SelectedIDs: 4af9ffff
+    m_SelectedIDs: 70c5f6ff
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff0000000084090000960f000004450000fa320200c2550200c4550200ca550200
     m_RenameOverlay:
@@ -333,8 +333,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4af9ffff
-    m_LastClickedInstanceID: -1718
+    m_SelectedInstanceIDs: 70c5f6ff
+    m_LastClickedInstanceID: -604816
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -383,10 +383,10 @@ MonoBehaviour:
     y: 0
     width: 1303
     height: 987
-  m_MinSize: {x: 104, y: 242}
-  m_MaxSize: {x: 4004, y: 8042}
+  m_MinSize: {x: 104, y: 221}
+  m_MaxSize: {x: 4004, y: 8021}
   vertical: 1
-  controlID: 55497
+  controlID: 59459
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -446,9 +446,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.1473703, y: -14.926454, z: -0.006021408}
+    m_Target: {x: -0.06616002, y: -2.2104049, z: -0.17593133}
     speed: 2
-    m_Value: {x: -1.1473703, y: -14.926454, z: -0.006021408}
+    m_Value: {x: -0.06616002, y: -2.2104049, z: -0.17593133}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -480,9 +480,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.7725015
+    m_Target: 23.159414
     speed: 2
-    m_Value: 5.7725015
+    m_Value: 23.159414
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -564,8 +564,8 @@ MonoBehaviour:
     y: 733
     width: 1303
     height: 254
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -626,7 +626,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1780
+  m_LastSelectedObjectID: -1718
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
