@@ -13,7 +13,6 @@ public class characterSpawner : MonoBehaviour {
 
     private Age age;
     public Units units;
-    //public GameObject SpawnBar;
     public spawnBar SpawnBar;
 
     public List<string> inGameUnit1Bots = new List<string>();
