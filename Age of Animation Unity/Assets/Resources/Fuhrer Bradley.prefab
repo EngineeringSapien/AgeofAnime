@@ -142,9 +142,9 @@ GameObject:
   - component: {fileID: 114527740182859122}
   - component: {fileID: 82583300184101222}
   - component: {fileID: 114907421212361834}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Fuhrer Bradley
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -406,7 +406,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
