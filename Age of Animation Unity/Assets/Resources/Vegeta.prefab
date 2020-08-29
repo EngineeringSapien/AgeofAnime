@@ -79,9 +79,9 @@ GameObject:
   - component: {fileID: 114265165716017652}
   - component: {fileID: 82193887279472158}
   - component: {fileID: 114987422891562760}
-  m_Layer: 13
+  m_Layer: 12
   m_Name: Vegeta
-  m_TagString: Player2
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

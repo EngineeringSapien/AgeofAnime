@@ -55,7 +55,7 @@ public class score : MonoBehaviour
             //P1Gold += 100000;
             //P2Gold += 100000;
             P1Exp = 100000000;
-            P2Exp = 100000000;
+            //P2Exp = 100000000;
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
