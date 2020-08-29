@@ -29,6 +29,7 @@ public class score : MonoBehaviour
     private float unitDeathXPReward = 0.5f;
 
     public Units unitManager;
+    public displayingStats statDisplayer;
 
 
     void Start()
@@ -56,6 +57,7 @@ public class score : MonoBehaviour
             //P2Gold += 100000;
             P1Exp = 100000000;
             //P2Exp = 100000000;
+            statDisplayer.ChangeXPText(P1Exp);
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -63,6 +65,7 @@ public class score : MonoBehaviour
             P2Gold += 600;
             //P1Exp  = 0;
             //P2Exp  = 0;
+            statDisplayer.ChangeGoldText(P1Gold);
         }
     }
 
@@ -93,6 +96,7 @@ public class score : MonoBehaviour
                 //if (unitName == unitManager.unit1SpawnName)
                 //{
                 P1Gold = P1Gold + (cost * unitKilledGoldReward);
+                statDisplayer.ChangeGoldText(P1Gold);
                     //P2Gold = P2Gold + (p2Unit1cost * unitDeathGoldReward);
                 //}
 
@@ -149,6 +153,8 @@ public class score : MonoBehaviour
                 {
                     P1Gold = P1Gold - (p1Unit3cost);
                 }
+
+                statDisplayer.ChangeGoldText(P1Gold);
             }
 
             if (player == "Player2")
@@ -196,6 +202,7 @@ public class score : MonoBehaviour
                 //{
                 P1Exp = P1Exp + (cost * unitKilledXPReward);
                 P2Exp = P2Exp + (cost * unitDeathXPReward);
+                statDisplayer.ChangeXPText(P1Exp);
                 //}
 
                 //if (unitName == unitManager.unit2SpawnName)
@@ -217,6 +224,7 @@ public class score : MonoBehaviour
                 //{
                 P2Exp = P2Exp + (cost * unitKilledXPReward);
                 P1Exp = P1Exp + (cost * unitDeathXPReward);
+                statDisplayer.ChangeXPText(P1Exp);
                 //}
 
                 //if (unitName == unitManager.unit2SpawnName)
@@ -238,6 +246,7 @@ public class score : MonoBehaviour
             if (player == "P1")
             {
                 P1Exp = 0;
+                statDisplayer.ChangeXPText(P1Exp);
             }
 
             if (player == "P2")

@@ -13,6 +13,7 @@ public class Age : MonoBehaviour {
     public baseHealth P2baseHealth;
     public Units units;
     public score Score;
+    public displayingStats statDisplayer;
 
 
     private void Awake()
@@ -35,6 +36,7 @@ public class Age : MonoBehaviour {
             Score.ChangeGoldReqs("P1", P1Age);
             Score.ChangeExperienceReqs("P1", P1Age);
             Score.ChangeExperience("decrease", "n/a", "P1");
+            statDisplayer.ChangeEvolveText(Score.P1EvolveXPCost);
         }
 
         if (player == "P2")
