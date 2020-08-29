@@ -29,12 +29,12 @@ public class displayingStats : MonoBehaviour {
 
     public void ChangeGoldText(float gold)
     {
-        goldText.text = gold.ToString();
+        goldText.text = Mathf.RoundToInt(gold).ToString();
     }
 
 
     public void ChangeXPText(float XP)
     {
-        expText.text = XP.ToString();
+        expText.text = Mathf.RoundToInt(XP).ToString();
     }
 }

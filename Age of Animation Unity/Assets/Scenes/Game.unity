@@ -819,7 +819,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 448.1097, y: 274.46655}
+  m_AnchoredPosition: {x: 448.1097, y: 271.09998}
   m_SizeDelta: {x: 55, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &164196350
@@ -1929,7 +1929,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 502.4001, y: 274.46655}
+  m_AnchoredPosition: {x: 502.4001, y: 271.09998}
   m_SizeDelta: {x: 55, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382162074
@@ -2388,6 +2388,7 @@ MonoBehaviour:
   P1EvolveXPCost: 0
   P2EvolveXPCost: 0
   unitManager: {fileID: 586400140}
+  statDisplayer: {fileID: 692862005}
 --- !u!4 &447694636
 Transform:
   m_ObjectHideFlags: 0
@@ -2883,7 +2884,7 @@ GameObject:
   - component: {fileID: 537968986}
   - component: {fileID: 537968985}
   m_Layer: 10
-  m_Name: Text
+  m_Name: EVOLVE COST
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2900,11 +2901,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 541940562}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -8.2}
+  m_AnchoredPosition: {x: 0, y: -12.8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &537968985
@@ -2939,9 +2940,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Evolve
-
-'
+  m_Text: 
 --- !u!222 &537968986
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2978,13 +2977,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -24.082716}
   m_LocalScale: {x: 0.74087787, y: 0.74087787, z: 0.74087787}
   m_Children:
+  - {fileID: 1388416736}
   - {fileID: 537968984}
   m_Father: {fileID: 920008142}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 578.4, y: 272.4}
+  m_AnchoredPosition: {x: 578.4, y: 271.3}
   m_SizeDelta: {x: 68.3, y: 68.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541940563
@@ -4327,7 +4327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldText: {fileID: 1836020282}
   expText: {fileID: 676427872}
-  Score: {fileID: 447694635}
+  evolveCostText: {fileID: 537968985}
 --- !u!4 &692862006
 Transform:
   m_ObjectHideFlags: 0
@@ -4335,7 +4335,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 692862004}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -250.6, y: 262.5, z: -24.082716}
+  m_LocalPosition: {x: -257.3, y: 257.5, z: -24.082716}
   m_LocalScale: {x: 0.74087787, y: 0.74087787, z: 0.74087787}
   m_Children:
   - {fileID: 1714402469}
@@ -4775,7 +4775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldText: {fileID: 860184689}
   expText: {fileID: 1569963126}
-  Score: {fileID: 447694635}
+  evolveCostText: {fileID: 0}
 --- !u!1 &749681189
 GameObject:
   m_ObjectHideFlags: 0
@@ -7301,7 +7301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 393.7, y: 274.46655}
+  m_AnchoredPosition: {x: 393.7, y: 271.1}
   m_SizeDelta: {x: 55, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1217882032
@@ -8192,6 +8192,83 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379497808}
+  m_CullTransparentMesh: 0
+--- !u!1 &1388416735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1388416736}
+  - component: {fileID: 1388416738}
+  - component: {fileID: 1388416737}
+  m_Layer: 10
+  m_Name: EVOLVE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1388416736
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1388416735}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0000025744441}
+  m_LocalScale: {x: 0.9999983, y: 0.9999983, z: 0.9999983}
+  m_Children: []
+  m_Father: {fileID: 541940562}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000061035156, y: 5.5999413}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1388416737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1388416735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: d7d12e1de9601444e9446c9f1c214de6, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 100
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Evolve
+
+'
+--- !u!222 &1388416738
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1388416735}
   m_CullTransparentMesh: 0
 --- !u!1 &1394431308
 GameObject:
@@ -9332,6 +9409,7 @@ MonoBehaviour:
   P2baseHealth: {fileID: 878566178}
   units: {fileID: 586400140}
   Score: {fileID: 447694635}
+  statDisplayer: {fileID: 692862005}
 --- !u!4 &1645545678
 Transform:
   m_ObjectHideFlags: 0

@@ -117,7 +117,7 @@ public class PopupStats : MonoBehaviour {
 
     private void SetNameText(string unitName)
     {
-        UnitName.text = "Unit: " + UnitName;
+        UnitName.text = "Unit: " + unitName;
     }
 
 
