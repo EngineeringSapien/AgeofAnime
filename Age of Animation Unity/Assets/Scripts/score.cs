@@ -93,45 +93,13 @@ public class score : MonoBehaviour
         {
             if (player == "Player2")
             {
-                //if (unitName == unitManager.unit1SpawnName)
-                //{
                 P1Gold = P1Gold + (cost * unitKilledGoldReward);
                 statDisplayer.ChangeGoldText(P1Gold);
-                    //P2Gold = P2Gold + (p2Unit1cost * unitDeathGoldReward);
-                //}
-
-                //if (unitName == unitManager.unit2SpawnName)
-                //{
-                //    P1Gold = P1Gold + (p1Unit2cost * unitKilledGoldReward);
-                //    P2Gold = P2Gold + (p2Unit2cost * unitDeathGoldReward);
-                //}
-
-                //if (unitName == unitManager.unit3SpawnName)
-                //{
-                //    P1Gold = P1Gold + (p1Unit3cost * unitKilledGoldReward);
-                //    P2Gold = P2Gold + (p2Unit3cost * unitDeathGoldReward);
-                //}
             }
 
             if (player == "Player1")
             {
-                //if (unitName == unitManager.unit1SpawnName)
-                //{
                 P2Gold = P2Gold + (cost * unitKilledGoldReward);
-                    //P1Gold = P1Gold + (p1Unit1cost * unitDeathGoldReward);
-                //}
-
-                //if (unitName == unitManager.unit2SpawnName)
-                //{
-                //    P2Gold = P2Gold + (p2Unit2cost * unitKilledGoldReward * 2);
-                //    P1Gold = P1Gold + (p1Unit2cost * unitDeathGoldReward);
-                //}
-
-                //if (unitName == unitManager.unit3SpawnName)
-                //{
-                //    P2Gold = P2Gold + (p2Unit3cost * unitKilledGoldReward * 2);
-                //    P1Gold = P1Gold + (p1Unit3cost * unitDeathGoldReward);
-                //}
             }
         }
         
@@ -198,46 +166,16 @@ public class score : MonoBehaviour
         {
             if (player == "Player2")
             {
-                //if (unitName == unitManager.unit1SpawnName)
-                //{
                 P1Exp = P1Exp + (cost * unitKilledXPReward);
                 P2Exp = P2Exp + (cost * unitDeathXPReward);
                 statDisplayer.ChangeXPText(P1Exp);
-                //}
-
-                //if (unitName == unitManager.unit2SpawnName)
-                //{
-                //    P1Exp = P1Exp + (p1Unit2cost * unitKilledXPReward);
-                //    P2Exp = P2Exp + (p2Unit2cost * unitDeathXPReward);
-                //}
-
-                //if (unitName == unitManager.unit3SpawnName)
-                //{
-                //    P1Exp = P1Exp + (p1Unit3cost * unitKilledXPReward);
-                //    P2Exp = P2Exp + (p2Unit3cost * unitDeathXPReward);
-                //}
             }
 
             if (player == "Player1")
             {
-                //if (unitName == unitManager.unit1SpawnName)
-                //{
                 P2Exp = P2Exp + (cost * unitKilledXPReward);
                 P1Exp = P1Exp + (cost * unitDeathXPReward);
                 statDisplayer.ChangeXPText(P1Exp);
-                //}
-
-                //if (unitName == unitManager.unit2SpawnName)
-                //{
-                //    P2Exp = P2Exp + (p2Unit2cost * unitKilledXPReward);
-                //    P1Exp = P1Exp + (p1Unit2cost * unitDeathXPReward);
-                //}
-
-                //if (unitName == unitManager.unit3SpawnName)
-                //{
-                //    P2Exp = P2Exp + (p2Unit3cost * unitKilledXPReward);
-                //    P1Exp = P1Exp + (p1Unit3cost * unitDeathXPReward);
-                //}
             }
         }
 
