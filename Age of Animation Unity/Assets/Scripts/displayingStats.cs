@@ -7,6 +7,7 @@ public class displayingStats : MonoBehaviour {
 
     public Text goldText;
     public Text expText;
+    public Text evolveCostText;
 
     public score Score;
 
@@ -18,6 +19,7 @@ public class displayingStats : MonoBehaviour {
         {
             goldText.text = Mathf.RoundToInt(Score.P1Gold).ToString();
             expText.text = Mathf.RoundToInt(Score.P1Exp).ToString();
+            evolveCostText.text = Score.P1EvolveXPCost.ToString();
         }
         else if (this.gameObject.name == "P2 Health, Experience, Gold Parent")
         {
